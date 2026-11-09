@@ -6,6 +6,12 @@ This is an AI-assisted research snapshot containing a dependency-closed collecti
 
 [日本語](README_JA.md) · [Proof status](STATUS.md) · [Build instructions](docs/REPRODUCING.md) · [Start contributing](CONTRIBUTING.md) · [AI use](AI_USAGE.md)
 
+## English proof draft
+
+The [31-page English manuscript](docs/paper/output/pdf/no_three_in_line_proof_draft_en.pdf) presents the construction, saved-credit identity, geometric and probabilistic arguments, and numerical checking contract without requiring Lean. [Editable LaTeX sources, exact-arithmetic checks and reading instructions](docs/paper/README.md) accompany it.
+
+**The numerical application is conditional.** Complete compatible geometric input checking, phase matching, mass and root-deadline pair bounds remain obligations. This research draft is not an unconditional proof of the target or a new independent proof audit. It has no named author and discloses substantial AI use.
+
 ## Target and present scope
 
 The intended target is a set of at least `1.501 * n` points in every sufficiently large `n × n` integer grid, with no three distinct points collinear. The exact definition is in [Target.lean](NoThreeLine/Target.lean):
@@ -60,7 +66,7 @@ The toolchain is Lean **4.32.2**; mathlib is pinned to commit **905b95818eb32af7
 - Existing compilation records were checked during packaging. A fresh rebuild of all 3,242 modules on a second machine has not been performed. [Publication validation](evidence/publication-validation.json) distinguishes newly compiled samples from inherited evidence.
 - The numerical coverage described in [STATUS.md](STATUS.md) is partial. It must not be presented as certification of all phases or all leaves.
 
-The active development workspace continues separately. This snapshot intentionally stays fixed. Before starting a large contribution, compare it with any newer snapshot.
+The active development workspace continues separately. The audited Lean snapshot stays fixed; accompanying mathematical exposition may be added. Before starting a large contribution, compare it with any newer snapshot.
 
 ## License and continued development
 

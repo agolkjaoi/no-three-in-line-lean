@@ -1,0 +1,138 @@
+\section{Ordinary-line tags and the final loss estimate}\label{sec:closing}
+
+The ordinary-line tag \(r_\ell=\rho\) must be controlled uniformly
+over all directions. A crude multiplication of a per-line bound by
+\(n^2\) would lose too much. Instead retain the line's height and
+count only the spatial cells that the particular line can meet.
+
+\begin{lemma}[Linewise cell count]\label{lem:cells}
+A nonaxis line meets at most \(2G-1\) open cells of a fixed
+\(G\times G\) grid. Its lattice points have at most two parity types.
+Consequently there are at most \(C_{\rm line}=4G\) nonempty cell/type
+pieces on it, uniformly in \(n\), root and direction.
+\end{lemma}
+\begin{proof}
+Inside the open square a nonaxis line crosses each of the
+\(2(G-1)\) internal grid lines at most once. These crossings divide
+it into at most \(2G-1\) intervals. Convexity prevents re-entry
+into a cell. Coincident crossings at a vertex only reduce this count.
+The integer points are \(p+kv\), with types alternating between
+\(r\) and \(r+\bar v\). Thus there are at most
+\(2(2G-1)\le4G\) pieces. Their index set is determined before the
+random process is run.
+\end{proof}
+
+For an ordinary line \(\ell\ni p\) and one such piece \(E\), put
+\[
+ H_{\ell,E}(t)=r_\ell(t)
+       \sum_{\substack{q\in(\ell\cap E)\setminus\{p\}\\q\text{ active}}}w_q(t),
+ \qquad L_{\ell,E}=| (\ell\cap E)\setminus\{p\}|.
+\]
+Stop the fixed-label hierarchy at the first crossing
+\(H_{\ell,E}>L_{\ell,E}+en\), or the root boundary, whichever
+comes first. As usual, observations at a boundary precede changes
+of positive-retirement flags. For fixed \(m\), let
+\(\Theta_m(n)=(1-\epsilon_n)^{-\binom{m+1}2}\).
+Expansion by the number \(a\) of distinct leaves gives
+\begin{equation}\label{eq:tagmoment}
+ \E^{(p)}H_{\ell,E}^m
+ \le\Theta_m(n)\sum_{a=1}^m
+ \left\{\begin{matrix}m\\a\end{matrix}\right\}
+ B^{m-a}L_{\ell,E}^a.
+\end{equation}
+The braces are Stirling numbers of the second kind. For distinct
+leaves the exact connection is \(r^a\); for repetitions use
+\(r^m\le r^a\), \(w^j\le B^{j-1}w\). There are no witnesses and
+no designated-line connections, so no extra fixed multiplier is
+needed. Ordered distinct-leaf tuples are counted by
+\((L)_a\le L^a\).
+
+\begin{lemma}[Finite height sum]\label{lem:height}
+For \(e>0\), integers \(m\ge3\) and \(N\ge0\),
+\begin{equation}\label{eq:height}
+ \sum_{h=1}^N4h\left(\frac2{2+eh}\right)^m
+ \le\frac{16}{e^2}\left(\frac2{2+e}\right)^{m-3}.
+\end{equation}
+\end{lemma}
+\begin{proof}
+Put \(a=e/2\). For \(h\ge1\),
+\[
+ h(1+ah)^{-m}\le\frac{(1+a)^{-(m-3)}}{a(1+ah)^2},
+\]
+and
+\[
+ (1+ah)^{-2}\le\frac1a
+ \left[\frac1{1+a(h-1)}-\frac1{1+ah}\right].
+\]
+Sum the latter telescoping difference. Multiplication by four
+gives \eqref{eq:height}, since \(4/a^2=16/e^2\).
+\end{proof}
+
+Apply Markov to \eqref{eq:tagmoment}, sum first over the at most
+\(C_{\rm line}\) pieces of each line, then over directions of
+height \(h\), using \(4h\) directions and \(L\le2n/h\).
+The all-distinct term is bounded by Lemma~\ref{lem:height}.
+Bounding the denominator in each repeated term by \((en)^m\)
+gives the explicit remainder
+\begin{align}\label{eq:tagremainder}
+ R_m(n;e)=4e^{-m}\bigg[&2\left\{\begin{matrix}m\\1\end{matrix}\right\}
+                 n(B/n)^{m-1}
+ +4\left\{\begin{matrix}m\\2\end{matrix}\right\}
+                 (1+\log n)(B/n)^{m-2}\notag\\
+ &+\sum_{a=3}^{m-1}2^a
+ \left\{\begin{matrix}m\\a\end{matrix}\right\}
+ \left(1+\frac1{a-2}\right)(B/n)^{m-a}\bigg].
+\end{align}
+Thus the probability of any such first crossing, under the fixed
+root's point law, is at most
+\begin{equation}\label{eq:tagprob}
+ C_{\rm line}\Theta_m(n)
+ \left[\frac{16}{e^2}\left(\frac2{2+e}\right)^{m-3}
+       +R_m(n;e)\right].
+\end{equation}
+No union over times, or over all roots, has been used.
+For sufficiently large fixed \(m\), \(R_m(n;e)\to0\); it is enough
+that \(1-(1-d)(m-1)<0\) and \(m>2\).
+
+On the complementary good event, sum the cell bounds after multiplying
+by their deterministic mask values, then integrate \eqref{eq:tagflow}.
+The self point costs a further \(TB/n\). The result is
+\begin{equation}\label{eq:tagcapacity}
+ 1-r_\ell\le\text{deterministic ordinary-line capacity}
+       +C_{\rm line}Te+TB/n+O(n^{-1}).
+\end{equation}
+Choose \(e=(1-\rho-\lambda)/(4TC_{\rm line})\) when \(T>0\).
+The zero-time case has no births and is trivial. For large \(n\),
+the last two terms are at most \((1-\rho-\lambda)/4\).
+Using capacity at most \(\lambda\), the right side is then strictly
+less than \(1-\rho\), precluding a tag. For any requested positive
+error, choose \(m\) large enough that the first term of
+\eqref{eq:tagprob} is below half that error, and then \(n\) large
+enough for \(\Theta_m(n)\) and the remainder. This proves
+\begin{equation}\label{eq:tagtail}
+ \sup_p\Prob^{(p)}(\text{tag is an early saving cause})=o(1).
+\end{equation}
+The linewise count is used only here; it does not replace the number
+of cells in global BV estimates or in the designated-line argument.
+
+\begin{proof}[Completion of the analytic reduction]
+The weight-cap estimate \eqref{eq:captail}, tag estimate
+\eqref{eq:tagtail}, and global-stop estimate \eqref{eq:globaltail}
+give \(\sup_p\Prob^{(p)}(E_p)=o(1)\). Their events may overlap;
+a union bound suffices. Proposition~\ref{prop:loss} implies
+\(\E|S_n|\ge(1-o(1))nA_n\), whereas the exact nonnegative loss
+identity also gives \(\E|S_n|\le nA_n\). By Lemma~\ref{lem:chord},
+\(A_n=A+O(n^{-1})\), proving Theorem~\ref{thm:bridge}.
+
+For fixed \(c<A\) the expectation exceeds \(cn\) for all large
+\(n\). If every possible legal output had cardinality smaller than
+\(cn\), its expectation would be smaller too, a contradiction.
+Equivalently, with \(k=\lceil cn\rceil\) and \(|S_n|\le2n\),
+\[
+ \Prob(|S_n|\ge k)\ge
+ \frac{\E|S_n|-(k-1)}{2n-(k-1)}>0.
+\]
+This is an existence argument; it does not supply a practical
+algorithm producing the target density on moderate grids.
+\end{proof}
+

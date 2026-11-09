@@ -1,0 +1,312 @@
+\section{The numerical application and its exact budget}\label{sec:numerics}
+
+\subsection{Contraction of a fixed input}
+For a fixed \(s_0\in(0,1)\), define a new schedule by multiplying
+every duration by \(s_0\), while preserving masks, cells and order.
+Then
+\[
+ F'_{r,t}=s_0F_{r,t/s_0},\qquad \tau'_r=s_0\tau_r,
+ \qquad A'=s_0A.
+\]
+Chord capacities scale by \(s_0\), and squared-chord risk scales by
+\(s_0^2\). These identities follow directly by substitution in the
+time integrals. They concern a new deterministic input, rather than
+an unproved time-change identity for the old random process.
+
+The adopted values from the preparation and followup records are
+listed below. Fractions, rather than their decimal displays, are the
+values to be checked. Their arithmetic consistency is rechecked by
+the script distributed with this draft; that script does not certify
+the geometric field from which the stored bounds were obtained.
+
+\begin{center}
+\begin{tabular}{@{}ll@{}}
+\toprule
+Quantity & Recorded value or choice\\
+\midrule
+Target \(c\) & \(1501/1000\)\\
+Time contraction \(s_0\) & \(249/250\)\\
+Scaled input mass \(A_*\) & \(5036868114751900569/3355443200000000000\)\\
+Total time \(T\) & \(155699823660621/6250000000\)\\
+Designated clock cap \(K\) & \(255/128\)\\
+Ordinary capacity cap \(\lambda\) & \(4/5\)\\
+Ordinary credit floor \(\rho\) & \(1/8\)\\
+Weight exponent \(d\) & \(993/1000\)\\
+Virtual exponent \(\gamma\) & \(1993/2000\)\\
+Geometric and correction exponents \(\xi,\zeta\) & \(1/1000,\ 1/1000\)\\
+Finite-sieve coefficient \(D_*\) & \(76/125\)\\
+Spatial grid \(G\); designated directions \(g\) & \(32768;\ 16\)\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The recorded scaled capacity bounds and their margins are
+\begin{align*}
+ U_H&=\frac{159305594247}{80000000000},
+ &K-U_H&=\frac{69405753}{80000000000},\\
+ U_L&=\frac{2535641192953}{3200000000000},
+ &\lambda-U_L&=\frac{24358807047}{3200000000000},\\
+ U_{\rm tail}&=\frac{294190968417}{400000000000},
+ &1-\rho-\lambda&=\frac3{40}.
+\end{align*}
+All margins are positive. The tail is included in the ordinary
+capacity contract, not used as a substitute for the finitely many
+low-height directions.
+
+\subsection{Changing the directional coefficient without changing its meaning}
+The old coefficient, used here only as a rational number, was
+\[
+ D_{\rm old}=\left(\sum_{k=1}^{256}\frac1{k^2}
+                    +\frac1{257}+\frac1{2\cdot257^2}\right)^{-1}.
+\]
+For the same geometrically justified unscaled envelope integral,
+the old scaled bound was
+\[
+ r_{\rm old}=\frac{3099987999}{3125000000},\qquad
+ \kappa=d-r_{\rm old}=\frac{3137001}{3125000000}.
+\]
+Changing to the finite-sieve coefficient gives the inherited comparison
+\begin{align}
+ r_{\rm new}&=\frac{D_*}{D_{\rm old}}r_{\rm old}
+       <d-\frac{7\kappa}{8},\label{eq:risktransfer}\\
+ b_{\rm acc}&=d-\frac\kappa2
+       =\frac{6203112999}{6250000000}=0.99249807984.
+       \label{eq:bacc}
+\end{align}
+Thus \(b_{\rm acc}-r_{\rm new}>3\kappa/8>0\) remains for finite
+subdivision and rounding. The coefficient multiplying the twelve
+unscaled direction/type integrals is exactly
+\[
+ \frac{D_*s_0^2}{24}=\frac{392673}{15625000}.
+\]
+This comparison is conditional on the old bound describing the same
+valid envelope. It is not a proof that every saved branch partition
+is accepted by the new checker. Indeed, increasing \(D\) may make
+a previously tight endpoint bound fail; the affine improvement or a
+refinement must then be checked for that actual leaf.
+
+There is a further distinction between continuum acceptance and the
+discrete pair bound used by the process. If all used roots satisfy
+\(\mathcal R_r\le b_{\rm acc}\), choose
+\begin{equation}\label{eq:adiscrete}
+ a=\frac{b_{\rm acc}+d}{2}=0.99274903992<d.
+\end{equation}
+Proposition~\ref{prop:pair} gives
+\(\mathcal B_n^{\Gamma^c}\le b_{\rm acc}\log n+C\).
+For \(\log n\ge C/(a-b_{\rm acc})\), this implies the required
+\(\mathcal B_n^{\Gamma^c}\le a\log n\).
+One must not silently absorb the additive error while retaining the
+same coefficient \(b_{\rm acc}\).
+
+\subsection{Moment choices and the fixed loss budget}
+The exponent conditions hold because
+\[
+ 1-d-2\xi-\zeta=\frac1{250}>0,\qquad
+ \gamma-d=\frac7{2000}>0.
+\]
+For example \(m=4096\) makes the exponents in
+\eqref{eq:etatail} and \eqref{eq:virtualtail}, before point-law
+transport, equal to \(-13.377\) and \(-12.328\).
+These are illustrative fixed choices, not a uniform statement about
+the hidden constants for every order.
+
+For the tag bound, \(C_{\rm line}=4G=131072\). The recorded fixed
+budget \(\varepsilon=10^{-5}\), with one third assigned to tags,
+can use
+\[
+ e=\frac{1-\rho-\lambda}{4TC_{\rm line}},\qquad
+ b=348294609696,\quad k=116,\quad
+ m_{\rm tag}=bk+3=40402174724739.
+\]
+The rational witnesses
+\(b(e/2)\ge1\) and
+\(2^{-k}\le (1/300000)e^2/(64C_{\rm line})\) imply the desired
+small main term in \eqref{eq:tagprob}, by Bernoulli's inequality
+\((1+e/2)^b\ge2\). Its enormous but fixed degree is permitted by
+the proof: a general fixed-order moment argument is used before
+substituting this integer. No such power is expanded into individual
+terms in the arithmetic check. This choice supplies neither a useful
+explicit \(n_0\) nor an estimate for practical simulation size.
+
+\begin{corollary}[Candidate application, conditional on full input checking]\label{cor:target}
+Suppose the candidate accepted schedule has mass \(A_*\), the stated
+capacity bounds, and a valid geometric certificate giving risk at
+most \(b_{\rm acc}\) at every used root's deadline. Suppose the
+accepted unions, durations and reference prefixes have the matching
+specified in Proposition~\ref{prop:contract}. Then the analytic
+reduction yields \eqref{eq:target}.
+\end{corollary}
+\begin{proof}
+The finite sieve, positive margins and \eqref{eq:adiscrete} supply
+the geometric hypotheses; the displayed parameters satisfy
+\eqref{eq:exponents}. Theorem~\ref{thm:bridge} applies.
+Alternatively, retain just one error budget: choose \(n\) large
+enough that \(A_n\ge A_*-\Delta/4\) and the total early-retirement
+point-law probability is at most \(10^{-5}\). Proposition~\ref{prop:loss}
+and the strict inequality in Section~\ref{sec:overview} give
+\(\E|S_n|>cn\). A legal realization then satisfies
+\(1501n\le1000|S_n|\).
+\end{proof}
+
+A separately verified pruning loss \(P\le\Delta/4\) can also be
+paid in the same ledger, provided the resulting schedule continues
+to satisfy the required geometric and matching conditions. With
+grid error \(\Delta/4\),
+\[
+ (1-10^{-5})(A_* -\Delta/4-\Delta/4)-c
+ =0.000036826382327236234293878078460693359375>0.
+\]
+The two occurrences of \(\Delta/4\) pay different costs; neither
+is reused. This is a budget lemma, not a claim that a pruned input
+has actually been constructed or checked for this manuscript.
+
+\section{Verification status, correspondence and provenance}\label{sec:status}
+
+\subsection{What this document adds}
+This document is an English mathematical exposition of the preparation
+notes and their two followups~\cite{preparation,followup,second},
+organized around the exact loss identity.
+It adopts finite inclusion-exclusion in place of the older infinite
+Mobius argument, affine rational integral bounds in place of mandatory
+logarithmic integration, and the linewise cell count in the tag proof.
+The arguments are written out for a reader, rather than replaced by
+Lean declarations. They remain a research proof draft under review.
+Editing and arithmetic checks are not independent verification of the
+entire stochastic argument or the concrete numerical certificate.
+
+The paper is self-contained in the sense that its mathematical
+definitions, proof steps and the checking contract are stated here.
+It is not a standalone accepted numerical certificate: the large
+reference field and all geometric leaves are not embedded in the
+text or in the small companion data file. The numerical corollary
+retains those explicit premises.
+
+\subsection{The fixed Lean snapshot}
+The comparison here is with the public snapshot~\cite{formal} whose clean-history
+commit is \texttt{282b636}, based on the audit of 10 November 2026,
+00:22:46 JST. It contains 3,242 original Lean modules and reports
+839,734 source lines. This count measures source inventory, not the
+percentage of the final theorem proved. The fixed snapshot records:
+\begin{itemize}
+\item actual one-phase exponential estimates and uniform power tails;
+\item actual frozen-schedule clock-cause smallness;
+\item an output theorem combining the five causes under explicit
+concrete-input hypotheses;
+\item 99 of 112 low-height capacity rows, and the specified nonaxis
+capacity table with 28 of 28 rows;
+\item 20 of 80 canonical leaves at the single benchmark phase 15301,
+with 80 of 320 symmetry images.
+\end{itemize}
+The last count is not 25 percent of the complete geometric input.
+The full input has 15,348 phases and 155,402 leaf records.
+
+The principal formal endpoint is
+\begin{center}
+\small\path{FrozenCapacity.exists_uniform_accepted_frozen_output_of_inputs}
+\end{center}
+in \path{NoThreeLine/FrozenFiveCauseOutput.lean}.
+Its hypotheses include all 112 accepted rows; a fixed number of
+checked accepted phases; their matching to the frozen reference with
+strictly increasing indices; their duration bounds and fixed total
+time; actual grid input mass above \(1501/1000\); and the actual
+normalized pair-sum bound at every used root's deadline, with fixed
+\(0\le a<d<\gamma<1\) and \(0<\zeta<1-d\).
+It does not assert that these inputs have been constructed for all
+sufficiently large \(n\).
+
+Two intermediate entry points are
+\path{NoThreeLine/ProtectedCellOnePhasePowerTail.lean} and
+\path{NoThreeLine/FrozenClockCauseSmall.lean}.
+The general expectation-to-output interface is in
+\path{NoThreeLine/ScheduleFiveCauseOutput.lean}.
+The paper's explanatory grouping is not a claim that every displayed
+lemma is a verbatim translation of one Lean declaration. The formal
+source, with its actual hypotheses, determines the formal scope.
+
+\subsection{The remaining numerical and mathematical obligations}
+To turn Corollary~\ref{cor:target} into an unconditional claim, one
+must complete a single compatible chain of evidence:
+\begin{enumerate}
+\item Certify every adopted root region with its correct field,
+parity labels, angular coverage and symmetry images. If using the
+new finite-sieve coefficient, establish acceptance under that
+coefficient, not just under the older one.
+\item Establish chronological phase matching and all cumulative
+reference-prefix bounds. A local accepted rectangle alone is not
+a valid complete schedule.
+\item Check union mass, capacity maxima, axis strips and direction
+tails for that same input. Complete the remaining finite row
+obligations if using the frozen Lean interface.
+\item Transfer those continuum bounds to the actual grid input and
+actual root-deadline pair sum with one sufficiently large threshold
+uniform in all used roots. The additive-error step in
+\eqref{eq:adiscrete} is part of this obligation.
+\end{enumerate}
+The probabilistic proof also deserves direct mathematical examination,
+especially common stopping of mixed hierarchies, whole-event energy,
+conditional restart at the first line birth, and the exceptional
+configurations in the short-star expansion. The recorded AI reviews
+and partial formalization are evidence at their stated scopes; they
+do not convert the remaining premises into facts.
+
+\subsection{Companion files and what was checked for this edition}
+The editable source is \path{main.tex} with its section files.
+The small file \path{data/parameters.json} records the exact numerical
+choices and the finite-sieve factors. Running
+\path{scripts/check_arithmetic.py} checks the mass and capacity
+margins, the coefficient transfer, the discrete-risk slack,
+the two fixed loss budgets, the finite product and coprimality
+conditions, and the tag-order witnesses. Its report is a verification
+of those finite arithmetic statements, not an execution of the full
+geometric checker or a check of the whole proof.
+
+\path{SOURCE_MAP.json} identifies the source notes and the frozen
+public modules used in preparing this edition. Source identifiers
+and hashes serve reproducibility; their role is distinct from the
+soundness arguments in Section~\ref{sec:certificates}.
+The PDF has been typeset and visually checked. This edition performs
+no new large angular computation and no full Lean rebuild.
+
+\subsection{AI use and licensing}
+This work has involved substantial use of OpenAI ChatGPT/Codex and
+AI reviews supplied by the project maintainer. AI systems contributed
+mathematical proposals and derivations, numerical programs, exact
+arithmetic checks, Lean definitions and proofs, build orchestration,
+review, translation and exposition. Separate AI contexts reviewed
+parts of the earlier work. This English edition was assembled and
+checked by the assistant in this task; no new independent human
+review or full independent proof audit is claimed.
+
+The human maintainer chose the direction and requested experiments
+and revisions as a hobby project. This disclosure does not attribute
+every mathematical or programming step to human authorship. No named
+author, affiliation or personal contact address is supplied. The
+repository's hosting account is public. The original project material
+and this draft are distributed under the MIT license supplied in
+\path{LICENSE}; retain its notices when redistributing. No claim of
+anonymous hosting or of formal completion is made.
+
+\begin{thebibliography}{9}
+\bibitem{preparation}
+Project preparation notes, \emph{Integrated proof draft preceding
+Lean formalization}, 8--9 November 2026 (Japanese).
+\href{https://github.com/agolkjaoi/no-three-in-line-lean/blob/282b636c160d049e3ef4d82f619fd44d98f8cf1d/docs/research-notes/preparation/PROOF_FOR_LEAN_JA.txt}{Public fixed-version text}.
+This draft uses its process, probability bridge, uniform geometry,
+and stopping/risk arguments.
+\bibitem{followup}
+Project first followup, 9 November 2026 (Japanese).
+\href{https://github.com/agolkjaoi/no-three-in-line-lean/blob/282b636c160d049e3ef4d82f619fd44d98f8cf1d/docs/research-notes/first-followup/FOLLOWUP_FOR_REVIEW_JA.txt}{Public fixed-version text}.
+Source of the remaining-exposure identity, fixed loss budget,
+finite height sum and strengthened capacity contract.
+\bibitem{second}
+Project second followup, 9 November 2026 (Japanese).
+\href{https://github.com/agolkjaoi/no-three-in-line-lean/blob/282b636c160d049e3ef4d82f619fd44d98f8cf1d/docs/research-notes/second-followup/SECOND_FOLLOWUP_FOR_REVIEW_JA.txt}{Public fixed-version text}.
+Source of the finite sieve, affine integral bounds and linewise
+cell count.
+\bibitem{formal}
+\emph{no-three-in-line-lean}, partial formalization snapshot,
+10 November 2026.
+\href{https://github.com/agolkjaoi/no-three-in-line-lean/tree/282b636c160d049e3ef4d82f619fd44d98f8cf1d}{Source snapshot};
+\href{https://github.com/agolkjaoi/no-three-in-line-lean/blob/282b636c160d049e3ef4d82f619fd44d98f8cf1d/STATUS.md}{status and remaining obligations}.
+\end{thebibliography}
+

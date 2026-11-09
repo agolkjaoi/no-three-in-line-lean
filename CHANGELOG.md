@@ -1,5 +1,13 @@
 # Changes
 
+## 2026-11-10 — English mathematical manuscript
+
+Added a [31-page English proof draft](docs/paper/README.md), its editable LaTeX sources, a small exact-arithmetic ledger and checker, and PDF build/layout records. The exposition develops the process, geometric estimates, concentration arguments and finite checking contract. The numerical application remains conditional on complete compatible input verification.
+
+The 45 small arithmetic checks pass, including all 15,225 pairwise coprimality checks for the 175 finite-sieve factors. These checks do not replay the full geometric certificate. All PDF pages were visually checked, and the PDF has an empty author field. AI involvement is disclosed in the manuscript.
+
+The audited Lean sources and their proof scope are unchanged. Distribution verification now handles the explicitly identified manuscript PDF as a binary artifact, checks it against its recorded SHA-256, and retains text scanning for other files.
+
 ## 2026-11-10 — second public snapshot
 
 The one-phase concentration gap described in the first publication has been supplied at the theorem level. Actual history-dependent cuts now feed the stopped exponential estimate, uniform one-phase power tails, and frozen clock-cause smallness. `FrozenFiveCauseOutput` derives the exact 1.501n output from explicit concrete input conditions.

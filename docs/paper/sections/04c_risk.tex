@@ -1,0 +1,252 @@
+\section{Ordinary-line risk under the point law}\label{sec:riskproof}
+
+Fix a root \(p\) and its deterministic deadline \(\tau=\tau_p\).
+All observations below are stopped and saved at the root's first
+positive boundary or global stop. A quantity explicitly restricted
+to the active root is zero afterwards. Write
+\(F_q(t)=\int_0^t m_u(q)\dd u\), and let
+\[
+ I_p=\int_0^{\theta_p\wedge T}\ind_{p\text{ active}}H_p(t)\dd t
+\]
+be its integrated ordinary-line hazard. Earlier root death has
+\(\Prob^{(p)}\)-probability zero. We will bound \(I_p\) by a proxy
+having sharp fixed-order moments, plus an error small in \(L^1\).
+The distinction between those two kinds of estimate is essential.
+
+\subsection{Removing ordinary-line credit at additive cost}
+For an ordinary line through \(p\), let
+\(H_\ell(t)=r_\ell(t)\sum_{q\in\ell\setminus\{p\},\ q\text{ active}}w_q(t)\).
+The two-root, no-witness case of Proposition~\ref{prop:mixed}, followed
+by the conditional density identity, gives
+\begin{equation}\label{eq:conditionalH}
+ \E^{(p)}[\ind_{p\text{ before boundary at }t}H_\ell(t)\mid\F_u]
+ \le(1+o(1))\ind_{p\text{ before boundary at }u}H_\ell(u)
+ \quad(u\le t).
+\end{equation}
+The correction ratio is bounded by a fixed power of
+\((1-\epsilon_n)^{-1}\). Conditional division is performed only
+where \(Z_p(u)>0\); its complement is null under the point law.
+The auxiliary-root sum excludes \(p\), so no self-square is
+silently included in this two-root argument.
+
+One selected witness \(z\in\ell\) and two leaves give
+\begin{equation}\label{eq:secondH}
+ \E^{(p)}[\ind_{p\text{ before boundary},\ z\in S_t}H_\ell(t)^2]
+ \le C L_\ell(L_\ell+B)t/n.
+\end{equation}
+For distinct leaves the connection factor is exactly \(r_\ell^2\);
+a repeated leaf is paid using \(r^2w^2\le Brw\).
+The one-leaf version is at most \(CL_\ell t/n\).
+All labels here lie on the same ordinary line, so there is no
+designated-line source multiplier.
+
+Since \(r\) starts moving at the first line birth,
+\(1-r_\ell(t)=\int_{\text{activation}}^t r_\ell\Lambda_\ell\dd u\).
+The correct self-rate bound is
+\begin{equation}\label{eq:selfrate}
+ r_\ell\Lambda_\ell\le H_\ell/n+B/n.
+\end{equation}
+Multiplying the leaf sums in the hazard by \(r_\ell\) therefore loses
+a nonnegative amount whose expectation is at most
+\begin{equation}\label{eq:removecredit}
+ Cn^{-3}\sum_{\ell\ni p}(L_\ell^3+BL_\ell^2)
+ +CBn^{-3}\sum_{\ell\ni p}L_\ell^2
+ =O(1+(B/n)\log n)=o(\log n).
+\end{equation}
+For completeness, insert the integral for \(1-r\), use
+\eqref{eq:conditionalH} to move the future \(H\) to the earlier
+time, cover activation by \(\sum_{z\in\ell}\ind_{z\in S_u}\),
+and apply \eqref{eq:secondH}. The second term in
+\eqref{eq:removecredit} is the separate self-rate contribution from
+\eqref{eq:selfrate}. The line sums are Lemma~\ref{lem:lines}.
+This is an additive error, not a constant-factor loss in the leading
+\(\log n\) coefficient.
+
+\subsection{Long lines: replace the leaf sum, retain the birth time}
+Call a line long when \(L_\ell\ge B\log n\). Fix a selected witness
+\(z\in\ell\), and put
+\[
+ H=r_\ell\sum_{q\in\ell\setminus\{p\},\ q\text{ active}}m_t(q)w_q,
+ \qquad D_z(t)=\sum_{q\in\ell\setminus\{p,z\}}m_t(q).
+\]
+For every fixed integer \(k\), the mixed hierarchy gives
+\begin{equation}\label{eq:longmoment}
+ \E^{(p)}[\ind_{p\text{ before boundary},\ z\in S_t}H^k]
+ \le(1+o(1))\frac{F_z(t)}n
+       [D_z(t)^k+C_kB L_\ell^{k-1}].
+\end{equation}
+Indeed, the all-distinct leaves have exactly the required connection
+\(r_\ell^k\) and unit source price. A term with \(a<k\) distinct
+leaves costs \(B^{k-a}L_\ell^a\le BL_\ell^{k-1}\), since
+\(B\le L_\ell\). There are finitely many repetition patterns for
+fixed \(k\). No division by a positive lower bound on \(F_z\) is
+used; if it is zero the corresponding birth event is null.
+
+For fixed \(\epsilon>0\), use
+\(H\ind_{H>D+\epsilon L}\le H^k/(D+\epsilon L)^{k-1}\).
+Since \(D\le L\), the main term is at most
+\(L(1+\epsilon)^{-(k-1)}\), while the repeated-leaf term is
+\(C_{k,\epsilon}B\). Sum over witnesses, long lines and time,
+with the hazard factor \(1/n\). As \(B/L\le1/\log n\), the
+positive error \(R_{\rm long}\) made by replacing the leaf sum by
+\(D_z(t)\) satisfies
+\begin{equation}\label{eq:longerror}
+ \limsup_{n\to\infty}\sup_p
+ \frac{\E^{(p)}R_{\rm long}}{\log n}
+ \le C\epsilon+C(1+\epsilon)^{-(k-1)}.
+\end{equation}
+First choose \(\epsilon\), next a fixed sufficiently large \(k\),
+and only then let \(n\) grow. This proves an \(o(\log n)\)
+\(L^1\) error for the same process.
+
+For a witness born at time \(u\), define its deterministic remaining
+cost and birth price by
+\[
+ A_z(u)=\frac1n\int_u^\tau D_z(t)\dd t\le\frac{TL_{pz}}n,
+ \qquad b_z=\frac1n\int_0^\tau m_u(z)A_z(u)\dd u.
+\]
+Let \(P_{\rm long}\) be the sum of \(A_z\) over long-line witnesses
+born before the root boundary, and let \(M_{\rm long}=\sum_z b_z\).
+Insert \(A_z(u)/(TL_{pz}/n)\le1\) as a deterministic birth-retention
+factor in the mixed hierarchy. It follows that for every fixed \(m\),
+\begin{equation}\label{eq:longproxy}
+ \|P_{\rm long}\|_{L^m(\Prob^{(p)})}
+ \le M_{\rm long}+o(\log n).
+\end{equation}
+Here are the non-generic terms in this assertion. A repeated witness
+block of size \(r\ge2\) has total price at most
+\(C_r n^{-(r+1)}\sum_\ell L_\ell^{r+1}=O_r(1)\), whereas a
+singleton block costs \(O(\log n)\). Thus repetitions lose a power
+of \(\log n\). For two distinct witnesses sharing a designated
+line, that line cannot pass through the root. By
+\eqref{eq:fixedline}, the weighted configuration count is
+\[
+ \sum_{z_1}L_{pz_1}
+ \sum_{\substack{z_2\text{ on a designated}\\\text{line through }z_1}}L_{pz_2}
+ \le C n^{3+\xi}\log n.
+\]
+The two birth-and-cost factors supply \(n^{-4}\), giving
+\(O(n^{-1+\xi}\log n)\). Remaining singleton factors cost
+\(O(\log n)\) each. A finite union over pairs covers multiple
+exceptions. The all-distinct, unshared case keeps the exact product
+of the \(b_z\), with leading factor \(1+o(1)\).
+
+\subsection{Short stars and their exceptional configurations}
+An active short line through \(p\) has one selected witness \(z\).
+Each active leaf \(q\ne p\) on that line gives a star \((p,q,z)\).
+Let
+\[
+ X_t=\sum_{\text{short stars}}m_t(q)r_{\ell(p,q)}w_q,
+ \qquad
+ D_t=\frac1n\sum_{\text{deterministic short stars}}m_t(q)F_z(t).
+\]
+The actual sum is zero after the root boundary. In the deterministic
+sum, \(p,q,z\) are distinct and collinear on a short ordinary line;
+there is no selected-point condition.
+Put \(t_0=n^{\gamma-1}\).
+
+\begin{lemma}[Short-star moment estimate]\label{lem:short}
+For each fixed positive integer \(m\), uniformly for \(t_0\le t\le T\)
+and all roots,
+\begin{equation}\label{eq:shortmoment}
+ \E^{(p)}X_t^m\le(1+o(1))D_t^m+\epsilon_m(n)(tn\log n)^m,
+ \qquad \epsilon_m(n)\longrightarrow0.
+\end{equation}
+\end{lemma}
+\begin{proof}
+In an \(m\)-fold product let \(a\) be the number of distinct leaves
+and \(j\) the number of distinct witnesses. The active root makes
+the selected witness on each of its lines unique, so
+\(1\le j\le a\le m\). A leaf coinciding with a witness or the root
+gives zero. If \(j<m\), the first leaf and witness of each star
+line have \(O(n^2\log n)\) choices by \eqref{eq:line2}.
+Additional leaves on that line have at most \(B\log n\) choices,
+and repeated weights cost \(B^{m-a}\). The source price is
+\(C_m(t/n)^j\). Dividing this bound by \((tn\log n)^m\) gives
+\[
+ C_m\left(\frac B{nt}\right)^{m-j}(\log n)^{a-m}=o(1),
+\]
+uniformly since \(B/(nt)\le n^{d-\gamma}\).
+
+It remains to treat \(j=a=m\), with distinct star lines. The
+following list exhausts the extra connections among different stars.
+\begin{enumerate}[label=(\roman*)]
+\item Two labels share a designated line. Fix the first label.
+The line is outside the root, so \eqref{eq:fixedline} bounds the
+second label together with its star partner by \(C n^{1+\xi}\),
+instead of the generic \(O(n^2\log n)\) row. This covers leaf--leaf,
+leaf--witness and witness--witness sharing.
+\item A line connecting two leaves has length greater than
+\(n^\gamma\). For a fixed first leaf there are
+\(O(n^{2-\gamma})\) possible second leaves: sum the height counts
+up to \(O(n^{1-\gamma})\). Its star witness has at most
+\(B\log n\) choices. Relative to a generic star row the saving
+is \(O(n^{d-\gamma})\).
+\item A leaf--leaf line of length at most \(n^\gamma\) is active
+through a new witness. There are at most \(n^\gamma\) positions
+for it and an additional source price \(C_mt/n\), giving
+\(O(n^{\gamma-1})\).
+\item That line is active through an existing third star witness.
+It cannot be either leaf's own witness, since then their star lines
+would coincide. For a third witness use
+\(\sum_{z\in\ell(q_i,q_j)}L_{pz}\le C n^{1+\xi}\), keeping all
+\(m\) original birth prices. This again saves \(n^{-1+\xi}\).
+An active leaf or the root cannot itself be a selected witness.
+\end{enumerate}
+Outside these cases the additional ordinary-line credits are all
+one, there are no designated-line connections, and the star credits
+exactly match the mixed-moment factors. The source price is the
+exact product of \(F_z(t)/n\); keeping the masks produces \(D_t^m\).
+Each single exception is bounded after dropping other restrictions,
+so a finite union over label pairs also covers overlapping exceptions.
+Removing remaining factors costs only \(C_m\), including
+\(\rho^{-O(m^2)}\). The savings above and the correction
+\((1-\epsilon_n)^{-O(m^2)}=1+o(1)\) prove the assertion.
+\end{proof}
+
+Minkowski's inequality now yields
+\begin{equation}\label{eq:shortintegral}
+ \left\|\int_{t_0}^\tau X_t/n\dd t\right\|_m
+ \le\int_{t_0}^\tau D_t/n\dd t+o(\log n),
+\end{equation}
+with the integral zero when \(\tau<t_0\).
+For earlier times the one-witness, one-leaf bound gives
+\(\E^{(p)}X_t=O(tn\log n)\). Its integrated contribution is
+\(O(t_0^2\log n)=o(\log n)\) in \(L^1\). No higher moment for
+this early-time error is asserted.
+
+\subsection{Hazard concentration and the weight cap}
+Collect the credit-removal error, long-line leaf replacement error,
+and early short-star contribution into \(R_n\ge0\), so
+\(\sup_p\E^{(p)}R_n=o(\log n)\). Define
+\[
+ Y_n=P_{\rm long}+\int_{t_0}^\tau X_t/n\dd t.
+\]
+Then \(I_p\le Y_n+R_n\), and \eqref{eq:longproxy} and
+\eqref{eq:shortintegral} give, for every fixed \(m\),
+\[
+ \|Y_n\|_m\le M_{\rm long}+M_{\rm short}+o(\log n)
+ \le\mathcal B_n^{\Gamma^c}(p;F_\tau)+o(\log n).
+\]
+The last inequality is \eqref{eq:timesym}: the division into long
+and short lines is symmetric in leaf and witness, and all four
+fields use the same \(\tau\).
+Proposition~\ref{prop:pair} and \eqref{eq:riskinput} therefore give
+\(\|Y_n\|_m\le(r_*+o(1))\log n\), uniformly in the root.
+
+For any \(b>r_*\), choose \(\epsilon>0\) with
+\(r_*+\epsilon<b-\epsilon\). Markov on \(R_n\), followed by
+the fixed-\(m\) moment bound, shows
+\[
+ \limsup_{n\to\infty}\sup_p\Prob^{(p)}(I_p>b\log n)
+ \le\left(\frac{r_*+\epsilon}{b-\epsilon}\right)^m.
+\]
+The right side tends to zero as the fixed proof order \(m\) is
+chosen larger. This quantifier order does not require constants
+uniform over all \(m\), or an order depending on \(n\).
+By \eqref{eq:product}, hitting \(B=n^d\) requires
+\(I_p\ge d\log n-O(1)\). Choose \(r_*<b<d\). We have proved
+\begin{equation}\label{eq:captail}
+ \sup_p\Prob^{(p)}(\text{weight cap is an early saving cause})=o(1).
+\end{equation}
+

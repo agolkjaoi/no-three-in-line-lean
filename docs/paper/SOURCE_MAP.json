@@ -1,0 +1,196 @@
+{
+  "edition_date": "2026-11-10",
+  "public_snapshot": "282b636c160d049e3ef4d82f619fd44d98f8cf1d",
+  "note": "Identifiers are relative. Hashes identify records; they do not prove their contents. Large numerical inputs and original notes are not bundled in this paper's source archive.",
+  "records": [
+    {
+      "source_id": "no_three_line_lean_preparation_20261108/PROOF_FOR_LEAN_JA.txt",
+      "sha256": "9a1684dc1e32d8937c067ae6155d9feedf9fc67523f43ac60248bdbbbd500b89",
+      "bytes": 171432,
+      "public_url": "https://github.com/agolkjaoi/no-three-in-line-lean/blob/282b636c160d049e3ef4d82f619fd44d98f8cf1d/docs/research-notes/preparation/PROOF_FOR_LEAN_JA.txt",
+      "public_sha256": "698713fc2414857281ba7fe88a117346f13697322c69f630bf9cd21cbc140e33",
+      "public_bytes_identical": false
+    },
+    {
+      "source_id": "no_three_line_lean_preparation_20261108/stochastic_PROCESS_AND_MOMENT_KERNEL_JA.txt",
+      "sha256": "3f61ab0c906d415d54884876b444acce3da9bc250ee208e90ebf902288932286",
+      "bytes": 18462,
+      "public_url": "https://github.com/agolkjaoi/no-three-in-line-lean/blob/282b636c160d049e3ef4d82f619fd44d98f8cf1d/docs/research-notes/preparation/stochastic_PROCESS_AND_MOMENT_KERNEL_JA.txt",
+      "public_sha256": "05aeeebba30437a22d5c3e18b21889e069289d0f7fe13471e67f1841d275628c",
+      "public_bytes_identical": false
+    },
+    {
+      "source_id": "no_three_line_lean_preparation_20261108/stochastic_STOPPING_RISK_AND_OUTPUT_JA.txt",
+      "sha256": "f4ee7944e5e9c14b97f0b9ff0cae7cf8ead1e79f7ec2571f0db443533792328a",
+      "bytes": 27059,
+      "public_url": "https://github.com/agolkjaoi/no-three-in-line-lean/blob/282b636c160d049e3ef4d82f619fd44d98f8cf1d/docs/research-notes/preparation/stochastic_STOPPING_RISK_AND_OUTPUT_JA.txt",
+      "public_sha256": "4d74d0081dbb2dbb5e09c5c3bb5c37f2d24daf863db3ddf44a375c1d7d074fef",
+      "public_bytes_identical": false
+    },
+    {
+      "source_id": "no_three_line_lean_preparation_20261108/geometry_UNIFORM_LATTICE_KERNELS_JA.txt",
+      "sha256": "b9410e6ec98904a96d6be66d58b560bd7ff4e6e759d6a3722887f531caec4bc0",
+      "bytes": 21572,
+      "public_url": "https://github.com/agolkjaoi/no-three-in-line-lean/blob/282b636c160d049e3ef4d82f619fd44d98f8cf1d/docs/research-notes/preparation/geometry_UNIFORM_LATTICE_KERNELS_JA.txt",
+      "public_sha256": "4091e251f54749073d99e270eded515644d503d7c858cafed54dc6077cf53673",
+      "public_bytes_identical": false
+    },
+    {
+      "source_id": "no_three_line_lean_preparation_20261108/certificate_GEOMETRIC_SOUNDNESS_JA.txt",
+      "sha256": "71214a54612c60d9be9e3c7a9c95dd50afe76b524c7c6a21ae926a3dc2404069",
+      "bytes": 21014,
+      "public_url": "https://github.com/agolkjaoi/no-three-in-line-lean/blob/282b636c160d049e3ef4d82f619fd44d98f8cf1d/docs/research-notes/preparation/certificate_GEOMETRIC_SOUNDNESS_JA.txt",
+      "public_sha256": "771d8d575be8da22478493c99b8cb55ce4d6c81e6baa474bb2c4c9e841499b32",
+      "public_bytes_identical": false
+    },
+    {
+      "source_id": "no_three_line_lean_preparation_20261108/PROBABILITY_BRIDGE_JA.txt",
+      "sha256": "5e1464205429e197824b881b76962a9774d0c9af8da399b3920170fdd3262838",
+      "bytes": 15988
+    },
+    {
+      "source_id": "no_three_line_lean_preparation_20261108/certificate_SCALED_PARAMETERS.json",
+      "sha256": "b114a309568de44e7fe64fa408c68c3f61a223979826729835740313bec7c27b",
+      "bytes": 6622
+    },
+    {
+      "source_id": "no_three_line_lean_preparation_20261108/certificate_PARAMETER_LEDGER_JA.txt",
+      "sha256": "3ad39e0c3e0811eac328840202a4962bfd3e1e09a8fbd522ef92059418a52a6b",
+      "bytes": 8117
+    },
+    {
+      "source_id": "no_three_line_lean_preparation_20261108/certificate_TIME_SCALING_JA.txt",
+      "sha256": "17d73e7366d6c66416eb709975810e7e7666c475e34662c027c616b784140064",
+      "bytes": 6947
+    },
+    {
+      "source_id": "no_three_line_lean_preparation_20261108/FINAL_REVIEW.json",
+      "sha256": "efef050cff3d6f64cad4001a78ccaf8d8260c792eef0b752d29b40889dec25e3",
+      "bytes": 15893
+    },
+    {
+      "source_id": "no_three_line_lean_followup_20261109/FOLLOWUP_FOR_REVIEW_JA.txt",
+      "sha256": "4c2dc24ec3a13fd394a944820fa860ca6e4bec170e8b337d14d312f43d004c1c",
+      "bytes": 70091,
+      "public_url": "https://github.com/agolkjaoi/no-three-in-line-lean/blob/282b636c160d049e3ef4d82f619fd44d98f8cf1d/docs/research-notes/first-followup/FOLLOWUP_FOR_REVIEW_JA.txt",
+      "public_sha256": "4d13ff56aa8fd1ffb70b3555ce53d4c495ea5bd21f374d9166832b9cab56bc8f",
+      "public_bytes_identical": false
+    },
+    {
+      "source_id": "no_three_line_lean_followup_20261109/budget_FINITE_ERROR_AND_PRUNING_JA.txt",
+      "sha256": "e02a36d66ef838ac236d3abe59e6a6edf18315792d3a15b1d8e6acf29f4dc590",
+      "bytes": 16252
+    },
+    {
+      "source_id": "no_three_line_lean_followup_20261109/budget_EXACT_CHECKS.json",
+      "sha256": "89e76907b7b7b6ad7e44d1dd3d615565b8b3010b11f9612f05f19577f477c6ed",
+      "bytes": 8832
+    },
+    {
+      "source_id": "no_three_line_lean_followup_20261109/capacity_FINITE_CHECKER_CONTRACT_JA.txt",
+      "sha256": "5e1947868d75b56ff6830da72cce989e8415232b864635d9ae4a2ab197a582c5",
+      "bytes": 11026
+    },
+    {
+      "source_id": "no_three_line_lean_followup_20261109/capacity_AXIS_AND_SLACK_AUDIT.json",
+      "sha256": "ed79c77a586b852e89ec6b4ca45287b001230a2ff893d7cd69f6aecdb1c214c1",
+      "bytes": 7656
+    },
+    {
+      "source_id": "no_three_line_lean_followup_20261109/logfree_RATIONAL_UPPER_SUMS_JA.txt",
+      "sha256": "78ec81a497f3557e83aa104ba2bb2d8a2512e0c962a528f7f0cef95b63aba5af",
+      "bytes": 14861
+    },
+    {
+      "source_id": "no_three_line_lean_followup_20261109/FINAL_REVIEW.json",
+      "sha256": "1c11a5d7b1e9423a83bc8d269db3ba1afb34bd30e9b56317c3570cd71cf1879a",
+      "bytes": 8695
+    },
+    {
+      "source_id": "no_three_line_lean_second_followup_20261109/SECOND_FOLLOWUP_FOR_REVIEW_JA.txt",
+      "sha256": "008e72e7dc90af3fe2b549712746f384ddd35d208d5113d1c5bfdf8c08d18022",
+      "bytes": 76273,
+      "public_url": "https://github.com/agolkjaoi/no-three-in-line-lean/blob/282b636c160d049e3ef4d82f619fd44d98f8cf1d/docs/research-notes/second-followup/SECOND_FOLLOWUP_FOR_REVIEW_JA.txt",
+      "public_sha256": "84b588b57cabfeedc51d817fa9549621e2f55eee1cc970b452ee8cfc7922097f",
+      "public_bytes_identical": false
+    },
+    {
+      "source_id": "no_three_line_lean_second_followup_20261109/sieve_FINITE_DIRECTION_UPPER_BOUND_JA.txt",
+      "sha256": "a3ebe079988a7925b46fa9166a57341b430b6ff4fea6e455ec8c1bb229b38fad",
+      "bytes": 14275
+    },
+    {
+      "source_id": "no_three_line_lean_second_followup_20261109/sieve_EXACT_CHECKS.json",
+      "sha256": "ce5d13c883d55b0d872d4f6ad308fae2e8bb0c2563b9619c1e2f0c27079a2803",
+      "bytes": 23825
+    },
+    {
+      "source_id": "no_three_line_lean_second_followup_20261109/affine_RATIONAL_MAJORANTS_JA.txt",
+      "sha256": "c8e5c39df87c01639584e84daf0372adaf896392160e22bae516493c9db534d9",
+      "bytes": 11030
+    },
+    {
+      "source_id": "no_three_line_lean_second_followup_20261109/tagline_LINEWISE_CELL_BOUND_JA.txt",
+      "sha256": "15df6bef6cbd460972d509263cefb2915a60de665753a57c07640b95fd9d5313",
+      "bytes": 9284
+    },
+    {
+      "source_id": "no_three_line_lean_second_followup_20261109/tagline_EXACT_CHECKS.json",
+      "sha256": "817a8f489a6d6eb413a0f6b9d54c550ccad2ab53a382c356b3ab81de7874c1a2",
+      "bytes": 137670
+    },
+    {
+      "source_id": "no_three_line_lean_second_followup_20261109/FINAL_REVIEW.json",
+      "sha256": "d43ee3b61f7c9d1446569514f2e0c57d6b3f9ccca7e4a89f52a427c31e29e7f2",
+      "bytes": 9389
+    },
+    {
+      "source_id": "public-repository/README_JA.md",
+      "public_url": "https://github.com/agolkjaoi/no-three-in-line-lean/blob/282b636c160d049e3ef4d82f619fd44d98f8cf1d/README_JA.md",
+      "sha256": "899d2307a570c230c8c7c2593dfc70a1ee898dc5c184eb141ec365eb730d9cb3",
+      "bytes": 3068
+    },
+    {
+      "source_id": "public-repository/STATUS.md",
+      "public_url": "https://github.com/agolkjaoi/no-three-in-line-lean/blob/282b636c160d049e3ef4d82f619fd44d98f8cf1d/STATUS.md",
+      "sha256": "5d636cbb9496fb71fdc916b5f67196398efa5580675e0320b59af83e91226346",
+      "bytes": 6112
+    },
+    {
+      "source_id": "public-repository/AI_USAGE.md",
+      "public_url": "https://github.com/agolkjaoi/no-three-in-line-lean/blob/282b636c160d049e3ef4d82f619fd44d98f8cf1d/AI_USAGE.md",
+      "sha256": "fae60fce150e2aff9128e11d2eb7c0f2ea857edfd7777347122327775ec896e5",
+      "bytes": 1319
+    },
+    {
+      "source_id": "public-repository/LICENSE",
+      "public_url": "https://github.com/agolkjaoi/no-three-in-line-lean/blob/282b636c160d049e3ef4d82f619fd44d98f8cf1d/LICENSE",
+      "sha256": "57a262106c07619934af96160ec4e399d7eb4ea26c235bfdc06391cd645e9d17",
+      "bytes": 1095
+    },
+    {
+      "source_id": "public-repository/NoThreeLine/FrozenFiveCauseOutput.lean",
+      "public_url": "https://github.com/agolkjaoi/no-three-in-line-lean/blob/282b636c160d049e3ef4d82f619fd44d98f8cf1d/NoThreeLine/FrozenFiveCauseOutput.lean",
+      "sha256": "5365c1b0fa81d01a327518e9398a9f3866427eb4c893cc076abd0fb55884fa33",
+      "bytes": 4337
+    },
+    {
+      "source_id": "public-repository/NoThreeLine/ScheduleFiveCauseOutput.lean",
+      "public_url": "https://github.com/agolkjaoi/no-three-in-line-lean/blob/282b636c160d049e3ef4d82f619fd44d98f8cf1d/NoThreeLine/ScheduleFiveCauseOutput.lean",
+      "sha256": "1db7b7c3438cb82929b508c74ae7f9e535b9919b2fe1e4cdf7210c61c6a06335",
+      "bytes": 4203
+    },
+    {
+      "source_id": "public-repository/NoThreeLine/ProtectedCellOnePhasePowerTail.lean",
+      "public_url": "https://github.com/agolkjaoi/no-three-in-line-lean/blob/282b636c160d049e3ef4d82f619fd44d98f8cf1d/NoThreeLine/ProtectedCellOnePhasePowerTail.lean",
+      "sha256": "7b8cecab72583d4e7f97f8ebfe7ca923a8a8a808160fb47f33b834b3ec05310f",
+      "bytes": 3806
+    },
+    {
+      "source_id": "public-repository/NoThreeLine/FrozenClockCauseSmall.lean",
+      "public_url": "https://github.com/agolkjaoi/no-three-in-line-lean/blob/282b636c160d049e3ef4d82f619fd44d98f8cf1d/NoThreeLine/FrozenClockCauseSmall.lean",
+      "sha256": "ec99b5fea8b70bb03567d943b7b389dff6737431afc3085e77d749224d3d2973",
+      "bytes": 5315
+    }
+  ]
+}

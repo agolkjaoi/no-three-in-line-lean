@@ -154,6 +154,18 @@ def verify(require_manifest=False):
         rel = path.relative_to(ROOT).as_posix()
         if path.suffix in {'.olean', '.ilean', '.ir', '.pyc'}:
             check(False, f'build artifact distributed: {rel}')
+        if rel == 'docs/paper/output/pdf/no_three_in_line_proof_draft_en.pdf':
+            raw = path.read_bytes()
+            check(raw.startswith(b'%PDF-'), 'manuscript PDF signature')
+            qa = json.loads((ROOT / 'docs/paper/evidence/pdf_qa.json').read_text(encoding='utf-8'))
+            check(digest(raw) == qa['pdf_sha256'], 'manuscript PDF differs from reviewed edition')
+            check(qa['status'] == 'PASS_PDF_BUILD_TEXT_METADATA_AND_LAYOUT',
+                  'manuscript PDF layout record')
+            check(qa['checks']['author_metadata_empty'] is True,
+                  'manuscript PDF author metadata record')
+            # This verifies artifact identity and its recorded review, not the
+            # contents of compressed PDF streams or the mathematical proof.
+            continue
         text = path.read_text(encoding='utf-8')
         check(not private_path.search(text), f'personal machine path: {rel}')
         check(not private_key.search(text), f'credential-shaped text: {rel}')

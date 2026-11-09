@@ -1,0 +1,113 @@
+{
+  "edition_date": "2026-11-10",
+  "title": "A compensated-process approach to the no-three-in-line problem",
+  "version": "0.1",
+  "scope": "English proof draft with conditional numerical application; not an unconditional proof of 1.501n.",
+  "files": [
+    {
+      "path": "main.tex",
+      "bytes": 4290,
+      "sha256": "2183aab03383844b43cbe9a7d89039e2e9bf49b0bbfeeaf42d429991dc22782a"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 2934,
+      "sha256": "0aefffa37f6ab44512c0171a60fc9084941f4b06ee168f3fe0450fcdee556233"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1095,
+      "sha256": "57a262106c07619934af96160ec4e399d7eb4ea26c235bfdc06391cd645e9d17"
+    },
+    {
+      "path": "SOURCE_MAP.json",
+      "bytes": 10456,
+      "sha256": "dc27d079e362caeee85d02d50673a35e3b0f379d82d731a7eafe6b2f665e6bbe"
+    },
+    {
+      "path": "data/parameters.json",
+      "bytes": 3105,
+      "sha256": "e07e621e045040c194c907403b5784660ce7550c88de548ff12ab5fcf0d615be"
+    },
+    {
+      "path": "scripts/check_arithmetic.py",
+      "bytes": 7808,
+      "sha256": "5127d0824264656b8b04a7d68938b10e8c32624547899abf9217ac40b6538a16"
+    },
+    {
+      "path": "scripts/build.ps1",
+      "bytes": 857,
+      "sha256": "23e3cfc854df9cc08d327c33a880158ad29e7a064d8122690f76a2e9e9ce148f"
+    },
+    {
+      "path": "evidence/arithmetic.json",
+      "bytes": 9883,
+      "sha256": "3490ddf6f98d96377d46b2a826b126c2d29ac3876b0f37b3aa755d55f8e880f8"
+    },
+    {
+      "path": "evidence/pdf_qa.json",
+      "bytes": 1548,
+      "sha256": "9c9138c1968900b9c74ecf2b5c0bb94a278afafd1ca99926e5d8daad97b2ba73"
+    },
+    {
+      "path": "output/pdf/no_three_in_line_proof_draft_en.pdf",
+      "bytes": 467160,
+      "sha256": "a3dd3e141803e6e7aa29e636514fce6d7954d1206af2007937fc81fe7b19fb0c"
+    },
+    {
+      "path": "sections/01_overview.tex",
+      "bytes": 7582,
+      "sha256": "e3bde5aebefef23a50a7125958c3427ad923fdc12424d0f14f08184ca2dc6929"
+    },
+    {
+      "path": "sections/02_geometry.tex",
+      "bytes": 11799,
+      "sha256": "2315940785d7c7e16cb1bc3043fab154eccb93d624a167b558c0641c8e0c2ab2"
+    },
+    {
+      "path": "sections/03_process.tex",
+      "bytes": 11252,
+      "sha256": "44afb981b85c3d515e661e4e2988bd3570606dfa84e918b26b8c7b5a3b0524c7"
+    },
+    {
+      "path": "sections/04_estimates.tex",
+      "bytes": 110,
+      "sha256": "33f4b5c7a66de536103e8c0df72b2efbe2c9124121e065dd390eeb9aa701f5e0"
+    },
+    {
+      "path": "sections/04a_moments.tex",
+      "bytes": 6173,
+      "sha256": "477acf2fca7edb6fe91f48ab3674e19035de1f0e771a03f6c0fb9c4255417799"
+    },
+    {
+      "path": "sections/04b_clock.tex",
+      "bytes": 7655,
+      "sha256": "4921076c09af71db1de78a0d2088a757756bef8c9e172a7c58ec15baa828c77e"
+    },
+    {
+      "path": "sections/04b_global.tex",
+      "bytes": 4035,
+      "sha256": "09db5bc5824570d84f82ac69d4d00bbb89883eefc90d89c0667258bf0c504f7d"
+    },
+    {
+      "path": "sections/04c_risk.tex",
+      "bytes": 11294,
+      "sha256": "d4526d18c795446eada0e3c94ec5398056d1c6febd6930a412a15c3a8e889cbf"
+    },
+    {
+      "path": "sections/04d_tags.tex",
+      "bytes": 5887,
+      "sha256": "46a64dd8461c592c5a26895cddf1c31ed0658ef54283035d547399ba216933a8"
+    },
+    {
+      "path": "sections/05_certificates.tex",
+      "bytes": 11186,
+      "sha256": "4a9905883ae41af7771042893e45dcc38c67c67cd57060e5e880cf3bd2f38dc0"
+    },
+    {
+      "path": "sections/06_application.tex",
+      "bytes": 15042,
+      "sha256": "29279016ea263cd05d8d4cb634be921da25130b2fcd720902775e2f1dd0a4489"
+    }
+  ]
+}

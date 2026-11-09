@@ -1,0 +1,90 @@
+\section{Removing the global safety stops}\label{sec:global}
+
+All estimates here are proved for the stopped process. On it,
+\(k\le K\), \(r\ge\rho\), and \(\eta\ge1-\epsilon_n\), so
+Proposition~\ref{prop:mixed} is available before any probability bound
+on the global stop has been established.
+
+\subsection{Pair-correction and virtual-deletion guards}
+\begin{lemma}[Pair-correction tail]\label{lem:etatail}
+For each fixed positive integer \(m\),
+\begin{equation}\label{eq:etatail}
+ \Prob(\text{pair-correction guard})
+ \le C_m n^{4-m+2m\xi+d(m-1)+m\zeta}.
+\end{equation}
+\end{lemma}
+\begin{proof}
+For a fixed pair \(a,b\), classify a cause changing both roots
+according to whether the two lines are ordinary or designated.
+Two ordinary lines require two distinct selected witnesses; one
+ordinary line requires one; two designated lines require only an
+intersection of two among finitely many directions.
+
+In an \(m\)-fold expansion, regard distinct selected witnesses as
+vertices and the double-ordinary causes as edges of a multigraph.
+If there are \(j\) witnesses and \(c\) connected components, the
+first edge of a component costs \(C_\xi n^{2+\xi}\) by
+\eqref{eq:twostar}. An edge adding one new witness costs
+\(C_\xi n^{1+\xi}\) by \eqref{eq:fixedline}. With both witnesses
+known, the cause is the intersection of two fixed lines and has at
+most one choice. Coincidence of those lines would put the cause on
+the excluded baseline. Thus the count is at most
+\(C_m n^{j+(j-c)\xi}\le C_m n^{j+2m\xi}\).
+A component containing a designated/ordinary cause may be started
+with that cause, at cost \(C_\xi n^{1+\xi}\). A double-designated
+cause has at most \(g^2\) choices. This also covers mixed components
+and a witness appearing on different sides of different edges.
+
+If the physical causes have \(k\ge1\) distinct labels, their rates
+supply \(n^{-m}\), root repetitions cost
+\(B^{m-k}\le B^{m-1}\), and the \(j\) distinct witnesses cost
+\(C_m n^{-j}\) by Proposition~\ref{prop:mixed}. Root activity
+indicators can be replaced by constant multiples of root weights
+using Lemma~\ref{lem:product}. A label that is both an active cause
+and a selected witness gives zero. Therefore
+\[
+ \E\kappa_{ab}(t)^m\le C_m n^{-m+2m\xi}B^{m-1}.
+\]
+Hitting the floor requires
+\(\int_0^T\kappa_{ab}\dd t\ge-\log(1-\epsilon_n)\ge\epsilon_n\).
+Apply Holder to the time integral, then Markov and a union bound
+over at most \(n^4\) pairs. This is \eqref{eq:etatail}.
+\end{proof}
+
+\begin{lemma}[Virtual-deletion tail]\label{lem:virtualtail}
+For each fixed positive integer \(m\),
+\begin{equation}\label{eq:virtualtail}
+ \Prob(\text{virtual-deletion guard})
+ \le C_m\sum_{a=1}^m n^{3-\gamma m+d(m-a)+a\xi}.
+\end{equation}
+\end{lemma}
+\begin{proof}
+Fix a designated \(\ell\) and an active \(q\notin\ell\).
+In an \(m\)-fold expansion of \eqref{eq:virtual}, suppose there are
+\(a\) distinct leaves on \(\ell\). The lines from \(q\) to these
+leaves are distinct, and their selected witnesses are distinct:
+a common witness on two such lines would be \(q\), which is active.
+By \eqref{eq:fixedline} the number of leaf/witness choices is at most
+\(C_m n^{a(1+\xi)}\). Source prices supply \(n^{-a}\), and repeated
+leaves cost \(B^{m-a}\). The normalized weight is at most \(2w\).
+Consequently
+\[
+ \E[\ind_{q\text{ active}}\mathcal V_{\ell,q}^m]
+ \le C_m\sum_{a=1}^m B^{m-a}n^{a\xi}.
+\]
+Apply the same fixed-label hierarchy at the first crossing; no
+union over observation times is necessary. There are \(O(n)\)
+designated lines and \(n^2\) possible external points. Markov at
+level \(n^\gamma\) gives \eqref{eq:virtualtail}.
+\end{proof}
+
+The slope in \(m\) in \eqref{eq:etatail} is
+\(-(1-d-2\xi-\zeta)<0\). Since \(\xi<d\), the largest exponent in
+\eqref{eq:virtualtail} occurs at \(a=1\) and equals
+\(3-d+\xi-m(\gamma-d)\). Both probabilities are therefore smaller
+than any prescribed fixed power of \(n^{-1}\), after choosing one
+sufficiently large fixed moment order. The process itself is unchanged
+by that choice of proof order.
+
+\input{sections/04b_clock}
+

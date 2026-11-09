@@ -1,11 +1,11 @@
 {
-  "scope": "All distributed files except this manifest; build products excluded.",
+  "scope": "All distributed files except this manifest; excludes temporary build products and includes the reviewed manuscript PDF.",
   "snapshot_id": "2026-11-10-audited-2",
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 184,
-      "sha256": "b2daccb8aadedc1ae4ee53cb9aa8b5e849ffaed4274a2e46e340b909f3bc5506"
+      "bytes": 288,
+      "sha256": "2b3cc60418340d5cb57674a6751daaf7653148bd2e63b9e14e94bc68d0697b47"
     },
     {
       "path": ".gitignore",
@@ -14,13 +14,13 @@
     },
     {
       "path": "AI_USAGE.md",
-      "bytes": 1319,
-      "sha256": "fae60fce150e2aff9128e11d2eb7c0f2ea857edfd7777347122327775ec896e5"
+      "bytes": 1697,
+      "sha256": "0815b5485e83aa0164d4ddbcb397a95da2cbcc625508fe012a0ca05a6939b4e7"
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 1733,
-      "sha256": "ea3714066a0ed31c9fa93ac95dee886a2021667bbf4f62d16727491241b1f38a"
+      "bytes": 2700,
+      "sha256": "0c8dc20ae9ca334ef8ae14ecd232d54a9fb51627b349cbd13e139c71dd0efe18"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -32614,13 +32614,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 6149,
-      "sha256": "9d32b5a976bddac39f2a87f1e6d05ee108f55d4b8c38f76012e226a3a61118f8"
+      "bytes": 6890,
+      "sha256": "7444d055488283b3796c468d8b95ff450c0e98d6eb9df11baa6e5d6b943e32ca"
     },
     {
       "path": "README_JA.md",
-      "bytes": 3068,
-      "sha256": "899d2307a570c230c8c7c2593dfc70a1ee898dc5c184eb141ec365eb730d9cb3"
+      "bytes": 3783,
+      "sha256": "195fe81eac4d9dad28ba3e9bcfff414cba06c786c43b105dc126db457deb6006"
     },
     {
       "path": "scripts/build_snapshot.py",
@@ -32629,8 +32629,8 @@
     },
     {
       "path": "scripts/verify_snapshot.py",
-      "bytes": 9033,
-      "sha256": "ca0f6e2c9ab8c403df0f609075ed49db33e4d3d33806f64c9c8382e2b480a6eb"
+      "bytes": 9846,
+      "sha256": "e4bc2c8650ac749e7c5874233ff447bd237a2ff10d6b4b896d87cbaa9e4a95b7"
     },
     {
       "path": "snapshot.json",
@@ -32641,6 +32641,121 @@
       "path": "STATUS.md",
       "bytes": 6112,
       "sha256": "5d636cbb9496fb71fdc916b5f67196398efa5580675e0320b59af83e91226346"
+    },
+    {
+      "path": "docs/paper/LICENSE",
+      "bytes": 1095,
+      "sha256": "57a262106c07619934af96160ec4e399d7eb4ea26c235bfdc06391cd645e9d17"
+    },
+    {
+      "path": "docs/paper/MANIFEST.json",
+      "bytes": 3671,
+      "sha256": "468744ec93b2ada5761c28c813bd564e1be67010f2e3f7d7d92da87728a806f5"
+    },
+    {
+      "path": "docs/paper/README.md",
+      "bytes": 2563,
+      "sha256": "c01e2100d9780942f7ad9a0e7b88d08d93596a8f931aa0f5a10244069dabd1d9"
+    },
+    {
+      "path": "docs/paper/README.txt",
+      "bytes": 2934,
+      "sha256": "0aefffa37f6ab44512c0171a60fc9084941f4b06ee168f3fe0450fcdee556233"
+    },
+    {
+      "path": "docs/paper/SOURCE_MAP.json",
+      "bytes": 10456,
+      "sha256": "dc27d079e362caeee85d02d50673a35e3b0f379d82d731a7eafe6b2f665e6bbe"
+    },
+    {
+      "path": "docs/paper/data/parameters.json",
+      "bytes": 3105,
+      "sha256": "e07e621e045040c194c907403b5784660ce7550c88de548ff12ab5fcf0d615be"
+    },
+    {
+      "path": "docs/paper/evidence/arithmetic.json",
+      "bytes": 9883,
+      "sha256": "3490ddf6f98d96377d46b2a826b126c2d29ac3876b0f37b3aa755d55f8e880f8"
+    },
+    {
+      "path": "docs/paper/evidence/pdf_qa.json",
+      "bytes": 1548,
+      "sha256": "9c9138c1968900b9c74ecf2b5c0bb94a278afafd1ca99926e5d8daad97b2ba73"
+    },
+    {
+      "path": "docs/paper/main.tex",
+      "bytes": 4290,
+      "sha256": "2183aab03383844b43cbe9a7d89039e2e9bf49b0bbfeeaf42d429991dc22782a"
+    },
+    {
+      "path": "docs/paper/output/pdf/no_three_in_line_proof_draft_en.pdf",
+      "bytes": 467160,
+      "sha256": "a3dd3e141803e6e7aa29e636514fce6d7954d1206af2007937fc81fe7b19fb0c"
+    },
+    {
+      "path": "docs/paper/scripts/build.ps1",
+      "bytes": 857,
+      "sha256": "23e3cfc854df9cc08d327c33a880158ad29e7a064d8122690f76a2e9e9ce148f"
+    },
+    {
+      "path": "docs/paper/scripts/check_arithmetic.py",
+      "bytes": 7808,
+      "sha256": "5127d0824264656b8b04a7d68938b10e8c32624547899abf9217ac40b6538a16"
+    },
+    {
+      "path": "docs/paper/sections/01_overview.tex",
+      "bytes": 7582,
+      "sha256": "e3bde5aebefef23a50a7125958c3427ad923fdc12424d0f14f08184ca2dc6929"
+    },
+    {
+      "path": "docs/paper/sections/02_geometry.tex",
+      "bytes": 11799,
+      "sha256": "2315940785d7c7e16cb1bc3043fab154eccb93d624a167b558c0641c8e0c2ab2"
+    },
+    {
+      "path": "docs/paper/sections/03_process.tex",
+      "bytes": 11252,
+      "sha256": "44afb981b85c3d515e661e4e2988bd3570606dfa84e918b26b8c7b5a3b0524c7"
+    },
+    {
+      "path": "docs/paper/sections/04_estimates.tex",
+      "bytes": 110,
+      "sha256": "33f4b5c7a66de536103e8c0df72b2efbe2c9124121e065dd390eeb9aa701f5e0"
+    },
+    {
+      "path": "docs/paper/sections/04a_moments.tex",
+      "bytes": 6173,
+      "sha256": "477acf2fca7edb6fe91f48ab3674e19035de1f0e771a03f6c0fb9c4255417799"
+    },
+    {
+      "path": "docs/paper/sections/04b_clock.tex",
+      "bytes": 7655,
+      "sha256": "4921076c09af71db1de78a0d2088a757756bef8c9e172a7c58ec15baa828c77e"
+    },
+    {
+      "path": "docs/paper/sections/04b_global.tex",
+      "bytes": 4035,
+      "sha256": "09db5bc5824570d84f82ac69d4d00bbb89883eefc90d89c0667258bf0c504f7d"
+    },
+    {
+      "path": "docs/paper/sections/04c_risk.tex",
+      "bytes": 11294,
+      "sha256": "d4526d18c795446eada0e3c94ec5398056d1c6febd6930a412a15c3a8e889cbf"
+    },
+    {
+      "path": "docs/paper/sections/04d_tags.tex",
+      "bytes": 5887,
+      "sha256": "46a64dd8461c592c5a26895cddf1c31ed0658ef54283035d547399ba216933a8"
+    },
+    {
+      "path": "docs/paper/sections/05_certificates.tex",
+      "bytes": 11186,
+      "sha256": "4a9905883ae41af7771042893e45dcc38c67c67cd57060e5e880cf3bd2f38dc0"
+    },
+    {
+      "path": "docs/paper/sections/06_application.tex",
+      "bytes": 15042,
+      "sha256": "29279016ea263cd05d8d4cb634be921da25130b2fcd720902775e2f1dd0a4489"
     }
   ]
 }

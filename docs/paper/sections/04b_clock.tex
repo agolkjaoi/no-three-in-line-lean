@@ -1,0 +1,169 @@
+\subsection{The protected law of a designated line}
+Fix a designated line and one of its occupancy stages \(N=0,1\).
+Starting at the stage's entry time \(U\), suppress its next birth
+through the density process
+\[
+ D_t=\ind_{\text{no new line birth in }(U,t]}
+ \exp\left(\int_U^t\Lambda_\ell(s)\dd s\right),
+\]
+stopped and saved at the relevant guards or \(T\). Before \(U\) its
+value is one. The birth at \(U\), if any, starts the stage and is
+not counted again as its next birth. The continuous drift
+\(D\Lambda_\ell\) cancels the zeroing-jump drift. Also
+\[
+ \int_U^t\Lambda_\ell\dd s
+ =\int_{k(U)}^{k(t)}a_N(k)\dd k
+ \le2\log\frac2{2-K}.
+\]
+Thus \(D\) is a bounded martingale and defines a probability law
+conditionally on the entry history. Its upper bound is the fixed
+constant \(A_0^2\), where \(A_0=2/(2-K)\). On a crossing occurring
+before the next line birth, \(D\ge1\), so the original crossing
+probability is at most its probability under the protected law.
+
+Normalize each active line weight by
+\(c_p=w_p/a_N(k_\ell)\), and save this \emph{normalized} value at
+positive retirement. It is not subsequently divided by a changing
+\(a_N\). For a fixed cell/type subset of the line, let \(M\) be the
+sum of current and saved \(c_p\). Define its entropy sum using
+\[
+ h(c)=c\left(1+\log\frac{2B}{c}\right),\quad h(0)=0,
+ \qquad H=\sum h(c_p),
+\]
+again with saved terms frozen. Under the protected law the surviving
+positive drift of each credit is
+\(g_p=\lambda_p(1-b_N)c_p\). This follows by subtracting
+\(\mathrm d\log a_N/\mathrm dt=\Lambda_\ell b_N\) from the original
+ODE and deleting only the line-birth jump rates. It is
+\(\lambda_pc_p/2\) at occupancy zero and zero at occupancy one.
+
+\begin{lemma}[Credit, entropy and whole-event energy]\label{lem:entropy}
+Stop further at \(M\le C_0n\). There are compensated martingales
+\(Y_M,Y_H\) and a nonnegative cumulative cost \(V\) such that
+\begin{align}
+ M&=M(U)+D_M+Y_M,&D_M&=O(B),\label{eq:creditdecomp}\\
+ H&=H(U)+D_H-V+Y_H,&D_H&=O(B\log n),\label{eq:entropydecomp}
+\end{align}
+and, before the virtual guard,
+\begin{align}
+ \langle Y_M\rangle&\le C n^\gamma V,
+ &|\Delta Y_M|&\le C n^\gamma,\label{eq:bracketM}\\
+ \langle Y_H\rangle&\le C n^\gamma(\log n)^2V,
+ &|\Delta Y_H|&\le C n^\gamma\log n.\label{eq:bracketH}
+\end{align}
+The constants are independent of the admissible entry history.
+\end{lemma}
+\begin{proof}
+For a multiplier \(J\in\{0,1/2,1\}\), direct algebra gives
+\[
+ h'(c)c(1-J)+h(Jc)-h(c)=-c(J\log J-J+1).
+\]
+The cost is \(c\) for deletion, \(c(1-\log2)/2\) for halving,
+and zero otherwise. It is comparable by fixed positive constants
+to the credit decrease \(c(1-J)\). Define \(V\) to be the rate
+integral of the \emph{sum of these costs for each complete birth
+event}. Compensating gives \eqref{eq:creditdecomp} and
+\eqref{eq:entropydecomp}. Since \(\lambda_p\le B/n\) and the
+credit sum is capped by \(C_0n\), the first drift is \(O(B)\).
+The active credits have the positive lower bound supplied by
+Lemma~\ref{lem:product} divided by \(A_0\), so
+\(h'(c)=\log(2B/c)=O(\log n)\) on them. This gives the entropy
+drift estimate.
+
+In one external birth event, the ordinary-line deletion of normalized
+mass is at most \(M_n\), and effects through other designated
+directions touch at most \(g\) points, each of credit at most \(2B\).
+Its total credit decrease \(\Delta\) is therefore at most
+\(M_n+2gB=O(n^\gamma)\). The square of the \emph{whole} decrease
+satisfies \(\Delta^2\le C n^\gamma\Delta\).
+The absolute entropy decrease is at most \(C\log n\) times this
+credit decrease, including deletion to zero. Comparing the decrease
+to the event's total cost and integrating its birth rate proves
+\eqref{eq:bracketM}--\eqref{eq:bracketH}. These estimates retain
+all cross terms of simultaneous changes. Summing the squares of
+individual point changes would not prove the required bracket bound.
+\end{proof}
+
+\begin{lemma}[Exponential crossing estimate]\label{lem:exp}
+Let \(Y\) be a compensated birth martingale with \(Y_0=0\), jumps
+bounded in absolute value by \(b\), and continuous predictable
+quadratic variation \(Q\). For \(x,v>0\),
+\begin{equation}\label{eq:freedman}
+ \Prob(\exists t\le T:Y_t\ge x,\ Q_t\le v)
+ \le\exp\left(-\frac{x^2}{2(v+bx/3)}\right).
+\end{equation}
+\end{lemma}
+\begin{proof}
+For \(0<\theta b<3\) and \(|u|\le b\), the Taylor series and
+\(k!\ge2\cdot3^{k-2}\) for \(k\ge2\) give
+\[
+ e^{\theta u}-1-\theta u
+ \le\psi u^2,\qquad \psi=\frac{\theta^2}{2(1-\theta b/3)}.
+\]
+Stop at the first \(Y\ge x\), capped at \(T\). The stopped
+exponential \(\exp(\theta Y-\psi Q)\) is bounded by
+\(\exp(\theta(x+b))\). Its compensated drift is nonpositive by the
+displayed inequality, so its expectation is at most one.
+Since \(Q\) is continuous and nondecreasing, a crossing with
+\(Q\le v\) exists precisely when the first crossing has \(Q\le v\).
+On this event the terminal stopped exponential is at least
+\(\exp(\theta x-\psi v)\). Markov gives
+\(\exp(-\theta x+\psi v)\); take \(\theta=x/(v+bx/3)\).
+This proof uses a bounded stopped exponential, rather than assuming
+that an unlocalized exponential local martingale has mean one.
+\end{proof}
+
+\begin{proposition}[Clock stops are rare]\label{prop:clock}
+For each fixed positive tolerance and admissible fixed data, the
+failure probability of the simultaneous designated-line credit
+bound is at most
+\[
+ Cn\exp\left(-c\frac{n^{1-\gamma}}{\log n}\right).
+\]
+In particular, the probability of a designated clock reaching \(K\)
+is smaller than every fixed inverse power of \(n\).
+\end{proposition}
+\begin{proof}
+Stop the cumulative cost at \(C_1n\log n\). Since \(H\ge0\),
+\(H(U)=O(n\log n)\), and \(D_H=o(n\log n)\), reaching this cost
+cap, for sufficiently large \(C_1\), forces an upward fluctuation
+of \(Y_H\) of order \(n\log n\). Apply Lemma~\ref{lem:exp} with
+\(v=O(n^{1+\gamma}(\log n)^3)\) and
+\(b=O(n^\gamma\log n)\). An increase of \(M\) by a fixed multiple
+of \(n\) similarly forces a fluctuation of \(Y_M\) of order \(n\),
+with \(v=O(n^{1+\gamma}\log n)\) and \(b=O(n^\gamma)\).
+Both exponents have order \(n^{1-\gamma}/\log n\).
+
+At the first birth on the line,
+\((w/2)/a_1=w/a_0\); the selected point is removed. The saved ledger
+is unchanged and the moving normalized credit cannot increase.
+At the second birth, all remaining moving credit disappears. To
+treat the occupancy-one stage, condition on its actual entry history
+and the preceding good credit bound. The entropy bound follows
+from that credit bound and \(c\le2B\). The same constants therefore
+apply to every such history. Average the conditional estimate; do
+not take a union over possible histories or starting times.
+
+There are \(O(n)\) designated lines and a fixed number of cell/type
+pieces and phases. Summing their crossing probabilities preserves
+the displayed bound. On the resulting good event, integrate the
+moving normalized credit with the masks to obtain
+\[
+ k_\ell\le\text{deterministic line capacity}
+             +C_{\mathrm{data}}T\varepsilon+O(n^{-1}).
+\]
+Choose \(\varepsilon>0\) first so that the second term is smaller
+than half of \(\kappa_H\), then choose \(n\) large. The capacity
+condition \eqref{eq:heavyinput} precludes hitting \(K\).
+Positive retirement need not be rare for this argument: its credit
+was retained in the ledger throughout.
+\end{proof}
+
+Combining the three guards shows, for every fixed \(A_0'>0\),
+\begin{equation}\label{eq:globaltail}
+ \Prob(\sigma\le T)\le C_{A_0'}n^{-A_0'}.
+\end{equation}
+Under any point law this is at most \(B\) times as large, hence is
+\(o(1)\) uniformly in the root. This establishes global-stop smallness
+before the weight-cap and ordinary-line tag estimates below.
+

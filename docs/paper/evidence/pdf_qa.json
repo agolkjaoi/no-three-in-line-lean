@@ -1,0 +1,61 @@
+{
+  "edition_date": "2026-11-10",
+  "scope": "PDF build, text, metadata and visual layout only; not a mathematical proof audit.",
+  "status": "PASS_PDF_BUILD_TEXT_METADATA_AND_LAYOUT",
+  "pdf_sha256": "a3dd3e141803e6e7aa29e636514fce6d7954d1206af2007937fc81fe7b19fb0c",
+  "checks": {
+    "page_count": 31,
+    "rendered_pages": 31,
+    "out_of_page_characters": [],
+    "unresolved_question_mark_pairs": false,
+    "missing_glyph_markers": false,
+    "author_metadata_empty": true,
+    "latex_layout_or_reference_warnings": [],
+    "personal_local_path_in_extracted_text": false,
+    "email_address_in_extracted_text": false
+  },
+  "visual_review": {
+    "status": "completed_by_assistant",
+    "pages_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "method": "All pages inspected in rendered contact sheets; equation-dense and numerical pages additionally inspected at 150 dpi.",
+    "detail_pages": [
+      16,
+      27,
+      28
+    ],
+    "findings": "No visible clipping, overlapping equations, broken glyphs or unreadable table entries. Final edits add Unicode mappings without changing page layout.",
+    "review_scope": "Visual and textual presentation, not independent mathematical verification."
+  }
+}

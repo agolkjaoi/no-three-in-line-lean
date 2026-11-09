@@ -1,0 +1,240 @@
+\section{The stopped compensated process}\label{sec:process}
+
+Fix \(n\ge2\) and put \(B=n^d\), \(M_n=n^\gamma\), and
+\(\epsilon_n=n^{-\zeta}\). A point is active, selected, geometrically
+dead, or positively retired. Initially every point is active, its weight
+is one, and \(S=\varnothing\). Selection is permanent. Dead and retired
+points never return to the active set \(Q_t\).
+
+\subsection{Line variables, rates and flows}
+Every designated line has occupancy \(N_\ell=|S\cap\ell|\) and clock
+\(k_\ell\). For \(N=0,1\) set
+\[
+ a_N(k)=\frac{2-N}{2-k},\qquad b_0=\frac12,\quad b_1=1.
+\]
+Every nondesignated line has a credit \(r_\ell\), initially one.
+It changes only while the line contains exactly one selected point.
+Before the global stopping time \(\sigma\), define
+\begin{align}
+ \lambda_p(t)&=\ind_{p\in Q_t}\frac{m_t(p)w_p(t)}n,
+ &\Lambda_\ell&=\sum_{p\in\ell}\lambda_p,\label{eq:rates}\\
+ \dot k_\ell&=\Lambda_\ell/a_{N_\ell}(k_\ell)
+       &&(N_\ell=0,1),\label{eq:clockflow}\\
+ \dot r_\ell&=-r_\ell\Lambda_\ell
+       &&(N_\ell=1,\ \ell\text{ nondesignated}).\label{eq:tagflow}
+\end{align}
+The other clock and line-credit derivatives are zero. For active \(p\),
+put
+\[
+ H_p=\sum_{q\in Q_t\setminus\{p\}}\lambda_q
+ \ind_{\ell(p,q)\notin\Gamma,\ |S\cap\ell(p,q)|=1}.
+\]
+Here \(\ell\notin\Gamma\) means that its direction is nondesignated.
+The weight flow is
+\begin{equation}\label{eq:weightflow}
+ \frac{\dot w_p}{w_p}=H_p+\lambda_p+
+ \sum_{\substack{\ell\ni p\\\ell\in\Gamma}}
+ (\Lambda_\ell-\lambda_p)b_{N_\ell}.
+\end{equation}
+The term \(H_p\) counts each actual cause \(q\) once, not once for
+each possible witness. All rates are set to zero after \(\sigma\).
+
+At a birth of \(q\), use the pre-birth state to choose the branch,
+then perform these operations in order:
+\begin{enumerate}
+\item Select \(q\) and set its weight to zero.
+\item Kill every active point that now lies on a line with two selected
+points, setting its weight to zero.
+\item On each designated line having its first birth, halve the weights
+of the remaining active points.
+\item Update occupancies and the activation flags of ordinary lines.
+The values of \(k_\ell\) and \(r_\ell\) are not reset.
+\item Process any newly reached safety boundary and positive retirement.
+\end{enumerate}
+For a fixed other point \(p\), at most one line through \(p,q\) can
+cause a halving. Geometric death takes priority over positive saving.
+
+\subsection{Safety boundaries and the observation convention}
+A point retires positively at its first weight-cap hit \(w_p=B\),
+at a hit \(r_\ell=\rho\) on an ordinary line through it, or at its
+deadline \(\tau_p\). Its current positive weight is saved. Unused
+points retire at time zero with saved weight one.
+
+Two additional variables define global guards. For distinct active
+\(a,b\), let \(\kappa_{ab}\) be the sum of rates of birth causes
+\(q\notin\ell(a,b)\) that would change both weights by a factor less
+than one. Set \(\dot\eta_{ab}=-\kappa_{ab}\eta_{ab}\), initially
+\(\eta_{ab}=1\), and freeze this variable when either endpoint leaves
+the active state. For a designated line \(\ell\) and an active point
+\(q\notin\ell\), define the virtual deletion mass
+\begin{equation}\label{eq:virtual}
+ \mathcal V_{\ell,q}=
+ \sum_{y\in\ell\cap Q_t}\frac{w_y}{a_{N_\ell}(k_\ell)}
+ \ind_{\ell(q,y)\notin\Gamma,\ |S\cap\ell(q,y)|=1}.
+\end{equation}
+Globally stop at the first hit of \(k_\ell=K\),
+\(\eta_{ab}=1-\epsilon_n\), or \(\mathcal V_{\ell,q}=M_n\), including
+an exceedance produced by a jump. Save the positive active credits
+and freeze the process. If no guard is hit, \(\sigma=\infty\);
+the deterministic terminal time \(T\) is not itself a failure event.
+
+When a mixed observation is saved at a root's positive boundary, take
+its value after geometric updates but before removing auxiliary roots
+because of simultaneous positive retirement. At a continuous hit take
+the boundary values before changing the flags. This convention prevents
+a tag witness from disappearing at the very instant it is observed.
+It does not alter the selected set or its birth rates. Auxiliary roots
+that retired strictly earlier contribute zero.
+
+\begin{proposition}[Construction and legality]\label{prop:construction}
+For fixed \(n\), the stopped process is well-defined on \([0,T]\),
+is adapted with right-continuous paths and left limits, and always
+produces a no-three-in-line set of at most \(2n\) points.
+\end{proposition}
+\begin{proof}
+Give each point a Poisson candidate clock of rate \(B/n\), together
+with independent uniform marks. At a candidate arrival, accept the
+birth if its mark is at most \(m_t(p)w_p(t-)/B\) and the point is
+eligible in the pre-arrival state. The total candidate rate is \(nB\),
+so there are finitely many arrivals on \([0,T]\) almost surely.
+Use the filtration revealing only arrivals and marks up to the current
+time, with the usual completion and right-continuous modification.
+
+Between arrivals and mode changes, solve the finite-dimensional ODE.
+Within the stopped region the denominators are separated from zero:
+\(k\le K<2\), \(r\ge\rho>0\), and \(\eta\ge1-\epsilon_n>0\).
+Using \(w\), rather than \(\log w\), as a coordinate, each mode has a
+locally Lipschitz vector field. Extend it outside a compact
+neighborhood with a cutoff if necessary. The resulting flow is unique
+and depends continuously on its initial state. First hits of its
+closed guards are measurable: on any bounded time interval, the
+minimum distance of the continuous flow to a closed guard detects a
+hit. Composition at the preceding stopping time preserves adaptation.
+
+Every positive retirement occurs at most once per point. Occupancies
+and line activation flags change only finitely often, deadlines and
+phases are finite, and a global stop occurs once. Resolve all
+simultaneous guards together and mark them as processed. Together with
+the finite candidate arrivals, this rules out an accumulation of
+updates. The construction gives the claimed path regularity.
+
+Immediately before every birth the chosen point is active, hence is
+not on a line with two selected points. Adding it preserves legality;
+the subsequent deaths maintain this invariant. The row bound gives
+\(|S|\le2n\).
+\end{proof}
+
+For compensators, evaluate the intensity in the pre-jump state and use
+\(\ind_{t\le\sigma}\). The birth that triggers a global stop is counted.
+In time integrals one may instead use \(\ind_{t<\sigma}\), since the
+two differ on at most one time per path. Thinning gives, for a
+nonnegative predictable observation \(g\),
+\begin{equation}\label{eq:compensator}
+ \E\sum_{\text{births }(p,t)}g_p(t)
+ =\E\int_0^T\sum_p\lambda_p(t)g_p(t)\dd t.
+\end{equation}
+For simple predictable functions this is independent increments and
+the uniform-mark rule; monotone approximation gives the general
+identity. Bounded signed observations follow by subtraction. All
+fixed-\(n\) rates and stopped observations used below are integrable.
+
+\section{Saved credit and the exact output identity}\label{sec:loss}
+
+Define \(Z_p\) to equal \(w_p\) while \(p\) is active, zero after
+selection or geometric death, and its saved value after positive
+retirement or a global stop. Let \(C_p\) be the birth-eligible credit,
+including the global-stop indicator, and let \(V_p\) be saved credit.
+Then \(Z_p=C_p+V_p\) and \(0\le Z_p\le B\).
+
+\begin{lemma}[One-point compensation]\label{lem:credit}
+For each point \(p\), \(Z_p\) is a bounded martingale and
+\(\E Z_p(t)=1\).
+\end{lemma}
+\begin{proof}
+While \(p\) is active, let \(J_p(q)\in\{0,1/2,1\}\) be its
+multiplier at a birth of \(q\). Selection or deletion gives zero,
+a first designated-line birth gives \(1/2\), and otherwise it is one.
+The flow \eqref{eq:weightflow} is precisely
+\[
+ \dot w_p=w_p\sum_q\lambda_q(1-J_p(q)).
+\]
+By \eqref{eq:compensator}, the jump drift is its negative. Positive
+saving changes no value; subsequent drift is zero. A coincident
+geometric death has already been assigned multiplier zero. Thus the
+compensated drift vanishes, and boundedness makes the result a true
+martingale. Its initial value, including immediate saving of unused
+points, is one.
+\end{proof}
+
+\begin{lemma}[Point law and birth intensities]\label{lem:pointlaw}
+The formula \(\dd\Prob^{(p)}=Z_p(T)\dd\Prob\) defines a probability
+measure. At any bounded stopping time \(\theta\le T\),
+\(\E^{(p)}X=\E[Z_p(\theta)X]\) for nonnegative
+\(\F_\theta\)-measurable \(X\). Before the root's saving boundary,
+the birth intensity of \(q\) under this law is \(J_p(q)\lambda_q\).
+\end{lemma}
+\begin{proof}
+The martingale identity gives
+\(\E[Z_p(T)\mid\F_\theta]=Z_p(\theta)\).
+One can obtain the stopping-time version from finite-valued dyadic
+approximations from above, right continuity and bounded convergence.
+For the intensity statement, enumerate the births, condition
+\(Z_p(T)\) on each birth's post-jump sigma field, substitute
+\(Z_p(t)=J_p(q)Z_p(t-)\), and then apply
+\eqref{eq:compensator}. Tonelli justifies the nonnegative birth sum.
+On time integrals \(Z_p(t-)=Z_p(t)\) almost everywhere.
+\end{proof}
+
+The changed law forbids a birth that kills the root, but does not
+delete the self-rate term \(\lambda_p\) from the original deterministic
+weight ODE. Losing this distinction changes the compensation identity.
+
+\begin{proposition}[Exact remaining-exposure loss]\label{prop:loss}
+With \(E_p\) and \(\theta_p\) as in Section~\ref{sec:overview},
+\eqref{eq:previewloss} holds for every fixed \(n\). Therefore
+\[
+ \sup_p\Prob^{(p)}(E_p)\le\varepsilon
+ \quad\Longrightarrow\quad
+ \E|S_n|\ge(1-\varepsilon)n A_n.
+\]
+\end{proposition}
+\begin{proof}
+Apply \eqref{eq:compensator} to the birth count and use \(\E Z_p(t)=1\):
+\[
+ \E|S_n|=\frac1n\sum_p\int_0^T m_t(p)\E C_p(t)\dd t
+ =nA_n-\frac1n\sum_p\int_0^T m_t(p)\E V_p(t)\dd t.
+\]
+On a path with positive saving,
+\(V_p(t)=Z_p(T)\ind_{\theta_p\le t}\). Tonelli changes its integral
+to \(Z_p(T)\int_{\theta_p}^T m_t(p)\dd t\).
+Deadline saving has no remaining exposure. A path dying without
+positive saving has zero terminal credit and may be assigned
+\(\theta_p=T\). The density identity proves \eqref{eq:previewloss}.
+Finally the remaining exposure is between zero and the deterministic
+total \(F_{\typ(p),T}(p/n)\); sum the probability bound. Events need
+not be independent or disjoint.
+\end{proof}
+
+\begin{lemma}[Product formula and a positive lower bound]\label{lem:product}
+While \(p\) is active,
+\begin{equation}\label{eq:product}
+ w_p(t)=
+ \exp\left\{\int_0^t H_p(u)\dd u+
+ \int_0^t\lambda_p(u)\left(1-
+       \sum_{\substack{\ell\ni p\\\ell\in\Gamma}}b_{N_\ell}\right)\dd u\right\}
+ \prod_{\substack{\ell\ni p\\\ell\in\Gamma}}a_{N_\ell}(k_\ell).
+\end{equation}
+For large enough \(n\), \(w_p\ge2^{-g-1}\) uniformly while active.
+The absolute value of the self-correction integral is at most
+\(\max(1,g-1)TB/n=o(1)\).
+\end{lemma}
+\begin{proof}
+Between births, \(\mathrm d\log a_N(k)/\mathrm dt=\Lambda_\ell b_N\).
+At a first designated-line birth \(a_1/a_0=1/2\), exactly matching
+the surviving point's halving. Subtract these factors from
+\eqref{eq:weightflow}; all designated-line terms cancel except the
+displayed self-correction. Initially every factor is one. Since
+\(H_p\ge0\), \(a_0\ge1\), \(a_1\ge1/2\), and \(\lambda_p\le B/n\),
+the asserted bounds follow.
+\end{proof}
+

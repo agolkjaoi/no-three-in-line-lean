@@ -1,0 +1,259 @@
+\section{From finite rectangles to certified geometric bounds}\label{sec:certificates}
+
+The analytic reduction needs uniform inequalities on entire root
+regions and on all line directions. A numerical value attached to a
+sampled root is insufficient. This section describes a finite
+rational certificate contract and proves its mathematical soundness.
+Whether every concrete certificate has been supplied and checked is
+a separate question, addressed in Section~\ref{sec:status}.
+
+\subsection{A uniform chord envelope on a closed root box}
+Let \(F\) be a nonnegative rational rectangular step field bounded by
+\(M\), with zero outside the unit square. For direction \((1,u)\),
+\(u>0\), write
+\[
+ C(v;u)=\int_\R F(t,v+ut)\dd t.
+\]
+For a closed root box \(Q_0=[a_0,a_1]\times[b_0,b_1]\), every root
+has intercept in
+\(l(u)=b_0-u a_1\le v\le h(u)=b_1-u a_0\).
+For now assume \(Q_0\) is not a single point.
+
+At each grid vertex \((a,\eta)\), with exterior cells read as zero,
+define the signed corner coefficient
+\[
+ k_{a,\eta}=F_{\rm LU}+F_{\rm RD}-F_{\rm RU}-F_{\rm LD}.
+\]
+\begin{lemma}[Corner representation]\label{lem:corners}
+For \(u>0\),
+\begin{equation}\label{eq:corners}
+ C(v;u)=\frac1u\sum_{a,\eta} k_{a,\eta}(v-\eta+ua)_+.
+\end{equation}
+\end{lemma}
+\begin{proof}
+For the indicator of \((a,b)\times(c,d)\), integrate
+\(\ind_{v+ut>c}-\ind_{v+ut>d}\) over \(a<t<b\).
+The first integral is
+\([(v+ub-c)_+-(v+ua-c)_+]/u\), with the analogous expression
+for \(d\). The four corner coefficients are \(-1,+1,+1,-1\).
+Add these identities with the rational cell weights and combine
+shared vertices. Nonaxis chords meet the zeroed grid boundaries
+in finitely many points, so those values do not change the integral.
+\end{proof}
+
+For a vertex with negative coefficient set
+\[
+ P=a_1-a+\frac{\eta-b_0}{u},\qquad
+ Q=a-a_0+\frac{b_1-\eta}{u},\qquad
+ T_{a,\eta}(u)=\max\left(0,\min\left(P,Q,\frac{P+Q}{4}\right)\right).
+\]
+Here \(Q\) is a scalar; the root box is \(Q_0\).
+Define
+\begin{align}
+ U_1(u)&=\max(C(l;u),C(h;u))+
+             \sum_{k_{a,\eta}<0}(-k_{a,\eta})T_{a,\eta}(u),
+             \label{eq:U1}\\
+ U_2(u)&=C(l;u)+\sum_{J>0}J\,
+       \big|[a,b]\cap[(\eta-h)/u,(\eta-l)/u]\big|.
+       \label{eq:U2}
+\end{align}
+In \eqref{eq:U2} the sum runs over horizontal grid edges
+\((a,b)\times\{\eta\}\) with upward jump
+\(J=F_{\rm up}-F_{\rm down}>0\).
+
+\begin{proposition}[Closed-box envelope]\label{prop:envelope}
+For every root \((x,y)\in Q_0\), \(v=y-ux\), and \(u>0\),
+\begin{equation}\label{eq:envelope}
+ 0\le C(v;u)\le U(u):=\min(U_1(u),U_2(u),M)\le M.
+\end{equation}
+The envelope is a finite expression formed from rational functions
+\(\alpha+\beta/u\), rational arithmetic, minimum, maximum and
+positive part.
+\end{proposition}
+\begin{proof}
+For a corner term \(k(v-v_0)_+/u\), compare it with its endpoint
+linear interpolation on \([l,h]\). A nonnegative \(k\) has no
+positive excess. A negative \(k\) has excess zero if the corner
+lies outside the interval, and otherwise maximum
+\[
+ (-k)\frac{(v_0-l)(h-v_0)}{u(h-l)}
+ =(-k)\frac{PQ}{P+Q}
+ \le(-k)\min(P,Q,(P+Q)/4).
+\]
+Sum the corner identities. Interpolation commutes with finite
+addition, and the interpolated total is at most its larger endpoint.
+This gives \(U_1\).
+
+For fixed horizontal coordinate \(t\), move vertically from
+\(l+ut\) to \(v+ut\). The field difference is the sum of its
+crossed horizontal jumps. Discard negative jumps and extend the
+upper endpoint to \(h+ut\). Integrating the resulting indicator
+inequality over \(t\) gives exactly \eqref{eq:U2}. Boundary
+exceptions involve finitely many values of \(t\). The trivial
+bound \(C\le M\) follows because the major-coordinate length
+inside the square is at most one. Each of the three bounds is
+nonnegative. The displayed expressions for the intersections and
+corners have the asserted finite form.
+\end{proof}
+
+For a point root, simply use \(C(l;u)\). A root box of zero width
+or zero height is covered by the same argument whenever \(h-l>0\).
+At \(u=0\) one may set \(U(0)=M\) for the angular integral.
+This does not remove the separate obligation to check axis capacities.
+
+\subsection{Verifying branches without trusting the branch generator}
+Suppose a proposed branch on a rational interval \([r,s]\subset(0,1]\)
+is \(V(u)=a+b/u\). To compare it with
+\(a'+b'/u\), multiply the difference by positive \(u\).
+Its sign is the sign of the affine function
+\((a-a')u+(b-b')\), and is therefore determined by its two endpoint
+values. Induction on the finite expression tree proves every min/max
+branch choice throughout the interval. Check that the proposed
+intervals cover \([0,1]\) in order, with no gaps in their interiors.
+
+A finite exact branch partition exists: on each common child
+interval, two nonidentical branches cross at at most one rational
+point. Add that point if it lies inside the interval; identical
+branches require no subdivision. Near zero, the final bounded
+nonnegative envelope must have \(b=0\) on its first branch. A checker
+can either verify this or use the constant bound \(M\) on that first
+interval. It need not trust the search procedure that supplied the
+partition.
+
+\subsection{Rational integral bounds without logarithms}
+On \(0<r<s\), suppose \(V(u)=a+b/u\) has nonnegative endpoints.
+It is monotone, hence nonnegative everywhere on the interval.
+Let
+\[
+ H_E=(s-r)\max(V(r)^2,V(s)^2).
+\]
+When \(b\ge0\), take the secant line
+\[
+ L(u)=a+b\frac{r+s-u}{rs}.
+\]
+When \(b<0\), take \(c=(r+s)/2\) and
+\[
+ L(u)=a+2b/c-bu/c^2.
+\]
+\begin{lemma}[Affine integral certificate]\label{lem:affine}
+In both cases \(0\le V\le L\), and with
+\(\alpha=L(r)\), \(\beta=L(s)\),
+\begin{equation}\label{eq:affine}
+ \int_r^sV(u)^2\dd u
+ \le\min\left(H_E,\frac{s-r}{3}
+                       (\alpha^2+\alpha\beta+\beta^2)\right).
+\end{equation}
+Every quantity on the right is rational.
+\end{lemma}
+\begin{proof}
+For \(b\ge0\),
+\[
+ \frac{r+s-u}{rs}-\frac1u=\frac{(u-r)(s-u)}{rsu}\ge0.
+\]
+For \(b<0\),
+\[
+ L(u)-V(u)=\frac{(-b)(u-c)^2}{uc^2}\ge0.
+\]
+Square the inequalities, and integrate the square of the affine
+function using \(u=r+t(s-r)\). Its integral is
+\((s-r)(\alpha^2+\alpha\beta+\beta^2)/3\).
+The endpoint bound \(H_E\) is also valid by monotonicity. The smaller
+of two upper bounds for the same integral remains an upper bound.
+\end{proof}
+
+If the first interval is \([0,s]\) with verified \(b=0\), its
+integral is \(a^2s\); no division by zero is performed.
+At fixed integer scale \(S>0\), replace an interval upper bound
+\(H\) by \(\lceil SH\rceil/S\). The error is less than \(1/S\)
+per interval. At a fixed partition and scale,
+\(\lceil S\min(H_E,H_A)\rceil\le\lceil SH_E\rceil\), so this
+improvement cannot worsen an existing endpoint certificate.
+
+A strict integral margin guarantees some finite partition and
+sufficiently fine rounding scale will succeed. It does not guarantee
+that indefinitely subdividing at a fixed scale succeeds: the
+accumulated rounding budget depends on the number of intervals.
+Nor does a handful of successful leaves certify the remaining leaves.
+
+Apply the envelope and integral bounds to the four direction families
+and each of the three other types. Reflections and coordinate exchange
+preserve the major-coordinate parameter, so no angular or arc-length
+Jacobian is inserted. If the resulting twelve integral upper bounds
+sum to \(H^+\), then throughout the root box
+\begin{equation}\label{eq:certRisk}
+ \mathcal R_r(F;x)\le\frac{D_*}{24}H^+.
+\end{equation}
+For unscaled fields followed by time contraction by \(s_0\), the
+coefficient is \(D_*s_0^2/24\). Reusing a bound on symmetry images
+requires verified invariance of the relevant deterministic fields,
+or separately transformed fields. Symmetry of the random output is
+neither assumed nor required.
+
+\subsection{Capacity: axes, nonaxes and the infinite tail}
+For a fixed nonaxis slope \(q\ne0\), the chord of a cell
+\((A,B)\times(C,D)\) at intercept \(v\) is
+\[
+ \pos{\min\left(B,\max\left(\frac{C-v}{q},\frac{D-v}{q}\right)\right)
+ -\max\left(A,\min\left(\frac{C-v}{q},\frac{D-v}{q}\right)\right)}.
+\]
+It is continuous and piecewise affine in \(v\), with switches among
+\(C-qA,C-qB,D-qA,D-qB\). Summing finitely many cell contributions
+proves that the maximum capacity is attained at an intercept through
+a grid vertex. Thus a finite rational list covers every intercept.
+
+For an axis the assertion about endpoint values is false. A horizontal
+line in an open row strip has chord equal to that strip's weighted
+row sum, whereas a horizontal grid boundary may have chord zero.
+Check all \emph{open strip values} and the actual boundary value zero;
+use column sums for the vertical axis. Finer zeroed grid lines either
+remove finitely many points of a nonaxis chord or set an entire axis
+chord to zero, so a coarse nonnegative envelope remains an upper bound.
+
+For the candidate's height cutoff, all directions with \(h\ge8\)
+satisfy
+\[
+ L_{v,r}(F;x)\le\frac{\|F_r+F_{r+\bar v}\|_\infty}{2h}
+ \le\frac{\|F_r+F_{r+\bar v}\|_\infty}{16}.
+\]
+Check the finite cell maxima for all six unordered type pairs, and
+check each primitive direction of heights one through seven by the
+appropriate axis or nonaxis rule. Nonnegative accumulation makes a
+terminal-field capacity bound valid at earlier times as well.
+
+\begin{proposition}[A finite geometric checking contract]\label{prop:contract}
+A successful finite checker must establish all of the following:
+\begin{enumerate}
+\item The exact field values, boundary convention, phase durations,
+types, order, and accepted union are the specified inputs.
+The actual accumulated field is bounded by the corresponding
+reference prefix at every used phase.
+\item Every used root lies in a checked closed box; all required
+direction families and type pairs have complete angular coverage.
+Every branch is justified from its field and box, and every integral
+bound uses sound rational arithmetic and outward rounding.
+\item The capacities cover the axis strips, the finite nonaxis list,
+and the infinite-height tail. The union area counts overlaps once.
+\item The returned rational bounds satisfy
+\(U_H<K\), \(U_L<\lambda<1-\rho\), and \(U_R<d<1\).
+\end{enumerate}
+Then the analytic input inequalities hold with uniform positive
+margins \(K-U_H\), \(\lambda-U_L\), and \(d-U_R\).
+\end{proposition}
+\begin{proof}
+The capacity rules cover all intercepts and directions.
+Proposition~\ref{prop:envelope}, branch induction and
+Lemma~\ref{lem:affine} imply \eqref{eq:certRisk} on each closed box.
+Nonnegative field domination transfers this to the actual field;
+the phase and root-deadline matching ensures it is the correct
+field. The finite rational maxima or a common verified threshold
+give one uniform bound, whose positive difference from the target
+is independent of the grid size and root. The separate union-area
+calculation supplies the mass. Proposition~\ref{prop:pair} then
+transfers the continuum risk to the discrete pair sum.
+\end{proof}
+
+Notice that a stored numerical upper bound or a hash of a data file
+does not by itself establish any of the branch, coverage or prefix
+premises. Hashes identify the input being discussed; the mathematical
+checking contract establishes the inequalities about that input.
+

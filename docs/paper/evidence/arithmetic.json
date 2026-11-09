@@ -1,0 +1,259 @@
+{
+  "edition_date": "2026-11-10",
+  "status": "PASS_SMALL_EXACT_ARITHMETIC_ONLY",
+  "scope": "Exact arithmetic in the English proof draft, including finite coprimality and product checks.",
+  "not_checked": [
+    "The mass of the actual accepted rectangle unions",
+    "All 15348 phases and 155402 geometric leaf records",
+    "Chronological matching or cumulative reference-prefix bounds",
+    "The full stochastic argument or a Lean build",
+    "An unconditional proof of the numerical target"
+  ],
+  "parameters_sha256": "e07e621e045040c194c907403b5784660ce7550c88de548ff12ab5fcf0d615be",
+  "passed_checks": 45,
+  "coprimality_pairs_checked": 15225,
+  "checks": [
+    {
+      "name": "time contraction in (0,1)",
+      "passed": true
+    },
+    {
+      "name": "mass scales linearly",
+      "passed": true
+    },
+    {
+      "name": "time scales linearly",
+      "passed": true
+    },
+    {
+      "name": "positive mass gap",
+      "passed": true
+    },
+    {
+      "name": "clock cap in (0,2)",
+      "passed": true
+    },
+    {
+      "name": "ordinary margin",
+      "passed": true
+    },
+    {
+      "name": "ordered exponents",
+      "passed": true
+    },
+    {
+      "name": "exponent slack",
+      "passed": true
+    },
+    {
+      "name": "virtual-weight exponent gap",
+      "passed": true
+    },
+    {
+      "name": "designated capacity margin",
+      "passed": true
+    },
+    {
+      "name": "ordinary capacity margin",
+      "passed": true
+    },
+    {
+      "name": "tail fits ordinary cap",
+      "passed": true
+    },
+    {
+      "name": "tag credit margin",
+      "passed": true
+    },
+    {
+      "name": "old scaled risk",
+      "passed": true
+    },
+    {
+      "name": "old risk margin",
+      "passed": true
+    },
+    {
+      "name": "finite-sieve transfer margin",
+      "passed": true
+    },
+    {
+      "name": "continuum acceptance bound",
+      "passed": true
+    },
+    {
+      "name": "remaining rounding margin",
+      "passed": true
+    },
+    {
+      "name": "twelve-integral coefficient",
+      "passed": true
+    },
+    {
+      "name": "discrete coefficient",
+      "passed": true
+    },
+    {
+      "name": "additive lattice error has strict slack",
+      "passed": true
+    },
+    {
+      "name": "loss budget in (0,1)",
+      "passed": true
+    },
+    {
+      "name": "probability cost fits quarter gap",
+      "passed": true
+    },
+    {
+      "name": "one-cost exact budget",
+      "passed": true
+    },
+    {
+      "name": "two-cost exact budget",
+      "passed": true
+    },
+    {
+      "name": "eta union exponent",
+      "passed": true
+    },
+    {
+      "name": "virtual union exponent",
+      "passed": true
+    },
+    {
+      "name": "eta remains small after point-law transport",
+      "passed": true
+    },
+    {
+      "name": "virtual remains small after point-law transport",
+      "passed": true
+    },
+    {
+      "name": "linewise piece count",
+      "passed": true
+    },
+    {
+      "name": "tag block length reaches Bernoulli doubling",
+      "passed": true
+    },
+    {
+      "name": "tag block length is minimal integer witness",
+      "passed": true
+    },
+    {
+      "name": "tag geometric decay witness",
+      "passed": true
+    },
+    {
+      "name": "tag order product",
+      "passed": true
+    },
+    {
+      "name": "tag repeated-leaf exponent negative",
+      "passed": true
+    },
+    {
+      "name": "moderate order suffices only for repeated-term vanishing",
+      "passed": true
+    },
+    {
+      "name": "tag capacity cost",
+      "passed": true
+    },
+    {
+      "name": "finite sieve factor count",
+      "passed": true
+    },
+    {
+      "name": "finite sieve factors odd and greater than one",
+      "passed": true
+    },
+    {
+      "name": "all finite sieve pairs coprime",
+      "passed": true
+    },
+    {
+      "name": "finite sieve density below stated coefficient",
+      "passed": true
+    },
+    {
+      "name": "rational upper bound on finite-sieve error constant",
+      "passed": true
+    },
+    {
+      "name": "finite modulus decimal length",
+      "passed": true
+    },
+    {
+      "name": "secant example for 1/u",
+      "passed": true
+    },
+    {
+      "name": "tangent example for 2-1/u",
+      "passed": true
+    }
+  ],
+  "values": {
+    "mass": {
+      "fraction": "5036868114751900569/3355443200000000000",
+      "decimal_display": "1.501103673801392486393451690673828125"
+    },
+    "mass_gap": {
+      "fraction": "347871551900569/3355443200000000000",
+      "decimal_display": "0.000103673801392486393451690673828125"
+    },
+    "old_risk_margin": {
+      "fraction": "3137001/3125000000",
+      "decimal_display": "0.00100384032"
+    },
+    "new_risk_bound": {
+      "fraction": "13133587696834999412975804953710792153214980079839406982372514771706344896413257052406160670245697973577479359678682707330522037400101791348460742169828497717202714925414202192007980529562063166838684904187565096179740186351377/13237967660136166954122820602162765421238907096643559339204529231201155694413541599856463428625195750781208487706130076975975000928375010745221408833518567154171939319017880603557843942798455634741931247840260000000000000000000",
+      "decimal_display": "0.992115106640161267833568407810175608680303081010431035779338"
+    },
+    "continuum_acceptance": {
+      "fraction": "6203112999/6250000000",
+      "decimal_display": "0.99249807984"
+    },
+    "discrete_coefficient": {
+      "fraction": "12409362999/12500000000",
+      "decimal_display": "0.99274903992"
+    },
+    "discrete_error_slack": {
+      "fraction": "3137001/12500000000",
+      "decimal_display": "0.00025096008"
+    },
+    "one_cost_budget": {
+      "fraction": "84214340982714998293/1342177280000000000000000",
+      "decimal_display": "0.0000627445734908543514408171176910400390625"
+    },
+    "two_cost_budget": {
+      "fraction": "24713766832104999431/671088640000000000000000",
+      "decimal_display": "0.000036826382327236234293878078460693359375"
+    },
+    "eta_exponent": {
+      "fraction": "-13377/1000",
+      "decimal_display": "-13.377"
+    },
+    "virtual_exponent": {
+      "fraction": "-1541/125",
+      "decimal_display": "-12.328"
+    },
+    "tag_cell_allowance": {
+      "fraction": "9765625/1700657273903742976",
+      "decimal_display": "5.74226515233352852173937316833053534148406457837434904579024E-12"
+    },
+    "tag_geometric_threshold": {
+      "fraction": "30517578125/2329135394744281372375820315373129422988115968",
+      "decimal_display": "1.31025350410556799249948641524593741647259933347094650386517E-35"
+    },
+    "finite_sieve_density": {
+      "fraction": "8810570340515579613299787954404481938617677895681040999834370556491307847529842742083541641766126950508291174415665390168070745804730633431276897797245488654743952656618629812289065309685168651834971837071682325295677727121280821290405625786959415304067534621378964165299064606594740052716425084832546232065980264057900143100654363642475686767537012122342129865656281305330722069345890283089670486106498987755904900081453813293992725244658128913548343637991088401687701973705596294097037576152655251480365462276611025997094728571525532671817865609747034952387717199919841622835130064175104000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000/14491076996396831343839425248672004645648810642992018061409603376778564638406566164366053446048810084586894393968130237481583394101214119277594334647000627259944145030486443286049501549213666135448707782776362092632211968544030890177216946235347598625704929732092807970675409908164262368229606122379793898040787984049708336684203727947094090355375851566207909781617882257512144701305890627573840825926830675194010169989690398971611915705803402984078024161916033971710164013456878047592756389439830656374394076039316981738471510110648814298294238964305135184317112814705505715148907039580110453463886940482990098990589257312496411836424733180536381960911071282153788145006355381167809289583",
+      "decimal_display": "0.607999691307023283636720674516161550047544347481249765398658"
+    },
+    "finite_sieve_error_upper": {
+      "fraction": "7531257697002791639934981160403070830057735833793051995151553206760130862059884185896971060395360564520144599650827362814778343199506816306042276423764491671297136863273154599433689446773586690914331087719584976717873983954898784057279972400347146321024047274198918718372796425877174079836237836226307425877209347813375989561388458069259201733076050849534052010567407735090398285245521252522445220795976729531259420239771698943846153898742298271422026248871375996906729948312193694949993739010322857731040482795038315810848472360711709999915269978584848350131970377319743522218555431406534656000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000/294352883907156487074553622575237033347737574528977974394552386399652978815459262947498723198286466943888868165624231332693716997323506894340311707380660256566901452328888939077706758856693159832831698756603443019866750310132892143527469494855778935440107004572232898652395022141121537709925103459611479517044255481504398819809181568911489215407183164899913399045213447055581617108349002044071681087383549119857566623238209298665218404341393928968437923116986564716708833796700843228344718038733569968577637076274192877677451552226835746664917312097854635722227316271397193927560034729033668428731400307348635143576019822645323661191310334395266773629799402724206347480033691910504969685803470184127",
+      "decimal_display": "25585.8125017666494263083238241466601094687942642199009414514"
+    }
+  }
+}

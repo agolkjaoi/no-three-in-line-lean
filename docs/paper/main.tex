@@ -1,0 +1,94 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfglyphtounicode{parenleftbig}{0028}
+  \pdfglyphtounicode{parenrightbig}{0029}
+  \pdfglyphtounicode{parenleftbigg}{0028}
+  \pdfglyphtounicode{parenrightbigg}{0029}
+  \pdfglyphtounicode{bracketleftbigg}{005B}
+  \pdfglyphtounicode{bracketrightbigg}{005D}
+  \pdfglyphtounicode{vextendsingle}{007C}
+  \pdfglyphtounicode{vextenddouble}{2016}
+  \pdfgentounicode=1
+\fi
+\usepackage[margin=27mm,headheight=15pt]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{booktabs,longtable,array,enumitem}
+\usepackage{microtype,xcolor,fancyhdr}
+\usepackage[colorlinks=true,linkcolor=blue!45!black,citecolor=blue!45!black,urlcolor=blue!45!black,breaklinks=true]{hyperref}
+\hypersetup{pdftitle={A compensated-process approach to the no-three-in-line problem},pdfauthor={},pdfsubject={English research proof draft; conditional numerical target 1.501n}}
+\setlength{\emergencystretch}{2em}
+\setlength{\parskip}{3pt}
+\setlist{itemsep=2pt,topsep=4pt}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\E}{\mathbb E}
+\newcommand{\Prob}{\mathbb P}
+\newcommand{\F}{\mathcal F}
+\newcommand{\R}{\mathbb R}
+\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\ind}{\mathbf 1}
+\newcommand{\dd}{\,\mathrm d}
+\newcommand{\Var}{\operatorname{Var}}
+\newcommand{\NoThree}{\operatorname{NoThree}}
+\newcommand{\supp}{\operatorname{supp}}
+\newcommand{\col}{\operatorname{col}}
+\newcommand{\typ}{\operatorname{typ}}
+\newcommand{\pos}[1]{\left[#1\right]_+}
+\newcommand{\given}{\,\middle|\,}
+\newcommand{\repo}{https://github.com/agolkjaoi/no-three-in-line-lean}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small No-three-in-line: a compensated-process proof draft}
+\fancyhead[R]{\small 10 November 2026}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\title{\textbf{A compensated-process approach\\to the no-three-in-line problem}\\[5pt]
+\large An English proof draft for the target \(1.501n\)}
+\author{}
+\date{10 November 2026\\[3pt]\small Version 0.1: mathematical exposition with explicit verification obligations}
+\begin{document}
+\maketitle
+\begin{abstract}
+We describe a finite, continuous-time construction of sets containing no three
+collinear points in the \(n\times n\) integer grid. Birth rates are compensated
+for geometric deletion and for the two available places on selected families
+of lines. A saved-credit martingale gives an exact identity: the expected
+output equals deterministic input mass minus the remaining exposure lost at
+early retirement. This identity separates a small fixed error budget from
+the geometry and concentration estimates needed to meet it.
+
+The manuscript develops the lattice estimates, mixed-moment argument,
+protected-line concentration, long-line and short-star decomposition,
+finite sieve, and rational geometric checking behind this reduction.
+It incorporates the two followups to the original preparation notes.
+The numerical application is explicitly conditional: complete checking and
+matching of the candidate input, including its mass and root-deadline pair
+bounds, are still required. The accompanying partial Lean development does
+not prove the unconditional \(1.501n\) theorem. This is a proof draft for
+mathematical examination, not a claim that the target has been established.
+\end{abstract}
+\noindent\textbf{Reading and attribution.}
+No knowledge of Lean is needed for the mathematical text.
+The detailed stochastic arguments are research arguments under review;
+their inclusion here is not a new independent verification.
+AI systems contributed substantially to the research, code, proofs, checking,
+and this exposition. No named author is supplied. Precise disclosure and
+verification scope appear in Section~\ref{sec:status}.
+\tableofcontents
+\newpage
+\input{sections/01_overview}
+\input{sections/02_geometry}
+\input{sections/03_process}
+\input{sections/04_estimates}
+\input{sections/05_certificates}
+\input{sections/06_application}
+\end{document}
