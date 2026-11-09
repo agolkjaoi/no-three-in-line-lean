@@ -1,0 +1,42 @@
+<original-workspace>\NoThreeLine\CapacityLowAccepted000.lean:20:2: warning: 'change
+  directionCapacity (lowRows.get 0).dx (lowRows.get 0).dy (lowRows.get 0).rootType (lowRows.get 0).otherType x y ≤
+    ((lowRows.get 0).upper : ℝ)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+<original-workspace>\NoThreeLine\CapacityLowAccepted000.lean:30:2: warning: 'change
+  directionCapacity (lowRows.get 1).dx (lowRows.get 1).dy (lowRows.get 1).rootType (lowRows.get 1).otherType x y ≤
+    ((lowRows.get 1).upper : ℝ)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+<original-workspace>\NoThreeLine\CapacityLowAccepted000.lean:40:2: warning: 'change
+  directionCapacity (lowRows.get 2).dx (lowRows.get 2).dy (lowRows.get 2).rootType (lowRows.get 2).otherType x y ≤
+    ((lowRows.get 2).upper : ℝ)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+<original-workspace>\NoThreeLine\CapacityLowAccepted000.lean:50:2: warning: 'change
+  directionCapacity (lowRows.get 3).dx (lowRows.get 3).dy (lowRows.get 3).rootType (lowRows.get 3).otherType x y ≤
+    ((lowRows.get 3).upper : ℝ)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+<original-workspace>\NoThreeLine\CapacityLowAccepted000.lean:60:2: warning: 'change
+  directionCapacity (lowRows.get 4).dx (lowRows.get 4).dy (lowRows.get 4).rootType (lowRows.get 4).otherType x y ≤
+    ((lowRows.get 4).upper : ℝ)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+<original-workspace>\NoThreeLine\CapacityLowAccepted000.lean:70:2: warning: 'change
+  directionCapacity (lowRows.get 5).dx (lowRows.get 5).dy (lowRows.get 5).rootType (lowRows.get 5).otherType x y ≤
+    ((lowRows.get 5).upper : ℝ)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+<original-workspace>\NoThreeLine\CapacityLowAccepted000.lean:80:2: warning: 'change
+  directionCapacity (lowRows.get 6).dx (lowRows.get 6).dy (lowRows.get 6).rootType (lowRows.get 6).otherType x y ≤
+    ((lowRows.get 6).upper : ℝ)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+<original-workspace>\NoThreeLine\CapacityLowAccepted000.lean:90:2: warning: 'change
+  directionCapacity (lowRows.get 7).dx (lowRows.get 7).dy (lowRows.get 7).rootType (lowRows.get 7).otherType x y ≤
+    ((lowRows.get 7).upper : ℝ)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+'NoThreeLine.FrozenCapacity.row000_accepted' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FrozenCapacity.row007_accepted' depends on axioms: [propext, Classical.choice, Quot.sound]

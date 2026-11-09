@@ -1,0 +1,2 @@
+'NoThreeLine.AutoEnvelope.checkNormalizedPartition_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.AutoEnvelope.checkNormalizedUnitIntegral_sound' depends on axioms: [propext, Classical.choice, Quot.sound]

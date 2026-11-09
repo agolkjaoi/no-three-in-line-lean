@@ -1,0 +1,77 @@
+<original-workspace>\NoThreeLine\BirthObservationEvent.lean:45:33: warning: This simp argument is unused:
+  if_pos hw
+
+Hint: Omit it from the simp argument list.
+  simp only [̵a̵u̵g̵R̵a̵w̵O̵u̵t̵c̵o̵m̵e̵,̵i̵f̵_̵p̵o̵s̵ ̵h̵w̵,̵E̵x̵t̵e̵n̵d̵e̵d̵S̵t̵a̵t̵e̵.̵c̵a̵n̵d̵i̵d̵a̵t̵e̵U̵p̵d̵a̵t̵e̵_̵e̵q̵,̵i̵f̵_̵p̵o̵s̵[̲a̲u̲g̲R̲a̲w̲O̲u̲t̲c̲o̲m̲e̲,̲ ̲E̲x̲t̲e̲n̲d̲e̲d̲S̲t̲a̲t̲e̲.̲c̲a̲n̲d̲i̲d̲a̲t̲e̲U̲p̲d̲a̲t̲e̲_̲e̲q̲,̲ ̲i̲f̲_̲p̲o̲s̲ ha, E̵x̵t̵e̵n̵d̵e̵d̵S̵t̵a̵t̵e̵.̵b̵i̵r̵t̵h̵,̵P̵r̵o̵c̵e̵s̵s̵S̵t̵a̵t̵e̵.̵b̵i̵r̵t̵h̵,̵i̵f̵_̵p̵o̵s̵ ̵h̵e̵,̵s̵e̵g̵m̵e̵n̵t̵B̵i̵r̵t̵h̵,̵h̵w̵,̵h̵a̵,̵h̵e̵.̵1̵,̵h̵e̵.̵2̵,̵
+  ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵a̵n̵d̵_̵s̵e̵l̵f̵,̵i̵f̵_̵t̵r̵u̵e̵]̵E̲x̲t̲e̲n̲d̲e̲d̲S̲t̲a̲t̲e̲.̲b̲i̲r̲t̲h̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲P̲r̲o̲c̲e̲s̲s̲S̲t̲a̲t̲e̲.̲b̲i̲r̲t̲h̲,̲ ̲i̲f̲_̲p̲o̲s̲ ̲h̲e̲,̲ ̲s̲e̲g̲m̲e̲n̲t̲B̲i̲r̲t̲h̲,̲ ̲h̲w̲,̲ ̲h̲a̲,̲ ̲h̲e̲.̲1̲,̲ ̲h̲e̲.̲2̲,̲ ̲a̲n̲d̲_̲s̲e̲l̲f̲,̲ ̲i̲f̲_̲t̲r̲u̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<original-workspace>\NoThreeLine\BirthObservationEvent.lean:45:76: warning: This simp argument is unused:
+  if_pos ha
+
+Hint: Omit it from the simp argument list.
+  simp only [̵a̵u̵g̵R̵a̵w̵O̵u̵t̵c̵o̵m̵e̵,̵i̵f̵_̵p̵o̵s̵ ̵h̵w̵,̵E̵x̵t̵e̵n̵d̵e̵d̵S̵t̵a̵t̵e̵.̵c̵a̵n̵d̵i̵d̵a̵t̵e̵U̵p̵d̵a̵t̵e̵_̵e̵q̵,̵i̵f̵_̵p̵o̵s̵[̲a̲u̲g̲R̲a̲w̲O̲u̲t̲c̲o̲m̲e̲,̲ ̲i̲f̲_̲p̲o̲s̲ ̲h̲w̲,̲ ̲E̲x̲t̲e̲n̲d̲e̲d̲S̲t̲a̲t̲e̲.̲c̲a̲n̲d̲i̲d̲a̲t̲e̲U̲p̲d̲a̲t̲e̲_̲e̲q̲,̲ ̲E̲x̲t̲e̲n̲d̲e̲d̲S̲t̲a̲t̲e̲.̲b̲i̲r̲t̲h̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲P̲r̲o̲c̲e̲s̲s̲S̲t̲a̲t̲e̲.̲b̲i̲r̲t̲h̲,̲ ̲i̲f̲_̲p̲o̲s̲ ̲h̲e̲,̲ ̲s̲e̲g̲m̲e̲n̲t̲B̲i̲r̲t̲h̲,̲ ̲h̲w̲,̲ ha, E̵x̵t̵e̵n̵d̵e̵d̵S̵t̵a̵t̵e̵.̵b̵i̵r̵t̵h̵,̵P̵r̵o̵c̵e̵s̵s̵S̵t̵a̵t̵e̵.̵b̵i̵r̵t̵h̵,̵i̵f̵_̵p̵o̵s̵ ̵h̵e̵,̵s̵e̵g̵m̵e̵n̵t̵B̵i̵r̵t̵h̵,̵h̵w̵,̵h̵a̵,̵h̵e̵.̵1̵,̵h̵e̵.̵2̵,̵
+  ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵a̵n̵d̵_̵s̵e̵l̵f̵,̵i̵f̵_̵t̵r̵u̵e̵]̵h̲e̲.̲1̲,̲ ̲h̲e̲.̲2̲,̲ ̲a̲n̲d̲_̲s̲e̲l̲f̲,̲ ̲i̲f̲_̲t̲r̲u̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<original-workspace>\NoThreeLine\BirthObservationEvent.lean:46:49: warning: This simp argument is unused:
+  if_pos he
+
+Hint: Omit it from the simp argument list.
+  simp only [̵a̵u̵g̵R̵a̵w̵O̵u̵t̵c̵o̵m̵e̵,̵i̵f̵_̵p̵o̵s̵ ̵h̵w̵,̵E̵x̵t̵e̵n̵d̵e̵d̵S̵t̵a̵t̵e̵.̵c̵a̵n̵d̵i̵d̵a̵t̵e̵U̵p̵d̵a̵t̵e̵_̵e̵q̵,̵i̵f̵_̵p̵o̵s̵[̲a̲u̲g̲R̲a̲w̲O̲u̲t̲c̲o̲m̲e̲,̲ ̲i̲f̲_̲p̲o̲s̲ ̲h̲w̲,̲ ̲E̲x̲t̲e̲n̲d̲e̲d̲S̲t̲a̲t̲e̲.̲c̲a̲n̲d̲i̲d̲a̲t̲e̲U̲p̲d̲a̲t̲e̲_̲e̲q̲,̲ ̲i̲f̲_̲p̲o̲s̲ ha,
+          E̵x̵t̵e̵n̵d̵e̵d̵S̵t̵a̵t̵e̵.̵b̵i̵r̵t̵h̵,̵P̵r̵o̵c̵e̵s̵s̵S̵t̵a̵t̵e̵.̵b̵i̵r̵t̵h̵,̵i̵f̵_̵p̵o̵s̵ ̵h̵e̵,̵s̵e̵g̵m̵e̵n̵t̵B̵i̵r̵t̵h̵,̵h̵w̵,̵h̵a̵,̵h̵e̵.̵1̵,̵h̵e̵.̵2̵,̵
+  ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵a̵n̵d̵_̵s̵e̵l̵f̵,̵i̵f̵_̵t̵r̵u̵e̵]̵E̲x̲t̲e̲n̲d̲e̲d̲S̲t̲a̲t̲e̲.̲b̲i̲r̲t̲h̲,̲ ̲P̲r̲o̲c̲e̲s̲s̲S̲t̲a̲t̲e̲.̲b̲i̲r̲t̲h̲,̲ ̲s̲e̲g̲m̲e̲n̲t̲B̲i̲r̲t̲h̲,̲ ̲h̲w̲,̲ ̲h̲a̲,̲ ̲h̲e̲.̲1̲,̲ ̲h̲e̲.̲2̲,̲ ̲a̲n̲d̲_̲s̲e̲l̲f̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲i̲f̲_̲t̲r̲u̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<original-workspace>\NoThreeLine\BirthObservationEvent.lean:49:33: warning: This simp argument is unused:
+  if_pos hw
+
+Hint: Omit it from the simp argument list.
+  simp only [̵a̵u̵g̵R̵a̵w̵O̵u̵t̵c̵o̵m̵e̵,̵i̵f̵_̵p̵o̵s̵ ̵h̵w̵,̵E̵x̵t̵e̵n̵d̵e̵d̵S̵t̵a̵t̵e̵.̵c̵a̵n̵d̵i̵d̵a̵t̵e̵U̵p̵d̵a̵t̵e̵_̵e̵q̵,̵i̵f̵_̵p̵o̵s̵[̲a̲u̲g̲R̲a̲w̲O̲u̲t̲c̲o̲m̲e̲,̲ ̲E̲x̲t̲e̲n̲d̲e̲d̲S̲t̲a̲t̲e̲.̲c̲a̲n̲d̲i̲d̲a̲t̲e̲U̲p̲d̲a̲t̲e̲_̲e̲q̲,̲ ̲i̲f̲_̲p̲o̲s̲ ha, E̵x̵t̵e̵n̵d̵e̵d̵S̵t̵a̵t̵e̵.̵b̵i̵r̵t̵h̵,̵P̵r̵o̵c̵e̵s̵s̵S̵t̵a̵t̵e̵.̵b̵i̵r̵t̵h̵,̵i̵f̵_̵n̵e̵g̵ ̵h̵e̵,̵s̵e̵g̵m̵e̵n̵t̵B̵i̵r̵t̵h̵,̵h̵w̵,̵h̵a̵,̵t̵r̵u̵e̵_̵a̵n̵d̵,̵i̵f̵_̵n̵e̵g̵E̲x̲t̲e̲n̲d̲e̲d̲S̲t̲a̲t̲e̲.̲b̲i̲r̲t̲h̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲P̲r̲o̲c̲e̲s̲s̲S̲t̲a̲t̲e̲.̲b̲i̲r̲t̲h̲,̲ ̲i̲f̲_̲n̲e̲g̲ ̲h̲e̲,̲ ̲s̲e̲g̲m̲e̲n̲t̲B̲i̲r̲t̲h̲,̲ ̲h̲w̲,̲ ̲h̲a̲,̲ ̲t̲r̲u̲e̲_̲a̲n̲d̲,̲ ̲i̲f̲_̲n̲e̲g̲ he]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<original-workspace>\NoThreeLine\BirthObservationEvent.lean:49:76: warning: This simp argument is unused:
+  if_pos ha
+
+Hint: Omit it from the simp argument list.
+  simp only [̵a̵u̵g̵R̵a̵w̵O̵u̵t̵c̵o̵m̵e̵,̵i̵f̵_̵p̵o̵s̵ ̵h̵w̵,̵E̵x̵t̵e̵n̵d̵e̵d̵S̵t̵a̵t̵e̵.̵c̵a̵n̵d̵i̵d̵a̵t̵e̵U̵p̵d̵a̵t̵e̵_̵e̵q̵,̵i̵f̵_̵p̵o̵s̵[̲a̲u̲g̲R̲a̲w̲O̲u̲t̲c̲o̲m̲e̲,̲ ̲i̲f̲_̲p̲o̲s̲ ̲h̲w̲,̲ ̲E̲x̲t̲e̲n̲d̲e̲d̲S̲t̲a̲t̲e̲.̲c̲a̲n̲d̲i̲d̲a̲t̲e̲U̲p̲d̲a̲t̲e̲_̲e̲q̲,̲ ̲E̲x̲t̲e̲n̲d̲e̲d̲S̲t̲a̲t̲e̲.̲b̲i̲r̲t̲h̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲P̲r̲o̲c̲e̲s̲s̲S̲t̲a̲t̲e̲.̲b̲i̲r̲t̲h̲,̲ ̲i̲f̲_̲n̲e̲g̲ ̲h̲e̲,̲ ̲s̲e̲g̲m̲e̲n̲t̲B̲i̲r̲t̲h̲,̲ ̲h̲w̲,̲ ha, E̵x̵t̵e̵n̵d̵e̵d̵S̵t̵a̵t̵e̵.̵b̵i̵r̵t̵h̵,̵P̵r̵o̵c̵e̵s̵s̵S̵t̵a̵t̵e̵.̵b̵i̵r̵t̵h̵,̵i̵f̵_̵n̵e̵g̵ ̵h̵e̵,̵s̵e̵g̵m̵e̵n̵t̵B̵i̵r̵t̵h̵,̵h̵w̵,̵h̵a̵,̵t̵r̵u̵e̵_̵a̵n̵d̵,̵i̵f̵_̵n̵e̵g̵t̲r̲u̲e̲_̲a̲n̲d̲,̲ ̲i̲f̲_̲n̲e̲g̲ he]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<original-workspace>\NoThreeLine\BirthObservationEvent.lean:50:49: warning: This simp argument is unused:
+  if_neg he
+
+Hint: Omit it from the simp argument list.
+  simp only [̵a̵u̵g̵R̵a̵w̵O̵u̵t̵c̵o̵m̵e̵,̵i̵f̵_̵p̵o̵s̵ ̵h̵w̵,̵E̵x̵t̵e̵n̵d̵e̵d̵S̵t̵a̵t̵e̵.̵c̵a̵n̵d̵i̵d̵a̵t̵e̵U̵p̵d̵a̵t̵e̵_̵e̵q̵,̵i̵f̵_̵p̵o̵s̵[̲a̲u̲g̲R̲a̲w̲O̲u̲t̲c̲o̲m̲e̲,̲ ̲i̲f̲_̲p̲o̲s̲ ̲h̲w̲,̲ ̲E̲x̲t̲e̲n̲d̲e̲d̲S̲t̲a̲t̲e̲.̲c̲a̲n̲d̲i̲d̲a̲t̲e̲U̲p̲d̲a̲t̲e̲_̲e̲q̲,̲ ̲i̲f̲_̲p̲o̲s̲ ha,
+          E̵x̵t̵e̵n̵d̵e̵d̵S̵t̵a̵t̵e̵.̵b̵i̵r̵t̵h̵,̵P̵r̵o̵c̵e̵s̵s̵S̵t̵a̵t̵e̵.̵b̵i̵r̵t̵h̵,̵i̵f̵_̵n̵e̵g̵ ̵h̵e̵,̵s̵e̵g̵m̵e̵n̵t̵B̵i̵r̵t̵h̵,̵h̵w̵,̵h̵a̵,̵t̵r̵u̵e̵_̵a̵n̵d̵,̵i̵f̵_̵n̵e̵g̵E̲x̲t̲e̲n̲d̲e̲d̲S̲t̲a̲t̲e̲.̲b̲i̲r̲t̲h̲,̲ ̲P̲r̲o̲c̲e̲s̲s̲S̲t̲a̲t̲e̲.̲b̲i̲r̲t̲h̲,̲ ̲s̲e̲g̲m̲e̲n̲t̲B̲i̲r̲t̲h̲,̲ ̲h̲w̲,̲ ̲h̲a̲,̲ ̲t̲r̲u̲e̲_̲a̲n̲d̲,̲ ̲i̲f̲_̲n̲e̲g̲ he]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<original-workspace>\NoThreeLine\BirthObservationEvent.lean:52:31: warning: This simp argument is unused:
+  if_pos hw
+
+Hint: Omit it from the simp argument list.
+  simp only [̵a̵u̵g̵R̵a̵w̵O̵u̵t̵c̵o̵m̵e̵,̵i̵f̵_̵p̵o̵s̵ ̵h̵w̵,̵E̵x̵t̵e̵n̵d̵e̵d̵S̵t̵a̵t̵e̵.̵c̵a̵n̵d̵i̵d̵a̵t̵e̵U̵p̵d̵a̵t̵e̵_̵e̵q̵,̵i̵f̵_̵n̵e̵g̵[̲a̲u̲g̲R̲a̲w̲O̲u̲t̲c̲o̲m̲e̲,̲ ̲E̲x̲t̲e̲n̲d̲e̲d̲S̲t̲a̲t̲e̲.̲c̲a̲n̲d̲i̲d̲a̲t̲e̲U̲p̲d̲a̲t̲e̲_̲e̲q̲,̲ ̲i̲f̲_̲n̲e̲g̲ ha, s̵e̵g̵m̵e̵n̵t̵B̵i̵r̵t̵h̵,̵h̵w̵,̵h̵a̵,̵f̵a̵l̵s̵e̵_̵a̵n̵d̵,̵a̵n̵d̵_̵f̵a̵l̵s̵e̵,̵i̵f̵_̵f̵a̵l̵s̵e̵]̵s̲e̲g̲m̲e̲n̲t̲B̲i̲r̲t̲h̲,̲ ̲h̲w̲,̲ ̲h̲a̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲f̲a̲l̲s̲e̲_̲a̲n̲d̲,̲ ̲a̲n̲d̲_̲f̲a̲l̲s̲e̲,̲ ̲i̲f̲_̲f̲a̲l̲s̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<original-workspace>\NoThreeLine\BirthObservationEvent.lean:52:74: warning: This simp argument is unused:
+  if_neg ha
+
+Hint: Omit it from the simp argument list.
+  simp only [̵a̵u̵g̵R̵a̵w̵O̵u̵t̵c̵o̵m̵e̵,̵i̵f̵_̵p̵o̵s̵ ̵h̵w̵,̵E̵x̵t̵e̵n̵d̵e̵d̵S̵t̵a̵t̵e̵.̵c̵a̵n̵d̵i̵d̵a̵t̵e̵U̵p̵d̵a̵t̵e̵_̵e̵q̵,̵i̵f̵_̵n̵e̵g̵[̲a̲u̲g̲R̲a̲w̲O̲u̲t̲c̲o̲m̲e̲,̲ ̲i̲f̲_̲p̲o̲s̲ ̲h̲w̲,̲ ̲E̲x̲t̲e̲n̲d̲e̲d̲S̲t̲a̲t̲e̲.̲c̲a̲n̲d̲i̲d̲a̲t̲e̲U̲p̲d̲a̲t̲e̲_̲e̲q̲,̲ ̲s̲e̲g̲m̲e̲n̲t̲B̲i̲r̲t̲h̲,̲ ̲h̲w̲,̲ ha,
+        s̵e̵g̵m̵e̵n̵t̵B̵i̵r̵t̵h̵,̵h̵w̵,̵h̵a̵,̵f̵a̵l̵s̵e̵_̵a̵n̵d̵,̵a̵n̵d̵_̵f̵a̵l̵s̵e̵,̵i̵f̵_̵f̵a̵l̵s̵e̵]̵f̲a̲l̲s̲e̲_̲a̲n̲d̲,̲ ̲a̲n̲d̲_̲f̲a̲l̲s̲e̲,̲ ̲i̲f̲_̲f̲a̲l̲s̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<original-workspace>\NoThreeLine\BirthObservationEvent.lean:55:29: warning: This simp argument is unused:
+  if_neg hw
+
+Hint: Omit it from the simp argument list.
+  simp only [̵a̵u̵g̵R̵a̵w̵O̵u̵t̵c̵o̵m̵e̵,̵i̵f̵_̵n̵e̵g̵ ̵h̵w̵,̵s̵e̵g̵m̵e̵n̵t̵B̵i̵r̵t̵h̵,̵h̵w̵,̵f̵a̵l̵s̵e̵_̵a̵n̵d̵,̵i̵f̵_̵f̵a̵l̵s̵e̵]̵[̲a̲u̲g̲R̲a̲w̲O̲u̲t̲c̲o̲m̲e̲,̲ ̲s̲e̲g̲m̲e̲n̲t̲B̲i̲r̲t̲h̲,̲ ̲h̲w̲,̲ ̲f̲a̲l̲s̲e̲_̲a̲n̲d̲,̲ ̲i̲f̲_̲f̲a̲l̲s̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NoThreeLine.BirthWitness.timedBirth_iff_new_selected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.timedBirth_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'NoThreeLine.recycledPhases_history_residual_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.recycledPhaseState_history_residual_map' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,5 @@
+'NoThreeLine.protectedRunningScalarSource_exists_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedTimedWeightedCenteredSquare_exists_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.protectedTimedWeightedCenteredSquare_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]

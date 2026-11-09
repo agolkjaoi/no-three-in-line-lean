@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.initial_phaseSectionPoint_active_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

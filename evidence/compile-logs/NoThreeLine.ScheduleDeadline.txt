@@ -1,0 +1,7 @@
+'NoThreeLine.FinitePhase.Schedule.deadline_eq_zero_or_used_right' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.FinitePhase.Schedule.cumulative_deadline_eq_total' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.FinitePhase.Schedule.boardDeadline_sieve_upper' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,5 @@
+'NoThreeLine.BirthWitness.observedIndexedFiniteState' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.observedRecycledPhaseState_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.observedRecycledPhaseState_history_residual_map' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

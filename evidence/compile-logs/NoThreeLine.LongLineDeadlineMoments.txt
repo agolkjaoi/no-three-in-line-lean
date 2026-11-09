@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.long_deadline_full_witnessPower_coarse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.long_deadline_full_witnessPower_separated' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,7 @@
+'NoThreeLine.cumulativeProtectedEntropySource_stronglyAdapted' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.cumulativeProtectedEntropyVariation_elapsed_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.cumulativeProtectedEntropySource_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]

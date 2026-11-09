@@ -1,0 +1,2 @@
+'NoThreeLine.protectedIncomingCutExponential_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedIncomingCutExponential_scalar_eq' depends on axioms: [propext, Classical.choice, Quot.sound]

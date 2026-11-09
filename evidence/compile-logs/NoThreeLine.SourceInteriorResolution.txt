@@ -1,0 +1,2 @@
+'NoThreeLine.ExtendedState.resolve_eq_self_of_no_pending' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.selectedAugmentedCurve_resolve_interior' depends on axioms: [propext, Classical.choice, Quot.sound]

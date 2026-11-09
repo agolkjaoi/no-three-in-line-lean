@@ -1,0 +1,3 @@
+'NoThreeLine.gamma16_card_and_lineCount' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FrozenCapacity.frozen_specified_capacity_slack' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FrozenCapacity.exists_uniform_frozenClockSlack' depends on axioms: [propext, Classical.choice, Quot.sound]

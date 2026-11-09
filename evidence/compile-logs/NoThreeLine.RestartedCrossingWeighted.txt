@@ -1,0 +1,9 @@
+<original-workspace>\NoThreeLine\RestartedCrossingWeighted.lean:108:80: warning: This simp argument is unused:
+  withDensity_one
+
+Hint: Omit it from the simp argument list.
+  simp [̵s̵c̵h̵e̵d̵u̵l̵e̵d̵R̵e̵m̵a̵i̵n̵d̵e̵r̵D̵e̵n̵s̵i̵t̵y̵,̵h̵g̵o̵o̵d̵,̵s̵a̵v̵e̵d̵C̵r̵e̵d̵i̵t̵M̵e̵a̵s̵u̵r̵e̵,̵E̵N̵N̵R̵e̵a̵l̵.̵o̵f̵R̵e̵a̵l̵_̵o̵n̵e̵,̵w̵i̵t̵h̵D̵e̵n̵s̵i̵t̵y̵_̵o̵n̵e̵]̵[̲s̲c̲h̲e̲d̲u̲l̲e̲d̲R̲e̲m̲a̲i̲n̲d̲e̲r̲D̲e̲n̲s̲i̲t̲y̲,̲ ̲h̲g̲o̲o̲d̲,̲ ̲s̲a̲v̲e̲d̲C̲r̲e̲d̲i̲t̲M̲e̲a̲s̲u̲r̲e̲,̲ ̲E̲N̲N̲R̲e̲a̲l̲.̲o̲f̲R̲e̲a̲l̲_̲o̲n̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NoThreeLine.scheduledCrossingRemainder_weighted_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.scheduledRemainderLaw_crossing_ge' depends on axioms: [propext, Classical.choice, Quot.sound]

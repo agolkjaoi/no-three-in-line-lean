@@ -1,0 +1,5 @@
+'NoThreeLine.coprime_product_dvd_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.odd_product' depends on axioms: [propext, Quot.sound]
+'NoThreeLine.odd_mul_mod_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.sum_divisiblePairs_reindex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.finite_sieve_weighted_reindex' depends on axioms: [propext, Classical.choice, Quot.sound]

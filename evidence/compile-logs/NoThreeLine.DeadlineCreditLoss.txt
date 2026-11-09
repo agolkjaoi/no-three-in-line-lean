@@ -1,0 +1,2 @@
+'NoThreeLine.schedule_masked_credit_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.schedule_birthRate_credit_earlyLoss' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'NoThreeLine.FiniteWitnessMoments.tuplePrice_perm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FiniteWitnessMoments.bad_pair_moment_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

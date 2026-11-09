@@ -1,0 +1,5 @@
+'NoThreeLine.BirthWitness.terminalBirthRate_eq_cut_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.terminalBirthRate_mean_cut' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.terminal_selectedIndicator_mean_cut' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

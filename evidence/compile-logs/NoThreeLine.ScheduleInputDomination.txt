@@ -1,0 +1,3 @@
+'NoThreeLine.FinitePhase.Schedule.dominated_inputDeadline_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,2 @@
+'NoThreeLine.rectangle_certificate_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.erased_rectangle_certificate_sound' depends on axioms: [propext, Classical.choice, Quot.sound]

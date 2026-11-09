@@ -1,0 +1,3 @@
+'NoThreeLine.SectionHeight.rootLine_section_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.SectionHeight.sum_rootLine_height_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.SectionHeight.section_moment_height_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

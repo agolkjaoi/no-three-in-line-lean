@@ -1,0 +1,2 @@
+'NoThreeLine.augRecycledTerminalPair_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augRecycledTerminal_residual_map' depends on axioms: [propext, Classical.choice, Quot.sound]

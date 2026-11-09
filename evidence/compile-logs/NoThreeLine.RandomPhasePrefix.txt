@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.randomScheduledCutMean_eq_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.randomPhase_mixed_le_endpointKernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

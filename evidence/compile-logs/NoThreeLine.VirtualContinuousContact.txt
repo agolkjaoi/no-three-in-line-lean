@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.virtualContact_eq_actual_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.virtualSegmentContact_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.virtualSegmentContact_rawHit' depends on axioms: [propext, Classical.choice, Quot.sound]

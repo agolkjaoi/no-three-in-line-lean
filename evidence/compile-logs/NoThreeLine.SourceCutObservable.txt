@@ -1,0 +1,2 @@
+'NoThreeLine.BirthWitness.sourceCutTerminal_witness_interior' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.localSource_cutTerminal' depends on axioms: [propext, Classical.choice, Quot.sound]

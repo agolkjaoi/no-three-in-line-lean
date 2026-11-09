@@ -1,0 +1,4 @@
+'NoThreeLine.ShortStars.starCard_mul_cap_le_log' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.g3_scale_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.long_scale_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.extra_scale_le' depends on axioms: [propext, Classical.choice, Quot.sound]

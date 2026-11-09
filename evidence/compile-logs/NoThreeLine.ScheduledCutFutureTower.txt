@@ -1,0 +1,16 @@
+<original-workspace>\NoThreeLine\ScheduledCutFutureTower.lean:17:21: warning: Variable name `ht` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+<original-workspace>\NoThreeLine\ScheduledCutFutureTower.lean:66:21: warning: Variable name `ht` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'NoThreeLine.BirthWitness.scheduledCut_future_credit_tower_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduledCut_future_point_integral_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

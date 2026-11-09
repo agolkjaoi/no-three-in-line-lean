@@ -1,0 +1,6 @@
+'NoThreeLineSecondFollowup.concrete_affine_dominates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLineSecondFollowup.integral_affine_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLineSecondFollowup.concrete_branch_integral_soundness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLineSecondFollowup.zero_first_branch' depends on axioms: [propext, Classical.choice, Quot.sound]

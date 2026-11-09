@@ -1,0 +1,3 @@
+'NoThreeLine.VirtualWitness.rawProduct_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.VirtualWitness.tuple_mem_fixedCover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.VirtualWitness.sum_fixedCover_product_le' depends on axioms: [propext, Classical.choice, Quot.sound]

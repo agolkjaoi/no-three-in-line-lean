@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.scheduledCreditTrianglePath_integrable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduledCreditRectanglePath_integrable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,3 @@
+'NoThreeLine.timedTerminal_joint_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.phaseTerminal_expected_credit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.phaseKernel_expected_credit' depends on axioms: [propext, Classical.choice, Quot.sound]

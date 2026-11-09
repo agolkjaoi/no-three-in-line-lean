@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.calendarMeanSource_le_unitCutMean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.unitHierarchyMean_intervalIntegrable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.phaseSection_mixed_supermartingale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.phaseSection_mixed_expected_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.phaseSection_creditGap_expected' depends on axioms: [propext, Classical.choice, Quot.sound]

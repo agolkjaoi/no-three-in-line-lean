@@ -1,0 +1,2 @@
+'NoThreeLine.weighted_exponential_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.exponential_first_step_nonpos' depends on axioms: [propext, Classical.choice, Quot.sound]

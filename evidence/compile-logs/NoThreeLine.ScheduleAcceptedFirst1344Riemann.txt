@@ -1,0 +1,6 @@
+'NoThreeLine.ScheduleAcceptedFirst1344Riemann.actual_mass_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.ScheduleAcceptedFirst1344Riemann.shortened_mass_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

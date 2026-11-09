@@ -1,0 +1,2 @@
+'NoThreeLine.Phase15301Compressed0.original_matching' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.Phase15301Compressed0.cell_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]

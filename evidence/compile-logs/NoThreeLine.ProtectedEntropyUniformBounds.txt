@@ -1,0 +1,1 @@
+'NoThreeLine.protectedEntropySource_bounds_all' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'NoThreeLine.qChartReindexCheck_chord' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.qChartReindexCheck_integral_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

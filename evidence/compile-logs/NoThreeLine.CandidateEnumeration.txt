@@ -1,0 +1,3 @@
+'NoThreeLine.CandidateEnumeration.exact_candidate_enumeration_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

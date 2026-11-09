@@ -1,0 +1,5 @@
+'NoThreeLine.protectedRunningEntropySource_elapsed_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedStatePairEntropySource_actual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedClockRunningEntropySource_measurable_history' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,9 @@
+'NoThreeLine.BirthWitness.phaseVirtualHitBefore_measurableSet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.initial_phaseVirtualHitBefore_full_snapshot' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.initial_phaseVirtualHitBefore_measure_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

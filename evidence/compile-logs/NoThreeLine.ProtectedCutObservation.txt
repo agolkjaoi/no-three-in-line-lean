@@ -1,0 +1,3 @@
+'NoThreeLine.protectedCutObservation_history' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedCutObservation_of_not_reached' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedCutObservation_of_reached' depends on axioms: [propext, Classical.choice, Quot.sound]

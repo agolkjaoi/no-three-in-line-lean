@@ -1,0 +1,5 @@
+<original-workspace>\NoThreeLine\ProtectedScheduledInitial.lean:22:68: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'NoThreeLine.protectedScheduleInitial_credit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedScheduleInitial_compensated_mean_one' depends on axioms: [propext, Classical.choice, Quot.sound]

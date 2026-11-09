@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.accumulatedUnitPrice_eq_of_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.long_prefix_original_unit_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.long_prefix_original_coarse_mean' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.tendsto_rootCreditDoubleEnvelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.exists_uniform_rootCreditDouble_threshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,2 @@
+'NoThreeLine.emptyLineCredit_augTimedTerminal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.emptyLineCredit_augFinitePhase_initial' depends on axioms: [propext, Classical.choice, Quot.sound]

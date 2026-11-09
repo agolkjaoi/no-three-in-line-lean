@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.observedScheduledPair_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.observedScheduledPair_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.observedPhaseRestartStep_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.observedPhaseRestartStep_map' depends on axioms: [propext, Classical.choice, Quot.sound]

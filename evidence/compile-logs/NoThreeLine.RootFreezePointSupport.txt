@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.rootPoint_boundary_active_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.rootPoint_boundary_witness_mean_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.rootPoint_boundary_power_mean_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.rootPoint_boundary_tail_event_eq' depends on axioms: [propext, Classical.choice, Quot.sound]

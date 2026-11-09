@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.goodRecycled_source_free_crossing_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.source_free_terminal_crossing_le' depends on axioms: [propext, Classical.choice, Quot.sound]

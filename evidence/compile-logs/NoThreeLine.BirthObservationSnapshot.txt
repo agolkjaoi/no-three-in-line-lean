@@ -1,0 +1,12 @@
+<original-workspace>\NoThreeLine\BirthObservationSnapshot.lean:68:30: warning: This simp argument is unused:
+  if_neg hx
+
+Hint: Omit it from the simp argument list.
+  simp only [̵a̵u̵g̵T̵i̵m̵e̵d̵S̵t̵e̵p̵P̵a̵i̵r̵,̵i̵f̵_̵n̵e̵g̵ ̵h̵x̵,̵t̵i̵m̵e̵d̵B̵i̵r̵t̵h̵,̵h̵x̵,̵n̵o̵t̵_̵f̵a̵l̵s̵e̵_̵e̵q̵_̵t̵r̵u̵e̵,̵t̵r̵u̵e̵_̵a̵n̵d̵,̵
+  ̵ ̵ ̵ ̵ ̵r̵a̵w̵O̵b̵s̵e̵r̵v̵e̵d̵W̵i̵t̵n̵e̵s̵s̵,̵r̵a̵w̵B̵i̵r̵t̵h̵R̵e̵c̵o̵r̵d̵s̵,̵a̵u̵g̵O̵u̵t̵c̵o̵m̵e̵,̵i̵f̵_̵f̵a̵l̵s̵e̵]̵[̲a̲u̲g̲T̲i̲m̲e̲d̲S̲t̲e̲p̲P̲a̲i̲r̲,̲ ̲t̲i̲m̲e̲d̲B̲i̲r̲t̲h̲,̲ ̲h̲x̲,̲ ̲n̲o̲t̲_̲f̲a̲l̲s̲e̲_̲e̲q̲_̲t̲r̲u̲e̲,̲ ̲t̲r̲u̲e̲_̲a̲n̲d̲,̲ ̲r̲a̲w̲O̲b̲s̲e̲r̲v̲e̲d̲W̲i̲t̲n̲e̲s̲s̲,̲
+  ̲ ̲ ̲ ̲ ̲r̲a̲w̲B̲i̲r̲t̲h̲R̲e̲c̲o̲r̲d̲s̲,̲ ̲a̲u̲g̲O̲u̲t̲c̲o̲m̲e̲,̲ ̲i̲f̲_̲f̲a̲l̲s̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NoThreeLine.BirthWitness.rawObservedWitness_accepted' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.observedStep_resolved_snapshot' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.observedStep_birth_aux_stop' depends on axioms: [propext, Classical.choice, Quot.sound]

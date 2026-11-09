@@ -1,0 +1,6 @@
+<original-workspace>\NoThreeLine\ActiveLineGuardBounds.lean:62:4: warning: Try `simp at hp` instead of `simpa using hp`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'NoThreeLine.activeLineGuardBounds_resolve' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.active_lineCredit_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.active_inverse_protection_lower' depends on axioms: [propext, Classical.choice, Quot.sound]

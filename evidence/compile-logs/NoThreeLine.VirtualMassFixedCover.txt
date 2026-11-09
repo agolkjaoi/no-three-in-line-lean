@@ -1,0 +1,5 @@
+'NoThreeLine.VirtualWitness.repeatSum_group_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.VirtualWitness.virtualMass_pow_le_fixedMassBound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.VirtualWitness.fixedMassBound_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+'NoThreeLine.clockMeasure_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.clockMeasure_ae_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.clockLongWait_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.clockMeasure_nonexplosive' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.goodLineSectionRecycled_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.goodLineSectionPhi_supermartingale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.goodLineSectionPhi_expected_le' depends on axioms: [propext, Classical.choice, Quot.sound]

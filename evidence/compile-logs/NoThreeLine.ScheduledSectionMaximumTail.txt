@@ -1,0 +1,7 @@
+'NoThreeLine.BirthWitness.lineSectionRawExceedance_allTime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.scheduledSectionMaximumBefore_measurableSet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.initial_phaseSectionPoint_maximum_tail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

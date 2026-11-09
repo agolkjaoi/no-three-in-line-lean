@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.initial_cutPoint_activeWitness_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.initial_cutPoint_activeWitnessPower_moment' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,2 @@
+'NoThreeLine.externalSpecifiedPoints_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protected_external_loss_leaf_le' depends on axioms: [propext, Classical.choice, Quot.sound]

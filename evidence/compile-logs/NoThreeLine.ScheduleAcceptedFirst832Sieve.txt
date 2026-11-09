@@ -1,0 +1,6 @@
+'NoThreeLine.ScheduleAcceptedFirst832Sieve.source_bounds_checked' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.ScheduleAcceptedFirst832Sieve.actual_deadline_sieve' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,5 @@
+'NoThreeLine.BirthWitness.sourceCutTerminal_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.phaseCutMixed_horizon' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.finitePhase_mixed_le_endpointCutMean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

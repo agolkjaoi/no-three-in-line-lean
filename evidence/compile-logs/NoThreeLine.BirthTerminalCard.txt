@@ -1,0 +1,7 @@
+<original-workspace>\NoThreeLine\BirthTerminalCard.lean:28:2: warning: `MeasureTheory.integrable_finset_sum` has been deprecated: Use `MeasureTheory.integrable_finsetSum` instead
+<original-workspace>\NoThreeLine\BirthTerminalCard.lean:42:6: warning: `MeasureTheory.integral_finset_sum` has been deprecated: Use `MeasureTheory.integral_finsetSum` instead
+<original-workspace>\NoThreeLine\BirthTerminalCard.lean:46:9: warning: `MeasureTheory.integral_finset_sum` has been deprecated: Use `MeasureTheory.integral_finsetSum` instead
+'NoThreeLine.BirthWitness.terminal_card_compensation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.terminal_card_compensation_of_empty' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

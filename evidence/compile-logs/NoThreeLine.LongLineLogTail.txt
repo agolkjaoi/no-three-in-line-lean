@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.long_prefix_pair_le_logBudget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.long_deadline_full_tail_le_logarithmic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

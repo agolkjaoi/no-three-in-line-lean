@@ -1,0 +1,2 @@
+'NoThreeLine.ScheduleUnionPhase9779Tree.tree_checked' depends on axioms: [propext]
+'NoThreeLine.ScheduleUnionPhase9779Tree.actual_union_area' depends on axioms: [propext, Classical.choice, Quot.sound]

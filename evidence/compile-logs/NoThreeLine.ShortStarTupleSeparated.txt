@@ -1,0 +1,2 @@
+'NoThreeLine.ShortStars.separatedLabels_tuple' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.tuple_connectionProduct' depends on axioms: [propext, Classical.choice, Quot.sound]

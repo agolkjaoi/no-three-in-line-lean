@@ -1,0 +1,3 @@
+'NoThreeLine.withinPhasePointMeasure_initial_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.withinPhasePointMeasure_history_event' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.withinPhasePointMeasure_history_integral' depends on axioms: [propext, Classical.choice, Quot.sound]

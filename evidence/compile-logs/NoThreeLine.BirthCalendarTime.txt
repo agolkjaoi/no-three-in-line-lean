@@ -1,0 +1,2 @@
+'NoThreeLine.BirthWitness.birthCalendarTime_succ_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.birthCalendarSegment_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]

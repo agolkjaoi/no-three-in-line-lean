@@ -1,0 +1,4 @@
+'NoThreeLine.scheduledOutsideRiskCost_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.recycledPhaseState_activeWeightFloor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.recycledPhaseState_activeLineGuardBounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.recycledPhaseState_growthPotential_le' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,5 @@
+'NoThreeLine.PairWitness.anyActualEtaHit_pair_union' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.PairWitness.anyActualEtaHit_C3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.PairWitness.anyActualEtaHit_uniform_polynomial_tail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

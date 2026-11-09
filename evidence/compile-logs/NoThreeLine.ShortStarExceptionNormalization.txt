@@ -1,0 +1,4 @@
+'NoThreeLine.ShortStars.specifiedMomentBudget_div_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.longMomentBudget_div_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.witnessMomentBudget_div_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.extraMomentBudget_div_le' depends on axioms: [propext, Classical.choice, Quot.sound]

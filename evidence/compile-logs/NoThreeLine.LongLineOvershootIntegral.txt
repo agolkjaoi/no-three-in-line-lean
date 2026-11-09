@@ -1,0 +1,11 @@
+<original-workspace>\NoThreeLine\LongLineOvershootIntegral.lean:17:5: warning: Variable name `hU` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'NoThreeLine.FiniteWitnessMoments.weighted_positive_excess_integral_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.FiniteWitnessMoments.weighted_positive_excess_from_moment' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

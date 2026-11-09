@@ -1,0 +1,2 @@
+'NoThreeLine.FiniteDirections.rootLineLengthSum_le_squares' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FiniteDirections.rootLineLengthSum_le_log' depends on axioms: [propext, Classical.choice, Quot.sound]

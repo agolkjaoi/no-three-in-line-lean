@@ -1,0 +1,7 @@
+<original-workspace>\NoThreeLine\ProtectedCellExponentialBudget.lean:62:70: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+<original-workspace>\NoThreeLine\ProtectedCellExponentialBudget.lean:67:70: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'NoThreeLine.exists_protectedCellExponential_budget' depends on axioms: [propext, Classical.choice, Quot.sound]

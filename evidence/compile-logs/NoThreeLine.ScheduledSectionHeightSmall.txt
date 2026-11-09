@@ -1,0 +1,9 @@
+'NoThreeLine.BirthWitness.exists_uniform_cellMaximum_threshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduledFiniteCellMaximumBefore_measurableSet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.exists_uniform_finiteCellMaximum_threshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

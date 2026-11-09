@@ -1,0 +1,7 @@
+'NoThreeLine.OffLineDivisors.lineThrough_card_mul_distance_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.OffLineDivisors.lineThrough_card_le_gcd_div_distance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.OffLineDivisors.shell_lineThrough_card_mul_le' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.correctedPhi_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.lineSectionObserverStep_source_free' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

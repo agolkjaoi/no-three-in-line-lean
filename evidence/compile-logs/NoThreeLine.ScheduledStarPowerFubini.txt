@@ -1,0 +1,2 @@
+'NoThreeLine.ShortStars.scheduledStarPower_joint_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.scheduledStarPower_integral_swap' depends on axioms: [propext, Classical.choice, Quot.sound]

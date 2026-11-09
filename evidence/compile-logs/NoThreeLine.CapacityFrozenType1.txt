@@ -1,0 +1,2 @@
+'NoThreeLine.CapacityFrozenType1.checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.CapacityFrozenType1.field_eq' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,9 @@
+<original-workspace>\NoThreeLine\ProtectedEntropyLedger.lean:78:22: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+<original-workspace>\NoThreeLine\ProtectedEntropyLedger.lean:84:22: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'NoThreeLine.protectedLedger_external_entropy_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedEntropy_event_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedEventCost_compare' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,23 @@
+<original-workspace>\NoThreeLine\AugmentedTerminalKernel.lean:50:48: warning: Variable name `ε` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+<original-workspace>\NoThreeLine\AugmentedTerminalKernel.lean:50:50: warning: Variable name `M` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+<original-workspace>\NoThreeLine\AugmentedTerminalKernel.lean:115:64: warning: Variable name `ε` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+<original-workspace>\NoThreeLine\AugmentedTerminalKernel.lean:115:66: warning: Variable name `M` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'NoThreeLine.augTimedTerminal_joint_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augPhaseTerminal_expected_credit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augPhaseKernel_expected_credit' depends on axioms: [propext, Classical.choice, Quot.sound]

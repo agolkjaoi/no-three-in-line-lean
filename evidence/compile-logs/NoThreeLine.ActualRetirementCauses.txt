@@ -1,0 +1,3 @@
+'NoThreeLine.augOutcome_positive_inactive_cause' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augTimedStep_positive_loss_cause' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augTimedStep_new_stop_cause' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'NoThreeLine.Phase15301Group4750.actual_child_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.Phase15301Group4750.imageBox_eq_child' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.Phase15301Group4750.image_subset_root' depends on axioms: [propext, Classical.choice, Quot.sound]

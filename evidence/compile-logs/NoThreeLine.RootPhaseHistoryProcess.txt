@@ -1,0 +1,2 @@
+'NoThreeLine.BirthWitness.rootPhaseRecycledPair_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.rootPhaseHistory_residual_product' depends on axioms: [propext, Classical.choice, Quot.sound]

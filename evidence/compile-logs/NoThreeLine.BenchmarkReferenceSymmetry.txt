@@ -1,0 +1,4 @@
+'NoThreeLine.FrozenReference.referenceMask_swap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FrozenReference.referenceMask_central' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FrozenReference.fullPhasePrefix_swap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FrozenReference.fullPhasePrefix_central' depends on axioms: [propext, Classical.choice, Quot.sound]

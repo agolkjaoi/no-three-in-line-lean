@@ -1,0 +1,8 @@
+'NoThreeLine.augRawOutcome_inactive_credit_zero_of_active' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.rootObserverStep_active_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.rootObserverRecycledPair_active_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.rootObserverTerminal_active_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,8 @@
+<original-workspace>\NoThreeLine\ProtectedClockTailDecay.lean:21:77: warning: Variable name `hr` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'NoThreeLine.protected_energy_optimal_exponential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.exists_clock_exponential_le_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.exists_clock_positive_drift_small' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'NoThreeLine.variable_running_integral_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.integral_initial_segment_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

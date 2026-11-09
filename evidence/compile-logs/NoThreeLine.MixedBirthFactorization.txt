@@ -1,0 +1,3 @@
+'NoThreeLine.MixedConnection.lineBirthFactor_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.MixedConnection.corrected_group_jump' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.MixedConnection.phi_external_birth' depends on axioms: [propext, Classical.choice, Quot.sound]

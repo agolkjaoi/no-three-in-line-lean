@@ -1,0 +1,5 @@
+'NoThreeLine.FiniteDirections.collinearPairSum_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FiniteDirections.maskedFamilyChord_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FiniteDirections.masked_four_family_pair_bound_safe' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

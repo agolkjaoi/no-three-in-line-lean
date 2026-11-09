@@ -1,0 +1,5 @@
+'NoThreeLine.FiniteMomentIntegral.add_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FiniteMomentIntegral.separatedMomentBound_le_roots' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.FiniteMomentIntegral.add_moment_common_budget' depends on axioms: [propext, Classical.choice, Quot.sound]

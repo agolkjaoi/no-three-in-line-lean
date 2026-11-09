@@ -1,0 +1,16 @@
+<original-workspace>\NoThreeLine\TimedLineHazard.lean:52:41: warning: This simp argument is unused:
+  if_pos hd
+
+Hint: Omit it from the simp argument list.
+  simp only [̵a̵u̵g̵T̵i̵m̵e̵d̵L̵i̵n̵e̵I̵n̵t̵e̵n̵s̵i̵t̵y̵C̵o̵s̵t̵,̵i̵f̵_̵p̵o̵s̵ ̵h̵d̵,̵a̵u̵g̵T̵i̵m̵e̵d̵S̵t̵e̵p̵,̵a̵u̵g̵T̵i̵m̵e̵d̵S̵t̵e̵p̵P̵a̵i̵r̵,̵h̵d̵,̵i̵f̵_̵t̵r̵u̵e̵,̵s̵u̵b̵_̵s̵e̵l̵f̵]̵[̲a̲u̲g̲T̲i̲m̲e̲d̲L̲i̲n̲e̲I̲n̲t̲e̲n̲s̲i̲t̲y̲C̲o̲s̲t̲,̲ ̲a̲u̲g̲T̲i̲m̲e̲d̲S̲t̲e̲p̲,̲ ̲a̲u̲g̲T̲i̲m̲e̲d̲S̲t̲e̲p̲P̲a̲i̲r̲,̲ ̲h̲d̲,̲ ̲i̲f̲_̲t̲r̲u̲e̲,̲ ̲s̲u̲b̲_̲s̲e̲l̲f̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<original-workspace>\NoThreeLine\TimedLineHazard.lean:58:41: warning: This simp argument is unused:
+  if_neg hd
+
+Hint: Omit it from the simp argument list.
+  simp only [̵a̵u̵g̵T̵i̵m̵e̵d̵L̵i̵n̵e̵I̵n̵t̵e̵n̵s̵i̵t̵y̵C̵o̵s̵t̵,̵i̵f̵_̵n̵e̵g̵ ̵h̵d̵,̵a̵u̵g̵T̵i̵m̵e̵d̵S̵t̵e̵p̵,̵a̵u̵g̵T̵i̵m̵e̵d̵S̵t̵e̵p̵P̵a̵i̵r̵,̵h̵d̵,̵i̵f̵_̵f̵a̵l̵s̵e̵]̵[̲a̲u̲g̲T̲i̲m̲e̲d̲L̲i̲n̲e̲I̲n̲t̲e̲n̲s̲i̲t̲y̲C̲o̲s̲t̲,̲ ̲a̲u̲g̲T̲i̲m̲e̲d̲S̲t̲e̲p̲,̲ ̲a̲u̲g̲T̲i̲m̲e̲d̲S̲t̲e̲p̲P̲a̲i̲r̲,̲ ̲h̲d̲,̲ ̲i̲f̲_̲f̲a̲l̲s̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NoThreeLine.augTimedStep_specifiedClock_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augTimedLineIntensityCost_eq_clock' depends on axioms: [propext, Classical.choice, Quot.sound]

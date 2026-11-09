@@ -1,0 +1,12 @@
+<original-workspace>\NoThreeLine\ShortStarRepeatDecay.lean:41:5: warning: Variable name `hB` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+<original-workspace>\NoThreeLine\ShortStarRepeatDecay.lean:41:16: warning: Variable name `hτ` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'NoThreeLine.ShortStars.tendsto_repeatDecayEnvelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.repeatMomentBudget_div_le_decay' depends on axioms: [propext, Classical.choice, Quot.sound]

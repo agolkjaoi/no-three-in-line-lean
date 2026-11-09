@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.scheduledLineMomentPath_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.scheduledWitnessMomentPath_terminal_mean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

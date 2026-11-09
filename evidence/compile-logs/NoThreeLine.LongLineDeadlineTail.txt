@@ -1,0 +1,12 @@
+'NoThreeLine.BirthWitness.initial_rootPhasePoint_witnessPower_integrable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.initial_rootPhasePoint_witness_tail_le_moment' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.long_deadline_full_witness_tail_coarse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.long_deadline_full_witness_tail_separated' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

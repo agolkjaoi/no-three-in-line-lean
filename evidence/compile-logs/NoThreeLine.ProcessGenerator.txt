@@ -1,0 +1,3 @@
+'NoThreeLine.ProcessState.birthRate_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ProcessState.credit_generator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ProcessState.birth_card' depends on axioms: [propext, Classical.choice, Quot.sound]

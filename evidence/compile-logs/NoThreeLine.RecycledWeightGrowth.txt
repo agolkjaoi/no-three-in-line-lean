@@ -1,0 +1,2 @@
+'NoThreeLine.recycled_growthPotential_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.terminal_growthPotential_le' depends on axioms: [propext, Classical.choice, Quot.sound]

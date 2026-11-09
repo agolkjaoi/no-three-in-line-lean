@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.two_cutPoint_correctedRootLeaf_le_ae_earlier' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.two_cutPoint_rootLeaf_le_ae_earlier' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

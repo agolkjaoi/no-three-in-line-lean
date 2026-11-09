@@ -1,0 +1,7 @@
+<original-workspace>\NoThreeLine\ProtectedCenteredValue.lean:26:8: warning: `intervalIntegral.integral_finset_sum` has been deprecated: Use `intervalIntegral.integral_finsetSum` instead
+<original-workspace>\NoThreeLine\ProtectedCenteredValue.lean:76:10: warning: `MeasureTheory.integrable_finset_sum` has been deprecated: Use `MeasureTheory.integrable_finsetSum` instead
+<original-workspace>\NoThreeLine\ProtectedCenteredValue.lean:77:8: warning: `MeasureTheory.integral_finset_sum` has been deprecated: Use `MeasureTheory.integral_finsetSum` instead
+<original-workspace>\NoThreeLine\ProtectedCenteredValue.lean:102:10: warning: `MeasureTheory.integrable_finset_sum` has been deprecated: Use `MeasureTheory.integrable_finsetSum` instead
+<original-workspace>\NoThreeLine\ProtectedCenteredValue.lean:103:8: warning: `MeasureTheory.integral_finset_sum` has been deprecated: Use `MeasureTheory.integral_finsetSum` instead
+'NoThreeLine.protectedCreditCenteredValue_first_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedEntropyCenteredValue_first_mean' depends on axioms: [propext, Classical.choice, Quot.sound]

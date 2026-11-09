@@ -1,0 +1,2 @@
+'NoThreeLine.MixedConnection.causeGrowth_internal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.MixedConnection.phi_internal_birth' depends on axioms: [propext, Classical.choice, Quot.sound]

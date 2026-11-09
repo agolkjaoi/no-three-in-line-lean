@@ -1,0 +1,11 @@
+<original-workspace>\NoThreeLine\LongShortPairPartition.lean:86:31: warning: This simp argument is unused:
+  if_neg hz
+
+Hint: Omit it from the simp argument list.
+  s̵i̵m̵p̵ ̵o̵n̵l̵y̵ ̵[̵l̵o̵n̵g̵W̵i̵t̵n̵e̵s̵s̵C̵o̵s̵t̵,̵i̵f̵_̵n̵e̵g̵ ̵h̵z̵,̵m̵u̵l̵_̵z̵e̵r̵o̵,̵z̵e̵r̵o̵_̵d̵i̵v̵,̵l̵o̵n̵g̵B̵o̵a̵r̵d̵P̵a̵i̵r̵,̵h̵z̵,̵f̵a̵l̵s̵e̵_̵a̵n̵d̵,̵i̵f̵_̵f̵a̵l̵s̵e̵,̵F̵i̵n̵s̵e̵t̵.̵s̵u̵m̵_̵c̵o̵n̵s̵t̵_̵z̵e̵r̵o̵]̵s̲i̲m̲p̲ ̲o̲n̲l̲y̲ ̲[̲l̲o̲n̲g̲W̲i̲t̲n̲e̲s̲s̲C̲o̲s̲t̲,̲ ̲m̲u̲l̲_̲z̲e̲r̲o̲,̲ ̲z̲e̲r̲o̲_̲d̲i̲v̲,̲ ̲l̲o̲n̲g̲B̲o̲a̲r̲d̲P̲a̲i̲r̲,̲ ̲h̲z̲,̲ ̲f̲a̲l̲s̲e̲_̲a̲n̲d̲,̲ ̲i̲f̲_̲f̲a̲l̲s̲e̲,̲
+  ̲ ̲ ̲ ̲ ̲F̲i̲n̲s̲e̲t̲.̲s̲u̲m̲_̲c̲o̲n̲s̲t̲_̲z̲e̲r̲o̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NoThreeLine.BirthWitness.longBoardPair_swap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.pairForm_long_short_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.longBirthIntegrand_eq_longPair' depends on axioms: [propext, Classical.choice, Quot.sound]

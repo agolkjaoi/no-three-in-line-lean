@@ -1,0 +1,3 @@
+'NoThreeLine.protectedEntropy_external_rate_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedEntropy_generator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.selected_protectedEntropy_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]

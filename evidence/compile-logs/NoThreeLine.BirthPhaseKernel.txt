@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.terminalBirthRate_joint_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.phase_birth_compensation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.scheduled_birth_compensation' depends on axioms: [propext, Classical.choice, Quot.sound]

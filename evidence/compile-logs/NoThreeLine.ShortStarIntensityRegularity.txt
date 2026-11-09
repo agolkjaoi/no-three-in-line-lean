@@ -1,0 +1,3 @@
+'NoThreeLine.ShortStars.weightedStarIntensity_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.weightedStarIntensity_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.weightedStarIntensity_pow_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]

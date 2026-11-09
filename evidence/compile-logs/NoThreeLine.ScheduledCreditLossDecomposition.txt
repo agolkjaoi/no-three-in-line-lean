@@ -1,0 +1,17 @@
+'NoThreeLine.BirthWitness.scheduledCutLineCreditValue_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.scheduledCreditLossMassPath_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduledCreditLossMassPath_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.scheduledCreditLossMassPath_integrable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduledCreditLossMassPath_decomposition_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduledCreditLossMassPath_integral_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduledCreditLossMassPath_sum_eq_double_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

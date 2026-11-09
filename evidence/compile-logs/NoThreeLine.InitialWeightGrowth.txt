@@ -1,0 +1,2 @@
+'NoThreeLine.augInitialState_growthPotential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.initial_recycledPhaseState_growthPotential_le' depends on axioms: [propext, Classical.choice, Quot.sound]

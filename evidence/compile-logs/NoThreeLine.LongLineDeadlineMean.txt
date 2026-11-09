@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.long_prefix_mean_le_original_deadline_risk' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.long_prefix_mean_sieve_upper' depends on axioms: [propext, Classical.choice, Quot.sound]

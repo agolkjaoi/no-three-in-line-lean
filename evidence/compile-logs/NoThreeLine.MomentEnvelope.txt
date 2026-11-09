@@ -1,0 +1,6 @@
+'NoThreeLine.FiniteWitnessMoments.separatedMomentBound_normalize' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.FiniteWitnessMoments.tendsto_normalized_separatedMomentBound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

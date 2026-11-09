@@ -1,0 +1,6 @@
+'NoThreeLine.ScheduleUnionBatch10898Packets.actual_schedule_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.ScheduleUnionBatch10898Packets.shortened_schedule_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

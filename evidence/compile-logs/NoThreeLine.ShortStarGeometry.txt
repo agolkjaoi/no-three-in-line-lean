@@ -1,0 +1,3 @@
+'NoThreeLine.ShortStars.Valid.swap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.witnesses_card_le_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.shortStars_card_le_log' depends on axioms: [propext, Classical.choice, Quot.sound]

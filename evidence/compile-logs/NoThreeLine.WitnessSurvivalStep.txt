@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.selected_survival_source_free_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.actual_survival_witness_source_free_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

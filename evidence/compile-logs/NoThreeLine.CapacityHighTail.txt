@@ -1,0 +1,2 @@
+'NoThreeLine.FrozenCapacity.pairWeight_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FrozenCapacity.scaled_pairCapacity_high' depends on axioms: [propext, Classical.choice, Quot.sound]

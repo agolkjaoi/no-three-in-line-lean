@@ -1,0 +1,9 @@
+'NoThreeLine.BirthWitness.phaseRootScheduledPair_preserves_permanent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.phaseRootPhases_permanent_stable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.phaseRootDeadline_firstClosure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.phaseRootStart_open' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.phaseRootStart_firstClosure_snapshot' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

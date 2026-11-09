@@ -1,0 +1,4 @@
+'NoThreeLine.phaseLineForbiddenLaw_protected_history_setIntegral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.protectedForbidden_history_compensation' depends on axioms: [propext, Classical.choice, Quot.sound]

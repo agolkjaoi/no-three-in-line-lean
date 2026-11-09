@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.initial_rootPhaseWitness_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.initial_rootPhaseWitness_corrected_point_mean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

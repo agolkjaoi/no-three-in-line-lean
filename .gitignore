@@ -1,0 +1,11 @@
+.lake/
+.build/
+__pycache__/
+*.pyc
+*.olean
+*.ilean
+*.olean.private
+*.olean.server
+*.ir
+.DS_Store
+Thumbs.db

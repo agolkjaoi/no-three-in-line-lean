@@ -1,0 +1,8 @@
+<original-workspace>\NoThreeLine\ScheduledStarFirstMoment.lean:55:21: warning: Variable name `ht` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'NoThreeLine.ShortStars.cutUnitPrice_le_elapsed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.weightedCutStarPriceSum_le_elapsed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.scheduledStar_future_firstMoment_ae' depends on axioms: [propext, Classical.choice, Quot.sound]

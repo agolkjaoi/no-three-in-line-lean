@@ -1,0 +1,2 @@
+'NoThreeLine.sourceCap_residualBoard' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.sourceRestrictGood_restart' depends on axioms: [propext, Classical.choice, Quot.sound]

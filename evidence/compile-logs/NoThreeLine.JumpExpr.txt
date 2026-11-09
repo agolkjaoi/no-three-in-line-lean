@@ -1,0 +1,8 @@
+'NoThreeLine.QEdge.boxBandExpr_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.qEdgeBandSumExpr_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.qEdgeVertexCoefficient_cast' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.qEdgesMatchCheck_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.qJumpEnvelopeExpr_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.actualChord_le_qJumpEnvelopeExpr' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.jump_matching_example' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.jump_wrong_sign_rejected' depends on axioms: [propext, Classical.choice, Quot.sound]

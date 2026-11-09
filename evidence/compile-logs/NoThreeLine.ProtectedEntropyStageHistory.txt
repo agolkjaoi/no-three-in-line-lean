@@ -1,0 +1,2 @@
+'NoThreeLine.protectedEntropyStage_history_equal_integrals' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedEntropyDensity_history_equal_integrals' depends on axioms: [propext, Classical.choice, Quot.sound]

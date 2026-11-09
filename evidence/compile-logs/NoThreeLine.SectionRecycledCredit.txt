@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.observedRecycled_no_section_credit_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.observedRecycled_raw_credit_budget' depends on axioms: [propext, Classical.choice, Quot.sound]

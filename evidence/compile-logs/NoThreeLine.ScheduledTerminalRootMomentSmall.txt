@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.tendsto_terminalRootMomentEnvelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.exists_uniform_terminalRootMoment_threshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

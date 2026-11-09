@@ -1,0 +1,3 @@
+'NoThreeLine.protectedStatePairGenericSource_actual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedClockStateSource_measurable_history' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedStateSource_elapsed_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

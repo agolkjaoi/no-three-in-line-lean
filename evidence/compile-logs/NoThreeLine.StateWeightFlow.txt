@@ -1,0 +1,2 @@
+'NoThreeLine.ProcessState.withWeights_continuousCreditDrift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ProcessState.flow_credit_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]

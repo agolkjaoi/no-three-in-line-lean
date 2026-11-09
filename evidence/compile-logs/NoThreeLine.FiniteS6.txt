@@ -1,0 +1,4 @@
+'NoThreeLine.FiniteDirections.four_family_main_eq_primitiveParityK' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.FiniteDirections.masked_board_sieve_upper' depends on axioms: [propext, Classical.choice, Quot.sound]

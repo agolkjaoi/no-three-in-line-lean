@@ -1,0 +1,11 @@
+<original-workspace>\NoThreeLine\ScheduledCutTerminalExcess.lean:18:21: warning: Variable name `ht` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'NoThreeLine.BirthWitness.scheduledCutLineExcess_terminal_mean_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduledCutLineExcess_terminal_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,4 @@
+'NoThreeLine.FiniteWitnessMoments.tupleMoment_eta_sum_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FiniteWitnessMoments.tupleMoment_eta_sum_le_main_add_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,13 @@
+<original-workspace>\NoThreeLine\RootPhaseAccumulation.lean:58:2: warning: `MeasureTheory.integrable_finset_sum` has been deprecated: Use `MeasureTheory.integrable_finsetSum` instead
+<original-workspace>\NoThreeLine\RootPhaseAccumulation.lean:90:105: warning: This simp argument is unused:
+  integral_zero
+
+Hint: Omit it from the simp argument list.
+  simp only [rootPhaseRecycledState, ̲rootPhaseRecycledPair, ̲RecycledBoardProcess.iterate,
+        cumulativeRootPhaseSource, ̲Finset.range_zero, ̲Finset.sum_empty, ̲integral_const, ̲probReal_univ,
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲one_smul,i̵n̵t̵e̵g̵r̵ ̲al̵_̵z̵e̵r̵o̵,̵a̵dd_zero, ̲le_refl]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NoThreeLine.BirthWitness.rootPhase_expected_mixed_cumulative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,3 @@
+'NoThreeLine.compensatedProtectedCredit_stable_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.terminalCompensatedProtectedCredit_condExp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.terminalCompensatedProtectedCredit_mean' depends on axioms: [propext, Classical.choice, Quot.sound]

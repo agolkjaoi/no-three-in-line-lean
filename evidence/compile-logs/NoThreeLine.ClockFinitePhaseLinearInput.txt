@@ -1,0 +1,2 @@
+'NoThreeLine.clockMaskCellCap_le_linear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.scheduleSharedPhases_horizon_le_total' depends on axioms: [propext, Classical.choice, Quot.sound]

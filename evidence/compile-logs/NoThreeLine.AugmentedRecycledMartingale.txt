@@ -1,0 +1,3 @@
+'NoThreeLine.augRecycled_credit_martingale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.recycledPhaseStep_expected_credit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.recycledPhases_credit_martingale' depends on axioms: [propext, Classical.choice, Quot.sound]

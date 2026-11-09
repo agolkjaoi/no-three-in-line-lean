@@ -1,0 +1,2 @@
+'NoThreeLine.selectedProtectedCreditExp_live_survival' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.selectedProtectedEntropyExp_live_survival' depends on axioms: [propext, Classical.choice, Quot.sound]

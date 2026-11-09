@@ -1,0 +1,3 @@
+'NoThreeLine.ProcessState.compensatedVectorField_contDiff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ProcessState.compensatedVectorField_at_state' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ProcessState.local_compensated_flow' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'NoThreeLine.CapacityLowRow061.checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.CapacityLowRow061.actual_capacity_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

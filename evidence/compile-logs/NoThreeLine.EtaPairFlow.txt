@@ -1,0 +1,4 @@
+'NoThreeLine.AuxiliaryODE.etaAlong_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.AuxiliaryODE.etaAlong_joint_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.AuxiliaryODE.etaAlong_le_initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.AuxiliaryODE.etaAlong_floor_cost' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'NoThreeLine.HEdge.chord_band_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.jumpField_chord_band_upper' depends on axioms: [propext, Classical.choice, Quot.sound]

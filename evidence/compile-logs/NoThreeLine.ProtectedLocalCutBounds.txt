@@ -1,0 +1,3 @@
+'NoThreeLine.protectedLocalStateSource_elapsed_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedLocalStateSource_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedLocalStateExponential_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,10 @@
+'NoThreeLine.BirthWitness.rootObserverTerminalPair_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.rootObserverTerminal_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.rootObserverTerminal_expected_credit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.rootObserverTerminal_saved_stable_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

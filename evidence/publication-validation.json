@@ -1,0 +1,43 @@
+{
+  "prepared_utc": "2026-11-09T16:27:31.588280+00:00",
+  "snapshot_id": "2026-11-10-audited-2",
+  "edition": "2026-11-10-public-2",
+  "status": "PASS_WITH_STATED_SCOPE",
+  "included_original_modules": 3242,
+  "added_modules": 94,
+  "previous_sources_unchanged": true,
+  "audited_sources_preserved_byte_for_byte": true,
+  "source_audit_recorded_utc": "2026-11-09T15:22:46.619408+00:00",
+  "full_fresh_rebuild": false,
+  "fresh_compile_targets": [
+    "NoThreeLine.FrozenClockCauseSmall",
+    "NoThreeLine.FrozenFiveCauseOutput",
+    "NoThreeLine.ProtectedCellOnePhasePowerTail"
+  ],
+  "fresh_compiles": 3,
+  "reused_hash_matched_project_dependencies": 1326,
+  "bounded_reproduction": "evidence/update-reproduction-build.json",
+  "initial_bounded_reproduction": "evidence/reproduction-build.json",
+  "lake_configuration": {
+    "status": "PARSED_AND_TRANSLATED_BY_PINNED_LAKE",
+    "command": "lake translate-config lean .build/lakefile.validated.lean",
+    "translated_config_sha256": "c6faef5e93f824432a358ffae1f23cd58a18f4946e1ffdde57001a13e0a9fe37",
+    "clean_machine_full_build_tested": false
+  },
+  "legacy_saved_import_audits": 24,
+  "final_target_proved": false,
+  "writes_to_active_development_workspace": false,
+  "integrity_check": {
+    "status": "PASS",
+    "modules": 3242,
+    "source_lines": 839734,
+    "source_bytes": 81486655,
+    "legacy_import_audits": 24,
+    "public_files": 6529,
+    "manifest_checked": true,
+    "full_fresh_rebuild": false,
+    "scope": "Distribution integrity and recorded evidence, not a new proof check.",
+    "errors": []
+  },
+  "initial_publication_edition": "2026-11-10-public-1"
+}

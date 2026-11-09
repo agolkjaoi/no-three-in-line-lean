@@ -1,0 +1,2 @@
+'NoThreeLine.FiniteInputTree.ofFn_get' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FiniteInputTree.all_iff_forall_get' depends on axioms: [propext, Quot.sound]

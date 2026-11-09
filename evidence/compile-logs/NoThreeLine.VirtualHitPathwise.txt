@@ -1,0 +1,2 @@
+'NoThreeLine.BirthWitness.virtualHitAt_terminal_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.virtualHitEvent_terminal_snapshot' depends on axioms: [propext, Classical.choice, Quot.sound]

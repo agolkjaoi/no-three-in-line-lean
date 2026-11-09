@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.observedPhaseStart_saved' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.phaseRootDeadline_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.phaseRootDeadline_mixed_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.phaseRootStart_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]

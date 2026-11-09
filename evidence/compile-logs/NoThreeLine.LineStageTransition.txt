@@ -1,0 +1,20 @@
+<original-workspace>\NoThreeLine\LineStageTransition.lean:45:29: warning: 'omega' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+<original-workspace>\NoThreeLine\LineStageTransition.lean:45:29: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+<original-workspace>\NoThreeLine\LineStageTransition.lean:55:38: warning: This simp argument is unused:
+  if_pos hd
+
+Hint: Omit it from the simp argument list.
+  simp only [̵a̵u̵g̵T̵i̵m̵e̵d̵L̵i̵n̵e̵L̵i̵k̵e̵l̵i̵h̵o̵o̵d̵,̵i̵f̵_̵p̵o̵s̵ ̵h̵d̵,̵a̵u̵g̵T̵i̵m̵e̵d̵S̵t̵e̵p̵,̵a̵u̵g̵T̵i̵m̵e̵d̵S̵t̵e̵p̵P̵a̵i̵r̵,̵h̵d̵,̵i̵f̵_̵t̵r̵u̵e̵,̵
+  ̵ ̵ ̵ ̵ ̵ ̵ ̵s̵u̵b̵_̵s̵e̵l̵f̵,̵R̵e̵a̵l̵.̵e̵x̵p̵_̵z̵e̵r̵o̵]̵[̲a̲u̲g̲T̲i̲m̲e̲d̲L̲i̲n̲e̲L̲i̲k̲e̲l̲i̲h̲o̲o̲d̲,̲ ̲a̲u̲g̲T̲i̲m̲e̲d̲S̲t̲e̲p̲,̲ ̲a̲u̲g̲T̲i̲m̲e̲d̲S̲t̲e̲p̲P̲a̲i̲r̲,̲ ̲h̲d̲,̲ ̲i̲f̲_̲t̲r̲u̲e̲,̲ ̲s̲u̲b̲_̲s̲e̲l̲f̲,̲
+  ̲ ̲ ̲ ̲ ̲R̲e̲a̲l̲.̲e̲x̲p̲_̲z̲e̲r̲o̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<original-workspace>\NoThreeLine\LineStageTransition.lean:65:47: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'NoThreeLine.BirthWitness.lineStageRegion_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.lineStageValue_step_mean' depends on axioms: [propext, Classical.choice, Quot.sound]

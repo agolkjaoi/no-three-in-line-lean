@@ -1,0 +1,2 @@
+'NoThreeLine.ProcessState.birth_weight_le_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augRawOutcome_log_growth_le' depends on axioms: [propext, Classical.choice, Quot.sound]

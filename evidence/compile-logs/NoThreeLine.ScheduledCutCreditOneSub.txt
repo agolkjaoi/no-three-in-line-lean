@@ -1,0 +1,9 @@
+'NoThreeLine.BirthWitness.initial_scheduledCutLineCredit_one_sub_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.phasePoint_scheduledCutLineCredit_one_sub_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.phasePoint_scheduledCutLineCredit_one_sub_ae_path_time' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

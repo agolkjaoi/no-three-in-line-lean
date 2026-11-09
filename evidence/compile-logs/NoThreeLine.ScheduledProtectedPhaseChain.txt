@@ -1,0 +1,4 @@
+'NoThreeLine.protectedScheduledPair_total_le_of_no_crossing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.scheduledProtected_crossing_has_phase_with_small_entry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

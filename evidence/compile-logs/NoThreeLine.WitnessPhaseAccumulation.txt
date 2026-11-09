@@ -1,0 +1,3 @@
+<original-workspace>\NoThreeLine\WitnessPhaseAccumulation.lean:135:2: warning: `MeasureTheory.integrable_finset_sum` has been deprecated: Use `MeasureTheory.integrable_finsetSum` instead
+'NoThreeLine.BirthWitness.scheduled_mixed_source_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.finitePhase_mixed_source_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

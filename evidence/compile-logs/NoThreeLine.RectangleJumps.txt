@@ -1,0 +1,2 @@
+'NoThreeLine.Rect.chord_eq_horizontal_edges' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.rectangleField_horizontal_band_upper' depends on axioms: [propext, Classical.choice, Quot.sound]

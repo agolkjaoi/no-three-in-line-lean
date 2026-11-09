@@ -1,0 +1,8 @@
+<original-workspace>\NoThreeLine\ProtectedEntropyModulus.lean:84:59: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+<original-workspace>\NoThreeLine\ProtectedEntropyModulus.lean:104:22: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'NoThreeLine.protectedEntropy_loss_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedEntropy_sum_square_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

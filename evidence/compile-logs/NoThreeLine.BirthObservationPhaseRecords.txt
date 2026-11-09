@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.observedPhaseTerminal_record_origin' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.observedFinitePhase_retention_preserved' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

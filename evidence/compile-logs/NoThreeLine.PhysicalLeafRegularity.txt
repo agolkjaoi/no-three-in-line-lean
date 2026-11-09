@@ -1,0 +1,2 @@
+'NoThreeLine.BirthWitness.lineLeafPower_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.lineLeafPower_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

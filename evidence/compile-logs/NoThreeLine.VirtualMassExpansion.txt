@@ -1,0 +1,5 @@
+'NoThreeLine.VirtualWitness.normalizedLineWeight_le_two_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.VirtualWitness.weight_sum_pow_le_repeatSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.VirtualWitness.virtualMass_pow_le_repeatSum_actual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

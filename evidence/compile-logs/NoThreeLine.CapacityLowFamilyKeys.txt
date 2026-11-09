@@ -1,0 +1,2 @@
+'NoThreeLine.FrozenCapacity.finite_family_table_key' depends on axioms: [propext, Quot.sound]
+'NoThreeLine.FrozenCapacity.family_table_key' depends on axioms: [propext, Quot.sound]

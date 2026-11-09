@@ -1,0 +1,9 @@
+'NoThreeLine.BirthWitness.terminalRootRunningSource_mean_eq_timeIntegral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.terminal_expected_rootMixed_calendar_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.rootPoint_correctedWitness_calendar_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

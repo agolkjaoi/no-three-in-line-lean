@@ -1,0 +1,2 @@
+'NoThreeLine.selectedProtectedCreditExponential_generator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.selectedProtectedEntropyExponential_generator' depends on axioms: [propext, Classical.choice, Quot.sound]

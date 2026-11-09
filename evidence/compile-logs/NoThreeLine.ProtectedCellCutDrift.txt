@@ -1,0 +1,2 @@
+'NoThreeLine.protectedCellPrefixCut_sources_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedCrossingDrift_surplus_or_cost' depends on axioms: [propext, Classical.choice, Quot.sound]

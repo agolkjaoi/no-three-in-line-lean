@@ -1,0 +1,9 @@
+'NoThreeLine.BirthWitness.initial_rootPhasePoint_active_mean_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.initial_rootPhasePoint_witness_coarse_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.initial_rootPhasePoint_witness_unit_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

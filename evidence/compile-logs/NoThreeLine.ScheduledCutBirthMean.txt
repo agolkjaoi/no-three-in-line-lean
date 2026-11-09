@@ -1,0 +1,2 @@
+'NoThreeLine.BirthWitness.goodPhases_birth_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.scheduledBirthIncrement_mean_cut' depends on axioms: [propext, Classical.choice, Quot.sound]

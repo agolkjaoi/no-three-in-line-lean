@@ -1,0 +1,3 @@
+'NoThreeLine.SectionHeight.exists_uniform_height_envelope_threshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

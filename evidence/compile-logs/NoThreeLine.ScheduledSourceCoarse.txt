@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.scheduledCalendarSource_mean_le_coarse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduledSourceIncrement_mean_le_coarse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

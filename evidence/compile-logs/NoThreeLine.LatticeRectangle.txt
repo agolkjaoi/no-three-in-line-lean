@@ -1,0 +1,5 @@
+'NoThreeLine.rectangleLatticeSum_eq_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.rectangleLatticeSum_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.twoParityRectangleSum_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.twoParityRectangleSumExceptRoot_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.rectangle_G13_positive_chart' depends on axioms: [propext, Classical.choice, Quot.sound]

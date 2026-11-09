@@ -1,0 +1,3 @@
+'NoThreeLine.OffLineDivisors.off_boardLine_sum_le_const_rpow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.witnessOn_card_eq_leafOn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.off_line_touching_card_le_const_rpow' depends on axioms: [propext, Classical.choice, Quot.sound]

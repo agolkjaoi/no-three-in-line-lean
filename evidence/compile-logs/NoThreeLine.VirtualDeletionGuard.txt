@@ -1,0 +1,4 @@
+'NoThreeLine.AuxiliaryODE.virtualLeaf_iff_geometric_death' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.AuxiliaryODE.virtualMass_contDiff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.AuxiliaryODE.virtualMass_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.AuxiliaryODE.virtualGuard_closed' depends on axioms: [propext, Classical.choice, Quot.sound]

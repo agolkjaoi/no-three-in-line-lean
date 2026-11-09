@@ -1,0 +1,2 @@
+'NoThreeLine.FrozenCapacity.directionPairWeight_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FrozenCapacity.shellChord_family_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]

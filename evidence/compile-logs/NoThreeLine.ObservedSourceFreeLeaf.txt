@@ -1,0 +1,2 @@
+'NoThreeLine.BirthWitness.observedRootLeaf_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.cutCorrectedRootLeaf_empty_eq' depends on axioms: [propext, Classical.choice, Quot.sound]

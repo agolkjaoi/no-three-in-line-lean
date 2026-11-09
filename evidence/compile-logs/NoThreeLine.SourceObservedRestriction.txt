@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.sourceRestrict_birthTime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.sourceRestrict_observedStep' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.sourceRestrictGood_step' depends on axioms: [propext, Classical.choice, Quot.sound]

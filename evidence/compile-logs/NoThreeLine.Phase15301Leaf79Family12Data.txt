@@ -1,0 +1,4 @@
+'NoThreeLine.Phase15301Leaf79.Family12.data_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.Phase15301Leaf79.Family12.expression_from_actual_field' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

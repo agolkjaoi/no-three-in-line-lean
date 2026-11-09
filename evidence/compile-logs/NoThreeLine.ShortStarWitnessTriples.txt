@@ -1,0 +1,2 @@
+'NoThreeLine.ShortStars.freshWitnessTriples_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.witnessTriples_card_le_const_rpow' depends on axioms: [propext, Classical.choice, Quot.sound]

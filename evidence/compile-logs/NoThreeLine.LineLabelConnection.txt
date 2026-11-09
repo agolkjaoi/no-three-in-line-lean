@@ -1,0 +1,6 @@
+'NoThreeLine.MixedConnection.connectionProduct_of_subset_nonspecified_line' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.separatedLabels_of_subset_nonspecified_line' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

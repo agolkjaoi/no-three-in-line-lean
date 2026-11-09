@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.observedActiveLineMass_mul_integral_eq_sum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.observedCorrectedRootLeaf_mul_integral_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

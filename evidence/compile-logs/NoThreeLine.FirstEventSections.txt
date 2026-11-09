@@ -1,0 +1,2 @@
+'NoThreeLine.FirstEventSections.markedHeadTail_preserving' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FirstEventSections.firstSiteSection_preserving' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,10 @@
+<original-workspace>\NoThreeLine\LineStageFirstCrossing.lean:87:38: warning: This simp argument is unused:
+  and_assoc
+
+Hint: Omit it from the simp argument list.
+  simp [̵l̵i̵n̵e̵S̵t̵a̵g̵e̵H̵i̵s̵t̵o̵r̵y̵E̵x̵c̵e̵e̵d̵s̵,̵F̵,̵a̵n̵d̵_̵a̵s̵s̵o̵c̵,̵a̵n̵d̵_̵c̵o̵m̵m̵,̵a̵n̵d̵_̵l̵e̵f̵t̵_̵c̵o̵m̵m̵]̵[̲l̲i̲n̲e̲S̲t̲a̲g̲e̲H̲i̲s̲t̲o̲r̲y̲E̲x̲c̲e̲e̲d̲s̲,̲ ̲F̲,̲ ̲a̲n̲d̲_̲c̲o̲m̲m̲,̲ ̲a̲n̲d̲_̲l̲e̲f̲t̲_̲c̲o̲m̲m̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NoThreeLine.BirthWitness.phaseLineForbiddenLaw_firstCrossing_ge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

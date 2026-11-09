@@ -1,0 +1,5 @@
+'NoThreeLine.BirthWitness.virtualRawHit_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.rootObserverStep_virtualHit_snapshot' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.rootObserverStep_virtualHit_mass' depends on axioms: [propext, Classical.choice, Quot.sound]

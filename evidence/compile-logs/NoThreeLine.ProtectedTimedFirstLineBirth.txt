@@ -1,0 +1,2 @@
+'NoThreeLine.protectedTimedCredit_firstLineBirth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedStateTotal_firstLineBirth_le' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'NoThreeLine.BirthWitness.rawStepSaved_activeWeightFloor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.rootObserverTerminal_weightFloor' depends on axioms: [propext, Classical.choice, Quot.sound]

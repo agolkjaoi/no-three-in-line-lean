@@ -1,0 +1,4 @@
+'NoThreeLine.Phase15301Group7275.Family21.data_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.Phase15301Group7275.Family21.expression_from_actual_field' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

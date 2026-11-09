@@ -1,0 +1,2 @@
+'NoThreeLine.protectedLineExitPair_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedLineExitPair_first_birth' depends on axioms: [propext, Classical.choice, Quot.sound]

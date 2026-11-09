@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.scheduledCutWitness_emptyLineCredit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.ShortStars.initial_scheduledCutPoint_mainTuple_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

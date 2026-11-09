@@ -1,0 +1,4 @@
+'NoThreeLine.FrozenCapacity.frozen_specified_chord_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FrozenCapacity.accepted_frozen_clockCause_point_real_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

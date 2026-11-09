@@ -1,0 +1,3 @@
+'NoThreeLine.ShortStars.longLeafPartners_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.longLeafPairs_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.distinctLineLongLeafPairs_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]

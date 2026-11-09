@@ -1,0 +1,3 @@
+'NoThreeLine.OneSided.checkUpperFullCertificate_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.OneSided.erased_upper_full_certificate_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.OneSided.upper_unit_actual_integral' depends on axioms: [propext, Classical.choice, Quot.sound]

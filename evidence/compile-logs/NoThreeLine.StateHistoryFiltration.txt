@@ -1,0 +1,1 @@
+'NoThreeLine.StateHistory.state_stronglyAdapted' depends on axioms: [propext, Classical.choice, Quot.sound]

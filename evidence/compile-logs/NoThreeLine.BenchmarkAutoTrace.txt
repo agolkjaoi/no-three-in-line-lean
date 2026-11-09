@@ -1,0 +1,2 @@
+'NoThreeLine.AutoEnvelope.checkUpper_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.AutoEnvelope.checkLower_sound' depends on axioms: [propext, Classical.choice, Quot.sound]

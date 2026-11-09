@@ -1,0 +1,12 @@
+NoThreeLine.FiniteDirections.mem_reducedFamilyLabels (n : ℕ) (z : FamilyLabel) :
+  z ∈ reducedFamilyLabels n ↔
+    1 ≤ z.2.2 ∧ z.2.2 < n ∧ 1 ≤ z.2.1 ∧ z.2.1 ≤ z.2.2 ∧ z.2.1.Coprime z.2.2 ∧ (↑z.1 < 2 ∨ z.2.1 < z.2.2)
+NoThreeLine.FiniteDirections.nonaxis_subset_family_image (n : ℕ) :
+  {d ∈ directionIndices n | d.snd.1 ≠ 0 ∧ d.snd.2 ≠ 0} ⊆ Finset.image familyDirection (reducedFamilyLabels n)
+NoThreeLine.FiniteDirections.shellChord_family_eq.{u_1} {ι : Type u_1} {n : ℕ} (S : Finset ι) (R : ι → Rect)
+  (w : ZPoint → ι → ℝ) (p : Grid n) (z : FamilyLabel) (hz : z ∈ reducedFamilyLabels n) :
+  shellChord S R w p (familyDirection z) = familyChord S R w p z
+'NoThreeLine.FiniteDirections.nonaxis_subset_family_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FiniteDirections.nonaxis_chord_sum_le_four_families' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,13 @@
+<original-workspace>\NoThreeLine\ProtectedLineFlow.lean:18:28: warning: This simp argument is unused:
+  inv_mul_cancel₀
+
+Hint: Omit it from the simp argument list.
+  simp only [̵d̵i̵v̵_̵e̵q̵_̵m̵u̵l̵_̵i̵n̵v̵,̵i̵n̵v̵_̵m̵u̵l̵_̵c̵a̵n̵c̵e̵l̵₀̵,̵i̵n̵v̵_̵i̵n̵v̵,̵m̵u̵l̵_̵i̵n̵v̵_̵r̵e̵v̵]̵[̲d̲i̲v̲_̲e̲q̲_̲m̲u̲l̲_̲i̲n̲v̲,̲ ̲i̲n̲v̲_̲i̲n̲v̲,̲ ̲m̲u̲l̲_̲i̲n̲v̲_̲r̲e̲v̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<original-workspace>\NoThreeLine\ProtectedLineFlow.lean:76:2: warning: 'change
+  _ = protectedLineContinuousDrift (selectedTrajectory cfg (x, t)) cfg.directions cfg.mask L p' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+'NoThreeLine.flow_specifiedLineWeight_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.selected_protectedLine_derivative_generator' depends on axioms: [propext, Classical.choice, Quot.sound]

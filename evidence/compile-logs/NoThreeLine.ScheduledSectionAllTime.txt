@@ -1,0 +1,7 @@
+'NoThreeLine.BirthWitness.lineSectionAllTimeExceedance_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.scheduledSectionAllTimeBefore_measurableSet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduledSectionAllTimeBefore_subset_continuous' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

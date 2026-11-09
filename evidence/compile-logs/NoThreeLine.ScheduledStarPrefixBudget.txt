@@ -1,0 +1,7 @@
+'NoThreeLine.ShortStars.starCanonicalLatePrice_eq_of_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.starCanonicalLatePrice_prefix_schedule_le_shortTimeMean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.ShortStars.long_prefix_mean_add_starLatePrice_le_deadline_pairSum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,4 @@
+'NoThreeLine.protectedTimedCenteredSquare_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedTimedWeightedCenteredSquare_candidate_mean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,2 @@
+'NoThreeLine.ShortStars.tendsto_starLogErrorEnvelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.starError_mul_one_add_log_eq' depends on axioms: [propext, Classical.choice, Quot.sound]

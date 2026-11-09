@@ -1,0 +1,4 @@
+'NoThreeLine.protectedScheduledPair_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedScheduledPair_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedScheduledPair_saved_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedScheduledPair_source_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

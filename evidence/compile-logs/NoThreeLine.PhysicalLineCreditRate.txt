@@ -1,0 +1,3 @@
+'NoThreeLine.physicalLineCreditRate_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.physicalLineCreditRate_selected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.physicalLineCreditRate_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

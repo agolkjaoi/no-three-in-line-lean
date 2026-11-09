@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.lineSectionObserverStep_credit_of_advance_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.lineSectionCreditGap_step_mean' depends on axioms: [propext, Classical.choice, Quot.sound]

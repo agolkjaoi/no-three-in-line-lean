@@ -1,0 +1,5 @@
+'NoThreeLine.protectedLineStageDensity_martingale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.terminalLineStageDensity_protected_condExp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.phaseLineForbiddenLaw_protected_history_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

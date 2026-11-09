@@ -1,0 +1,3 @@
+'NoThreeLine.CalendarIntegral.exists_open_segment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.CalendarIntegral.sum_shiftedSegment_at_interior' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.CalendarIntegral.ae_avoids_endpoints' depends on axioms: [propext, Classical.choice, Quot.sound]

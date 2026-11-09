@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.localSource_eq_unitCutSource' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.terminalCalendarSource_le_unitCutSource' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

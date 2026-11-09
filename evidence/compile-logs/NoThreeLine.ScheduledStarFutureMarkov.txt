@@ -1,0 +1,4 @@
+'NoThreeLine.ShortStars.scheduledStarPower_future_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.scheduledStarPower_future_tail_le_moment' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

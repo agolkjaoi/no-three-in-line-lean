@@ -1,0 +1,2 @@
+'NoThreeLine.terminalProtectedWholeEnergy_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.terminalProtectedEnergy_cost_mean_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

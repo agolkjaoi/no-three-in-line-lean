@@ -1,0 +1,3 @@
+'NoThreeLine.PairWitness.pairRate_eq_cause_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.PairWitness.causeTuple_roots_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.PairWitness.pairRate_pow_repeat' depends on axioms: [propext, Classical.choice, Quot.sound]

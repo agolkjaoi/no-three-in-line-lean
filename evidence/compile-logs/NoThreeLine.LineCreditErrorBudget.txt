@@ -1,0 +1,4 @@
+'NoThreeLine.FiniteDirections.lineCreditErrorBudget_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FiniteDirections.tendsto_lineCreditErrorBudget_normalized' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

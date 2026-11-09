@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.exists_uniform_savedLong_prefixLate_tail_threshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

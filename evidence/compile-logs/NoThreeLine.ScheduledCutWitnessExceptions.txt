@@ -1,0 +1,5 @@
+'NoThreeLine.ShortStars.witnessExceptionConstant_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.mem_witnessExceptionTuples' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.initial_scheduledCutPoint_witness_exception_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

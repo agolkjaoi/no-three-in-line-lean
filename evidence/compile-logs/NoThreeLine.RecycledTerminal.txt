@@ -1,0 +1,4 @@
+'NoThreeLine.augRecycledTerminalPair_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augRecycledTerminal_done_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augRecycledTerminal_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augRecycledTerminal_expected_credit' depends on axioms: [propext, Classical.choice, Quot.sound]

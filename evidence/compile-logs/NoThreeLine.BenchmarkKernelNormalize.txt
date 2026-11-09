@@ -1,0 +1,3 @@
+'NoThreeLine.qKernelNormalizeTerms_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.qKernelPositiveDataCheck_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.qKernelNormalizeTerms_smoke' depends on axioms: [propext, Classical.choice, Quot.sound]

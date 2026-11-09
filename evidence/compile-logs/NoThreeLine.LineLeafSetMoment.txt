@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.boardLineLeafPower_eq_subtype' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.initial_rootPhasePoint_boardLineLeafPower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

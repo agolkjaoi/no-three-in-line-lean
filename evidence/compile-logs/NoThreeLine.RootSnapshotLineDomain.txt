@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.rawStepSaved_lineDomain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.rootObserverTerminal_connection_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

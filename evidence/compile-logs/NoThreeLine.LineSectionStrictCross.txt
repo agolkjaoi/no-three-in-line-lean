@@ -1,0 +1,4 @@
+'NoThreeLine.selectedLineSectionTime_lt_of_mass_gt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.lineSectionObserverStep_strict_exceedance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

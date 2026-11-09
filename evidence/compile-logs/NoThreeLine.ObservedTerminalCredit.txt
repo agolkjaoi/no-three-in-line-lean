@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.observedRecycledTerminal_credit_condExp' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.observedTerminal_point_history_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

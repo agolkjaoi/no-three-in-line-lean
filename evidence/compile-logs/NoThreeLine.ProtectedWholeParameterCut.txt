@@ -1,0 +1,4 @@
+'NoThreeLine.protectedCreditParameterCut_history_integral_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedEntropyParameterCut_history_integral_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

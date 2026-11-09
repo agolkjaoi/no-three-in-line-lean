@@ -1,0 +1,5 @@
+'NoThreeLine.sourceRestrict_step_birthCreditLoss_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.sourceRestrict_recycled_birthCreditLoss_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.sourceCutTerminal_birthCreditLoss_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

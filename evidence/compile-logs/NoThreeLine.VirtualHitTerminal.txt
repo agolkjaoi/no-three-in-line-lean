@@ -1,0 +1,5 @@
+'NoThreeLine.BirthWitness.virtualHitEvent_measurableSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.virtualHitAt_snapshot_stable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.virtualHitEvent_measure_le_terminal_tail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,27 @@
+<original-workspace>\NoThreeLine\ProtectedObservableMarkMean.lean:37:87: warning: This simp argument is unused:
+  false_and
+
+Hint: Omit it from the simp argument list.
+  simp only [̵p̵r̵o̵t̵e̵c̵t̵e̵d̵F̵o̵r̵b̵i̵d̵d̵e̵n̵M̵a̵r̵k̵O̵b̵s̵e̵r̵v̵a̵b̵l̵e̵,̵h̵e̵,̵h̵z̵,̵h̵q̵,̵a̵n̵d̵_̵s̵e̵l̵f̵,̵a̵n̵d̵_̵t̵r̵u̵e̵,̵a̵n̵d̵_̵f̵a̵l̵s̵e̵,̵f̵a̵l̵s̵e̵_̵a̵n̵d̵,̵t̵r̵u̵e̵_̵a̵n̵d̵,̵
+  ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵i̵f̵_̵t̵r̵u̵e̵,̵i̵f̵_̵f̵a̵l̵s̵e̵,̵z̵e̵r̵o̵_̵m̵u̵l̵,̵o̵n̵e̵_̵m̵u̵l̵,̵p̵r̵o̵t̵e̵c̵t̵e̵d̵L̵i̵n̵e̵S̵a̵v̵e̵_̵s̵e̵l̵f̵]̵[̲p̲r̲o̲t̲e̲c̲t̲e̲d̲F̲o̲r̲b̲i̲d̲d̲e̲n̲M̲a̲r̲k̲O̲b̲s̲e̲r̲v̲a̲b̲l̲e̲,̲ ̲h̲e̲,̲ ̲h̲z̲,̲ ̲h̲q̲,̲ ̲a̲n̲d̲_̲s̲e̲l̲f̲,̲ ̲a̲n̲d̲_̲t̲r̲u̲e̲,̲ ̲a̲n̲d̲_̲f̲a̲l̲s̲e̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲t̲r̲u̲e̲_̲a̲n̲d̲,̲ ̲i̲f̲_̲t̲r̲u̲e̲,̲ ̲i̲f̲_̲f̲a̲l̲s̲e̲,̲ ̲z̲e̲r̲o̲_̲m̲u̲l̲,̲ ̲o̲n̲e̲_̲m̲u̲l̲,̲ ̲p̲r̲o̲t̲e̲c̲t̲e̲d̲L̲i̲n̲e̲S̲a̲v̲e̲_̲s̲e̲l̲f̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<original-workspace>\NoThreeLine\ProtectedObservableMarkMean.lean:37:97: warning: This simp argument is unused:
+  true_and
+
+Hint: Omit it from the simp argument list.
+  simp only [̵p̵r̵o̵t̵e̵c̵t̵e̵d̵F̵o̵r̵b̵i̵d̵d̵e̵n̵M̵a̵r̵k̵O̵b̵s̵e̵r̵v̵a̵b̵l̵e̵,̵h̵e̵,̵h̵z̵,̵h̵q̵,̵a̵n̵d̵_̵s̵e̵l̵f̵,̵a̵n̵d̵_̵t̵r̵u̵e̵,̵a̵n̵d̵_̵f̵a̵l̵s̵e̵,̵f̵a̵l̵s̵e̵_̵a̵n̵d̵,̵t̵r̵u̵e̵_̵a̵n̵d̵,̵
+  ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵ ̵i̵f̵_̵t̵r̵u̵e̵,̵i̵f̵_̵f̵a̵l̵s̵e̵,̵z̵e̵r̵o̵_̵m̵u̵l̵,̵o̵n̵e̵_̵m̵u̵l̵,̵p̵r̵o̵t̵e̵c̵t̵e̵d̵L̵i̵n̵e̵S̵a̵v̵e̵_̵s̵e̵l̵f̵]̵[̲p̲r̲o̲t̲e̲c̲t̲e̲d̲F̲o̲r̲b̲i̲d̲d̲e̲n̲M̲a̲r̲k̲O̲b̲s̲e̲r̲v̲a̲b̲l̲e̲,̲ ̲h̲e̲,̲ ̲h̲z̲,̲ ̲h̲q̲,̲ ̲a̲n̲d̲_̲s̲e̲l̲f̲,̲ ̲a̲n̲d̲_̲t̲r̲u̲e̲,̲ ̲a̲n̲d̲_̲f̲a̲l̲s̲e̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲f̲a̲l̲s̲e̲_̲a̲n̲d̲,̲ ̲i̲f̲_̲t̲r̲u̲e̲,̲ ̲i̲f̲_̲f̲a̲l̲s̲e̲,̲ ̲z̲e̲r̲o̲_̲m̲u̲l̲,̲ ̲o̲n̲e̲_̲m̲u̲l̲,̲ ̲p̲r̲o̲t̲e̲c̲t̲e̲d̲L̲i̲n̲e̲S̲a̲v̲e̲_̲s̲e̲l̲f̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<original-workspace>\NoThreeLine\ProtectedObservableMarkMean.lean:93:8: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+<original-workspace>\NoThreeLine\ProtectedObservableMarkMean.lean:119:95: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'NoThreeLine.protectedForbiddenMarkObservable_actual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedForbiddenMarkObservable_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedObservableCandidateMean_generator' depends on axioms: [propext, Classical.choice, Quot.sound]

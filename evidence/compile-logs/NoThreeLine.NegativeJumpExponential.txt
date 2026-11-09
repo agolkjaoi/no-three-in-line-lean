@@ -1,0 +1,8 @@
+<original-workspace>\NoThreeLine\NegativeJumpExponential.lean:19:72: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+<original-workspace>\NoThreeLine\NegativeJumpExponential.lean:19:94: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'NoThreeLine.exp_nonpos_quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedObservableExternalRate_exp_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'NoThreeLine.augRecycledPair_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augRecycledState_map_eq_noiseState' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augRecycledState_expected_credit' depends on axioms: [propext, Classical.choice, Quot.sound]

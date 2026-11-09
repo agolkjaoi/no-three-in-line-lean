@@ -1,0 +1,2 @@
+'NoThreeLine.savedCreditMeasure_bounded_history_setIntegral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.bounded_density_martingale_transfer' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,5 @@
+'NoThreeLine.Phase15301Group7275.rational_risk_accepted' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.Phase15301Group7275.uniform_direct_risk' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.Phase15301Group7275.uniform_actual_orbit_risk' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.Phase15301Group7275.actual_leaf_frozen_risk' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.Phase15301Group7275.actual_leaf_actual_risk' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'NoThreeLine.scheduledTerminal_clock' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.scheduledProtectedClock_budget_le' depends on axioms: [propext, Classical.choice, Quot.sound]

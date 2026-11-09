@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.lineSectionRawSnapshot_active_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.markedSectionTerminal_active_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

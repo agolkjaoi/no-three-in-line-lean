@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.terminal_expected_source_free_mixed_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.terminal_expected_initially_unborn_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

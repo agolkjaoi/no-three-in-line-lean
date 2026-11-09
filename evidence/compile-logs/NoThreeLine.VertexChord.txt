@@ -1,0 +1,5 @@
+'NoThreeLine.interval_overlap_positivePart' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.Rect.chord_eq_four_vertices' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.rectangleField_chord_eq_vertexSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.finite_weighted_grouping' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.rectangleField_chord_eq_groupedVertices' depends on axioms: [propext, Classical.choice, Quot.sound]

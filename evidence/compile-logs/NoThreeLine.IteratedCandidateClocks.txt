@@ -1,0 +1,2 @@
+'NoThreeLine.IteratedCandidateClocks.candidatePrefix_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.IteratedCandidateClocks.eventPrefix_map' depends on axioms: [propext, Classical.choice, Quot.sound]

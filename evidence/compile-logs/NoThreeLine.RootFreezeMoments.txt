@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.rootPoint_activeWitness_all_labels_coarse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.rootPoint_activeWitnessPower_moment' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,5 @@
+'NoThreeLine.BirthWitness.goodRootMixed_history_estimate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.rootRunningSource_history_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.goodRootMixed_running_history_estimate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

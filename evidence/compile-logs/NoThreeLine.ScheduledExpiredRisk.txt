@@ -1,0 +1,9 @@
+'NoThreeLine.BirthWitness.initial_scheduledCut_expired_closed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduledOutsideLineRates_expired_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduledOutsidePaths_deadline_prefix' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

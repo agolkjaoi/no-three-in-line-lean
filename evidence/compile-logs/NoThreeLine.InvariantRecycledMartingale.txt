@@ -1,0 +1,3 @@
+'NoThreeLine.RecycledBoardProcess.credit_martingale_of_invariant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

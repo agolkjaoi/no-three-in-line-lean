@@ -1,0 +1,3 @@
+'NoThreeLine.FrozenCapacity.reference_pair_chord_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FrozenCapacity.reference_critical_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FrozenCapacity.reference_capacity_high_scaled' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'NoThreeLine.protectedFirstEntropySource_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedRunningEntropySource_joint_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]

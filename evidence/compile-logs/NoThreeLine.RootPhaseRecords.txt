@@ -1,0 +1,7 @@
+'NoThreeLine.BirthWitness.phaseRootScheduledPair_saved_recordsExtend' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.phaseRootPhases_saved_in_actual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.phaseRootPhases_saved_record_stable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

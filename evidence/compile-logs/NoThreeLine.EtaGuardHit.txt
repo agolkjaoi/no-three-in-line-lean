@@ -1,0 +1,4 @@
+'NoThreeLine.etaGuard_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.selectedEtaTime_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.selectedEtaTime_before' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.selectedEtaTime_cost' depends on axioms: [propext, Classical.choice, Quot.sound]

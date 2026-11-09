@@ -1,0 +1,9 @@
+<original-workspace>\NoThreeLine\SectionInputBudget.lean:57:67: warning: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+<original-workspace>\NoThreeLine\SectionInputBudget.lean:57:67: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+'NoThreeLine.BirthWitness.sectionScheduleInput_eq_cumulative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.sectionScheduleBudget_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.exists_sectionScheduleBudget_gap' depends on axioms: [propext, Classical.choice, Quot.sound]

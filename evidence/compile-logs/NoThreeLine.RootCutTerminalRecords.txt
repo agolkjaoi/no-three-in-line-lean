@@ -1,0 +1,9 @@
+<original-workspace>\NoThreeLine\RootCutTerminalRecords.lean:47:69: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'NoThreeLine.BirthWitness.sourceCut_recordsExtend_terminal_of_avoid' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.sourceCut_recordsExtend_terminal_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

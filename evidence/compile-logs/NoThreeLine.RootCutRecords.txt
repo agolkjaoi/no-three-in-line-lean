@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.sourceCutInterior_records_eq_root_saved' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.sourceCutInterior_recordsExtend_later_saved' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

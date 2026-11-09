@@ -1,0 +1,2 @@
+'NoThreeLine.protectedCreditTotal_exp_compensated_generator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedEntropyTotal_exp_compensated_generator' depends on axioms: [propext, Classical.choice, Quot.sound]

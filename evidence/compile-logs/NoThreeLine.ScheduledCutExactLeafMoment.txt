@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.initial_scheduledCutPoint_lineLeafPower_repeat_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.initial_scheduledCutPoint_selectedLineLeafPower_repeat_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

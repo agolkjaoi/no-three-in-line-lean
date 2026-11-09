@@ -1,0 +1,9 @@
+'NoThreeLine.BirthWitness.scheduledOutsideRiskError_measurableSet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduledOutsideRiskError_tail_le_mean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.exists_uniform_outsideRiskError_tail_threshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

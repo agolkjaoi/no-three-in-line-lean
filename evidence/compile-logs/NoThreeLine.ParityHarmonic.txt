@@ -1,0 +1,5 @@
+'NoThreeLine.parityHarmonic_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.parityHarmonic_total' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.parityHarmonic_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.reciprocal_square_sum_le_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.parity_reciprocal_square_sum_le_two' depends on axioms: [propext, Classical.choice, Quot.sound]

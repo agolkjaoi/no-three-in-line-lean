@@ -1,0 +1,15 @@
+<original-workspace>\NoThreeLine\ScheduledRootCreditDouble.lean:83:6: warning: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+<original-workspace>\NoThreeLine\ScheduledRootCreditDouble.lean:83:6: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+'NoThreeLine.BirthWitness.scheduledRootCreditDoublePath_integrable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduledRootCreditDoublePath_le_diagonal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduledRootCreditDoublePath_terminal_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

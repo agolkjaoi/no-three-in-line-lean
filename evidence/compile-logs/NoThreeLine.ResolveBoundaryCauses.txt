@@ -1,0 +1,18 @@
+<original-workspace>\NoThreeLine\ResolveBoundaryCauses.lean:78:23: warning: This simp argument is unused:
+  if_neg ha
+
+Hint: Omit it from the simp argument list.
+  simp only [̵r̵e̵s̵o̵l̵v̵e̵,̵i̵f̵_̵n̵e̵g̵ ̵h̵a̵,̵r̵o̵o̵t̵R̵e̵s̵o̵l̵v̵e̵C̵a̵u̵s̵e̵,̵h̵a̵,̵f̵a̵l̵s̵e̵_̵o̵r̵]̵[̲r̲e̲s̲o̲l̲v̲e̲,̲ ̲r̲o̲o̲t̲R̲e̲s̲o̲l̲v̲e̲C̲a̲u̲s̲e̲,̲ ̲h̲a̲,̲ ̲f̲a̲l̲s̲e̲_̲o̲r̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<original-workspace>\NoThreeLine\ResolveBoundaryCauses.lean:87:23: warning: This simp argument is unused:
+  if_neg ha
+
+Hint: Omit it from the simp argument list.
+  simp only [̵r̵e̵s̵o̵l̵v̵e̵,̵i̵f̵_̵n̵e̵g̵ ̵h̵a̵,̵h̵a̵,̵f̵a̵l̵s̵e̵_̵o̵r̵]̵[̲r̲e̲s̲o̲l̲v̲e̲,̲ ̲h̲a̲,̲ ̲f̲a̲l̲s̲e̲_̲o̲r̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NoThreeLine.rootResolveCause_explicit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.AugmentedState.resolve_inactive_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.AugmentedState.resolve_new_stop_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.deadlineRetirement_inactive_iff' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,7 @@
+<original-workspace>\NoThreeLine\ProtectedWholeEnergyMean.lean:20:75: warning: Variable name `hB` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'NoThreeLine.protected_credit_whole_energy_first_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protected_entropy_whole_energy_first_mean' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'NoThreeLine.QRect.envelopeExpr_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.actualChord_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

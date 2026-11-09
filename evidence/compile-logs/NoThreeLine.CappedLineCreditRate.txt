@@ -1,0 +1,3 @@
+'NoThreeLine.selectedLineCreditRate_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.cappedLineCreditRate_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augTimedLineLoss_capped_integral' depends on axioms: [propext, Classical.choice, Quot.sound]

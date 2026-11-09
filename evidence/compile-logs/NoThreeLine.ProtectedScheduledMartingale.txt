@@ -1,0 +1,3 @@
+'NoThreeLine.protectedScheduledDensity_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedScheduled_compensated_martingale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedScheduled_compensated_mean' depends on axioms: [propext, Classical.choice, Quot.sound]

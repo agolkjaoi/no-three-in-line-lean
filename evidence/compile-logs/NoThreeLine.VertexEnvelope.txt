@@ -1,0 +1,8 @@
+'NoThreeLine.rectangleField_chord_eq_hingeSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.rectangleField_chord_le_vertexEnvelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.rectangleField_chord_le_vertexBoxEnvelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.hingeTent_root_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.vertexBoxEnvelope_eq_algebraic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.rectangleField_chord_le_algebraicVertexBoxEnvelope' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

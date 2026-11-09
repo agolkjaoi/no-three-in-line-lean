@@ -1,0 +1,9 @@
+'NoThreeLine.BirthWitness.observedRecycledPhaseState_recordsBefore' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.initial_scheduledCutObservation_recordsBefore' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.initial_scheduledCut_selected_timestamp' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

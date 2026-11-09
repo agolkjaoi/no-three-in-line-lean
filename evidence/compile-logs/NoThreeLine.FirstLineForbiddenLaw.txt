@@ -1,0 +1,10 @@
+<original-workspace>\NoThreeLine\FirstLineForbiddenLaw.lean:42:9: warning: Variable name `ω` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'NoThreeLine.BirthWitness.firstLineForbiddenLaw_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.firstLineForbiddenLaw_no_line_birth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.firstLineForbiddenLaw_event_le' depends on axioms: [propext, Classical.choice, Quot.sound]

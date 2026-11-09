@@ -1,0 +1,4 @@
+'NoThreeLine.fieldChord_square_intervalIntegrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.fieldChord_square_integral_le_box' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.erased_fieldChord_square_intervalIntegrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.erased_fieldChord_square_integral_eq' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'NoThreeLine.cumulativeProtectedStateSource_stronglyAdapted' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.cumulativeProtectedStateVariation_elapsed_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.cumulativeProtectedStateSource_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]

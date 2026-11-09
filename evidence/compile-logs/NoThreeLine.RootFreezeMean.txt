@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.rawStepSaved_source_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.rootStepSource_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.rootObserverStep_source_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

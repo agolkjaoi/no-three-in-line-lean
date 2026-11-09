@@ -1,0 +1,3 @@
+'NoThreeLine.terminalPairCost_joint_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.recycledPairCost_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.terminalPairCost_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

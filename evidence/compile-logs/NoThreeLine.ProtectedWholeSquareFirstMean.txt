@@ -1,0 +1,25 @@
+<original-workspace>\NoThreeLine\ProtectedWholeSquareFirstMean.lean:24:73: warning: This simp argument is unused:
+  if_pos hd
+
+Hint: Omit it from the simp argument list.
+  simp only [protectedTimedWeightedScalarSquare, ̲augTimedLineLikelihood,i̵f̵_̵p̵o̵s̵ h̵d̵,̵one_mul,
+       ̵ ̵protectedTimedScalarSquare, ̲protectedRemember, ̲augTimedStep, ̲augTimedStepPair, ̲if_pos hd,
+       ̵ ̵protectedLineSave_self, ̲protectedFirstScalarSource, ̲add_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<original-workspace>\NoThreeLine\ProtectedWholeSquareFirstMean.lean:74:73: warning: This simp argument is unused:
+  if_pos hd
+
+Hint: Omit it from the simp argument list.
+  simp only [protectedTimedWeightedScalarSquare, ̲augTimedLineLikelihood,i̵f̵_̵p̵o̵s̵ h̵d̵,̵one_mul,
+       ̵ ̵protectedTimedScalarSquare, ̲protectedRemember, ̲augTimedStep, ̲augTimedStepPair, ̲if_pos hd,
+       ̵ ̵protectedLineSave_self, ̲protectedFirstScalarSource, ̲add_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NoThreeLine.firstLineForbiddenLaw_protectedCreditTotalSquare_mean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.firstLineForbiddenLaw_protectedEntropyTotalSquare_mean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.protectedScalarSquare_firstForbidden_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]

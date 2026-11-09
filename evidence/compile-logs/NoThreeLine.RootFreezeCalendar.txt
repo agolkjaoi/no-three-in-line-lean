@@ -1,0 +1,7 @@
+'NoThreeLine.BirthWitness.terminalRootCalendarSource_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.terminalRootCalendarSource_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.terminalRootRunningSource_eq_timeIntegral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

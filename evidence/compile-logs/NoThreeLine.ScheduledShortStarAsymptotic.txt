@@ -1,0 +1,5 @@
+'NoThreeLine.ShortStars.tendsto_starErrorEnvelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.tendsto_starEtaMultiplier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.initial_scheduledCutPoint_maskedIntensity_asymptotic_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

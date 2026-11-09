@@ -1,0 +1,2 @@
+'NoThreeLine.ScheduleUnionFirst192.actual_schedule_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ScheduleUnionFirst192.shortened_schedule_mass' depends on axioms: [propext, Classical.choice, Quot.sound]

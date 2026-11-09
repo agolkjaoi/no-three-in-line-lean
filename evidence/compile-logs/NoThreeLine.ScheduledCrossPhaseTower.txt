@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.scheduled_cross_phase_future_credit_tower_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduled_cross_phase_future_point_integral_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

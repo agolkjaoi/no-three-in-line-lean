@@ -1,0 +1,8 @@
+<original-workspace>\NoThreeLine\LongLinePrices.lean:60:21: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+<original-workspace>\NoThreeLine\LongLinePrices.lean:60:53: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'NoThreeLine.BirthWitness.longBirthPrice_le_line_length' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.long_schedule_unit_mean_identity' depends on axioms: [propext, Classical.choice, Quot.sound]

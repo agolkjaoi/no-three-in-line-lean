@@ -1,0 +1,3 @@
+'NoThreeLine.ShortStars.pairExceptionTuples_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.mem_longExceptionTuples' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.longExceptionTuples_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]

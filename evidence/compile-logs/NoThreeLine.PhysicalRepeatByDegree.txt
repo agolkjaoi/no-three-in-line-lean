@@ -1,0 +1,11 @@
+<original-workspace>\NoThreeLine\PhysicalRepeatByDegree.lean:41:22: warning: This simp argument is unused:
+  Fintype.card_fun
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵F̵i̵n̵t̵y̵p̵e̵.̵c̵a̵r̵d̵_̵f̵u̵n̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NoThreeLine.FiniteWitnessMoments.tuplesOfDegree_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FiniteWitnessMoments.physicalRepeatSum_unit_degree_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

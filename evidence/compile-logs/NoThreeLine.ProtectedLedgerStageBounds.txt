@@ -1,0 +1,3 @@
+'NoThreeLine.phaseLineForbiddenLaw_all_occupancy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedLedger_stage_bounds_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedLedger_terminal_bounds_ae' depends on axioms: [propext, Classical.choice, Quot.sound]

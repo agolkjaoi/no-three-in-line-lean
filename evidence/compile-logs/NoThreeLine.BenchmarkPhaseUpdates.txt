@@ -1,0 +1,20 @@
+<original-workspace>\NoThreeLine\BenchmarkPhaseUpdates.lean:25:43: warning: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  simp only [phasePositions, ̲List.mem_dedup, ̲List.mem_ofFn, ̲Finset.mem_image,
+  ̵  ̵ ̵ ̵Finset.mem_univ,
+  ̲ ̲ ̲ ̲ ̲true_and, ̲Prod.mk.injEq, ̲Prod.f̵st̵,̵P̵r̵o̵d̵.̵s̵nd]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<original-workspace>\NoThreeLine\BenchmarkPhaseUpdates.lean:25:52: warning: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  simp only [phasePositions, ̲List.mem_dedup, ̲List.mem_ofFn, ̲Finset.mem_image,
+  ̵  ̵ ̵ ̵Finset.mem_univ,
+  ̲ ̲ ̲ ̲ ̲true_and, ̲Prod.mk.injEq, ̲Prod.fst,̵P̵r̵o̵d̵.̵s̵n̵d̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NoThreeLine.BenchmarkPrefix.contribution_phaseUpdates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BenchmarkPrefix.get_add_phaseUpdates' depends on axioms: [propext, Classical.choice, Quot.sound]

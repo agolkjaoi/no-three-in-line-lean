@@ -1,0 +1,10 @@
+'NoThreeLine.ShortStars.starLatePrice_le_full' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.starLatePrice_schedule_le_shortTimeMean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.ShortStars.starCanonicalLatePrice_schedule_le_shortTimeMean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.ShortStars.long_mean_add_starLatePrice_le_normalizedPairSum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,4 @@
+'NoThreeLine.ShortStars.tuplePhysicalProduct_le_main_exceptions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.ShortStars.sum_rootDistinct_le_main_exceptions' depends on axioms: [propext, Classical.choice, Quot.sound]

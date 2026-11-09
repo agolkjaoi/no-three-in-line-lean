@@ -1,0 +1,4 @@
+'NoThreeLine.ae_time_avoids_random_endpoints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.observedFuture_actual_cut_tower_ae_time' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

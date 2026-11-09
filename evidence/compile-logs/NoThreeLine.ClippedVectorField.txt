@@ -1,0 +1,4 @@
+'NoThreeLine.AuxiliaryODE.clippedVectorField_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.AuxiliaryODE.clippedVectorField_bounded_lipschitz' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

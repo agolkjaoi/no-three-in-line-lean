@@ -1,0 +1,2 @@
+'NoThreeLine.FiniteBudgetTermination.exists_finished' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FiniteBudgetTermination.eventually_finished' depends on axioms: [propext, Classical.choice, Quot.sound]

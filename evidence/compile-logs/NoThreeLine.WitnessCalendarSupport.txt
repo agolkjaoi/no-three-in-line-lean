@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.terminalCalendarSource_after_completion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.localSource_common_absolute_time' depends on axioms: [propext, Classical.choice, Quot.sound]

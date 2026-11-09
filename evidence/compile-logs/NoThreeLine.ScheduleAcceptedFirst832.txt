@@ -1,0 +1,7 @@
+'NoThreeLine.ScheduleAcceptedFirst832.actual_schedule_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ScheduleAcceptedFirst832.shortened_schedule_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.ScheduleAcceptedFirst832.root_deadline_prefix_le_coarse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

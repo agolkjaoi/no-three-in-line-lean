@@ -1,0 +1,3 @@
+'NoThreeLine.selectedProtectedExponentialCandidate_continuousOn_of_loss' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

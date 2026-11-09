@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.mixed_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.mixed_le_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.mixed_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]

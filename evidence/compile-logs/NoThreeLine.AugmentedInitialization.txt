@@ -1,0 +1,3 @@
+'NoThreeLine.augInitialState_expired' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augInitialState_not_auxBad' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augFinitePhase_initial_expected_credit' depends on axioms: [propext, Classical.choice, Quot.sound]

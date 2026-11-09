@@ -1,0 +1,2 @@
+'NoThreeLine.OffLineDivisors.residue_finset_card_mul_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.OffLineDivisors.divisorParameters_card_mul_le' depends on axioms: [propext, Classical.choice, Quot.sound]

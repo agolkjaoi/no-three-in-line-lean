@@ -1,0 +1,3 @@
+'NoThreeLine.fieldChord_square_eVariation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.fieldChord_square_boundedVariationOn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.erasedFieldChord_square_eVariation' depends on axioms: [propext, Classical.choice, Quot.sound]

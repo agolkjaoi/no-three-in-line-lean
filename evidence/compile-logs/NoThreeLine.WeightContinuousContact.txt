@@ -1,0 +1,3 @@
+'NoThreeLine.weightContact_eq_actual_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.weightSegmentContact_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.weightSegmentContact_rawHit' depends on axioms: [propext, Classical.choice, Quot.sound]

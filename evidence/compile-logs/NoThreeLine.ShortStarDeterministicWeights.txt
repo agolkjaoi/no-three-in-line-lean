@@ -1,0 +1,3 @@
+'NoThreeLine.ShortStars.weighted_sum_all_le_main_repeat_exceptions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,4 @@
+'NoThreeLine.rectangleField_point_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.rectangleField_le_unit_indicator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.rectangleField_chord_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.erased_rectangleField_chord_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

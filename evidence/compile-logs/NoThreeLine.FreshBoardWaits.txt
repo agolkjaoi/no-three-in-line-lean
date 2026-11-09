@@ -1,0 +1,5 @@
+'NoThreeLine.FreshBoardWaits.candidate_firstWaitSequence_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FreshBoardWaits.fresh_paths_finish_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FreshBoardWaits.fresh_paths_finish_of_continuing_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

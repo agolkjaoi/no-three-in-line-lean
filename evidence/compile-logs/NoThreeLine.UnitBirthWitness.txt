@@ -1,0 +1,7 @@
+'NoThreeLine.BirthWitness.initial_rootPhaseWitness_unit_retained' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.unitBirthRetention_accumulated_price' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.unitBirthRetention_schedule_price' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'NoThreeLine.CreditAccount.measurable_credit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ProcessState.measurable_retire' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ProcessState.measurable_stop' depends on axioms: [propext, Classical.choice, Quot.sound]

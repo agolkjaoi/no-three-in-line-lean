@@ -1,0 +1,2 @@
+'NoThreeLine.TwoStar.shellCauses_subset_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.TwoStar.shellCauses_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]

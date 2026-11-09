@@ -1,0 +1,2 @@
+'NoThreeLine.BirthWitness.validLineStageValue_retire' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.validLineStageDensity_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

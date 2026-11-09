@@ -1,0 +1,11 @@
+<original-workspace>\NoThreeLine\ScheduledSourceCoarseProduct.lean:83:60: warning: Variable name `q` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'NoThreeLine.BirthWitness.initial_scheduledSource_coarse_product_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.initial_cumulativeSource_coarse_product_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

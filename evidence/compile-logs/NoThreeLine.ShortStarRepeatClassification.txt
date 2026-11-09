@@ -1,0 +1,2 @@
+'NoThreeLine.ShortStars.realized_repeated_witness_card_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.sum_repeated_le_counts' depends on axioms: [propext, Classical.choice, Quot.sound]

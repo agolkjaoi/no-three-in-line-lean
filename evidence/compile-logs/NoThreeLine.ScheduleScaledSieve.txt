@@ -1,0 +1,5 @@
+'NoThreeLine.FinitePhase.Schedule.scaled_deadline' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FinitePhase.Schedule.own_deadline_mass_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FinitePhase.Schedule.shortened_boardDeadline_sieve_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

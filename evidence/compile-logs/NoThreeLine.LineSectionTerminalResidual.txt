@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.lineSectionTerminalPair_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.lineSectionTerminal_residual_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

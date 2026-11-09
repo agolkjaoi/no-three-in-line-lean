@@ -1,0 +1,4 @@
+'NoThreeLine.RecycledBoardProcess.sourceRestart_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.RecycledBoardProcess.sourceRestart_iterate_projection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

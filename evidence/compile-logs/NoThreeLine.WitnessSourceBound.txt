@@ -1,0 +1,2 @@
+'NoThreeLine.BirthWitness.sharedSpecifiedLines_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.generator_le_bounded_source' depends on axioms: [propext, Classical.choice, Quot.sound]

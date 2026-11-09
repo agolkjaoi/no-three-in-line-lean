@@ -1,0 +1,8 @@
+<original-workspace>\NoThreeLine\DyadicPhaseInput.lean:57:49: warning: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+<original-workspace>\NoThreeLine\DyadicPhaseInput.lean:57:49: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+'NoThreeLine.dyadicGridBox_qrect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.GridBox.symmetry_qrect' depends on axioms: [propext, Classical.choice, Quot.sound]

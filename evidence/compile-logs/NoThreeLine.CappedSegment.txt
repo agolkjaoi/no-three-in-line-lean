@@ -1,0 +1,3 @@
+'NoThreeLine.cappedOutcome_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.cappedAdvance_le_remaining' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.cappedOutcome_first_credit' depends on axioms: [propext, Classical.choice, Quot.sound]

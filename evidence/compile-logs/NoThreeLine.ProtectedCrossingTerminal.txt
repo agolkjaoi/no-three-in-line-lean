@@ -1,0 +1,2 @@
+'NoThreeLine.augFiltration_le_protected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedCrossingTerminalPair_map' depends on axioms: [propext, Classical.choice, Quot.sound]

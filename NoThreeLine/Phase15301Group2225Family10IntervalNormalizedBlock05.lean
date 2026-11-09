@@ -1,0 +1,23 @@
+import NoThreeLine.Phase15301Group2225Family10Data
+import NoThreeLine.BenchmarkNormalizedChunks
+
+set_option autoImplicit false
+set_option maxRecDepth 100000
+set_option maxHeartbeats 0
+namespace NoThreeLine.Phase15301Group2225.Family10.IntervalNormalized
+open AutoEnvelope
+
+def block05Expr : Expr := .add (.min (.add (.max (.add (.atom ⟨(-13899990577/25600000000:ℚ),(11958697327/25600000000:ℚ)⟩) (.add (.scale ((-132312013/100000000:ℚ)) (.add (.max (.atom ⟨0,0⟩) (.atom ⟨(93/512:ℚ),(-35/512:ℚ)⟩)) (.atom ⟨0,0⟩))) (.add (.scale ((402597/2500000:ℚ)) (.add (.max (.atom ⟨0,0⟩) (.atom ⟨(125/512:ℚ),(-35/512:ℚ)⟩)) (.atom ⟨0,0⟩))) (.add (.scale ((2517513/5000000:ℚ)) (.add (.max (.atom ⟨0,0⟩) (.atom ⟨(157/512:ℚ),(-67/512:ℚ)⟩)) (.atom ⟨0,0⟩))) (.add (.scale ((41023249/100000000:ℚ)) (.add (.max (.atom ⟨0,0⟩) (.atom ⟨(189/512:ℚ),(-67/512:ℚ)⟩)) (.atom ⟨0,0⟩))) (.add (.scale ((4241801/20000000:ℚ)) (.add (.max (.atom ⟨0,0⟩) (.atom ⟨(221/512:ℚ),(-67/512:ℚ)⟩)) (.atom ⟨0,0⟩))) (.add (.scale ((21452501/100000000:ℚ)) (.add (.max (.atom ⟨0,0⟩) (.atom ⟨(253/512:ℚ),(-67/512:ℚ)⟩)) (.atom ⟨0,0⟩))) (.atom ⟨0,0⟩)))))))) (.add (.atom ⟨(-7028176219/12800000000:ℚ),(5901167733/12800000000:ℚ)⟩) (.add (.scale ((-132312013/100000000:ℚ)) (.add (.max (.atom ⟨0,0⟩) (.atom ⟨(47/256:ℚ),(-17/256:ℚ)⟩)) (.atom ⟨0,0⟩))) (.add (.scale ((402597/2500000:ℚ)) (.add (.max (.atom ⟨0,0⟩) (.atom ⟨(63/256:ℚ),(-17/256:ℚ)⟩)) (.atom ⟨0,0⟩))) (.add (.scale ((2517513/5000000:ℚ)) (.add (.max (.atom ⟨0,0⟩) (.atom ⟨(79/256:ℚ),(-33/256:ℚ)⟩)) (.atom ⟨0,0⟩))) (.add (.scale ((41023249/100000000:ℚ)) (.add (.max (.atom ⟨0,0⟩) (.atom ⟨(95/256:ℚ),(-33/256:ℚ)⟩)) (.atom ⟨0,0⟩))) (.add (.scale ((4241801/20000000:ℚ)) (.add (.max (.atom ⟨0,0⟩) (.atom ⟨(111/256:ℚ),(-33/256:ℚ)⟩)) (.atom ⟨0,0⟩))) (.add (.scale ((21452501/100000000:ℚ)) (.add (.max (.atom ⟨0,0⟩) (.atom ⟨(127/256:ℚ),(-33/256:ℚ)⟩)) (.atom ⟨0,0⟩))) (.atom ⟨0,0⟩))))))))) (.add (.scale ((132312013/100000000:ℚ)) (.add (.max (.atom ⟨0,0⟩) (.add (.min (.atom ⟨(-93/512:ℚ),(35/512:ℚ)⟩) (.add (.min (.atom ⟨(47/256:ℚ),(-17/256:ℚ)⟩) (.atom ⟨(1/2048:ℚ),(1/2048:ℚ)⟩)) (.atom ⟨0,0⟩))) (.atom ⟨0,0⟩))) (.atom ⟨0,0⟩))) (.atom ⟨0,0⟩))) (.add (.min (.add (.atom ⟨(-13899990577/25600000000:ℚ),(11958697327/25600000000:ℚ)⟩) (.add (.scale ((-132312013/100000000:ℚ)) (.add (.max (.atom ⟨0,0⟩) (.atom ⟨(93/512:ℚ),(-35/512:ℚ)⟩)) (.atom ⟨0,0⟩))) (.add (.scale ((402597/2500000:ℚ)) (.add (.max (.atom ⟨0,0⟩) (.atom ⟨(125/512:ℚ),(-35/512:ℚ)⟩)) (.atom ⟨0,0⟩))) (.add (.scale ((2517513/5000000:ℚ)) (.add (.max (.atom ⟨0,0⟩) (.atom ⟨(157/512:ℚ),(-67/512:ℚ)⟩)) (.atom ⟨0,0⟩))) (.add (.scale ((41023249/100000000:ℚ)) (.add (.max (.atom ⟨0,0⟩) (.atom ⟨(189/512:ℚ),(-67/512:ℚ)⟩)) (.atom ⟨0,0⟩))) (.add (.scale ((4241801/20000000:ℚ)) (.add (.max (.atom ⟨0,0⟩) (.atom ⟨(221/512:ℚ),(-67/512:ℚ)⟩)) (.atom ⟨0,0⟩))) (.add (.scale ((21452501/100000000:ℚ)) (.add (.max (.atom ⟨0,0⟩) (.atom ⟨(253/512:ℚ),(-67/512:ℚ)⟩)) (.atom ⟨0,0⟩))) (.add (.scale ((56500727/50000000:ℚ)) (.add (.max (.atom ⟨0,0⟩) (.add (.min (.atom ⟨(1/4:ℚ),0⟩) (.atom ⟨(3/512:ℚ),(35/512:ℚ)⟩)) (.add (.scale (-1) (.add (.max (.atom ⟨(3/16:ℚ),0⟩) (.atom ⟨(1/256:ℚ),(17/256:ℚ)⟩)) (.atom ⟨0,0⟩))) (.atom ⟨0,0⟩)))) (.atom ⟨0,0⟩))) (.add (.scale ((48448787/50000000:ℚ)) (.add (.max (.atom ⟨0,0⟩) (.add (.atom ⟨(3/512:ℚ),(35/512:ℚ)⟩) (.add (.scale (-1) (.add (.max (.atom ⟨(1/4:ℚ),0⟩) (.atom ⟨(1/256:ℚ),(17/256:ℚ)⟩)) (.atom ⟨0,0⟩))) (.atom ⟨0,0⟩)))) (.atom ⟨0,0⟩))) (.atom ⟨0,0⟩)))))))))) (.atom ⟨(147203477/20000000:ℚ),0⟩)) (.atom ⟨0,0⟩))) (.atom ⟨0,0⟩)
+def block05Cuts : List (ℚ × AutoTrace) := [((31/128:ℚ),.auto),((1/4:ℚ),.auto),((33/128:ℚ),.auto),((17/64:ℚ),.auto),((35/128:ℚ),.auto),((9/32:ℚ),.auto),((37/128:ℚ),.auto),((19/64:ℚ),.auto),((39/128:ℚ),.auto),((5/16:ℚ),.auto),((41/128:ℚ),.auto),((21/64:ℚ),.auto),((11/32:ℚ),.auto),((45/128:ℚ),.auto),((23/64:ℚ),.auto),((47/128:ℚ),.auto),((3/8:ℚ),.auto),((25/64:ℚ),.auto),((13/32:ℚ),.auto),((27/64:ℚ),.auto),((55/128:ℚ),.auto),((7/16:ℚ),.auto),((29/64:ℚ),.auto),((15/32:ℚ),.auto)]
+def block05 : NormalizedBlock := ⟨(15/32:ℚ),block05Cuts⟩
+
+theorem block05_normalization :
+    (gatheredExpr.intervalNormalize ((61/256:ℚ)) ((15/32:ℚ))).atomNormalize=block05Expr := by
+  decide +kernel
+
+theorem block05_checked : checkUpperBlock block05Expr 18446744073709551616 ((61/256:ℚ)) block05Cuts=
+    some ((15/32:ℚ),(3497148122290648257/18446744073709551616:ℚ)) := by decide +kernel
+
+end NoThreeLine.Phase15301Group2225.Family10.IntervalNormalized
+#print axioms NoThreeLine.Phase15301Group2225.Family10.IntervalNormalized.block05_normalization
+#print axioms NoThreeLine.Phase15301Group2225.Family10.IntervalNormalized.block05_checked

@@ -1,0 +1,4 @@
+'NoThreeLine.actualFirstTime_ne_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.rootObserver_all_candidateGuard_ne_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

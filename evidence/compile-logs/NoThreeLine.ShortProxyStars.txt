@@ -1,0 +1,9 @@
+<original-workspace>\NoThreeLine\ShortProxyStars.lean:94:73: warning: This simp argument is unused:
+  Finset.sum_mul
+
+Hint: Omit it from the simp argument list.
+  simp only [̵s̵e̵l̵e̵c̵t̵e̵d̵L̵i̵n̵e̵G̵a̵t̵e̵,̵h̵p̵,̵t̵r̵u̵e̵_̵a̵n̵d̵,̵b̵o̵a̵r̵d̵L̵i̵n̵e̵M̵a̵s̵s̵,̵F̵i̵n̵s̵e̵t̵.̵m̵u̵l̵_̵s̵u̵m̵,̵F̵i̵n̵s̵e̵t̵.̵s̵u̵m̵_̵m̵u̵l̵]̵[̲s̲e̲l̲e̲c̲t̲e̲d̲L̲i̲n̲e̲G̲a̲t̲e̲,̲ ̲h̲p̲,̲ ̲t̲r̲u̲e̲_̲a̲n̲d̲,̲ ̲b̲o̲a̲r̲d̲L̲i̲n̲e̲M̲a̲s̲s̲,̲ ̲F̲i̲n̲s̲e̲t̲.̲m̲u̲l̲_̲s̲u̲m̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NoThreeLine.BirthWitness.short_witness_mass_eq_stars' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.physicalOutsideShortProxy_le_stars' depends on axioms: [propext, Classical.choice, Quot.sound]

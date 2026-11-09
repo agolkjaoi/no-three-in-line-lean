@@ -1,0 +1,2 @@
+'NoThreeLine.noThree_card_le_two_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ProcessState.traceBirthCount_le_two_mul' depends on axioms: [propext, Classical.choice, Quot.sound]

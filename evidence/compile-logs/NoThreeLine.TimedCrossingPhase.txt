@@ -1,0 +1,2 @@
+'NoThreeLine.timedCrossingPhasePair_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.timedCrossingPhasePair_projection' depends on axioms: [propext, Classical.choice, Quot.sound]

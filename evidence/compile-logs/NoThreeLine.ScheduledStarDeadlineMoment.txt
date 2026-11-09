@@ -1,0 +1,9 @@
+'NoThreeLine.ShortStars.scheduledStarCanonicalLatePath_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.ShortStars.scheduledStarCanonicalLatePath_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.ShortStars.scheduledStarCanonicalLatePath_deadline_log_moment' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

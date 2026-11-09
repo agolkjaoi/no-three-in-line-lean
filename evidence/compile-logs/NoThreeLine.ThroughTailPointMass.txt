@@ -1,0 +1,9 @@
+<original-workspace>\NoThreeLine\ThroughTailPointMass.lean:53:9: warning: Variable name `ω` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'NoThreeLine.BirthWitness.throughTail_expected_credit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.throughTailPointMeasure_probability' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

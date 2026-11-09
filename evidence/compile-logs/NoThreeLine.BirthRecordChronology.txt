@@ -1,0 +1,5 @@
+'NoThreeLine.BirthWitness.observedStep_recordsBefore' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.observedRecycledTerminal_recordsBefore' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.sourceCutTerminal_recordsBefore' depends on axioms: [propext, Classical.choice, Quot.sound]

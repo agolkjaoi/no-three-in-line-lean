@@ -1,0 +1,5 @@
+'NoThreeLine.EtaMixedGenerator.correctedPhi_flow_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.EtaMixedGenerator.correctedPhi_etaAlong_hasDerivAt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.EtaMixedGenerator.correctedGenerator_nonpos' depends on axioms: [propext, Classical.choice, Quot.sound]

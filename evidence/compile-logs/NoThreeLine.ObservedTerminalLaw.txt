@@ -1,0 +1,7 @@
+'NoThreeLine.BirthWitness.observedRecycledTerminalPair_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.observedRecycledTerminal_residual_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.observedRecycledTerminal_expected_credit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

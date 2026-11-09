@@ -1,0 +1,2 @@
+'NoThreeLine.BirthWitness.sourceRestrict_iterate_before' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.sourceRestrict_localSource_before' depends on axioms: [propext, Classical.choice, Quot.sound]

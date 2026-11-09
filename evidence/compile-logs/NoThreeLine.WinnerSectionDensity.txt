@@ -1,0 +1,1 @@
+'NoThreeLine.WinnerSectionDensity.fixed_winner_time_measure' depends on axioms: [propext, Classical.choice, Quot.sound]

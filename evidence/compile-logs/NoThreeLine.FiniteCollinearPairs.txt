@@ -1,0 +1,4 @@
+'NoThreeLine.FiniteDirections.collinearPairSum_le_line_squares' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.FiniteDirections.normalizedPairSum_le' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.rootPoint_weightedWitness_split_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.rootBoundary_witnessPower_separated_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.goodMarkedStep_done' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.goodMarkedRestart_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.goodMarkedIterate_core' depends on axioms: [propext, Classical.choice, Quot.sound]

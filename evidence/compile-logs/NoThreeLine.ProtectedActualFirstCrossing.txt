@@ -1,0 +1,5 @@
+'NoThreeLine.protectedHistoryBoundaryTotal_recycled' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedHistoryFlowTotal_recycled' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.phaseLineForbiddenLaw_protected_firstCrossing_ge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

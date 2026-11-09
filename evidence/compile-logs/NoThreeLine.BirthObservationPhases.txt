@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.observedFinitePhase_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.observedFinitePhase_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.observedFinitePhase_consistent' depends on axioms: [propext, Classical.choice, Quot.sound]

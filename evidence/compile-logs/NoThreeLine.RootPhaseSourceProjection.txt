@@ -1,0 +1,7 @@
+'NoThreeLine.BirthWitness.rootPhaseActual_pair_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.cumulativeRootPhaseSource_eq_actual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.rootPhase_expected_mixed_actual_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

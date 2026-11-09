@@ -1,0 +1,3 @@
+'NoThreeLine.protectedEntropyTotal_jumpSquare_cost_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedCreditTotal_jumpSquare_cost_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedWhole_augPre_square_cost_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

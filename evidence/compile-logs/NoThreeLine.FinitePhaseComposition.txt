@@ -1,0 +1,3 @@
+'NoThreeLine.finitePhaseState_noThree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.finitePhaseState_expected_credit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.phaseNoiseState_expected_credit' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'NoThreeLine.ShortStars.scheduledStarLatePath_tail_le_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.scheduledStarLatePath_log_tail' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,1 @@
+'NoThreeLine.exponential_first_step_nonpos_of_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]

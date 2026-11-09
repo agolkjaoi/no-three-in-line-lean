@@ -1,0 +1,9 @@
+'NoThreeLine.BirthWitness.scheduledSectionContactBefore_measurableSet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.initial_phaseSectionPoint_mass_tail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.initial_phaseSectionPoint_contact_tail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,3 @@
+'NoThreeLine.recycledScheduledPair_positive_loss_origin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.recycledPhaseState_positive_loss_origin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.recycledPhaseState_early_positive_loss_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]

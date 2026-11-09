@@ -1,0 +1,17 @@
+<original-workspace>\NoThreeLine\AugmentedProgress.lean:27:13: warning: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  simp only [̵P̵r̵o̵d̵.̵f̵s̵t̵,̵P̵r̵o̵d̵.̵s̵n̵d̵]̵[̲P̲r̲o̲d̲.̲s̲n̲d̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<original-workspace>\NoThreeLine\AugmentedProgress.lean:27:22: warning: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  simp only [Prod.fst,̵P̵r̵o̵d̵.̵s̵n̵d̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NoThreeLine.augOutcome_physical_eq_capped' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augRawOutcome_bad_at_aux' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augOutcome_budget_strict' depends on axioms: [propext, Classical.choice, Quot.sound]

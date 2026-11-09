@@ -1,0 +1,5 @@
+'NoThreeLine.VirtualWitness.witness_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.VirtualWitness.witness_ne_leaf' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.VirtualWitness.candidate_tuples_card_le_const_rpow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

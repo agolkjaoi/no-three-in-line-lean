@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.goodContinuationCut_original' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.goodContinuationCut_expected_source_free' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

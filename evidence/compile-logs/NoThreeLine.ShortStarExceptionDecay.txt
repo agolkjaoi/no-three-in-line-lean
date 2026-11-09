@@ -1,0 +1,1 @@
+'NoThreeLine.ShortStars.tendsto_exceptionDecayEnvelope' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'NoThreeLine.augRecycledTerminalPair_joint_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augPhaseRecycledPair_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augPhaseRecycledPair_stopped' depends on axioms: [propext, Classical.choice, Quot.sound]

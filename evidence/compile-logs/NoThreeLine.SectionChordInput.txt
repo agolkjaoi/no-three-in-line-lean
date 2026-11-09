@@ -1,0 +1,8 @@
+<original-workspace>\NoThreeLine\SectionChordInput.lean:43:54: warning: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+<original-workspace>\NoThreeLine\SectionChordInput.lean:43:54: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+'NoThreeLine.BirthWitness.masked_rootLine_input_le_chord' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.schedule_section_input_le_chord' depends on axioms: [propext, Classical.choice, Quot.sound]

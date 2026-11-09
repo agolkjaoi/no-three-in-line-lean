@@ -1,0 +1,2 @@
+'NoThreeLine.BirthWitness.strictCutTime_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.strictCutTime_lt_iff_exceedance' depends on axioms: [propext, Classical.choice, Quot.sound]

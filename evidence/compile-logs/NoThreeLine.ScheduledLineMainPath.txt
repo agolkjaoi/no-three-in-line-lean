@@ -1,0 +1,9 @@
+<original-workspace>\NoThreeLine\ScheduledLineMainPath.lean:44:9: warning: Variable name `t` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'NoThreeLine.BirthWitness.scheduledLineMainPath_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.scheduledOutsideLineProxyPath_le_main_excess' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

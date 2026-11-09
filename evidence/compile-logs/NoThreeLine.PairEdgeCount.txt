@@ -1,0 +1,3 @@
+'NoThreeLine.PairWitness.oldEdgeCover_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.PairWitness.oneNewEdgeCover_card_le_const_rpow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.PairWitness.twoNewEdgeCover_card_le_const_rpow' depends on axioms: [propext, Classical.choice, Quot.sound]

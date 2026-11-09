@@ -1,0 +1,3 @@
+'NoThreeLine.scheduleProcessState_noThree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.scheduleProcessState_expected_credit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.scheduleProcessOutput_inactive' depends on axioms: [propext, Classical.choice, Quot.sound]

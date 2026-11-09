@@ -1,0 +1,2 @@
+'NoThreeLine.capped_evaluation_restart_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.aug_observation_restart_map' depends on axioms: [propext, Classical.choice, Quot.sound]

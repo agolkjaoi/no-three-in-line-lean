@@ -1,0 +1,3 @@
+'NoThreeLine.BirthLineGroups.fibres_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthLineGroups.groupMultiplier_actual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthLineGroups.changed_groups_commonChange' depends on axioms: [propext, Classical.choice, Quot.sound]

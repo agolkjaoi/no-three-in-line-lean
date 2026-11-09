@@ -1,0 +1,4 @@
+'NoThreeLine.FrozenCapacity.CapacityAxisRows.axis0_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FrozenCapacity.CapacityAxisRows.axis1_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FrozenCapacity.CapacityAxisRows.axis2_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FrozenCapacity.CapacityAxisRows.axis3_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]

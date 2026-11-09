@@ -1,0 +1,4 @@
+'NoThreeLine.ExtendedState.retire_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.deadlineRetirement_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.deadlineRetirement_credit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.deadlineRetirement_inactive' depends on axioms: [propext, Classical.choice, Quot.sound]

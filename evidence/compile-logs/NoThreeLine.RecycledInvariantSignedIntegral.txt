@@ -1,0 +1,3 @@
+'NoThreeLine.RecycledBoardProcess.history_equal_integrals_of_invariant_signed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

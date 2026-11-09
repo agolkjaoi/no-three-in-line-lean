@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.coarseCutPriceCap_le_common' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.coarseStarRow_le_log' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.actual_repeatBudget_div_le_decay' depends on axioms: [propext, Classical.choice, Quot.sound]

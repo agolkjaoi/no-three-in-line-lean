@@ -1,0 +1,2 @@
+'NoThreeLine.CalendarIntegral.sum_shiftedSegment_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.CalendarIntegral.sum_shiftedSegment_integral' depends on axioms: [propext, Classical.choice, Quot.sound]

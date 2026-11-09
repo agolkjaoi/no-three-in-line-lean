@@ -1,0 +1,11 @@
+<original-workspace>\NoThreeLine\TypedAreaRiemann.lean:73:70: warning: 'omega' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+<original-workspace>\NoThreeLine\TypedAreaRiemann.lean:73:70: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+<original-workspace>\NoThreeLine\TypedAreaRiemann.lean:142:6: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'NoThreeLine.GridArea.typeFieldSum_area_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.GridArea.typedBoardWeight_area_error' depends on axioms: [propext, Classical.choice, Quot.sound]

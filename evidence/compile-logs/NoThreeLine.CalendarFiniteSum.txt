@@ -1,0 +1,4 @@
+'NoThreeLine.CalendarIntegral.weighted_prefix_sum_le_total' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.CalendarIntegral.weighted_prefix_div_sum_le_total' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

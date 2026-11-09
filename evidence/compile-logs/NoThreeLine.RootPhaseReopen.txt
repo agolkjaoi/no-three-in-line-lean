@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.rootObserverStep_reopenBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.rootObserverRecycledPair_reopenBound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.phaseRootBoundary_mixed_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.phaseRootStart_reopenBound' depends on axioms: [propext, Classical.choice, Quot.sound]

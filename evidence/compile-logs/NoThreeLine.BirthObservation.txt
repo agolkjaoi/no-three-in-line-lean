@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.observedStep_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.observedStep_consistent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.observedStep_retention_at_birth' depends on axioms: [propext, Classical.choice, Quot.sound]

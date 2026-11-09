@@ -1,0 +1,5 @@
+'NoThreeLine.BirthWitness.initial_scheduledPairCost_eq_path_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.initial_eta_cause_path_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.initialCutPairRate_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

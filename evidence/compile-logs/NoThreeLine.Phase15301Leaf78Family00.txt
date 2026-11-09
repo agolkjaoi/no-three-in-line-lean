@@ -1,0 +1,10 @@
+'NoThreeLine.Phase15301Leaf78.Family00.data_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.Phase15301Leaf78.Family00.expression_from_actual_field' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.Phase15301Leaf78.Family00.upper_partition_checked' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.Phase15301Leaf78.Family00.original_directional_integral_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

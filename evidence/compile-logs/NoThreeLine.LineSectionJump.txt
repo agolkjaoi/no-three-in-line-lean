@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.augRawOutcome_lineSectionMass_le_pre' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.resolve_lineSectionMass_le' depends on axioms: [propext, Classical.choice, Quot.sound]

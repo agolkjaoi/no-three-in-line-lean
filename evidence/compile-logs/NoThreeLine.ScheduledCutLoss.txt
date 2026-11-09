@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.scheduledCutLossProbability_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduledCut_birthRate_mean_loss' depends on axioms: [propext, Classical.choice, Quot.sound]

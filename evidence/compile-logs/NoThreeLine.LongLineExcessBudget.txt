@@ -1,0 +1,4 @@
+'NoThreeLine.FiniteDirections.sum_rootBoardLine_squares_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FiniteDirections.longRootBoardLine_excess_sum_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

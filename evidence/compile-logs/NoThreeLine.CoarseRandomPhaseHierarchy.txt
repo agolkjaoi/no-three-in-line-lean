@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.phaseKernelMixedMean_coarse_volterra' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

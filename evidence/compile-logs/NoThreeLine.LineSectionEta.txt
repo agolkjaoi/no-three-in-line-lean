@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.lineSectionRawSnapshot_eta_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.lineSectionTerminal_etaProduct_floor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,7 @@
+'NoThreeLine.BirthWitness.cumulativeRootRunningSource_le_actual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.cumulativeRootRunningSource_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.finite_expected_rootMixed_running_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

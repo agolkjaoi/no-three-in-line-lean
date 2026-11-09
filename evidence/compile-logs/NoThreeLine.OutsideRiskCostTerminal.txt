@@ -1,0 +1,3 @@
+'NoThreeLine.recycledOutsideRiskCost_stable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.recycledOutsideRiskCost_le_terminal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.recycledOutsideRiskCost_le_terminal_ae' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.scheduledOutsideLineRiskRate_proxy_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduledOutsideLineRiskPath_proxy_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

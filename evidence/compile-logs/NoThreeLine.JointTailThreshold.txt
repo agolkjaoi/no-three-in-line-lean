@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.tendsto_jointTailEnvelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.exists_fixed_joint_moment_tail_threshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

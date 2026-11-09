@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.phaseLineForbiddenLaw_firstInterior_survival' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.phaseLineForbiddenLaw_firstInterior_ge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

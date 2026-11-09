@@ -1,0 +1,6 @@
+'NoThreeLine.bv_intervalIntegrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.bv_cell_quadrature_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.bv_quadrature_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.bv_equal_weight_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.parityRiemann_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.nonnegative_parityRiemann_error' depends on axioms: [propext, Classical.choice, Quot.sound]

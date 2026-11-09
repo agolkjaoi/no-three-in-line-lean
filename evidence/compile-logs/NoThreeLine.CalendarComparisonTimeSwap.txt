@@ -1,0 +1,6 @@
+'NoThreeLine.CalendarIntegral.weighted_time_comparison_commute' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.CalendarIntegral.expected_weighted_rectangle_le_old_first' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

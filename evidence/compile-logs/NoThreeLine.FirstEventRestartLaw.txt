@@ -1,0 +1,6 @@
+'NoThreeLine.FirstEventRestartLaw.candidate_first_event_restart_map' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.FirstEventRestartLaw.first_event_restart_independent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

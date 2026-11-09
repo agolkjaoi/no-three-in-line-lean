@@ -1,0 +1,26 @@
+<original-workspace>\NoThreeLine\ProtectedWholeSquareRunningMean.lean:17:27: warning: Variable name `hE` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+<original-workspace>\NoThreeLine\ProtectedWholeSquareRunningMean.lean:19:42: warning: Variable name `hsv` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+<original-workspace>\NoThreeLine\ProtectedWholeSquareRunningMean.lean:49:27: warning: Variable name `hE` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+<original-workspace>\NoThreeLine\ProtectedWholeSquareRunningMean.lean:51:42: warning: Variable name `hsv` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'NoThreeLine.protected_credit_whole_square_first_compensation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.protected_entropy_whole_square_first_compensation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

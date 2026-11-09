@@ -1,0 +1,6 @@
+'NoThreeLine.DeterministicClockRestart.clock_residual_restrict_map' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.DeterministicClockRestart.marked_residual_restrict_map' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,7 @@
+'NoThreeLine.BirthWitness.terminalBirthCalendarRate_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.terminalBirthCalendarRate_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.terminal_selectedIndicator_calendar_compensation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

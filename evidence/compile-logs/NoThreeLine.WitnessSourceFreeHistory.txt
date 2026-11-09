@@ -1,0 +1,11 @@
+<original-workspace>\NoThreeLine\WitnessSourceFreeHistory.lean:60:15: warning: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  simp only [̵P̵r̵o̵d̵.̵f̵s̵t̵]̵ ̵at hp ht
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NoThreeLine.BirthWitness.goodMixed_source_free_supermartingale' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.source_free_terminal_history_le' depends on axioms: [propext, Classical.choice, Quot.sound]

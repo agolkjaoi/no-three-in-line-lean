@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.goodRootRestartStep_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.goodRootRecycled_actual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.goodRootClockStep_mean' depends on axioms: [propext, Classical.choice, Quot.sound]

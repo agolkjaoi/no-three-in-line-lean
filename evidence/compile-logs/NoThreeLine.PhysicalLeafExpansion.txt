@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.lineLeafPower_eq_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.physicalRootLeaf_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.lineLeafTuple_le_rootLeaf' depends on axioms: [propext, Classical.choice, Quot.sound]

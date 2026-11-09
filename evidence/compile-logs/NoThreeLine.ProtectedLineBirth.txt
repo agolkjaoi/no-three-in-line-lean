@@ -1,0 +1,3 @@
+'NoThreeLine.specifiedLineWeight_external_birth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.specifiedLineWeight_first_line_birth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.specifiedLineWeight_second_line_birth' depends on axioms: [propext, Classical.choice, Quot.sound]

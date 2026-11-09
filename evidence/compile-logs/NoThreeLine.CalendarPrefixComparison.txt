@@ -1,0 +1,3 @@
+'NoThreeLine.CalendarIntegral.expected_weighted_prefix_le_full' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

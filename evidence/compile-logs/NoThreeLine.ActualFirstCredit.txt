@@ -1,0 +1,2 @@
+'NoThreeLine.ProcessState.firstCreditObservable_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ProcessState.actual_first_candidate_credit' depends on axioms: [propext, Classical.choice, Quot.sound]

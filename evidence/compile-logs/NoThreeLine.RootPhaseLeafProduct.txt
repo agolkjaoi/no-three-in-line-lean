@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.initial_rootPhasePoint_leaf_coarse_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.initial_rootPhasePoint_leaf_unit_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,4 @@
+<original-workspace>\NoThreeLine\MixedDriftDecomposition.lean:68:57: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'NoThreeLine.MixedConnection.phiGrowth_sum_causes' depends on axioms: [propext, Classical.choice, Quot.sound]

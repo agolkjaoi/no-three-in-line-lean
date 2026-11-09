@@ -1,0 +1,4 @@
+'NoThreeLine.AugmentedState.resolve_not_auxBad' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augTimedTerminal_auxReady' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augInitialState_auxReady' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augFinitePhaseState_auxReady' depends on axioms: [propext, Classical.choice, Quot.sound]

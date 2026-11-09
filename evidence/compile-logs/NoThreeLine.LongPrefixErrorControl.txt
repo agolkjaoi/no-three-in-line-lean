@@ -1,0 +1,10 @@
+'NoThreeLine.BirthWitness.long_prefix_pair_le_fixed_logBudget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.longPrefixMomentError_le_logEnvelope' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.longPrefixMomentError_root_div_log_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.tendsto_longRootErrorCoefficient' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'NoThreeLine.ShortStars.phase_star_scale_integral_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.starLateScale_le' depends on axioms: [propext, Classical.choice, Quot.sound]

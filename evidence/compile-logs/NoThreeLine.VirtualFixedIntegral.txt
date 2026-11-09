@@ -1,0 +1,2 @@
+'NoThreeLine.VirtualWitness.virtualMass_pow_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.VirtualWitness.virtualMass_pow_integral_le' depends on axioms: [propext, Classical.choice, Quot.sound]

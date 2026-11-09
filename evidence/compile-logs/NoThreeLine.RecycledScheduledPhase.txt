@@ -1,0 +1,4 @@
+'NoThreeLine.recycledScheduledPair_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.recycledScheduledPair_stopped' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.recycledPhaseStep_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.recycledPhaseStep_map' depends on axioms: [propext, Classical.choice, Quot.sound]

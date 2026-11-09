@@ -1,0 +1,1 @@
+'NoThreeLine.protectedEntropyForbidden_history_compensation' depends on axioms: [propext, Classical.choice, Quot.sound]

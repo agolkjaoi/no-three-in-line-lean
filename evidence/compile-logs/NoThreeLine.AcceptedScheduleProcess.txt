@@ -1,0 +1,5 @@
+'NoThreeLine.acceptedProcessMasks_eq_packet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.first1344ShortenedOutput_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.first1344ShortenedOutput_noThree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.first1344ShortenedOutput_expected_credit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.first1344ProcessInputMass_error' depends on axioms: [propext, Classical.choice, Quot.sound]

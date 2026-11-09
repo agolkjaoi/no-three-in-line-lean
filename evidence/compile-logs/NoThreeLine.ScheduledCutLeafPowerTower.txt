@@ -1,0 +1,10 @@
+<original-workspace>\NoThreeLine\ScheduledCutLeafPowerTower.lean:35:24: warning: Variable name `ht` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'NoThreeLine.BirthWitness.selectedLineLeafPower_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.selectedLineLeafPower_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.scheduledCutLineLeafPower_terminal_mean_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

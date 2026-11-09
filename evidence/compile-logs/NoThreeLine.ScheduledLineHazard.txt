@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.scheduledLineIntensityCost_eq_clock' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduledLineStageDensity_formula' depends on axioms: [propext, Classical.choice, Quot.sound]

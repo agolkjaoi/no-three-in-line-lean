@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.initial_scheduledCut_coarse_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

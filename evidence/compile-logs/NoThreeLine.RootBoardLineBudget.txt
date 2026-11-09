@@ -1,0 +1,4 @@
+'NoThreeLine.FiniteDirections.sum_rootBoardLine_le_directions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.FiniteDirections.rootBoardLineErrorBudget_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

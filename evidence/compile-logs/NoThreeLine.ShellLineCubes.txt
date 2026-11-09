@@ -1,0 +1,7 @@
+<original-workspace>\NoThreeLine\ShellLineCubes.lean:32:40: warning: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+<original-workspace>\NoThreeLine\ShellLineCubes.lean:32:40: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+'NoThreeLine.FiniteDirections.sum_gridLine_card_cube_le' depends on axioms: [propext, Classical.choice, Quot.sound]

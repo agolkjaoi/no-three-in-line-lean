@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.exists_uniform_rootCreditMass_threshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduled_two_cut_future_point_integral_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

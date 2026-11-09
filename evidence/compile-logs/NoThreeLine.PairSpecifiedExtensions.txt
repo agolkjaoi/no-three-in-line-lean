@@ -1,0 +1,4 @@
+'NoThreeLine.PairWitness.specifiedWitnessExtensions_card_le_const_rpow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.PairWitness.commonChange_HL_candidate' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,5 @@
+'NoThreeLine.BirthWitness.rawStepSaved_eta' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.rootBoundaryWitness_eta_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.rootBoundaryWitness_etaProduct_floor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

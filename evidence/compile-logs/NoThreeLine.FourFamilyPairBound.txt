@@ -1,0 +1,4 @@
+'NoThreeLine.FiniteDirections.typed_four_family_pair_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FiniteDirections.typed_four_family_pair_bound_safe' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

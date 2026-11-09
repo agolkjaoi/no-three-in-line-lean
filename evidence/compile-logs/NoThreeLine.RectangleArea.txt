@@ -1,0 +1,2 @@
+'NoThreeLine.rectangleField_plane_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.eraseGrid_plane_integral_eq' depends on axioms: [propext, Classical.choice, Quot.sound]

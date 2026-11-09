@@ -1,0 +1,6 @@
+'NoThreeLine.Coeff.leOn_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.Expr.check_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.Expr.check_sound_of_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.crossing_refused' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.zero_piece_accept' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.positive_piece_accept' depends on axioms: [propext, Classical.choice, Quot.sound]

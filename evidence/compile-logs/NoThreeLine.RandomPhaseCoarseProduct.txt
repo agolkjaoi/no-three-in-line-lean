@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.random_finitePhase_coarse_subsets_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.random_scheduledCut_coarse_product' depends on axioms: [propext, Classical.choice, Quot.sound]

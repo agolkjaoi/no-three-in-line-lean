@@ -1,0 +1,2 @@
+'NoThreeLine.BirthWitness.finiteCutMemory_actual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.finiteCutMemory_stable_actual' depends on axioms: [propext, Classical.choice, Quot.sound]

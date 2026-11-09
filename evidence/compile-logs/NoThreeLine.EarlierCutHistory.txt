@@ -1,0 +1,2 @@
+'NoThreeLine.finite_cut_probe_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.earlierCutHistoryValue_actual' depends on axioms: [propext, Classical.choice, Quot.sound]

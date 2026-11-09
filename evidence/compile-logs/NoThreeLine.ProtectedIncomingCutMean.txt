@@ -1,0 +1,2 @@
+'NoThreeLine.protectedIncomingCreditCut_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedIncomingEntropyCut_mean' depends on axioms: [propext, Classical.choice, Quot.sound]

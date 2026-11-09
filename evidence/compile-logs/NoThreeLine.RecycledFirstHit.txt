@@ -1,0 +1,7 @@
+'NoThreeLine.RecycledBoardProcess.iterate_freezeAtHit_eq_before' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.RecycledBoardProcess.firstHitPair_joint_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.RecycledBoardProcess.firstHitPair_map' depends on axioms: [propext, Classical.choice, Quot.sound]

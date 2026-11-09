@@ -1,0 +1,4 @@
+<original-workspace>\NoThreeLine\SpecifiedClockChordInput.lean:49:27: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'NoThreeLine.fullLineInput_le_scaled_chord' depends on axioms: [propext, Classical.choice, Quot.sound]

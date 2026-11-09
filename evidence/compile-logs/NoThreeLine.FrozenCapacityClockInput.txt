@@ -1,0 +1,6 @@
+'NoThreeLine.FrozenCapacity.acceptedProcessCumulative_le_typedField' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.FrozenCapacity.acceptedClockInput_le_frozenChord' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

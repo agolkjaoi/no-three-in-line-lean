@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.cutCalendarBirthRate_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.terminalBirthCalendarRate_eq_cut_ae_time' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,2 @@
+'NoThreeLine.running_integral_indicator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.exponential_running_integral' depends on axioms: [propext, Classical.choice, Quot.sound]

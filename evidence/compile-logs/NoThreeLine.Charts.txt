@@ -1,0 +1,5 @@
+'NoThreeLine.chartChord_eq_directional' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.Rect.root_mem_chart' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.rectangleField_chartChord_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.directionalChord_square_intervalIntegrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.directionalChord_eraseGrid_square_integral_eq' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.physicalOutsideLineRisk_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.physicalOutsideLineProxy_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.physicalOutsideLineRisk_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.physicalOutsideLineProxy_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

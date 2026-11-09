@@ -1,0 +1,2 @@
+'NoThreeLine.protectedEntropy_first_mean_add_running' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedEntropyStage_step_equal_mean' depends on axioms: [propext, Classical.choice, Quot.sound]

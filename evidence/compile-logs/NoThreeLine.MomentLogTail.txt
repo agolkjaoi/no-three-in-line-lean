@@ -1,0 +1,6 @@
+'NoThreeLine.FiniteWitnessMoments.exists_fixed_moment_tail_threshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.FiniteWitnessMoments.separatedMomentBound_tail_le_logarithmic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

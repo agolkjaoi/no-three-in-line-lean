@@ -1,0 +1,5 @@
+'NoThreeLine.MixedConnection.phiGenerator_eq_external' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.MixedConnection.phi_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.MixedConnection.eta_corrected_phiGenerator_nonpos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

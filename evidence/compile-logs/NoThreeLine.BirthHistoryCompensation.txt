@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.birth_history_equal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.selectedIndicator_history_compensation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

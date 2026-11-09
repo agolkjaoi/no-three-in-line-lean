@@ -1,0 +1,2 @@
+'NoThreeLine.protectedCreditExponential_crossing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedEntropyExponential_crossing' depends on axioms: [propext, Classical.choice, Quot.sound]

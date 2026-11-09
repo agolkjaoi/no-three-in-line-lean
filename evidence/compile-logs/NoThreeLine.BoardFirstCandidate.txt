@@ -1,0 +1,9 @@
+'NoThreeLine.BoardFirstCandidate.candidate_firstTime_survival' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BoardFirstCandidate.firstWait_tie_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BoardFirstCandidate.firstWait_ae_distinct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BoardFirstCandidate.firstTime_ae_first_candidate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BoardFirstCandidate.candidate_firstTime_map' depends on axioms: [propext, Classical.choice, Quot.sound]

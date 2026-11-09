@@ -1,0 +1,1 @@
+'NoThreeLine.protectedLineExitPair_eq_terminal_of_no_birth' depends on axioms: [propext, Classical.choice, Quot.sound]

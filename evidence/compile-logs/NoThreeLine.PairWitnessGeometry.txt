@@ -1,0 +1,13 @@
+<original-workspace>\NoThreeLine\PairWitnessGeometry.lean:17:84: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+<original-workspace>\NoThreeLine\PairWitnessGeometry.lean:49:55: warning: Variable name `hw` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'NoThreeLine.PairWitness.commonChange_classification' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.PairWitness.offBaselineIntersections_card_le_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.PairWitness.commonChange_LL_witnesses' depends on axioms: [propext, Classical.choice, Quot.sound]

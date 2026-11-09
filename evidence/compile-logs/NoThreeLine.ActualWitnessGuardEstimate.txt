@@ -1,0 +1,2 @@
+'NoThreeLine.BirthWitness.actual_resolved_guard_source_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.observedClockStep_source_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

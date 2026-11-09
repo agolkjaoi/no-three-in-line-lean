@@ -1,0 +1,3 @@
+'NoThreeLine.terminalLineCredit_decrement_cut_integral_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.lineCredit_decrement_mean_cut' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.withinPhasePoint_lineCredit_decrement_mean_cut' depends on axioms: [propext, Classical.choice, Quot.sound]

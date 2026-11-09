@@ -1,0 +1,6 @@
+'NoThreeLine.Phase15301Family00.UpperTrace.upper_partition_checked' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.Phase15301Family00.UpperTrace.actual_integral_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

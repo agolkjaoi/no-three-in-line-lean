@@ -1,0 +1,10 @@
+<original-workspace>\NoThreeLine\VirtualTuplePatterns.lean:72:22: warning: This simp argument is unused:
+  Fintype.card_fun
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵F̵i̵n̵t̵y̵p̵e̵.̵c̵a̵r̵d̵_̵f̵u̵n̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NoThreeLine.VirtualWitness.exists_anchor_pattern' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.VirtualWitness.tuple_mem_patternCover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.VirtualWitness.patternCover_card_le_const_rpow' depends on axioms: [propext, Classical.choice, Quot.sound]

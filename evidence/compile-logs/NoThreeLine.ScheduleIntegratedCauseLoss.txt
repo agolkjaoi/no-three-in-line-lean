@@ -1,0 +1,7 @@
+'NoThreeLine.BirthWitness.schedule_integratedCutLoss_le_full_point_cause' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduleCutLoss_le_exposure_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.schedule_exists_noThree_ge_mass_of_cause_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

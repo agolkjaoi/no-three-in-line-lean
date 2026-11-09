@@ -1,0 +1,7 @@
+'NoThreeLine.BirthWitness.markedSectionTerminal_massControlled' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.phaseSectionRecycledState_massControlled' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.initialPhaseSection_massControlled' depends on axioms: [propext, Classical.choice, Quot.sound]

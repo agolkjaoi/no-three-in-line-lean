@@ -1,0 +1,2 @@
+'NoThreeLine.initial_virtualCause_point_le_board_hit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.virtualCause_uniform_point_polynomial_tail' depends on axioms: [propext, Classical.choice, Quot.sound]

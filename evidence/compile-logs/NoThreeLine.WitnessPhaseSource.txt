@@ -1,0 +1,7 @@
+'NoThreeLine.BirthWitness.terminalRunningSource_joint_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.goodScheduledPair_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.scheduled_expected_mixed_running_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

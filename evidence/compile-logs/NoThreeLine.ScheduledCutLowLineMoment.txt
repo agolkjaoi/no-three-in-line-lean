@@ -1,0 +1,9 @@
+'NoThreeLine.BirthWitness.initial_scheduledCutPoint_selectedLine_first_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.initial_scheduledCutPoint_selectedLine_second_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduledLeafUnitPrice_unit_le_total' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

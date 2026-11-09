@@ -1,0 +1,2 @@
+'NoThreeLine.firstLineForbiddenLaw_protectedCreditExp_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.firstLineForbiddenLaw_protectedEntropyExp_mean' depends on axioms: [propext, Classical.choice, Quot.sound]

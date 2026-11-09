@@ -1,0 +1,7 @@
+<original-workspace>\NoThreeLine\FinitePhaseUnitProduct.lean:78:89: warning: Variable name `q` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'NoThreeLine.BirthWitness.finitePhase_unit_subsets_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.initial_finitePhase_unit_product' depends on axioms: [propext, Classical.choice, Quot.sound]

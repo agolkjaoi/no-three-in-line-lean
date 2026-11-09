@@ -1,0 +1,2 @@
+'NoThreeLine.ShortStars.label_union_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.leafLabels_distinct_root_lines' depends on axioms: [propext, Classical.choice, Quot.sound]

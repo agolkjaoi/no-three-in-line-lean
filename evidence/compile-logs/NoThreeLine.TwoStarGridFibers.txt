@@ -1,0 +1,17 @@
+<original-workspace>\NoThreeLine\TwoStarGridFibers.lean:43:13: warning: This simp argument is unused:
+  Prod.fst_sub
+
+Hint: Omit it from the simp argument list.
+  simp only [̵P̵r̵o̵d̵.̵f̵s̵t̵_̵s̵u̵b̵,̵P̵r̵o̵d̵.̵s̵n̵d̵_̵s̵u̵b̵,̵h̵x̵,̵h̵y̵,̵I̵n̵t̵.̵n̵a̵t̵A̵b̵s̵_̵m̵u̵l̵,̵I̵n̵t̵.̵n̵a̵t̵A̵b̵s̵_̵n̵a̵t̵C̵a̵s̵t̵]̵[̲P̲r̲o̲d̲.̲s̲n̲d̲_̲s̲u̲b̲,̲ ̲h̲x̲,̲ ̲h̲y̲,̲ ̲I̲n̲t̲.̲n̲a̲t̲A̲b̲s̲_̲m̲u̲l̲,̲ ̲I̲n̲t̲.̲n̲a̲t̲A̲b̲s̲_̲n̲a̲t̲C̲a̲s̲t̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<original-workspace>\NoThreeLine\TwoStarGridFibers.lean:43:26: warning: This simp argument is unused:
+  Prod.snd_sub
+
+Hint: Omit it from the simp argument list.
+  simp only [̵P̵r̵o̵d̵.̵f̵s̵t̵_̵s̵u̵b̵,̵P̵r̵o̵d̵.̵s̵n̵d̵_̵s̵u̵b̵,̵h̵x̵,̵h̵y̵,̵I̵n̵t̵.̵n̵a̵t̵A̵b̵s̵_̵m̵u̵l̵,̵I̵n̵t̵.̵n̵a̵t̵A̵b̵s̵_̵n̵a̵t̵C̵a̵s̵t̵]̵[̲P̲r̲o̲d̲.̲f̲s̲t̲_̲s̲u̲b̲,̲ ̲h̲x̲,̲ ̲h̲y̲,̲ ̲I̲n̲t̲.̲n̲a̲t̲A̲b̲s̲_̲m̲u̲l̲,̲ ̲I̲n̲t̲.̲n̲a̲t̲A̲b̲s̲_̲n̲a̲t̲C̲a̲s̲t̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NoThreeLine.TwoStar.displacementDirection_primitive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.TwoStar.gridFiber_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.TwoStar.gridFiber_divisor' depends on axioms: [propext, Classical.choice, Quot.sound]

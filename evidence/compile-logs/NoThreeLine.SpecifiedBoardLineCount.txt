@@ -1,0 +1,9 @@
+<original-workspace>\NoThreeLine\SpecifiedBoardLineCount.lean:46:39: warning: This simp argument is unused:
+  Int.natCast_natAbs
+
+Hint: Omit it from the simp argument list.
+  simp [directionSize,̵ ̵I̵n̵t̵.̵n̵a̵t̵C̵a̵s̵t̵_̵n̵a̵t̵A̵b̵s̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NoThreeLine.SpecifiedBoardCount.specifiedBoardLines_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.SpecifiedBoardCount.grid_card' depends on axioms: [propext, Classical.choice, Quot.sound]

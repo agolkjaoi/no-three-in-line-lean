@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.recycledPhaseState_lineStageRegion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.recycledPhaseState_lineStageValue_ge_on_survival' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

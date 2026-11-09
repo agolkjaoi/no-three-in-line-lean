@@ -1,0 +1,3 @@
+'NoThreeLine.rootDesignatedClock_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.designated_growth_le_clockRHS' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.actualWeightDrift_le_risk_clock' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,9 @@
+<original-workspace>\NoThreeLine\ProtectedEntropyRunningMean.lean:95:44: warning: Variable name `hm` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'NoThreeLine.protectedRunningEntropySource_firstForbidden_mean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.protected_entropy_first_compensation' depends on axioms: [propext, Classical.choice, Quot.sound]

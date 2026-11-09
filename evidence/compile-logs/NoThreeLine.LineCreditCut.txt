@@ -1,0 +1,4 @@
+'NoThreeLine.cutCalendarLineCreditRate_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.cutLineCreditRate_eq_capped_interior' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.terminalLineCreditCalendarRate_eq_cut_ae_time' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.terminalLineCredit_decrement_cut_integral' depends on axioms: [propext, Classical.choice, Quot.sound]

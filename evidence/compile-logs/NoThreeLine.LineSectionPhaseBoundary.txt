@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.phaseLineSectionDeadline_mixed_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.phaseLineSectionStart_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.phaseLineSectionBoundary_mixed_le' depends on axioms: [propext, Classical.choice, Quot.sound]

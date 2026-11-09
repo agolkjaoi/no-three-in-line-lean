@@ -1,0 +1,4 @@
+'NoThreeLine.MixedConnection.connection_exponent_le_cube' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.initial_scheduledCutWitness_connection_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

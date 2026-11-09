@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.recycledScheduledPair_lineStageValue_mean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.recycledScheduledPair_lineStageValue_ge_on_survival' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

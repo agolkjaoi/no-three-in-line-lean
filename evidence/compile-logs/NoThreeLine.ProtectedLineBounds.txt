@@ -1,0 +1,3 @@
+'NoThreeLine.specifiedLineWeight_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedLinePositiveDrift_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedLinePositiveDrift_sum_le' depends on axioms: [propext, Classical.choice, Quot.sound]

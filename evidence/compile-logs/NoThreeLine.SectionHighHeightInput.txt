@@ -1,0 +1,8 @@
+<original-workspace>\NoThreeLine\SectionHighHeightInput.lean:39:31: warning: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+<original-workspace>\NoThreeLine\SectionHighHeightInput.lean:39:31: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+'NoThreeLine.BirthWitness.sectionScheduleInput_le_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.sectionScheduleInput_low_high' depends on axioms: [propext, Classical.choice, Quot.sound]

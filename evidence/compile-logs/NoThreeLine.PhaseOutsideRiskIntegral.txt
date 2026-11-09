@@ -1,0 +1,7 @@
+'NoThreeLine.BirthWitness.phaseOutsideRiskCost_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.phaseOutsideRiskCost_eq_integral_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.phaseOutsideRiskCost_eq_integral_prod_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,2 @@
+'NoThreeLine.BirthWitness.selectedLineExcess_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.selectedLineExcess_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

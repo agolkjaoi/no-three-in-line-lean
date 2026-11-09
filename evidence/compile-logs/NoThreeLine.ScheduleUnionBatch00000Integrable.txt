@@ -1,0 +1,3 @@
+'NoThreeLine.ScheduleUnionBatch00000Schedule.fields_integrable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

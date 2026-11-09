@@ -1,0 +1,17 @@
+<original-workspace>\NoThreeLine\RestartPathIdentities.lean:43:19: warning: This simp argument is unused:
+  if_pos
+
+Hint: Omit it from the simp argument list.
+  simp only [hq, i̵f̵_̵p̵o̵s̵,̵ ̵consumedAt, ↓reduceIte, candidateTime_tail]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<original-workspace>\NoThreeLine\RestartPathIdentities.lean:48:19: warning: This simp argument is unused:
+  if_false
+
+Hint: Omit it from the simp argument list.
+  simp only [hq, i̵f̵_̵f̵a̵l̵s̵e̵,̵ ̵consumedAt, ↓reduceIte, Nat.add_zero, residualMarked,
+  ̵  ̵ ̵ ̵ ̵ ̵candidateTime_residual]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NoThreeLine.RestartPathIdentities.restarted_candidateTime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.RestartPathIdentities.restarted_candidateMark' depends on axioms: [propext, Classical.choice, Quot.sound]

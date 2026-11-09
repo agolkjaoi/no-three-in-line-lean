@@ -1,0 +1,7 @@
+'NoThreeLine.BirthWitness.goodPhaseRootStart_actual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.goodPhaseRootScheduledPair_projection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.goodPhaseRootScheduledPair_residual_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

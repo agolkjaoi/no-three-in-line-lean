@@ -1,0 +1,3 @@
+'NoThreeLine.OneSided.upper_gathered_positive_certificate_sound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

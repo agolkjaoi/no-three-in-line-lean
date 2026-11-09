@@ -1,0 +1,3 @@
+'NoThreeLine.protectedWholeCostRate_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedEventCost_bounds_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedWholeCostRate_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

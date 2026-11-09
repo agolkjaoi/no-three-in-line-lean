@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.lineSectionTerminal_initial_credit_test' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.lineSectionTerminal_point_integral' depends on axioms: [propext, Classical.choice, Quot.sound]

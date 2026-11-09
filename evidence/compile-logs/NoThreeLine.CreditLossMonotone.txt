@@ -1,0 +1,3 @@
+'NoThreeLine.augTimedStep_birthCreditLoss_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.recycled_birthCreditLoss_le_terminal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.recycledPhaseState_birthCreditLoss_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]

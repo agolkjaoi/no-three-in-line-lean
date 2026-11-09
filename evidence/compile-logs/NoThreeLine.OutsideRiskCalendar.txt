@@ -1,0 +1,14 @@
+<original-workspace>\NoThreeLine\OutsideRiskCalendar.lean:51:9: warning: Variable name `j` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+<original-workspace>\NoThreeLine\OutsideRiskCalendar.lean:51:13: warning: Variable name `t` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'NoThreeLine.finiteOutsideRiskCalendarRate_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.terminalOutsideRiskCalendarRate_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.terminalOutsideRiskCalendarRate_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.terminalOutsideRiskCalendarRate_integral' depends on axioms: [propext, Classical.choice, Quot.sound]

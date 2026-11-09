@@ -1,0 +1,2 @@
+'NoThreeLine.initial_etaCauseBefore_subset_actualHit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.etaCause_uniform_point_polynomial_tail' depends on axioms: [propext, Classical.choice, Quot.sound]

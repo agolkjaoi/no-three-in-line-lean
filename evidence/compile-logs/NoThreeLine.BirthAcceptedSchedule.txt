@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.acceptedSchedule_card_compensation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.first1344Shortened_card_compensation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

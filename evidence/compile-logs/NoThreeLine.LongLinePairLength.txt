@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.longPairLengthSum_le_const_rpow_log' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

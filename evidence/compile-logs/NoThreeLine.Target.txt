@@ -1,0 +1,2 @@
+'NoThreeLine.finite_weighted_exists_gt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.exists_legal_of_finite_weighted_card' depends on axioms: [propext, Classical.choice, Quot.sound]

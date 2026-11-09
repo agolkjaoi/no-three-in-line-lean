@@ -1,0 +1,5 @@
+'NoThreeLine.timedCrossingPhasePair_flag_stageValue_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.timedCrossingPhasePair_stage_region' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.timedCrossingPhasePair_stageValue_ge_on_survival' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,2 @@
+'NoThreeLine.BirthWitness.observedRecycled_crossing_tower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.observedFuture_crossing_tower' depends on axioms: [propext, Classical.choice, Quot.sound]

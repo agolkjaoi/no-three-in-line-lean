@@ -1,0 +1,3 @@
+'NoThreeLine.FiniteDirections.directionIndices_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FiniteDirections.sum_inverse_height_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FiniteDirections.grid_point_direction' depends on axioms: [propext, Classical.choice, Quot.sound]

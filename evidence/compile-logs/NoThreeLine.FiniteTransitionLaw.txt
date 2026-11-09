@@ -1,0 +1,2 @@
+'NoThreeLine.FiniteTransitionLaw.finiteState_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FiniteTransitionLaw.noiseState_map' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,40 @@
+<original-workspace>\NoThreeLine\ProtectedCutPairExponential.lean:91:17: warning: This simp argument is unused:
+  protectedLocalStateExponential
+
+Hint: Omit it from the simp argument list.
+  simp only [̵p̵r̵o̵t̵e̵c̵t̵e̵d̵L̵o̵c̵a̵l̵S̵t̵a̵t̵e̵E̵x̵p̵o̵n̵e̵n̵t̵i̵a̵l̵,̵p̵r̵o̵t̵e̵c̵t̵e̵d̵L̵o̵c̵a̵l̵S̵t̵a̵t̵e̵S̵o̵u̵r̵c̵e̵,̵m̵a̵x̵_̵e̵q̵_̵r̵i̵g̵h̵t̵ ̵h̵u̵,̵h̵g̵u̵,̵S̵,̵W̵,̵s̵o̵u̵r̵c̵e̵P̵r̵i̵m̵i̵t̵i̵v̵e̵]̵[̲p̲r̲o̲t̲e̲c̲t̲e̲d̲L̲o̲c̲a̲l̲S̲t̲a̲t̲e̲S̲o̲u̲r̲c̲e̲,̲ ̲m̲a̲x̲_̲e̲q̲_̲r̲i̲g̲h̲t̲ ̲h̲u̲,̲ ̲h̲g̲u̲,̲ ̲S̲,̲ ̲W̲,̲ ̲s̲o̲u̲r̲c̲e̲P̲r̲i̲m̲i̲t̲i̲v̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<original-workspace>\NoThreeLine\ProtectedCutPairExponential.lean:91:48: warning: This simp argument is unused:
+  protectedLocalStateSource
+
+Hint: Omit it from the simp argument list.
+  simp only [̵p̵r̵o̵t̵e̵c̵t̵e̵d̵L̵o̵c̵a̵l̵S̵t̵a̵t̵e̵E̵x̵p̵o̵n̵e̵n̵t̵i̵a̵l̵,̵p̵r̵o̵t̵e̵c̵t̵e̵d̵L̵o̵c̵a̵l̵S̵t̵a̵t̵e̵S̵o̵u̵r̵c̵e̵,̵m̵a̵x̵_̵e̵q̵_̵r̵i̵g̵h̵t̵ ̵h̵u̵,̵h̵g̵u̵,̵S̵,̵W̵,̵s̵o̵u̵r̵c̵e̵P̵r̵i̵m̵i̵t̵i̵v̵e̵]̵[̲p̲r̲o̲t̲e̲c̲t̲e̲d̲L̲o̲c̲a̲l̲S̲t̲a̲t̲e̲E̲x̲p̲o̲n̲e̲n̲t̲i̲a̲l̲,̲ ̲m̲a̲x̲_̲e̲q̲_̲r̲i̲g̲h̲t̲ ̲h̲u̲,̲ ̲h̲g̲u̲,̲ ̲S̲,̲ ̲W̲,̲ ̲s̲o̲u̲r̲c̲e̲P̲r̲i̲m̲i̲t̲i̲v̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<original-workspace>\NoThreeLine\ProtectedCutPairExponential.lean:91:74: warning: This simp argument is unused:
+  max_eq_right hu
+
+Hint: Omit it from the simp argument list.
+  simp only [̵p̵r̵o̵t̵e̵c̵t̵e̵d̵L̵o̵c̵a̵l̵S̵t̵a̵t̵e̵E̵x̵p̵o̵n̵e̵n̵t̵i̵a̵l̵,̵p̵r̵o̵t̵e̵c̵t̵e̵d̵L̵o̵c̵a̵l̵S̵t̵a̵t̵e̵S̵o̵u̵r̵c̵e̵,̵m̵a̵x̵_̵e̵q̵_̵r̵i̵g̵h̵t̵ ̵h̵u̵,̵h̵g̵u̵,̵S̵,̵W̵,̵s̵o̵u̵r̵c̵e̵P̵r̵i̵m̵i̵t̵i̵v̵e̵]̵[̲p̲r̲o̲t̲e̲c̲t̲e̲d̲L̲o̲c̲a̲l̲S̲t̲a̲t̲e̲E̲x̲p̲o̲n̲e̲n̲t̲i̲a̲l̲,̲ ̲p̲r̲o̲t̲e̲c̲t̲e̲d̲L̲o̲c̲a̲l̲S̲t̲a̲t̲e̲S̲o̲u̲r̲c̲e̲,̲ ̲h̲g̲u̲,̲ ̲S̲,̲ ̲W̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲s̲o̲u̲r̲c̲e̲P̲r̲i̲m̲i̲t̲i̲v̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<original-workspace>\NoThreeLine\ProtectedCutPairExponential.lean:94:90: warning: This simp argument is unused:
+  S
+
+Hint: Omit it from the simp argument list.
+  simp only [̵p̵r̵o̵t̵e̵c̵t̵e̵d̵L̵o̵c̵a̵l̵S̵t̵a̵t̵e̵E̵x̵p̵o̵n̵e̵n̵t̵i̵a̵l̵,̵p̵r̵o̵t̵e̵c̵t̵e̵d̵L̵o̵c̵a̵l̵S̵t̵a̵t̵e̵S̵o̵u̵r̵c̵e̵,̵m̵a̵x̵_̵e̵q̵_̵r̵i̵g̵h̵t̵ ̵h̵u̵,̵S̵,̵W̵,̵s̵o̵u̵r̵c̵e̵P̵r̵i̵m̵i̵t̵i̵v̵e̵]̵[̲p̲r̲o̲t̲e̲c̲t̲e̲d̲L̲o̲c̲a̲l̲S̲t̲a̲t̲e̲E̲x̲p̲o̲n̲e̲n̲t̲i̲a̲l̲,̲ ̲p̲r̲o̲t̲e̲c̲t̲e̲d̲L̲o̲c̲a̲l̲S̲t̲a̲t̲e̲S̲o̲u̲r̲c̲e̲,̲ ̲m̲a̲x̲_̲e̲q̲_̲r̲i̲g̲h̲t̲ ̲h̲u̲,̲ ̲W̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲s̲o̲u̲r̲c̲e̲P̲r̲i̲m̲i̲t̲i̲v̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<original-workspace>\NoThreeLine\ProtectedCutPairExponential.lean:94:92: warning: This simp argument is unused:
+  W
+
+Hint: Omit it from the simp argument list.
+  simp only [̵p̵r̵o̵t̵e̵c̵t̵e̵d̵L̵o̵c̵a̵l̵S̵t̵a̵t̵e̵E̵x̵p̵o̵n̵e̵n̵t̵i̵a̵l̵,̵p̵r̵o̵t̵e̵c̵t̵e̵d̵L̵o̵c̵a̵l̵S̵t̵a̵t̵e̵S̵o̵u̵r̵c̵e̵,̵m̵a̵x̵_̵e̵q̵_̵r̵i̵g̵h̵t̵ ̵h̵u̵,̵S̵,̵W̵,̵s̵o̵u̵r̵c̵e̵P̵r̵i̵m̵i̵t̵i̵v̵e̵]̵[̲p̲r̲o̲t̲e̲c̲t̲e̲d̲L̲o̲c̲a̲l̲S̲t̲a̲t̲e̲E̲x̲p̲o̲n̲e̲n̲t̲i̲a̲l̲,̲ ̲p̲r̲o̲t̲e̲c̲t̲e̲d̲L̲o̲c̲a̲l̲S̲t̲a̲t̲e̲S̲o̲u̲r̲c̲e̲,̲ ̲m̲a̲x̲_̲e̲q̲_̲r̲i̲g̲h̲t̲ ̲h̲u̲,̲ ̲S̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲s̲o̲u̲r̲c̲e̲P̲r̲i̲m̲i̲t̲i̲v̲e̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NoThreeLine.protectedCutPairExponential_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedCutPairExponential_scalar_actual' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,7 @@
+<original-workspace>\NoThreeLine\ProtectedEntropyScale.lean:29:5: warning: Variable name `hd` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'NoThreeLine.entropy_log_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedEntropyDeletion_power_cost' depends on axioms: [propext, Classical.choice, Quot.sound]

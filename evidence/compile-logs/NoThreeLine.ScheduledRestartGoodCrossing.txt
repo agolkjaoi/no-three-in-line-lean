@@ -1,0 +1,4 @@
+'NoThreeLine.scheduledRestartGoodCrossing_original_le_restart' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.scheduledProtected_twoStage_shifted_crossing_le' depends on axioms: [propext, Classical.choice, Quot.sound]

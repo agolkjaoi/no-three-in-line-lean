@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.cumulativeBirthRate_stable_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.terminal_selectedIndicator_compensation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

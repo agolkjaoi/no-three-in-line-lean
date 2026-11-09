@@ -1,0 +1,1 @@
+'NoThreeLine.BirthWitness.goodCut_terminal_residual_product' depends on axioms: [propext, Classical.choice, Quot.sound]

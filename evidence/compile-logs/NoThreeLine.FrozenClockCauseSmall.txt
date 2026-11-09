@@ -1,0 +1,6 @@
+'NoThreeLine.FrozenCapacity.exists_accepted_frozen_clockCause_small_of_margin' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.FrozenCapacity.exists_accepted_frozen_clockCause_small' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

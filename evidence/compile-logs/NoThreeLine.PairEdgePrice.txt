@@ -1,0 +1,7 @@
+<original-workspace>\NoThreeLine\PairEdgePrice.lean:31:25: warning: Variable name `e` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'NoThreeLine.PairWitness.edgePriceSum_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.PairWitness.edgePriceSum_source_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

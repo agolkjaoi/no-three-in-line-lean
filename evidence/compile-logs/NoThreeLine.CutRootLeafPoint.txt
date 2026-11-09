@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.cutPointMeasure_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.cutPoint_correctedRootLeaf_test' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.cutRootLeaf_eta_floor' depends on axioms: [propext, Classical.choice, Quot.sound]

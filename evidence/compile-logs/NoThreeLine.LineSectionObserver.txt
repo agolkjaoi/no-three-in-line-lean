@@ -1,0 +1,5 @@
+'NoThreeLine.BirthWitness.lineSectionObserverStep_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.lineSectionObserverStep_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.lineSectionObserverStep_mixed_le_raw' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

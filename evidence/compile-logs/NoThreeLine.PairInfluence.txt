@@ -1,0 +1,4 @@
+'NoThreeLine.AuxiliaryODE.pairRate_at_state' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.AuxiliaryODE.pairRate_symm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.AuxiliaryODE.pairRate_le_total' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.AuxiliaryODE.etaSystemField_contDiff' depends on axioms: [propext, Classical.choice, Quot.sound]

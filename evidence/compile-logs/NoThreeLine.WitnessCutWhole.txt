@@ -1,0 +1,4 @@
+'NoThreeLine.integral_le_of_disjoint_pieces' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.source_free_terminal_actual_cut_le_of_ae_avoid' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

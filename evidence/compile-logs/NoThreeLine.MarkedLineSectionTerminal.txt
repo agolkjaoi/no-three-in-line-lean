@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.markedSectionTerminal_residual_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.markedSectionTerminal_mixed_mean_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,4 @@
+'NoThreeLine.ShortStars.tendsto_starIntegral_mainCoefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.tendsto_starIntegral_errorCoefficient' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

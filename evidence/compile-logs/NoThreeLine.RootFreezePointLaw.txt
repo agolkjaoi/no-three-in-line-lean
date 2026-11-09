@@ -1,0 +1,5 @@
+'NoThreeLine.BirthWitness.rootBoundaryWitness_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.rootBoundaryWitness_density_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.rootBoundaryWitness_corrected_point_mean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

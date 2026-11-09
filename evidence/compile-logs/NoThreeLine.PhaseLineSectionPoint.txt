@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.initial_phaseSection_point_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.initial_phaseSectionPoint_correctedLeaf_mean_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

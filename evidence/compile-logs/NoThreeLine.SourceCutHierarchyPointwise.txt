@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.cutHierarchySource_joint_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.terminalCalendarSource_le_cutHierarchySource' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

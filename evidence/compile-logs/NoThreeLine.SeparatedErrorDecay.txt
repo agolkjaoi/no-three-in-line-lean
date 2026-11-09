@@ -1,0 +1,5 @@
+'NoThreeLine.FiniteMomentIntegral.separatedMomentError_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FiniteMomentIntegral.positiveMomentRoot_div' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FiniteMomentIntegral.tendsto_longLogError_root_div_log' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

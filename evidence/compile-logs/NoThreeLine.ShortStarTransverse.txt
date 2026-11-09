@@ -1,0 +1,5 @@
+'NoThreeLine.ShortStars.leaf_line_avoids_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.thirdWitnessPartners_fresh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.thirdWitnessPartners_card_le_const_rpow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

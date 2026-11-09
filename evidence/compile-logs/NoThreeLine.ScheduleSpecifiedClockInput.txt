@@ -1,0 +1,2 @@
+'NoThreeLine.schedule_specifiedClockInput' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.exists_strictClockSlack' depends on axioms: [propext, Classical.choice, Quot.sound]

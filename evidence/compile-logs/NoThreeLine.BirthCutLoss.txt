@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.terminal_selectedIndicator_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.terminal_card_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.terminal_card_loss_unit_credit' depends on axioms: [propext, Classical.choice, Quot.sound]

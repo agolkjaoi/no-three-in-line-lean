@@ -1,0 +1,7 @@
+'NoThreeLine.BirthWitness.scheduledCutLineCreditValue_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduledCutLineCreditRate_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.scheduledCutLineCreditCumulative_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

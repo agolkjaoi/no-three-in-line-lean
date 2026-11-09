@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.recordedBirthGate_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.schedule_recordedBirthGate_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,5 @@
+'NoThreeLine.realParityJ_error_sharp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.realParityJ_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.realParityJ_quotient_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.sievedParityJ_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.finite_sieve_BV_upper_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

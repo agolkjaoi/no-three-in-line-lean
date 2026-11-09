@@ -1,0 +1,4 @@
+'NoThreeLine.augTimedNoiseState_completes_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augTimedTerminal_done_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augTimedNoiseState_stabilizes_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augTimedTerminal_expected_credit' depends on axioms: [propext, Classical.choice, Quot.sound]

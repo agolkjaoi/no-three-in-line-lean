@@ -1,0 +1,7 @@
+'NoThreeLine.Phase15301Family00.Gathered.expression_gathered' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.Phase15301Family00.Gathered.gathered_partition_checked' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.Phase15301Family00.Gathered.actual_integral_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

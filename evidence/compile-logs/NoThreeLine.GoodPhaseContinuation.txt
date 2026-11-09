@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.goodPhaseContinuation_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.goodPhaseContinuation_expected_source_free' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

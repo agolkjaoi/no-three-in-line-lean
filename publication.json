@@ -1,0 +1,17 @@
+{
+  "edition": "2026-11-10-public-2",
+  "prepared_utc": "2026-11-09T16:22:12.866191+00:00",
+  "repository": "agolkjaoi/no-three-in-line-lean",
+  "repository_url": "https://github.com/agolkjaoi/no-three-in-line-lean",
+  "visibility": "public",
+  "license": "MIT",
+  "named_author": null,
+  "ai_usage": "AI_USAGE.md",
+  "source_snapshot": "2026-11-10-audited-2",
+  "final_target_proved": false,
+  "original_lean_source_files_unchanged": true,
+  "publication_authorized_by_maintainer": true,
+  "note": "Updated fixed snapshot. New Lean files preserve audited source bytes. The final target remains unproved; previous preparation evidence retains its dated scope.",
+  "previous_edition": "2026-11-10-public-1",
+  "git_history": "Fresh root commit with privacy-preserving author and committer metadata; proof sources and their recorded audits unchanged."
+}

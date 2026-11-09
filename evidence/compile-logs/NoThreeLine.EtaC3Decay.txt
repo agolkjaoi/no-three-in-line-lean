@@ -1,0 +1,3 @@
+'NoThreeLine.PairWitness.scalar_C3_power_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.PairWitness.exists_C3_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.PairWitness.C3_power_eventually_le' depends on axioms: [propext, Classical.choice, Quot.sound]

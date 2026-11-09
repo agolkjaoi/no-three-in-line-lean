@@ -1,0 +1,6 @@
+'NoThreeLine.FiniteWitnessMoments.tendsto_logPairBudget_normalized' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.FiniteWitnessMoments.tendsto_logarithmicMomentEnvelope' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

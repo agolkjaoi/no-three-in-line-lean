@@ -1,0 +1,9 @@
+'NoThreeLine.Phase15301Family02.Refined.unit_expression_from_actual_field' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.Phase15301Family02.Refined.actual_integral_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.Phase15301Family02.Refined.erased_actual_integral_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

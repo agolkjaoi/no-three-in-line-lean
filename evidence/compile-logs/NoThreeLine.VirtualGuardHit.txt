@@ -1,0 +1,7 @@
+'NoThreeLine.BirthWitness.virtualGuardBeforeCandidate_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.virtualGuardBeforeCandidate_rawHit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.rootObserverStep_virtualGuard_snapshot' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,10 @@
+<original-workspace>\NoThreeLine\RootPhaseSourceMean.lean:60:15: warning: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  simp only [̵P̵r̵o̵d̵.̵f̵s̵t̵]̵ ̵at hp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NoThreeLine.BirthWitness.phaseRootScheduled_expected_mixed_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

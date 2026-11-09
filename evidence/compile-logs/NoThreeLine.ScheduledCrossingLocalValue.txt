@@ -1,0 +1,2 @@
+'NoThreeLine.scheduledCrossingPair_terminalDensity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.scheduledCrossingPair_flag_terminal_lower' depends on axioms: [propext, Classical.choice, Quot.sound]

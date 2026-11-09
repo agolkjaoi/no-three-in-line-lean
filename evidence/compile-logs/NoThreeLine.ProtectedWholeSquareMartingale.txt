@@ -1,0 +1,4 @@
+'NoThreeLine.compensatedProtectedCreditSquare_martingale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.compensatedProtectedEntropySquare_martingale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.compensatedProtectedCreditSquare_finite_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.compensatedProtectedEntropySquare_finite_mean' depends on axioms: [propext, Classical.choice, Quot.sound]

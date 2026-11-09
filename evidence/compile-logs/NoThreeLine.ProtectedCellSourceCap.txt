@@ -1,0 +1,3 @@
+'NoThreeLine.protectedCreditTotalSource_le_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedEntropyTotalSource_add_cost_le_entropy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedEntropyTotal_nonneg_le_credit_log' depends on axioms: [propext, Classical.choice, Quot.sound]

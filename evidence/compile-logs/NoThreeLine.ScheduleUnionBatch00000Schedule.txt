@@ -1,0 +1,3 @@
+'NoThreeLine.ScheduleUnionBatch00000Schedule.duration_positive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

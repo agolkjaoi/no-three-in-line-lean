@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.goodObservedRestartStep_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.goodObservedRecycled_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.goodMixed_history_estimate' depends on axioms: [propext, Classical.choice, Quot.sound]

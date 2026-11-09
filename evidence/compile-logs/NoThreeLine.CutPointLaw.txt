@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.cutPointMeasure_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.cutCreditLoss_mean_pointLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.cut_birthRate_mean_pointLaw' depends on axioms: [propext, Classical.choice, Quot.sound]

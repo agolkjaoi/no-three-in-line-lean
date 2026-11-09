@@ -1,0 +1,5 @@
+'NoThreeLine.scheduledActualWeightCapBefore_measurableSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.scheduledActualWeightCapBefore_raw_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.initial_scheduledActualWeightCapBefore_measure_le_raw' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

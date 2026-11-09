@@ -1,0 +1,5 @@
+'NoThreeLine.BirthWitness.long_schedule_coarse_mean_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.long_schedule_witnessPower_coarse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.long_schedule_witnessPower_separated' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

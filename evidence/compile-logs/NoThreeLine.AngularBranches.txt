@@ -1,0 +1,2 @@
+'NoThreeLine.angularCuts_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.fieldChord_affine_on_between_cuts' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+'NoThreeLine.finiteLineCreditCalendarRate_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.terminalLineCreditCalendarRate_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.terminalLineCreditCalendarRate_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.terminalLineCreditCalendarRate_integral' depends on axioms: [propext, Classical.choice, Quot.sound]

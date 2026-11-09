@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.markedSectionContactCaptured_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.markedSectionContactCaptured_ae' depends on axioms: [propext, Classical.choice, Quot.sound]

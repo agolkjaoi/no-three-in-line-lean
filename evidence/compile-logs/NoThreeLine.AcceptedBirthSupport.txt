@@ -1,0 +1,8 @@
+'NoThreeLine.AcceptedPhase.birthRate_positive_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.AcceptedPhase.positive_mark_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FinitePhase.Schedule.birthRate_positive_accepted_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.timedBirth_positive_mark_mask' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.timedBirth_mask_positive_board_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.timedBirth_accepted_support' depends on axioms: [propext, Classical.choice, Quot.sound]

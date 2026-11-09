@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.initialRootPhaseWitness_lineDomain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.initialRootPhaseWitness_connection_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

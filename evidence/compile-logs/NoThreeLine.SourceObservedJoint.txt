@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.observedRecycledTerminal_start_joint_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.sourceCutMixed_joint_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]

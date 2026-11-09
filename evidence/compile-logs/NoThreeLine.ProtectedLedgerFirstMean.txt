@@ -1,0 +1,12 @@
+<original-workspace>\NoThreeLine\ProtectedLedgerFirstMean.lean:53:67: warning: This simp argument is unused:
+  if_pos hd
+
+Hint: Omit it from the simp argument list.
+  simp only [̵p̵r̵o̵t̵e̵c̵t̵e̵d̵T̵i̵m̵e̵d̵W̵e̵i̵g̵h̵t̵e̵d̵C̵r̵e̵d̵i̵t̵,̵a̵u̵g̵T̵i̵m̵e̵d̵L̵i̵n̵e̵L̵i̵k̵e̵l̵i̵h̵o̵o̵d̵,̵i̵f̵_̵p̵o̵s̵ ̵h̵d̵,̵o̵n̵e̵_̵m̵u̵l̵,̵
+  ̵ ̵ ̵ ̵ ̵ ̵ ̵p̵r̵o̵t̵e̵c̵t̵e̵d̵T̵i̵m̵e̵d̵C̵r̵e̵d̵i̵t̵,̵p̵r̵o̵t̵e̵c̵t̵e̵d̵R̵e̵m̵e̵m̵b̵e̵r̵,̵a̵u̵g̵T̵i̵m̵e̵d̵S̵t̵e̵p̵,̵a̵u̵g̵T̵i̵m̵e̵d̵S̵t̵e̵p̵P̵a̵i̵r̵,̵i̵f̵_̵p̵o̵s̵[̲p̲r̲o̲t̲e̲c̲t̲e̲d̲T̲i̲m̲e̲d̲W̲e̲i̲g̲h̲t̲e̲d̲C̲r̲e̲d̲i̲t̲,̲ ̲a̲u̲g̲T̲i̲m̲e̲d̲L̲i̲n̲e̲L̲i̲k̲e̲l̲i̲h̲o̲o̲d̲,̲ ̲o̲n̲e̲_̲m̲u̲l̲,̲ ̲p̲r̲o̲t̲e̲c̲t̲e̲d̲T̲i̲m̲e̲d̲C̲r̲e̲d̲i̲t̲,̲
+  ̲ ̲ ̲ ̲ ̲p̲r̲o̲t̲e̲c̲t̲e̲d̲R̲e̲m̲e̲m̲b̲e̲r̲,̲ ̲a̲u̲g̲T̲i̲m̲e̲d̲S̲t̲e̲p̲,̲ ̲a̲u̲g̲T̲i̲m̲e̲d̲S̲t̲e̲p̲P̲a̲i̲r̲,̲ ̲i̲f̲_̲p̲o̲s̲ hd, p̵r̵o̵t̵e̵c̵t̵e̵d̵L̵i̵n̵e̵S̵a̵v̵e̵_̵s̵e̵l̵f̵,̵p̵r̵o̵t̵e̵c̵t̵e̵d̵F̵i̵r̵s̵t̵S̵o̵u̵r̵c̵e̵,̵a̵d̵d̵_̵z̵e̵r̵o̵]̵p̲r̲o̲t̲e̲c̲t̲e̲d̲L̲i̲n̲e̲S̲a̲v̲e̲_̲s̲e̲l̲f̲,̲
+  ̲ ̲ ̲ ̲ ̲p̲r̲o̲t̲e̲c̲t̲e̲d̲F̲i̲r̲s̲t̲S̲o̲u̲r̲c̲e̲,̲ ̲a̲d̲d̲_̲z̲e̲r̲o̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NoThreeLine.protectedTimedWeightedCredit_first_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.firstLineForbiddenLaw_protectedCredit_mean' depends on axioms: [propext, Classical.choice, Quot.sound]

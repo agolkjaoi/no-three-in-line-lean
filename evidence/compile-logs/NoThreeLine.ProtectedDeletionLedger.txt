@@ -1,0 +1,3 @@
+'NoThreeLine.protectedLedger_external_total_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedExternalDeletion_closed_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedExternalDeletion_power_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'NoThreeLine.compensatedProtectedEntropy_stable_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.terminalCompensatedProtectedEntropy_condExp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.terminalCompensatedProtectedEntropy_mean' depends on axioms: [propext, Classical.choice, Quot.sound]

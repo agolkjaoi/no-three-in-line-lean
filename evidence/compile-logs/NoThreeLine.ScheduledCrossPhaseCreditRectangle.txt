@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.scheduled_cross_phase_creditRectangle_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

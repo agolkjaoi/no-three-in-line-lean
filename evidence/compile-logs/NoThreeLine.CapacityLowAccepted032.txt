@@ -1,0 +1,2 @@
+'NoThreeLine.FrozenCapacity.row032_accepted' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FrozenCapacity.row039_accepted' depends on axioms: [propext, Classical.choice, Quot.sound]

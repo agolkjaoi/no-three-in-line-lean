@@ -1,0 +1,19 @@
+<original-workspace>\NoThreeLine\PhysicalLeafRepetition.lean:64:58: warning: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+<original-workspace>\NoThreeLine\PhysicalLeafRepetition.lean:67:8: warning: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+<original-workspace>\NoThreeLine\PhysicalLeafRepetition.lean:64:58: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+<original-workspace>\NoThreeLine\PhysicalLeafRepetition.lean:67:8: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+'NoThreeLine.FiniteWitnessMoments.prod_tuple_le_repeat_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FiniteWitnessMoments.physicalRepeatSum_le_main_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.FiniteWitnessMoments.physicalRepeatSum_le_length_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

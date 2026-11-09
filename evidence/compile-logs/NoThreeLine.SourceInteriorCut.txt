@@ -1,0 +1,4 @@
+'NoThreeLine.sourceCap_interior_outcome' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.sourceRestrict_interior_observation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

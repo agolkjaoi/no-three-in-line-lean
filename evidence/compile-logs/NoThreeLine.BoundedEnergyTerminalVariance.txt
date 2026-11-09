@@ -1,0 +1,17 @@
+<original-workspace>\NoThreeLine\BoundedEnergyTerminalVariance.lean:49:13: warning: This simp argument is unused:
+  setIntegral_univ
+
+Hint: Omit it from the simp argument list.
+  simp only [̵s̵e̵t̵I̵n̵t̵e̵g̵r̵a̵l̵_̵u̵n̵i̵v̵,̵h̵x̵0̵,̵i̵n̵t̵e̵g̵r̵a̵l̵_̵c̵o̵n̵s̵t̵,̵m̵e̵a̵s̵u̵r̵e̵R̵e̵a̵l̵_̵d̵e̵f̵,̵M̵e̵a̵s̵u̵r̵e̵.̵r̵e̵s̵t̵r̵i̵c̵t̵_̵u̵n̵i̵v̵,̵m̵e̵a̵s̵u̵r̵e̵_̵u̵n̵i̵v̵,̵E̵N̵N̵R̵e̵a̵l̵.̵t̵o̵R̵e̵a̵l̵_̵o̵n̵e̵,̵o̵n̵e̵_̵s̵m̵u̵l̵]̵[̲h̲x̲0̲,̲ ̲i̲n̲t̲e̲g̲r̲a̲l̲_̲c̲o̲n̲s̲t̲,̲ ̲m̲e̲a̲s̲u̲r̲e̲R̲e̲a̲l̲_̲d̲e̲f̲,̲ ̲M̲e̲a̲s̲u̲r̲e̲.̲r̲e̲s̲t̲r̲i̲c̲t̲_̲u̲n̲i̲v̲,̲ ̲m̲e̲a̲s̲u̲r̲e̲_̲u̲n̲i̲v̲,̲
+  ̲ ̲ ̲ ̲ ̲E̲N̲N̲R̲e̲a̲l̲.̲t̲o̲R̲e̲a̲l̲_̲o̲n̲e̲,̲ ̲o̲n̲e̲_̲s̲m̲u̲l̲]̲ at hmean
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<original-workspace>\NoThreeLine\BoundedEnergyTerminalVariance.lean:50:13: warning: This simp argument is unused:
+  setIntegral_univ
+
+Hint: Omit it from the simp argument list.
+  simp only [s̵e̵t̵I̵n̵t̵e̵g̵r̵a̵l̵_̵u̵n̵i̵v̵,̵hx0, ̲hv0, ̲sub_zero, ̲integral_const, ̲measureReal_def, ̲Measure.restrict_univ,
+  ̲ ̲ ̲ ̲ ̲measure_univ, ̲ENNReal.toReal_one, ̲one_smul] at henergy
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NoThreeLine.boundedEnergyTerminalVariance' depends on axioms: [propext, Classical.choice, Quot.sound]

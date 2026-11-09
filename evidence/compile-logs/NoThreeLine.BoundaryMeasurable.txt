@@ -1,0 +1,2 @@
+'NoThreeLine.ExtendedState.measurable_newTags' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ExtendedState.measurable_resolve' depends on axioms: [propext, Classical.choice, Quot.sound]

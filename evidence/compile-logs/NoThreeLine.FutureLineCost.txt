@@ -1,0 +1,2 @@
+'NoThreeLine.BirthWitness.lineThrough_card_le_two_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.lineFutureCost_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

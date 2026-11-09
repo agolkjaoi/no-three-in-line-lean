@@ -1,0 +1,2 @@
+'NoThreeLine.BirthWitness.firstWitnessSnapshot_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.actual_first_witness_source_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

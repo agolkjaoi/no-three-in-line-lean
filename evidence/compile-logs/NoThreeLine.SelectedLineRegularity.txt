@@ -1,0 +1,2 @@
+'NoThreeLine.BirthWitness.selectedLineGate_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.boardLineMass_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

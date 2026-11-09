@@ -1,0 +1,2 @@
+'NoThreeLine.selectedProtectedWhole_energy_cost_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedRunningWhole_energy_cost_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

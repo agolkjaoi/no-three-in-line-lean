@@ -1,0 +1,9 @@
+<original-workspace>\NoThreeLine\BenchmarkAutoChunks.lean:43:17: warning: This simp argument is unused:
+  Option.bind_some
+
+Hint: Omit it from the simp argument list.
+  simp only [̵O̵p̵t̵i̵o̵n̵.̵b̵i̵n̵d̵_̵s̵o̵m̵e̵,̵O̵p̵t̵i̵o̵n̵.̵s̵o̵m̵e̵.̵i̵n̵j̵E̵q̵]̵[̲O̲p̲t̲i̲o̲n̲.̲s̲o̲m̲e̲.̲i̲n̲j̲E̲q̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NoThreeLine.AutoEnvelope.checkUpperBlock_append' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.AutoEnvelope.checkUpperBlock_to_unit' depends on axioms: [propext, Classical.choice, Quot.sound]

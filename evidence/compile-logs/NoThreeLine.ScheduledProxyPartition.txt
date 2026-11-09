@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.scheduledOutsideProxyPath_partition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduledOutsideShortProxyPath_le_stars' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

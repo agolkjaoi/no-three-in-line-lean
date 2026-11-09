@@ -1,0 +1,2 @@
+'NoThreeLine.FinitePhase.gridPhasePacket_board_area_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.CheckedAcceptedPhase.board_mass_error' depends on axioms: [propext, Classical.choice, Quot.sound]

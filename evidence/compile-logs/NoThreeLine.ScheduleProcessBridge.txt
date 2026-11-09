@@ -1,0 +1,4 @@
+'NoThreeLine.scheduleSharedPhases_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.scheduleSharedPhases_total' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.scheduleProcessDeadline_eq_zero_or_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.scheduleProcess_rate_zero_after_deadline' depends on axioms: [propext, Classical.choice, Quot.sound]

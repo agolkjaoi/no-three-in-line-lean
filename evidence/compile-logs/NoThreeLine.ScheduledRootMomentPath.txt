@@ -1,0 +1,11 @@
+<original-workspace>\NoThreeLine\ScheduledRootMomentPath.lean:28:3: warning: `MeasureTheory.integrable_finset_sum` has been deprecated: Use `MeasureTheory.integrable_finsetSum` instead
+<original-workspace>\NoThreeLine\ScheduledRootMomentPath.lean:41:20: warning: `MeasureTheory.integral_finset_sum` has been deprecated: Use `MeasureTheory.integral_finsetSum` instead
+'NoThreeLine.BirthWitness.scheduledRootMomentPath_terminal_mean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduledRootMomentPath_terminal_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.exists_uniform_rootMomentPath_threshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

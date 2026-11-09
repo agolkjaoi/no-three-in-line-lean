@@ -1,0 +1,2 @@
+'NoThreeLine.BirthWitness.sourceSum_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.sourceSum_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

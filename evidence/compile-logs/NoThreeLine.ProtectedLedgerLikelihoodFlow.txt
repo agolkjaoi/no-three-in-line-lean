@@ -1,0 +1,11 @@
+<original-workspace>\NoThreeLine\ProtectedLedgerLikelihoodFlow.lean:35:46: warning: This simp argument is unused:
+  if_neg hp
+
+Hint: Omit it from the simp argument list.
+  simp only [̵p̵r̵o̵t̵e̵c̵t̵e̵d̵L̵e̵d̵g̵e̵r̵C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵D̵r̵i̵f̵t̵,̵i̵f̵_̵n̵e̵g̵ ̵h̵p̵,̵h̵j̵,̵a̵d̵d̵_̵z̵e̵r̵o̵,̵p̵r̵o̵t̵e̵c̵t̵e̵d̵L̵i̵n̵e̵P̵o̵s̵i̵t̵i̵v̵e̵D̵r̵i̵f̵t̵,̵
+  ̵ ̵ ̵ ̵ ̵ ̵ ̵P̵r̵o̵c̵e̵s̵s̵S̵t̵a̵t̵e̵.̵b̵i̵r̵t̵h̵R̵a̵t̵e̵,̵h̵p̵,̵a̵n̵d̵_̵f̵a̵l̵s̵e̵,̵i̵f̵_̵f̵a̵l̵s̵e̵,̵z̵e̵r̵o̵_̵m̵u̵l̵]̵[̲p̲r̲o̲t̲e̲c̲t̲e̲d̲L̲e̲d̲g̲e̲r̲C̲o̲n̲t̲i̲n̲u̲o̲u̲s̲D̲r̲i̲f̲t̲,̲ ̲h̲j̲,̲ ̲a̲d̲d̲_̲z̲e̲r̲o̲,̲ ̲p̲r̲o̲t̲e̲c̲t̲e̲d̲L̲i̲n̲e̲P̲o̲s̲i̲t̲i̲v̲e̲D̲r̲i̲f̲t̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲P̲r̲o̲c̲e̲s̲s̲S̲t̲a̲t̲e̲.̲b̲i̲r̲t̲h̲R̲a̲t̲e̲,̲ ̲h̲p̲,̲ ̲a̲n̲d̲_̲f̲a̲l̲s̲e̲,̲ ̲i̲f̲_̲f̲a̲l̲s̲e̲,̲ ̲z̲e̲r̲o̲_̲m̲u̲l̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NoThreeLine.protectedLedger_generator_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.selectedProtectedLedger_likelihood_generator' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.scheduleCutLoss_le_exposure_mul_of_used' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.schedule_exists_noThree_from_five_causes' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

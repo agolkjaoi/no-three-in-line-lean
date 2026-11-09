@@ -1,0 +1,2 @@
+'NoThreeLine.weighted_centered_square_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.weighted_centered_square_first_mean' depends on axioms: [propext, Classical.choice, Quot.sound]

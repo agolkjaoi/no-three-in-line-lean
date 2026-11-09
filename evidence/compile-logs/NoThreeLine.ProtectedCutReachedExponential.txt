@@ -1,0 +1,2 @@
+'NoThreeLine.protectedCreditExp_cutReached_integral_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedEntropyExp_cutReached_integral_le' depends on axioms: [propext, Classical.choice, Quot.sound]

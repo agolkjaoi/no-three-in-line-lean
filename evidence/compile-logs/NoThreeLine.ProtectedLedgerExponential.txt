@@ -1,0 +1,1 @@
+'NoThreeLine.selectedProtectedLedger_first_exponential_mean' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,9 @@
+'NoThreeLine.BirthWitness.initial_rootPhasePoint_power_mean_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.initial_rootPhasePoint_all_labels_coarse_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.initial_rootPhasePoint_power_weighted_expansion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

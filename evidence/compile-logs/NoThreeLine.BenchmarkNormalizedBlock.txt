@@ -1,0 +1,2 @@
+'NoThreeLine.AutoEnvelope.checkUpperBlock_integral_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.AutoEnvelope.normalizedUpperBlock_integral_le' depends on axioms: [propext, Classical.choice, Quot.sound]

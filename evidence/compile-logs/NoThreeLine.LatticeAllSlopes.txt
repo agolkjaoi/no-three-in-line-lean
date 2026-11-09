@@ -1,0 +1,4 @@
+'NoThreeLine.Rect.line_mem_section' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.lineLatticeSupport_complete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.rectangle_G13_all_slopes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.rectangle_G13_vertical_all_slopes' depends on axioms: [propext, Classical.choice, Quot.sound]

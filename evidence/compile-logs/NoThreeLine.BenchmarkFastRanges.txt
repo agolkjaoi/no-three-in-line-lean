@@ -1,0 +1,6 @@
+<original-workspace>\NoThreeLine\BenchmarkFastRanges.lean:64:12: warning: 'change
+  join (addRangeClip d t.left lo hi a) (addRangeClip d t.right (lo - 2 ^ d) (hi - 2 ^ d) a) = _' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+'NoThreeLine.BenchmarkNatTree.addRangeClip_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BenchmarkNatTree.checkRanges_of_fast' depends on axioms: [propext, Classical.choice, Quot.sound]

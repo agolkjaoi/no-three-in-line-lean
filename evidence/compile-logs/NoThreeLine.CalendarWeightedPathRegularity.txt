@@ -1,0 +1,14 @@
+'NoThreeLine.CalendarIntegral.weightedTrianglePath_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.CalendarIntegral.weightedTrianglePath_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.CalendarIntegral.weightedTrianglePath_integrable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.CalendarIntegral.weightedRectanglePath_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.CalendarIntegral.weightedRectanglePath_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.CalendarIntegral.weightedRectanglePath_integrable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

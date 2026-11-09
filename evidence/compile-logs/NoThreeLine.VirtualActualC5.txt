@@ -1,0 +1,4 @@
+'NoThreeLine.VirtualWitness.anyActualVirtualHit_power_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.VirtualWitness.anyActualVirtualHit_uniform_polynomial_tail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

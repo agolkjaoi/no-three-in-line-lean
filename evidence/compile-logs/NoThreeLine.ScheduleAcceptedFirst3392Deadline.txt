@@ -1,0 +1,3 @@
+'NoThreeLine.ScheduleAcceptedFirst3392Deadline.scaled_deadline_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

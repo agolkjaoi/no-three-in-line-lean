@@ -1,0 +1,10 @@
+'NoThreeLine.BirthWitness.initialGoodObservation_active_of_before_deadline' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.initial_rootBoundary_witness_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.initial_rootBoundary_witnessPower_moment' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.initial_rootBoundary_witness_tail' depends on axioms: [propext, Classical.choice, Quot.sound]

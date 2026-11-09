@@ -1,0 +1,2 @@
+'NoThreeLine.FiniteWitnessMoments.tuplePrice_cons' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FiniteWitnessMoments.tupleMoment_succ' depends on axioms: [propext, Classical.choice, Quot.sound]

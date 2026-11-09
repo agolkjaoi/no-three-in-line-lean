@@ -1,0 +1,1 @@
+'NoThreeLine.protectedWhole_energy_cost_first_mean_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

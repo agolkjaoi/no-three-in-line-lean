@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.activeRootLineMass_eq_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.observedActiveLineMass_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.observedCorrectedRootLeaf_le' depends on axioms: [propext, Classical.choice, Quot.sound]

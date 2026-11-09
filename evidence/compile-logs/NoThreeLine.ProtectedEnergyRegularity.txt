@@ -1,0 +1,2 @@
+'NoThreeLine.protectedWholeEnergyRate_norm_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedPairCompensatedIncrement_actual_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

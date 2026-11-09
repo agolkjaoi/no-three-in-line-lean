@@ -1,0 +1,5 @@
+'NoThreeLine.ShortStars.singleton_mainTuple_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.weightedMain_one_eq_intensity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.initial_scheduledCutPoint_intensity_firstMoment' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

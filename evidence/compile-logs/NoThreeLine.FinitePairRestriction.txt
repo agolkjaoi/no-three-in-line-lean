@@ -1,0 +1,2 @@
+'NoThreeLine.FiniteTuplePattern.pairRestricted_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FiniteTuplePattern.somePairRestricted_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]

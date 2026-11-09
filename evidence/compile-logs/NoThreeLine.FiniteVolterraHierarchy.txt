@@ -1,0 +1,2 @@
+<original-workspace>\NoThreeLine\FiniteVolterraHierarchy.lean:25:2: warning: Try this: intro E ih hED t ht
+'NoThreeLine.FiniteSourceHierarchy.triangular_volterra_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

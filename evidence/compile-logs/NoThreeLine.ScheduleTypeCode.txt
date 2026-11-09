@@ -1,0 +1,2 @@
+'NoThreeLine.GridArea.sum_typeCode' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.GridArea.codeZ_grid_parity' depends on axioms: [propext, Quot.sound]

@@ -1,0 +1,2 @@
+'NoThreeLine.GridArea.boundaryPoints_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.GridArea.sum_eraseBoard_loss' depends on axioms: [propext, Classical.choice, Quot.sound]

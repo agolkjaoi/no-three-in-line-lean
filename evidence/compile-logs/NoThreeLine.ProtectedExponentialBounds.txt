@@ -1,0 +1,2 @@
+'NoThreeLine.protectedTimedWeightedExponential_exists_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedTimedWeightedExponential_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,9 @@
+<original-workspace>\NoThreeLine\ScheduledLineRestartInitial.lean:63:19: warning: This simp argument is unused:
+  unpackProtectedTimed_pack
+
+Hint: Omit it from the simp argument list.
+  simp only [he',̵u̵n̵p̵a̵c̵k̵P̵r̵o̵t̵e̵c̵t̵e̵d̵T̵i̵m̵e̵d̵_̵p̵a̵c̵k̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NoThreeLine.recycledPhaseState_auxReady' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.scheduledLineExit_stageOne_initial' depends on axioms: [propext, Classical.choice, Quot.sound]

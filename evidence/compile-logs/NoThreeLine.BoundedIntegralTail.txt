@@ -1,0 +1,6 @@
+'NoThreeLine.FiniteMomentIntegral.bounded_integral_power_integrable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.FiniteMomentIntegral.bounded_integral_tail_le_moment' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

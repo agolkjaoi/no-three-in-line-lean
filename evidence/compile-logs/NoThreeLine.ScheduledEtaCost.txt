@@ -1,0 +1,2 @@
+'NoThreeLine.scheduled_eta_loss_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.initial_eta_cause_cost' depends on axioms: [propext, Classical.choice, Quot.sound]

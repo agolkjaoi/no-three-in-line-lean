@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.scheduledOldCutFuturePair_residual_product_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

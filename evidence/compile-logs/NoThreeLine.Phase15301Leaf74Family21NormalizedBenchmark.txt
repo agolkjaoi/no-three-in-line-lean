@@ -1,0 +1,9 @@
+'NoThreeLine.Phase15301Leaf74.Family21.NormalizedBenchmark.normalization_checked' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.Phase15301Leaf74.Family21.NormalizedBenchmark.block_checked' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.Phase15301Leaf74.Family21.NormalizedBenchmark.actual_block_integral_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

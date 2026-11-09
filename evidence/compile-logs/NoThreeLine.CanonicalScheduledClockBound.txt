@@ -1,0 +1,3 @@
+'NoThreeLine.canonicalScheduledClock_threshold_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.canonicalScheduledActualClockHit_real_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.canonicalScheduledClockCause_point_real_le' depends on axioms: [propext, Classical.choice, Quot.sound]

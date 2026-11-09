@@ -1,0 +1,3 @@
+'NoThreeLine.FinitePhase.Schedule.scaled_cumulative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FinitePhase.Schedule.scaled_boardTimeRisk' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FinitePhase.Schedule.scaled_areaMass' depends on axioms: [propext, Classical.choice, Quot.sound]

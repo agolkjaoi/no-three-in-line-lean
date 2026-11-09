@@ -1,0 +1,2 @@
+'NoThreeLine.AuxiliaryODE.pendingGuardSet_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.AuxiliaryODE.mem_pendingGuardSet_iff' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,12 @@
+<original-workspace>\NoThreeLine\IntegerHingeScan.lean:74:24: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+<original-workspace>\NoThreeLine\IntegerHingeScan.lean:74:38: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+<original-workspace>\NoThreeLine\IntegerHingeScan.lean:74:50: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'NoThreeLine.integerHingeValue_succ' depends on axioms: [propext, Quot.sound]
+'NoThreeLine.integerHingeSlope_succ' depends on axioms: [propext, Quot.sound]
+'NoThreeLine.integerHingeRangeCheck_sound' depends on axioms: [propext, Quot.sound]

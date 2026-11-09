@@ -1,0 +1,6 @@
+'NoThreeLine.PrimitiveLines.det_zero_iff_existsUnique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.PrimitiveLines.mem_gridLineParameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.PrimitiveLines.sum_gridLine_eq_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.PrimitiveLines.linePoint_parity' depends on axioms: [propext]
+'NoThreeLine.PrimitiveLines.gridLineEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.PrimitiveLines.sum_gridLine_erase_parity_split' depends on axioms: [propext, Classical.choice, Quot.sound]

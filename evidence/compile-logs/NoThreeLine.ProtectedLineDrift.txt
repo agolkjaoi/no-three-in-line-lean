@@ -1,0 +1,3 @@
+'NoThreeLine.specified_line_growth_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedExternalJumpRate_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedLine_generator' depends on axioms: [propext, Classical.choice, Quot.sound]

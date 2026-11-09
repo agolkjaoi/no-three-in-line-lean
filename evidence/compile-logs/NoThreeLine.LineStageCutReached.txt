@@ -1,0 +1,7 @@
+'NoThreeLine.BirthWitness.firstLineCutReached_ae_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.phaseLineForbiddenLaw_firstCutReached' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.phaseLineForbiddenLaw_firstCutReached_ge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

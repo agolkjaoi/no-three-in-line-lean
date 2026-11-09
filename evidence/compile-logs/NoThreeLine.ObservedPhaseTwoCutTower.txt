@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.observedPhaseFuture_two_cut_tower_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

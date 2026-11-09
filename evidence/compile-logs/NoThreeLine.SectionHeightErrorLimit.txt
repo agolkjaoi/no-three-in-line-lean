@@ -1,0 +1,2 @@
+'NoThreeLine.SectionHeight.heightErrorEnvelope_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.SectionHeight.exists_height_degree_floor' depends on axioms: [propext, Classical.choice, Quot.sound]

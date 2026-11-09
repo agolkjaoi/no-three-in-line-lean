@@ -1,0 +1,3 @@
+'NoThreeLine.OffLineDivisors.off_directionLine_sum_le_const_rpow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

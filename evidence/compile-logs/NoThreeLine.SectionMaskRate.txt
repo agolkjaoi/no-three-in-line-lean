@@ -1,0 +1,2 @@
+'NoThreeLine.BirthWitness.boardLineMass_cell_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.physicalLineCreditRate_cell_budget' depends on axioms: [propext, Classical.choice, Quot.sound]

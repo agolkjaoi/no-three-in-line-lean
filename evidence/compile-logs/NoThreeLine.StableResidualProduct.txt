@@ -1,0 +1,1 @@
+'NoThreeLine.residual_product_of_eventually_stable' depends on axioms: [propext, Classical.choice, Quot.sound]

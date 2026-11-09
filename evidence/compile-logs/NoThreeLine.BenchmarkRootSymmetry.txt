@@ -1,0 +1,1 @@
+'NoThreeLine.BenchmarkSymmetry.root_mem_of_symmetry_box' depends on axioms: [propext, Classical.choice, Quot.sound]

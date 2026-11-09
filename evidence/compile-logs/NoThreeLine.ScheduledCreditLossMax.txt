@@ -1,0 +1,9 @@
+'NoThreeLine.BirthWitness.scheduledRootCreditLossCrossing_eq_terminal_event' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduledRootCreditLossCrossing_measurableSet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.exists_uniform_rootCreditLoss_crossing_threshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

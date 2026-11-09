@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.observedFuture_two_actual_cuts_tower_of_ae_avoid' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.observedFuture_two_actual_cuts_tower_ae_times' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

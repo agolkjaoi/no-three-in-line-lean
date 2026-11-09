@@ -1,0 +1,7 @@
+'NoThreeLine.BirthWitness.scheduledRootRecordInput_activeRecords' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduledCutObservation_eq_root_input' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduledRootRecordInput_done_ae' depends on axioms: [propext, Classical.choice, Quot.sound]

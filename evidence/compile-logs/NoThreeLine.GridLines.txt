@@ -1,0 +1,4 @@
+'NoThreeLine.GridLines.lineThrough_eq_of_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.GridLines.line_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.GridLines.specifiedPair_iff_line_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.GridLines.selected_specifiedLine_card_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,9 @@
+'NoThreeLine.BirthWitness.scheduledSectionExceededBefore_measurableSet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduledSectionExceeded_full_capture_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.initial_phaseSectionPoint_exceedance_cover_tail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

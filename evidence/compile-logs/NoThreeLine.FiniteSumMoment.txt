@@ -1,0 +1,2 @@
+'NoThreeLine.FiniteMomentIntegral.finite_sum_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FiniteMomentIntegral.finite_sum_tail_le_moment' depends on axioms: [propext, Classical.choice, Quot.sound]

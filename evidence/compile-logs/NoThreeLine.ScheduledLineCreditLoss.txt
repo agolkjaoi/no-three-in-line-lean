@@ -1,0 +1,4 @@
+'NoThreeLine.scheduledLineCreditLoss_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.scheduledLineCreditLoss_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.scheduledLineCreditLoss_calendar_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.initial_scheduledLineCreditLoss_eq' depends on axioms: [propext, Classical.choice, Quot.sound]

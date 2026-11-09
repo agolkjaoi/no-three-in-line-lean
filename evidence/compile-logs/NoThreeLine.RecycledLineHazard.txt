@@ -1,0 +1,2 @@
+'NoThreeLine.recycledLineIntensityCost_eq_clock' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.recycledLineIntensityCost_exp_le' depends on axioms: [propext, Classical.choice, Quot.sound]

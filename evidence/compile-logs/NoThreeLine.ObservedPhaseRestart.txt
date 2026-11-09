@@ -1,0 +1,5 @@
+'NoThreeLine.BirthWitness.observedPhaseRecycledPair_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.observedPhaseRecycledPair_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.observedPhaseRecycledPair_consistent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

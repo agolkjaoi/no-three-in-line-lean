@@ -1,0 +1,5 @@
+'NoThreeLine.cutCalendarOutsideRiskRate_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.cutOutsideRiskRate_eq_capped_interior' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.terminalOutsideRiskCalendarRate_eq_cut_ae_time' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.terminalOutsideRiskCost_cut_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.terminalOutsideRiskCost_cut_integral_ae' depends on axioms: [propext, Classical.choice, Quot.sound]

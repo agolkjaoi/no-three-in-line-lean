@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.longWitnessWeight_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.longWitnessSum_eq_recorded_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.longWitnessPrice_identity' depends on axioms: [propext, Classical.choice, Quot.sound]

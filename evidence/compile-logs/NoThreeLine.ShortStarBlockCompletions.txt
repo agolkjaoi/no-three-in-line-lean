@@ -1,0 +1,3 @@
+'NoThreeLine.ShortStars.mem_blockCompletions_of_pattern' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.sum_blockCompletions_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.sum_blockCompletions_weight_le' depends on axioms: [propext, Classical.choice, Quot.sound]

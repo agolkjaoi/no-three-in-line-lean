@@ -1,0 +1,3 @@
+'NoThreeLine.ScheduleUnionBatch03640AcceptedList.actual_schedule_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

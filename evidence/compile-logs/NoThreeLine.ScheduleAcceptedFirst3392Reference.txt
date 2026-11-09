@@ -1,0 +1,6 @@
+'NoThreeLine.ScheduleAcceptedFirst3392Reference.ordered_matches' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.ScheduleAcceptedFirst3392Reference.scaled_actual_prefix_le_full' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

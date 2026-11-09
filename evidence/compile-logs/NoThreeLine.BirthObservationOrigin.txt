@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.observedNoiseState_record_origin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.observedTerminal_selected_birth_value' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

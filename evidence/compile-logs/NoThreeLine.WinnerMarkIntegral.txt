@@ -1,0 +1,4 @@
+'NoThreeLine.BoardWinnerLaw.uniformGrid_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.WinnerMarkLaw.candidate_firstMarkedRace_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

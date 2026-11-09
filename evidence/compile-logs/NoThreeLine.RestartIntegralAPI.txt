@@ -1,0 +1,2 @@
+'NoThreeLine.RestartIntegralAPI.prefix_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.RestartIntegralAPI.residual_section_integral' depends on axioms: [propext, Classical.choice, Quot.sound]

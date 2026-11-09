@@ -1,0 +1,18 @@
+'NoThreeLine.SpecifiedNonaxisCapacityChart2.capacity_m1h2r0s1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.SpecifiedNonaxisCapacityChart2.capacity_m1h2r2s3' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.SpecifiedNonaxisCapacityChart2.capacity_m1h3r0s3' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.SpecifiedNonaxisCapacityChart2.capacity_m1h3r1s2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.SpecifiedNonaxisCapacityChart2.capacity_m2h3r0s2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.SpecifiedNonaxisCapacityChart2.capacity_m2h3r1s3' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,2 @@
+'NoThreeLine.ShortStars.exists_realized_pattern' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.realized_pattern_counts' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.birthObservationTime_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.observed_birth_value_at_actual_wait' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

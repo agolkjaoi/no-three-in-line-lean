@@ -1,0 +1,5 @@
+'NoThreeLine.OffLineDivisors.displacementGcd_mem_divisors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.OffLineDivisors.parameterCongruence_empty_or_class' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.OffLineDivisors.grid_determinant_le' depends on axioms: [propext, Classical.choice, Quot.sound]

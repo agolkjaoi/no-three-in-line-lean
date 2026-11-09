@@ -1,0 +1,11 @@
+<original-workspace>\NoThreeLine\ProtectedScheduledRegion.lean:18:6: warning: Variable name `i` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+<original-workspace>\NoThreeLine\ProtectedScheduledRegion.lean:18:8: warning: Variable name `j` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'NoThreeLine.protectedScheduleRegion_step' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.rawStepSaved_late_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.rootObserverRestartStep_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.rootObserverRestartStep_map' depends on axioms: [propext, Classical.choice, Quot.sound]

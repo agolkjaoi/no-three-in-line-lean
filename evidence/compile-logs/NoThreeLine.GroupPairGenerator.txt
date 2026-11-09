@@ -1,0 +1,7 @@
+'NoThreeLine.GroupPairGenerator.groupCoefficient_le_pairs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.GroupPairGenerator.externalGroupGenerator_le_pairRate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.GroupPairGenerator.externalGroupGenerator_le_fixed_label_pairRate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

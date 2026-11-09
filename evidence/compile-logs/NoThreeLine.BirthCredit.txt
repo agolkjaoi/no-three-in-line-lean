@@ -1,0 +1,8 @@
+<original-workspace>\NoThreeLine\BirthCredit.lean:164:90: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'NoThreeLine.geometric_death_after_birth_iff' depends on axioms: [propext, Quot.sound]
+'NoThreeLine.birthAccount_active_credit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.birth_credit_compensation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.simultaneous_death_snapshot' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.first_specified_birth_snapshot' depends on axioms: [propext, Classical.choice, Quot.sound]

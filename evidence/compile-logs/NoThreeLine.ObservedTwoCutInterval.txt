@@ -1,0 +1,31 @@
+<original-workspace>\NoThreeLine\ObservedTwoCutInterval.lean:69:19: warning: This simp argument is unused:
+  cfg
+
+Hint: Omit it from the simp argument list.
+  simp only [̵c̵f̵g̵,̵t̵₀̵,̵c̵u̵t̵H̵i̵s̵t̵o̵r̵y̵C̵r̵o̵s̵s̵i̵n̵g̵T̵e̵s̵t̵,̵i̵f̵_̵p̵o̵s̵ ̵h̵x̵,̵h̵ω̵[̲t̲₀̲,̲ ̲c̲u̲t̲H̲i̲s̲t̲o̲r̲y̲C̲r̲o̲s̲s̲i̲n̲g̲T̲e̲s̲t̲,̲ ̲i̲f̲_̲p̲o̲s̲ ̲h̲x̲,̲ ̲h̲ω̲ hx]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<original-workspace>\NoThreeLine\ObservedTwoCutInterval.lean:69:23: warning: This simp argument is unused:
+  t₀
+
+Hint: Omit it from the simp argument list.
+  simp only [̵c̵f̵g̵,̵t̵₀̵,̵c̵u̵t̵H̵i̵s̵t̵o̵r̵y̵C̵r̵o̵s̵s̵i̵n̵g̵T̵e̵s̵t̵,̵i̵f̵_̵p̵o̵s̵ ̵h̵x̵,̵h̵ω̵[̲c̲f̲g̲,̲ ̲c̲u̲t̲H̲i̲s̲t̲o̲r̲y̲C̲r̲o̲s̲s̲i̲n̲g̲T̲e̲s̲t̲,̲ ̲i̲f̲_̲p̲o̲s̲ ̲h̲x̲,̲ ̲h̲ω̲ hx]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<original-workspace>\NoThreeLine\ObservedTwoCutInterval.lean:72:19: warning: This simp argument is unused:
+  cfg
+
+Hint: Omit it from the simp argument list.
+  simp only [̵c̵f̵g̵,̵t̵₀̵,̵c̵u̵t̵H̵i̵s̵t̵o̵r̵y̵C̵r̵o̵s̵s̵i̵n̵g̵T̵e̵s̵t̵,̵i̵f̵_̵n̵e̵g̵ ̵h̵x̵,̵m̵u̵l̵_̵z̵e̵r̵o̵]̵[̲t̲₀̲,̲ ̲c̲u̲t̲H̲i̲s̲t̲o̲r̲y̲C̲r̲o̲s̲s̲i̲n̲g̲T̲e̲s̲t̲,̲ ̲i̲f̲_̲n̲e̲g̲ ̲h̲x̲,̲ ̲m̲u̲l̲_̲z̲e̲r̲o̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<original-workspace>\NoThreeLine\ObservedTwoCutInterval.lean:72:23: warning: This simp argument is unused:
+  t₀
+
+Hint: Omit it from the simp argument list.
+  simp only [cfg,t̵₀̵,̵ ̲cutHistoryCrossingTest, ̲if_neg h̵x̵,̵h̲x̲,̲ ̲mul_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NoThreeLine.BirthWitness.observedFuture_two_actual_cut_interval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,5 @@
+'NoThreeLine.BirthWitness.phaseRootPhases_active_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.initial_rootPhasePoint_active_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.initial_rootPhasePoint_witness_mean_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

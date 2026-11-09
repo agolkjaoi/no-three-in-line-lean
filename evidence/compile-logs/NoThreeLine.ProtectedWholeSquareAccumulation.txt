@@ -1,0 +1,6 @@
+'NoThreeLine.cumulativeProtectedCreditSquareSource_integrable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.cumulativeProtectedEntropySquareSource_integrable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

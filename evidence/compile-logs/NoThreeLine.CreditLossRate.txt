@@ -1,0 +1,5 @@
+<original-workspace>\NoThreeLine\CreditLossRate.lean:54:78: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'NoThreeLine.ProcessState.birthRate_credit_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ProcessState.birthCreditLoss_split' depends on axioms: [propext, Classical.choice, Quot.sound]

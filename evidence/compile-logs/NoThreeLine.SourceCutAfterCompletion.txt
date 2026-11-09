@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.sourceCutTerminal_after_completion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.sourceCutTerminal_after_completion_augmented' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

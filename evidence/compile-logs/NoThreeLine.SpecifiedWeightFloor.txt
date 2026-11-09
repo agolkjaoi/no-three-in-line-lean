@@ -1,0 +1,3 @@
+'NoThreeLine.occupiedSpecifiedLines_new_birth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ProcessState.birth_activeWeightFloor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ProcessState.activeWeightFloor_uniform' depends on axioms: [propext, Classical.choice, Quot.sound]

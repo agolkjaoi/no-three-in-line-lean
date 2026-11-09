@@ -1,0 +1,3 @@
+'NoThreeLine.angular_primitiveParityK_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.pairAngular_primitiveParityK_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.twelve_pair_angular_sieve_upper' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+'NoThreeLine.ExtendedState.initial_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ExtendedState.birth_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ExtendedState.resolve_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ExtendedState.measurable_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]

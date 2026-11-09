@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.observedFuture_credit_eq_cut_after_completion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

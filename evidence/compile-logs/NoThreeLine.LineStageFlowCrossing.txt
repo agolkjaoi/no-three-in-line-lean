@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.lineStageHistoryExceeds_history' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.phaseLineForbiddenLaw_history_exceeds_ge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,137 @@
+{
+  "started_utc": "2026-11-09T15:21:56.107808+00:00",
+  "mode": "direct_lean_offline",
+  "targets": [
+    "NoThreeLine.Target",
+    "NoThreeLine.AffineBranch",
+    "NoThreeLine.Concrete",
+    "NoThreeLine"
+  ],
+  "dependency_closure_size": 12,
+  "all_requested": false,
+  "status": "PASS",
+  "modules": [
+    {
+      "module": "NoThreeLine.Target",
+      "source_sha256": "7959a88bb94f0a4594c8faecdcfd51b9b842657275456c7646b8da0f5bdd818a",
+      "status": "FRESH_COMPILE_PASS",
+      "exit_code": 0,
+      "seconds": 18.015,
+      "log": "evidence/reproduction-logs/NoThreeLine.Target.txt",
+      "source_stable": true,
+      "olean_sha256": "05013ba395b62c5a2e9a3fb00ae6491dc8d6ed2586789f7bd860cdc3d30fdabd",
+      "direct_local_artifacts": {},
+      "original_log_sha256": "cd6d59ab99c3e1e53a87f477c8fbfca825b1a6d3a28981d3570bd165d9eb894b",
+      "public_log_sha256": "bd2a2268217b8e15b18aa39bb359d0dbe1e11acc00cb44eed4fe58f7f6d20422"
+    },
+    {
+      "module": "NoThreeLine.AffineBranch",
+      "source_sha256": "a476cf66f8fb28cac0c944653176d2ded3add5894560006af2b4fdf2dd05bf4f",
+      "status": "FRESH_COMPILE_PASS",
+      "exit_code": 0,
+      "seconds": 26.625,
+      "log": "evidence/reproduction-logs/NoThreeLine.AffineBranch.txt",
+      "source_stable": true,
+      "olean_sha256": "e68155d507779cd4620b57e4f1e0db4b74d9b9cd8b7aa8cd08e2bd8698acc606",
+      "direct_local_artifacts": {},
+      "original_log_sha256": "ec69b249783288e82e7b363dd03bd26bdd10a61b681ce5850761bd6fce735b39",
+      "public_log_sha256": "5af47492e36a95c655d3368a2e9a10321de0f9da95619fc1a15ae38c9b01fa12"
+    },
+    {
+      "module": "NoThreeLine.Rectangle",
+      "source_sha256": "7c2b94276f13941a6fb0e9fc8fa1d50d2cbd7442db86f1bd5fe6977e160ce6d7",
+      "status": "REUSED_HISTORICAL_ARTIFACT",
+      "olean_sha256": "e504da4bc259a62352758dd1e00494d345d3bcb588ccbcc3600b4086bdb9f317"
+    },
+    {
+      "module": "NoThreeLine.BranchChecker",
+      "source_sha256": "c77fbd8b6d39a78c0f84be4d969f4f2f8d180781c81dc5912cf088e1074e3c06",
+      "status": "REUSED_HISTORICAL_ARTIFACT",
+      "olean_sha256": "93b0ade4e85409dfe38a54cb8531cfb38de14f15312c346fe61ce3185fe94082"
+    },
+    {
+      "module": "NoThreeLine.RectangleExpr",
+      "source_sha256": "a44d16974f34fce55b941ec575b8e6f99b777eb5209c19511fc8d7ca47e7a253",
+      "status": "REUSED_HISTORICAL_ARTIFACT",
+      "olean_sha256": "031ae31dc2df911e823767dd46792db3567ca984748c9c46d1b403064942b9b5"
+    },
+    {
+      "module": "NoThreeLine.IntegralCertificate",
+      "source_sha256": "16d9c9ba3899e39cdb563eed17c1d78b8d4fe16b74cafca48dbb0494a18d2f67",
+      "status": "REUSED_HISTORICAL_ARTIFACT",
+      "olean_sha256": "dd83b67e31dc235ad42263f9b7cf4c251ad962c3e751f3a9458a92d6eb50ce3e"
+    },
+    {
+      "module": "NoThreeLine.Partition",
+      "source_sha256": "0110c0359ae65da949bea33ac06d59f42e154c345b34f38ba0bb71f9af0ce5a0",
+      "status": "REUSED_HISTORICAL_ARTIFACT",
+      "olean_sha256": "21eda7e6a59eb34c87ea689f8bda3aa80717289deea7bc3beb792e8d798053c5"
+    },
+    {
+      "module": "NoThreeLine.ChordIntegral",
+      "source_sha256": "1e5dda86ae7ac3d9deb403c2c78252635061f18566e90348a1517a52a1a4c41e",
+      "status": "REUSED_HISTORICAL_ARTIFACT",
+      "olean_sha256": "3a62fab0dc3879c5b1d5de0485c49ef03b1c199a9048503b1ee5f071e4930ace"
+    },
+    {
+      "module": "NoThreeLine.RootCertificate",
+      "source_sha256": "cf30dc4bb5dddb50381f8c888284c469ff4524d14e1da5eff27e2a440b787d27",
+      "status": "REUSED_HISTORICAL_ARTIFACT",
+      "olean_sha256": "a52f0255235890c1697f1778652e3cefc8b757ae79a473cd191a03d46b229466"
+    },
+    {
+      "module": "NoThreeLine.Charts",
+      "source_sha256": "e530901690787ef245955a94d6cf06b515f239e5bd22433900c4e434d5469eff",
+      "status": "REUSED_HISTORICAL_ARTIFACT",
+      "olean_sha256": "3c074a0d7271f9e33322622113b4ef336e5fa1ba00e5ed2e31640c4bb707983d"
+    },
+    {
+      "module": "NoThreeLine.Concrete",
+      "source_sha256": "9291cfcac47b67b0963300296b708c822efb2bd0250e7e3af93d6bad59ad86b3",
+      "status": "FRESH_COMPILE_PASS",
+      "exit_code": 0,
+      "seconds": 38.235,
+      "log": "evidence/reproduction-logs/NoThreeLine.Concrete.txt",
+      "source_stable": true,
+      "olean_sha256": "93f6a8dbc0c5c4b6943ec44f9e4ed2b623b980fa027109e1725d45c2390796b7",
+      "direct_local_artifacts": {
+        "NoThreeLine.RectangleExpr": "031ae31dc2df911e823767dd46792db3567ca984748c9c46d1b403064942b9b5",
+        "NoThreeLine.Partition": "21eda7e6a59eb34c87ea689f8bda3aa80717289deea7bc3beb792e8d798053c5",
+        "NoThreeLine.RootCertificate": "a52f0255235890c1697f1778652e3cefc8b757ae79a473cd191a03d46b229466",
+        "NoThreeLine.Charts": "3c074a0d7271f9e33322622113b4ef336e5fa1ba00e5ed2e31640c4bb707983d"
+      },
+      "original_log_sha256": "6eba49d6978d478406087c829981815f9d038f7f24c9bd131f973d049e3597d4",
+      "public_log_sha256": "9e3cd2487f5c9e0aa7d276426d2dc0cccad41880ed661b5be1076f8567f4c9b2"
+    },
+    {
+      "module": "NoThreeLine",
+      "source_sha256": "0937e87f0d7a6c302e14d30bd73e0111743e37be9c2c571122432be98ca5e8e0",
+      "status": "FRESH_COMPILE_PASS",
+      "exit_code": 0,
+      "seconds": 25.406,
+      "log": "evidence/reproduction-logs/NoThreeLine.txt",
+      "source_stable": true,
+      "olean_sha256": "5fff960c7df4eeead82197f103a02a68e74afc56796c17ffc04702a152d6a865",
+      "direct_local_artifacts": {
+        "NoThreeLine.Target": "05013ba395b62c5a2e9a3fb00ae6491dc8d6ed2586789f7bd860cdc3d30fdabd",
+        "NoThreeLine.AffineBranch": "e68155d507779cd4620b57e4f1e0db4b74d9b9cd8b7aa8cd08e2bd8698acc606",
+        "NoThreeLine.Concrete": "93f6a8dbc0c5c4b6943ec44f9e4ed2b623b980fa027109e1725d45c2390796b7"
+      },
+      "original_log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "lean_version": "Lean (version 4.32.2, x86_64-w64-windows-gnu, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)",
+  "mathlib_commit": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "finished_utc": "2026-11-09T15:23:44.723863+00:00",
+  "fresh_compiles": 4,
+  "reused_artifacts": 8,
+  "scope": "Three original modules plus a new entry module freshly compiled; eight project dependency artifacts reused after exact hash matching. Existing compiled mathlib reused.",
+  "full_snapshot_fresh_rebuild": false,
+  "printed_axiom_reports_checked": 14,
+  "printed_axioms_observed": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ]
+}

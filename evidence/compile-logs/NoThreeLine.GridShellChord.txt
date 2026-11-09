@@ -1,0 +1,16 @@
+<original-workspace>\NoThreeLine\GridShellChord.lean:59:36: warning: This simp argument is unused:
+  directionPairWeight
+
+Hint: Omit it from the simp argument list.
+  simp only [̵s̵h̵e̵l̵l̵C̵h̵o̵r̵d̵,̵i̵f̵_̵p̵o̵s̵ ̵h̵x̵,̵d̵i̵r̵e̵c̵t̵i̵o̵n̵P̵a̵i̵r̵W̵e̵i̵g̵h̵t̵]̵[̲s̲h̲e̲l̲l̲C̲h̲o̲r̲d̲,̲ ̲i̲f̲_̲p̲o̲s̲ ̲h̲x̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<original-workspace>\NoThreeLine\GridShellChord.lean:76:36: warning: This simp argument is unused:
+  directionPairWeight
+
+Hint: Omit it from the simp argument list.
+  simp only [̵s̵h̵e̵l̵l̵C̵h̵o̵r̵d̵,̵i̵f̵_̵n̵e̵g̵ ̵h̵x̵,̵d̵i̵r̵e̵c̵t̵i̵o̵n̵P̵a̵i̵r̵W̵e̵i̵g̵h̵t̵]̵[̲s̲h̲e̲l̲l̲C̲h̲o̲r̲d̲,̲ ̲i̲f̲_̲n̲e̲g̲ ̲h̲x̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NoThreeLine.FiniteDirections.shellChord_G13' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FiniteDirections.typed_collinear_pair_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

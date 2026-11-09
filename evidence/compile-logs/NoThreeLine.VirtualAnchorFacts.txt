@@ -1,0 +1,12 @@
+<original-workspace>\NoThreeLine\VirtualAnchorFacts.lean:49:25: warning: Variable name `i` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+<original-workspace>\NoThreeLine\VirtualAnchorFacts.lean:49:29: warning: Variable name `j` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'NoThreeLine.VirtualWitness.anchorLabels_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.VirtualWitness.anchorWitness_price' depends on axioms: [propext, Classical.choice, Quot.sound]

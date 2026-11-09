@@ -1,0 +1,7 @@
+<original-workspace>\NoThreeLine\BirthPhaseAccumulation.lean:80:2: warning: `MeasureTheory.integrable_finset_sum` has been deprecated: Use `MeasureTheory.integrable_finsetSum` instead
+'NoThreeLine.BirthWitness.cumulativeScheduledBirthRate_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.finitePhase_selectedIndicator_compensation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

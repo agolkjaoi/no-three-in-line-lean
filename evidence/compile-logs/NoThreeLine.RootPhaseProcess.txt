@@ -1,0 +1,13 @@
+<original-workspace>\NoThreeLine\RootPhaseProcess.lean:147:13: warning: This simp argument is unused:
+  Prod.fst
+
+Hint: Omit it from the simp argument list.
+  simp only [̵P̵r̵o̵d̵.̵f̵s̵t̵]̵ ̵at hp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NoThreeLine.BirthWitness.phaseRootScheduledPair_mixed_le_terminal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.phaseRootPhases_joint_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.phaseRootPhases_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.phaseRootPhases_expected_credit' depends on axioms: [propext, Classical.choice, Quot.sound]

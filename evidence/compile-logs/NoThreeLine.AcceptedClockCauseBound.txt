@@ -1,0 +1,7 @@
+'NoThreeLine.FrozenCapacity.acceptedClockInput_margin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FrozenCapacity.exists_uniform_acceptedClockSlack' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.FrozenCapacity.accepted_clockCause_point_real_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

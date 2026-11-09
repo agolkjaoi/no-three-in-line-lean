@@ -1,0 +1,12 @@
+<original-workspace>\NoThreeLine\ScheduledLineExcessPath.lean:65:8: warning: `MeasureTheory.integrable_finset_sum` has been deprecated: Use `MeasureTheory.integrable_finsetSum` instead
+<original-workspace>\NoThreeLine\ScheduledLineExcessPath.lean:67:8: warning: `MeasureTheory.integrable_finset_sum` has been deprecated: Use `MeasureTheory.integrable_finsetSum` instead
+<original-workspace>\NoThreeLine\ScheduledLineExcessPath.lean:83:19: warning: `MeasureTheory.integral_finset_sum` has been deprecated: Use `MeasureTheory.integral_finsetSum` instead
+<original-workspace>\NoThreeLine\ScheduledLineExcessPath.lean:83:51: warning: `MeasureTheory.integrable_finset_sum` has been deprecated: Use `MeasureTheory.integrable_finsetSum` instead
+<original-workspace>\NoThreeLine\ScheduledLineExcessPath.lean:87:6: warning: `MeasureTheory.integral_finset_sum` has been deprecated: Use `MeasureTheory.integral_finsetSum` instead
+<original-workspace>\NoThreeLine\ScheduledLineExcessPath.lean:107:6: warning: `MeasureTheory.integral_finset_sum` has been deprecated: Use `MeasureTheory.integral_finsetSum` instead
+'NoThreeLine.BirthWitness.scheduledLineWitnessPath_terminal_mean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduledLongExcessPath_terminal_mean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.scheduledOutsideRiskError_terminal_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.exists_uniform_outsideRiskError_mean_threshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

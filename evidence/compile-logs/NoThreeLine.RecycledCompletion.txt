@@ -1,0 +1,3 @@
+'NoThreeLine.augRestartStep_done' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augRecycledPair_absorbing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augRecycledPair_completes_ae' depends on axioms: [propext, Classical.choice, Quot.sound]

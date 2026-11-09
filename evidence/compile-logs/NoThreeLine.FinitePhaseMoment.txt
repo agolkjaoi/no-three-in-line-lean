@@ -1,0 +1,4 @@
+'NoThreeLine.FiniteMomentIntegral.interval_constant_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FiniteMomentIntegral.finite_phase_constant_moment' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

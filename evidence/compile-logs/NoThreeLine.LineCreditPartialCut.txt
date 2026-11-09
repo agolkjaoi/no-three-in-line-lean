@@ -1,0 +1,3 @@
+'NoThreeLine.cutCalendarLineCreditRate_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.sourceCutLineCredit_decrement_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.sourceCutLineCredit_decrement_integral_ae' depends on axioms: [propext, Classical.choice, Quot.sound]

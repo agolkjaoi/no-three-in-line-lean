@@ -1,0 +1,4 @@
+'NoThreeLine.FinitePhase.Schedule.boardTimeRisk_sieve_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FinitePhase.Schedule.normalized_board_mass_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

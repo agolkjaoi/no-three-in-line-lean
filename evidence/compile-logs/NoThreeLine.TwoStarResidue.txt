@@ -1,0 +1,3 @@
+'NoThreeLine.TwoStar.residue_height_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.TwoStar.divisorHeightParameters_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.TwoStar.parameter_divisor_mem' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+'NoThreeLine.LineDrift.localGrowth_sum_S1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.LineDrift.state_localGrowth_S1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.LineDrift.state_continuousDrift_S1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.LineDrift.state_S1_birth_generator' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.sectionLeafPower_actual_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.initial_phaseSectionPoint_mass_moment' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

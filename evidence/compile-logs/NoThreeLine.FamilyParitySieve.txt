@@ -1,0 +1,5 @@
+'NoThreeLine.FiniteDirections.family_partner_of_parity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FiniteDirections.primitive_parity_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FiniteDirections.four_family_main_eq_primitiveParityK' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

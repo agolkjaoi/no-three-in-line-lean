@@ -1,0 +1,3 @@
+'NoThreeLine.timedCompletionIndex_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.timedTerminal_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.timedTerminal_expected_credit_of_completion' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+'NoThreeLine.ShortStars.sum_distinct_tuple_price_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.initial_scheduledCutPoint_mainTupleSum_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

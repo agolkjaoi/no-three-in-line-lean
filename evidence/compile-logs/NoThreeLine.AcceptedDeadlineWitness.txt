@@ -1,0 +1,3 @@
+'NoThreeLine.AcceptedPhase.mask_positive_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.AcceptedPhase.boardInput_positive_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FrozenReference.accepted_deadline_witness' depends on axioms: [propext, Classical.choice, Quot.sound]

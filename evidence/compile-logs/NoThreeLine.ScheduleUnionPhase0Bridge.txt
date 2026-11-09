@@ -1,0 +1,2 @@
+'NoThreeLine.ScheduleUnionPhase0.raw_decoding_checked' depends on axioms: [propext, Quot.sound]
+'NoThreeLine.ScheduleUnionPhase0.actual_phase_mass' depends on axioms: [propext, Classical.choice, Quot.sound]

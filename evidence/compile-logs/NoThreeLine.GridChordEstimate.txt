@@ -1,0 +1,6 @@
+'NoThreeLine.GridChord.horizontal_support_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.GridChord.horizontal_grid_sum_eq_lattice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.GridChord.horizontal_G13' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.GridChord.vertical_support_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.GridChord.vertical_grid_sum_eq_lattice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.GridChord.vertical_G13' depends on axioms: [propext, Classical.choice, Quot.sound]

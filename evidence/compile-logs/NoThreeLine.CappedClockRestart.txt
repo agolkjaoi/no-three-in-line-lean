@@ -1,0 +1,15 @@
+<original-workspace>\NoThreeLine\CappedClockRestart.lean:53:13: warning: This simp argument is unused:
+  preimage_univ
+
+Hint: Omit it from the simp argument list.
+  simp only [̵p̵r̵e̵i̵m̵a̵g̵e̵_̵u̵n̵i̵v̵,̵u̵n̵i̵v̵_̵i̵n̵t̵e̵r̵,̵m̵e̵a̵s̵u̵r̵e̵_̵u̵n̵i̵v̵,̵m̵u̵l̵_̵o̵n̵e̵]̵[̲u̲n̲i̲v̲_̲i̲n̲t̲e̲r̲,̲ ̲m̲e̲a̲s̲u̲r̲e̲_̲u̲n̲i̲v̲,̲ ̲m̲u̲l̲_̲o̲n̲e̲]̲ at hu
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<original-workspace>\NoThreeLine\CappedClockRestart.lean:78:8: warning: 'change f (firstMarkedRace hn ω) ∈ A ↔ (_ ∧ _) ∨ _' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+<original-workspace>\NoThreeLine\CappedClockRestart.lean:88:8: warning: 'change (_ ∧ _) ↔ ((_ ∧ _) ∧ _) ∨ (_ ∧ _)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+'NoThreeLine.CappedClockRestart.late_rectangle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.CappedClockRestart.capped_restart_map' depends on axioms: [propext, Classical.choice, Quot.sound]

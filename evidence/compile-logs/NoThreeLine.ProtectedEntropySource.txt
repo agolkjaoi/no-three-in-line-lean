@@ -1,0 +1,2 @@
+'NoThreeLine.protectedEntropySource_shape' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.selectedProtectedEntropySource_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]

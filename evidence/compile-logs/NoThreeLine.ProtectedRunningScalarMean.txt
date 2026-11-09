@@ -1,0 +1,6 @@
+'NoThreeLine.protectedRunningScalarSource_firstForbidden_mean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.protectedRunningScalarSource_firstForbidden_integrable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

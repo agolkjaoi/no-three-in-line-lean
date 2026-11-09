@@ -1,0 +1,5 @@
+'NoThreeLine.ShortStars.weighted_tuple_sum_eq_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.masked_price_row_eq_input' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.initial_scheduledCutPoint_maskedIntensity_moment' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,4 @@
+'NoThreeLine.protectedCreditTotal_square_generator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedEntropyTotal_square_generator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedCreditTotal_jumpSquare_eq_deletion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedEntropyTotal_jumpSquare_eq_deletion' depends on axioms: [propext, Classical.choice, Quot.sound]

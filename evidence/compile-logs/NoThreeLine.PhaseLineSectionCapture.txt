@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.scheduledSectionContactAt_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduledSectionContact_full_capture_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

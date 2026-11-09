@@ -1,0 +1,3 @@
+'NoThreeLine.restartLineMixture_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.restartLineMixtureLaw_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.restartLineMixture_exit_integral' depends on axioms: [propext, Classical.choice, Quot.sound]

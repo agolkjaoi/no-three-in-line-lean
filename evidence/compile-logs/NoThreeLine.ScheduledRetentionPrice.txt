@@ -1,0 +1,7 @@
+'NoThreeLine.FinitePhase.Schedule.weighted_rate_integral_shifted' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.schedule_accumulated_unit_price' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.accumulated_coarse_price_eq_const_mul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

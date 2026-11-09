@@ -1,0 +1,3 @@
+'NoThreeLine.checked_branch_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.checkPartition_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.checkUnitIntegral_sound' depends on axioms: [propext, Classical.choice, Quot.sound]

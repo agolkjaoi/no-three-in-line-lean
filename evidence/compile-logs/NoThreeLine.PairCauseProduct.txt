@@ -1,0 +1,3 @@
+'NoThreeLine.PairWitness.causeProduct_le_physicalLeaf' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.PairWitness.causeTupleProduct_repeat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.PairWitness.causeTupleProduct_repeat_coarse' depends on axioms: [propext, Classical.choice, Quot.sound]

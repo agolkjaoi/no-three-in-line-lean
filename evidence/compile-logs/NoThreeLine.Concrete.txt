@@ -1,0 +1,8 @@
+'NoThreeLine.PhaseZero.checks' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.PhaseZero.envelope_integrals' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.PhaseZero.budget_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.PhaseZero.uniform_margin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.PhaseZero.point_partition_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.PhaseZero.point_actual_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.PhaseZero.direct_uniform_margin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.PhaseZero.erased_direct_uniform_margin' depends on axioms: [propext, Classical.choice, Quot.sound]

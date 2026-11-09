@@ -1,0 +1,2 @@
+'NoThreeLine.compensatedProtectedEntropy_martingale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.compensatedProtectedEntropy_finite_mean' depends on axioms: [propext, Classical.choice, Quot.sound]

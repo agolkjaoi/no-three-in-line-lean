@@ -1,0 +1,4 @@
+'NoThreeLine.Phase15301Reference1.pair_checked' depends on axioms: [propext]
+'NoThreeLine.Phase15301Reference1.original_erased_eq_frozen_prefix' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,3 @@
+'NoThreeLine.protectedEntropyDeletion_cost_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedDeletion_cost_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedEntropy_external_guard_square' depends on axioms: [propext, Classical.choice, Quot.sound]

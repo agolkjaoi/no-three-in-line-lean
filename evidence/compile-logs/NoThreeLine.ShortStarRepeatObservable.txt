@@ -1,0 +1,5 @@
+'NoThreeLine.ShortStars.possibleTuples_card_data' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.tuplePhysicalProduct_le_repeat_physical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.ShortStars.tuplePhysicalProduct_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]

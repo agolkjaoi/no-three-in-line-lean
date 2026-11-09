@@ -1,0 +1,4 @@
+'NoThreeLine.selectedTrajectory_pairRate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augRawOutcome_eta_loss_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augTimedStep_eta_loss_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augTimedStep_eta_le' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.initial_finitePhase_source_free_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.initial_finitePhase_unborn_source_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

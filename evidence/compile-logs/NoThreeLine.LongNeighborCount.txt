@@ -1,0 +1,4 @@
+<original-workspace>\NoThreeLine\LongNeighborCount.lean:45:31: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'NoThreeLine.FiniteDirections.longNeighbors_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]

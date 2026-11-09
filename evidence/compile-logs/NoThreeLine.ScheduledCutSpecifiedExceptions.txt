@@ -1,0 +1,5 @@
+'NoThreeLine.ShortStars.specifiedExceptionConstant_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.mem_specifiedExceptionTuples' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.initial_scheduledCutPoint_specified_exception_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

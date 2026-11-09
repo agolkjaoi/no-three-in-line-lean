@@ -1,0 +1,6 @@
+'NoThreeLine.directionalChord_square_eVariation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.erased_directionalChord_square_eVariation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.erased_directionalChord_square_boundedVariationOn' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.erased_directionalChord_pair_G12' depends on axioms: [propext, Classical.choice, Quot.sound]

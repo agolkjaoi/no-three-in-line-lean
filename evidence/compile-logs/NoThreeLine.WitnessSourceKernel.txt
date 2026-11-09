@@ -1,0 +1,2 @@
+'NoThreeLine.BirthWitness.observedSourceIntegral_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.stepSourceIntegral_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

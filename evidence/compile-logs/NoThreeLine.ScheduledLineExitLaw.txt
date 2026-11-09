@@ -1,0 +1,2 @@
+'NoThreeLine.scheduledLineExitIterate_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.scheduledLineExitIterate_cases' depends on axioms: [propext, Classical.choice, Quot.sound]

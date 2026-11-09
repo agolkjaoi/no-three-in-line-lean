@@ -1,0 +1,3 @@
+'NoThreeLine.FiniteWitnessMoments.split_tuple_eta_moment_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

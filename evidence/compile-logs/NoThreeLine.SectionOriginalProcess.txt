@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.phaseSection_step_actual_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.finiteCellMaximum_complement_actual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.selectedLineCredit_binary_integral_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.observed_step_no_section_exceedance_credit_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

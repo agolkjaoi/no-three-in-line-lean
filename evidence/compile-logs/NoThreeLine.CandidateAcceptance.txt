@@ -1,0 +1,2 @@
+'NoThreeLine.ProcessState.acceptance_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ProcessState.actual_mark_credit_compensation' depends on axioms: [propext, Classical.choice, Quot.sound]

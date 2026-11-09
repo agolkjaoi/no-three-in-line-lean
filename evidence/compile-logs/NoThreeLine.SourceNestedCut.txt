@@ -1,0 +1,7 @@
+<original-workspace>\NoThreeLine\SourceNestedCut.lean:54:5: warning: Variable name `hδR` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'NoThreeLine.sourceRestrictState_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.sourceCutTerminal_nested_at' depends on axioms: [propext, Classical.choice, Quot.sound]

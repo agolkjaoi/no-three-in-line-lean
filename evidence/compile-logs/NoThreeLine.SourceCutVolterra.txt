@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.restricted_calendarMeanSource_le_elapsedHierarchyMean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.elapsedMixedMean_volterra' depends on axioms: [propext, Classical.choice, Quot.sound]

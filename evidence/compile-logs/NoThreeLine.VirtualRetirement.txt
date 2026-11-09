@@ -1,0 +1,3 @@
+'NoThreeLine.virtualMass_retire_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ExtendedState.virtualMass_resolve_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ExtendedState.virtualMass_deadline_le' depends on axioms: [propext, Classical.choice, Quot.sound]

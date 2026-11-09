@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.scheduledUnobservedPhaseCompletion_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.initial_scheduledUnobservedPhaseCompletion_all_point_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

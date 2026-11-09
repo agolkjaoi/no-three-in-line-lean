@@ -1,0 +1,2 @@
+'NoThreeLine.selectedAuxTime_eta_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.selectedAuxTime_virtual_upper' depends on axioms: [propext, Classical.choice, Quot.sound]

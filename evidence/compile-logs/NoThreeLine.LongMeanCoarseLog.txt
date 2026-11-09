@@ -1,0 +1,13 @@
+<original-workspace>\NoThreeLine\LongMeanCoarseLog.lean:33:45: warning: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+<original-workspace>\NoThreeLine\LongMeanCoarseLog.lean:33:45: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+<original-workspace>\NoThreeLine\LongMeanCoarseLog.lean:23:70: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'NoThreeLine.BirthWitness.longBirthMean_le_coarse_log' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.longBirthMean_le_coarse_log_of_total_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

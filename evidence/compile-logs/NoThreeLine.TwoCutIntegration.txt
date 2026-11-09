@@ -1,0 +1,57 @@
+NoThreeLine.BirthWitness.sourceCutTerminal_add {n : ℕ} (cfg : NoThreeLine.FlowConfig n) (ε M start a b : ℝ) (ha : 0 ≤ a)
+  (hb : 0 ≤ b) (hn : 0 < n) (s : NoThreeLine.BirthWitness.GoodObservation cfg) (ω : NoThreeLine.BoardClockPath n) :
+  NoThreeLine.BirthWitness.sourceCutTerminal cfg ε M (start - a) b hb hn
+      (NoThreeLine.BirthWitness.sourceRestrictGood cfg a ha s) ω =
+    NoThreeLine.BirthWitness.sourceCutTerminal cfg ε M start (a + b) ⋯ hn s ω
+NoThreeLine.BirthWitness.sourceCutTerminal_add_commuted {n : ℕ} (cfg : NoThreeLine.FlowConfig n) (ε M start a b : ℝ)
+  (ha : 0 ≤ a) (hb : 0 ≤ b) (hn : 0 < n) (s : NoThreeLine.BirthWitness.GoodObservation cfg)
+  (ω : NoThreeLine.BoardClockPath n) :
+  NoThreeLine.BirthWitness.sourceCutTerminal cfg ε M (start - b) a ha hn
+      (NoThreeLine.BirthWitness.sourceRestrictGood cfg b hb s) ω =
+    NoThreeLine.BirthWitness.sourceCutTerminal cfg ε M start (a + b) ⋯ hn s ω
+NoThreeLine.BirthWitness.source_free_two_cuts_le_ae_earlier {n : ℕ} (cfg : NoThreeLine.FlowConfig n) (ε M start b : ℝ)
+  (hb : 0 ≤ b) (hn : 0 < n) (hB : 0 < cfg.B) (hm : ∀ (q : NoThreeLine.Grid n), cfg.mask q ≤ 1)
+  (e : NoThreeLine.BirthWitness.Retention n) (C L : Finset (NoThreeLine.Grid n)) (hCL : C ⊆ L) (hK : cfg.K < 2)
+  (s : NoThreeLine.BirthWitness.GoodObservation cfg) (hbR : b ≤ (↑(↑s).1).2)
+  (F : ℝ → NoThreeLine.BirthWitness.TimedObservation cfg → ℝ) (hF : ∀ (t : ℝ), Measurable (F t)) (A : ℝ)
+  (hFA : ∀ (t : ℝ) (v : NoThreeLine.BirthWitness.TimedObservation cfg), 0 ≤ F t v ∧ F t v ≤ A) :
+  ∀ᵐ (t : ℝ),
+    ∀ (ht : t ∈ Set.Ioo 0 ((↑(↑s).1).2 - b)),
+      ∫ (ω : NoThreeLine.BoardClockPath n),
+          NoThreeLine.BirthWitness.mixed cfg.directions C ∅ L
+              (NoThreeLine.BirthWitness.observedWitness cfg e
+                (NoThreeLine.BirthWitness.sourceCutTerminal cfg ε M start b hb hn s ω)) *
+            F t
+              (NoThreeLine.BirthWitness.sourceCutTerminal cfg ε M start ((↑(↑s).1).2 - t) ⋯ hn s
+                ω) ∂NoThreeLine.boardClockMeasure n (cfg.B / ↑n) ≤
+        ∫ (ω : NoThreeLine.BoardClockPath n),
+          NoThreeLine.BirthWitness.mixed cfg.directions C ∅ L
+              (NoThreeLine.BirthWitness.observedWitness cfg e
+                (NoThreeLine.BirthWitness.sourceCutTerminal cfg ε M start ((↑(↑s).1).2 - t) ⋯ hn s ω)) *
+            F t
+              (NoThreeLine.BirthWitness.sourceCutTerminal cfg ε M start ((↑(↑s).1).2 - t) ⋯ hn s
+                ω) ∂NoThreeLine.boardClockMeasure n (cfg.B / ↑n)
+NoThreeLine.BirthWitness.two_cutPoint_rootLeaf_le_ae_earlier {n : ℕ} (cfg : NoThreeLine.FlowConfig n) (ε M start : ℝ)
+  (b : NNReal) (hn : 0 < n) (hB : 0 < cfg.B) (hm : ∀ (q : NoThreeLine.Grid n), cfg.mask q ≤ 1)
+  (e : NoThreeLine.BirthWitness.Retention n) (C L : Finset (NoThreeLine.Grid n)) (hCL : C ⊆ L) (hK : cfg.K < 2)
+  (p : NoThreeLine.Grid n) (hp : p ∈ C) (s : NoThreeLine.BirthWitness.GoodObservation cfg) (hbR : ↑b ≤ (↑(↑s).1).2)
+  (hε : ε < 1) (hinit : ∀ a ∈ L, ∀ b ∈ L, a ≠ b → 1 - ε ≤ (↑(↑s).1).1.eta a b)
+  (F : ℝ → NoThreeLine.BirthWitness.TimedObservation cfg → ℝ) (hF : ∀ (t : ℝ), Measurable (F t)) (A : ℝ)
+  (hFA : ∀ (t : ℝ) (v : NoThreeLine.BirthWitness.TimedObservation cfg), 0 ≤ F t v ∧ F t v ≤ A) :
+  ∀ᵐ (t : ℝ),
+    t ∈ Set.Ioo 0 ((↑(↑s).1).2 - ↑b) →
+      ∫ (ω : NoThreeLine.BoardClockPath n),
+          NoThreeLine.BirthWitness.cutRootLeaf cfg ε M start e C ∅ p hn s (b, ω) *
+            F t
+              (NoThreeLine.BirthWitness.sourceCutTerminal cfg ε M start
+                ↑(NoThreeLine.BirthWitness.elapsedCutAmount (↑(↑s).1).2 t) ⋯ hn s
+                ω) ∂NoThreeLine.BirthWitness.cutPointMeasure cfg ε M start hn s p b ≤
+        (∫ (ω : NoThreeLine.BoardClockPath n),
+            NoThreeLine.BirthWitness.cutCorrectedRootLeaf cfg ε M start e C ∅ L p hn s
+                (NoThreeLine.BirthWitness.elapsedCutAmount (↑(↑s).1).2 t, ω) *
+              F t
+                (NoThreeLine.BirthWitness.sourceCutTerminal cfg ε M start
+                  ↑(NoThreeLine.BirthWitness.elapsedCutAmount (↑(↑s).1).2 t) ⋯ hn s
+                  ω) ∂NoThreeLine.BirthWitness.cutPointMeasure cfg ε M start hn s p
+              (NoThreeLine.BirthWitness.elapsedCutAmount (↑(↑s).1).2 t)) /
+          (1 - ε) ^ L.card.choose 2

@@ -1,0 +1,9 @@
+<original-workspace>\NoThreeLine\CapacityParityCode.lean:36:21: warning: This simp argument is unused:
+  Int.emod_emod
+
+Hint: Omit it from the simp argument list.
+  simp [̵c̵o̵d̵e̵Z̵,̵p̵a̵r̵i̵t̵y̵,̵I̵n̵t̵.̵e̵m̵o̵d̵_̵e̵m̵o̵d̵]̵[̲c̲o̲d̲e̲Z̲,̲ ̲p̲a̲r̲i̲t̲y̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NoThreeLine.FrozenCapacity.stepCode_actual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FrozenCapacity.primitive_stepCode_ne' depends on axioms: [propext, Classical.choice, Quot.sound]

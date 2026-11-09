@@ -1,0 +1,5 @@
+'NoThreeLine.sourceCap_raw_of_candidate_later' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.lineSectionObserverStep_boundary_contact' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.markedLineSectionStep_massSupport' depends on axioms: [propext, Classical.choice, Quot.sound]

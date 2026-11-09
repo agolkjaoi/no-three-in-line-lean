@@ -1,0 +1,2 @@
+'NoThreeLine.phasePointMeasure_history_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.phasePointMeasure_current_credit_pos' depends on axioms: [propext, Classical.choice, Quot.sound]

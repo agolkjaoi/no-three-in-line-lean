@@ -1,0 +1,3 @@
+'NoThreeLine.PairWitness.pairRate_pow_history_coarse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.PairWitness.pairRate_pow_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.PairWitness.causePriceConstant_le_cap' depends on axioms: [propext, Classical.choice, Quot.sound]

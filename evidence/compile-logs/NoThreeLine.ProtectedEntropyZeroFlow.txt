@@ -1,0 +1,3 @@
+'NoThreeLine.selected_protectedWeight_zero_on' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.selected_protectedLedgerEntropy_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.selectedProtectedEntropy_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]

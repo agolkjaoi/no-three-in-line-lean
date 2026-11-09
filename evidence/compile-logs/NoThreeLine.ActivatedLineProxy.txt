@@ -1,0 +1,7 @@
+'NoThreeLine.BirthWitness.selectedLineMain_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.physicalOutsideLineProxy_le_witness_mass' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.physicalOutsideLineProxy_le_main_excess' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

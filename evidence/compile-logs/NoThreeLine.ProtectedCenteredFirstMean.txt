@@ -1,0 +1,6 @@
+'NoThreeLine.firstLineForbiddenLaw_protectedCreditCentered_mean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.firstLineForbiddenLaw_protectedEntropyCentered_mean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

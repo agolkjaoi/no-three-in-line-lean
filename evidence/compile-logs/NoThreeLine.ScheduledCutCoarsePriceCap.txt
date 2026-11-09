@@ -1,0 +1,2 @@
+'NoThreeLine.BirthWitness.cutSelectedCoarsePrice_le_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.coarseCutPriceCap_eq_const' depends on axioms: [propext, Classical.choice, Quot.sound]

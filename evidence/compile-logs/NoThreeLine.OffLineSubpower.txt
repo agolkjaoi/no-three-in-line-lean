@@ -1,0 +1,4 @@
+'NoThreeLine.OffLineDivisors.off_line_sum_le_const_rpow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.OffLineDivisors.off_lineThrough_sum_le_const_rpow' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

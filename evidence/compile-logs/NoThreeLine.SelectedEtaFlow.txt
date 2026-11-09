@@ -1,0 +1,4 @@
+'NoThreeLine.selectedEtaCurve_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.selectedEtaCurve_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.selectedEtaCurve_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.selectedEtaCurve_floor_cost' depends on axioms: [propext, Classical.choice, Quot.sound]

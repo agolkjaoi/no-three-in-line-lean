@@ -1,0 +1,3 @@
+'NoThreeLine.terminalOutsideRiskCost_joint_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.recycledOutsideRiskCost_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.terminalOutsideRiskCost_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

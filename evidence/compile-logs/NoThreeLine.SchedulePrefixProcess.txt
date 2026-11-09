@@ -1,0 +1,5 @@
+'NoThreeLine.BirthWitness.schedulePrefix_root_history' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.schedulePrefix_initialRootWitness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FinitePhase.Schedule.exists_prefix_total_deadline' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

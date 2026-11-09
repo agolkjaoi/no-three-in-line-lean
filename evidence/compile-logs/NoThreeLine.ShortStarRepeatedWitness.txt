@@ -1,0 +1,13 @@
+<original-workspace>\NoThreeLine\ShortStarRepeatedWitness.lean:53:43: warning: `_root_.not_imp` has been deprecated: Use `Classical.not_imp` instead
+<original-workspace>\NoThreeLine\ShortStarRepeatedWitness.lean:53:43: warning: This simp argument is unused:
+  _root_.not_imp
+
+Hint: Omit it from the simp argument list.
+  simp only [̵F̵u̵n̵c̵t̵i̵o̵n̵.̵I̵n̵j̵e̵c̵t̵i̵v̵e̵,̵n̵o̵t̵_̵f̵o̵r̵a̵l̵l̵,̵_̵r̵o̵o̵t̵_̵.̵n̵o̵t̵_̵i̵m̵p̵]̵[̲F̲u̲n̲c̲t̲i̲o̲n̲.̲I̲n̲j̲e̲c̲t̲i̲v̲e̲,̲ ̲n̲o̲t̲_̲f̲o̲r̲a̲l̲l̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NoThreeLine.ShortStars.tuple_root_line_eq_iff_witness_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.not_rootLinePairwise_iff_witness_repeat' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.ShortStars.realized_distinct_label_counts' depends on axioms: [propext, Classical.choice, Quot.sound]

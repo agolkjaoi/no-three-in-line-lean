@@ -1,0 +1,14 @@
+<original-workspace>\NoThreeLine\ObservedPhaseCutTower.lean:32:13: warning: This simp argument is unused:
+  Prod.snd
+
+Hint: Omit it from the simp argument list.
+  simp only [̵P̵r̵o̵d̵.̵s̵n̵d̵]̵ ̵at hr
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<original-workspace>\NoThreeLine\ObservedPhaseCutTower.lean:43:21: warning: Variable name `ht` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'NoThreeLine.BirthWitness.observedPhaseFuture_original' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.observedPhaseFuture_cut_tower_ae' depends on axioms: [propext, Classical.choice, Quot.sound]

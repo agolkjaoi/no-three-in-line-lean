@@ -1,0 +1,99 @@
+import NoThreeLine.ScheduledSourceUnit
+
+/-! Exact phase-product increments dominate the actual expected source.
+The finite telescoping estimate uses unit prices only under
+the proved specified-line separation condition. -/
+set_option autoImplicit false
+set_option maxHeartbeats 800000
+noncomputable section
+open MeasureTheory Set
+open scoped BigOperators
+namespace NoThreeLine.BirthWitness
+open PrimitiveLines FiniteSourceHierarchy
+
+theorem initial_scheduledSource_unit_product_difference {n : ℕ} {B : ℝ}
+    (cs : ℕ→SharedPhase n B) (ε M : ℝ) (deadline : Grid n→ℝ) (start : ℝ)
+    (Γ : Finset ZPoint) (e : Retention n) (C D L : Finset (Grid n))
+    (hn : 0<n) (hB : 1≤B) (hΓ : ∀j,(cs j).directions=Γ) (hK : ∀j,(cs j).K<2)
+    (hCD : Disjoint C D) (hCDL : C∪D⊆L) (hsep : SeparatedLabels Γ (C∪D)) (j : ℕ) :
+    (∫ω,scheduledSourceIncrement cs ε M deadline start e C D L hn
+      (initialGoodPhaseObservation B hB deadline start) j ω ∂boardClockMeasure n (B/n))≤
+        (∏q∈D,accumulatedPhaseUnitPrice cs start e (j+1) q)-
+          (∏q∈D,accumulatedPhaseUnitPrice cs start e j q) := by
+  classical
+  let s := initialGoodPhaseObservation B hB deadline start
+  let β := phaseUnitCoefficient (cs j).config (phaseEndpoint cs start j) e
+  let c := accumulatedPhaseUnitPrice cs start e j
+  let μ := goodPhaseStateLaw cs ε M deadline start hn s j
+  have hB0 : 0<B := lt_of_lt_of_le zero_lt_one hB
+  letI : IsProbabilityMeasure μ := goodPhaseStateLaw_probability cs ε M deadline start hn hB0 s j
+  have hβ (q) : IntervalIntegrable (β q) volume 0 (cs j).horizon :=
+    phaseUnitCoefficient_intervalIntegrable (cs j).config _ e (cs j).mask_le_one q _ _
+  have hi : IntervalIntegrable (fun t=>∑q∈D,β q t*
+      scheduledCutMean cs ε M deadline start e (insert q C) (D.erase q) L hn s j t) volume 0 (cs j).horizon := by
+    simp only [scheduledCutMean_eq_kernel cs ε M deadline start e _ _ L hn hB0 s j]
+    simpa only [Finset.sum_fn] using IntervalIntegrable.sum D (fun q _=>phaseKernelHierarchyTerm_intervalIntegrable (cs j).config ε M (phaseEndpoint cs start j) e
+      (insert q C) (D.erase q) L hn hB0 μ (cs j).mask_le_one q _ _)
+  have hj : IntervalIntegrable (fun t=>∑q∈D,β q t*(∏r∈D.erase q,shiftedPrimitive c β 0 r t))
+      volume 0 (cs j).horizon := by
+    simpa only [Finset.sum_fn] using IntervalIntegrable.sum D (fun q hq=>shiftedPrimitive_product_term_integrable D c β 0 (cs j).horizon (fun r _=>hβ r) q hq)
+  have hle : (∫t in (0:ℝ)..(cs j).horizon,∑q∈D,β q t*
+      scheduledCutMean cs ε M deadline start e (insert q C) (D.erase q) L hn s j t)≤
+      ∫t in (0:ℝ)..(cs j).horizon,∑q∈D,β q t*(∏r∈D.erase q,shiftedPrimitive c β 0 r t) := by
+    apply intervalIntegral.integral_mono_on (cs j).horizon.coe_nonneg hi hj
+    intro t ht
+    apply Finset.sum_le_sum
+    intro q hq
+    apply mul_le_mul_of_nonneg_left _ (phaseUnitCoefficient_bounds (cs j).config _ e (cs j).mask_le_one q t).1
+    have hd : Disjoint (insert q C) (D.erase q) :=
+      Finset.disjoint_insert_left.mpr ⟨by simp,hCD.mono_right (Finset.erase_subset q D)⟩
+    have hs : insert q C∪D.erase q=C∪D := by
+      ext r
+      simp only [Finset.mem_union,Finset.mem_insert,Finset.mem_erase]
+      constructor
+      · rintro ((rfl | hrC) | ⟨_,hrD⟩)
+        · exact Or.inr hq
+        · exact Or.inl hrC
+        · exact Or.inr hrD
+      · rintro (hrC | hrD)
+        · exact Or.inl (Or.inr hrC)
+        · by_cases hrq : r=q
+          · exact Or.inl (Or.inl hrq)
+          · exact Or.inr ⟨hrq,hrD⟩
+    simpa only [shiftedPrimitive,primitive,c,β] using
+      initial_scheduledCut_unit_product cs ε M deadline start Γ e (insert q C) (D.erase q) L hn hB hΓ hK
+        hd (by simpa only [hs] using hCDL) (by simpa only [hs] using hsep) j t ht
+  have hid := shiftedPrimitive_product_identity D c β 0 (cs j).horizon (fun q _=>hβ q)
+  have he : (∫t in (0:ℝ)..(cs j).horizon,∑q∈D,β q t*(∏r∈D.erase q,shiftedPrimitive c β 0 r t))=
+      (∏q∈D,accumulatedPhaseUnitPrice cs start e (j+1) q)-(∏q∈D,c q) := by
+    rw [hid]
+    congr 1
+    apply Finset.prod_congr rfl
+    intro q _
+    exact (accumulatedPhaseUnitPrice_succ cs start e j q).symm
+  exact (scheduledSourceIncrement_mean_le_unit cs ε M deadline start e C D L hn hB0 s j (hK j) hCD (by simpa only [hΓ j] using hsep)).trans (hle.trans_eq he)
+
+theorem initial_cumulativeSource_unit_product_difference {n : ℕ} {B : ℝ}
+    (cs : ℕ→SharedPhase n B) (ε M : ℝ) (deadline : Grid n→ℝ) (start : ℝ)
+    (Γ : Finset ZPoint) (e : Retention n) (C D L : Finset (Grid n))
+    (hn : 0<n) (hB : 1≤B) (hΓ : ∀j,(cs j).directions=Γ) (hK : ∀j,(cs j).K<2)
+    (hCD : Disjoint C D) (hCDL : C∪D⊆L) (hsep : SeparatedLabels Γ (C∪D)) (k : ℕ) :
+    (∫ω,cumulativeScheduledSource cs ε M deadline start e C D L hn
+      (initialGoodPhaseObservation B hB deadline start) k ω ∂boardClockMeasure n (B/n))≤
+        (∏q∈D,accumulatedPhaseUnitPrice cs start e k q)-(∏q∈D,(0:ℝ)) := by
+  have hB0 : 0<B := lt_of_lt_of_le zero_lt_one hB
+  unfold cumulativeScheduledSource
+  rw [integral_finsetSum _ (fun j _=>scheduledSourceIncrement_integrable cs ε M deadline start e C D L hn hB0 _ j (hK j))]
+  apply (Finset.sum_le_sum (fun j _=>initial_scheduledSource_unit_product_difference cs ε M deadline start Γ e C D L
+    hn hB hΓ hK hCD hCDL hsep j)).trans_eq
+  have ht (m : ℕ) : (∑j∈Finset.range m,((∏q∈D,accumulatedPhaseUnitPrice cs start e (j+1) q)-
+      (∏q∈D,accumulatedPhaseUnitPrice cs start e j q)))=
+      (∏q∈D,accumulatedPhaseUnitPrice cs start e m q)-(∏q∈D,(0:ℝ)) := by
+    induction m with
+    | zero => simp [accumulatedPhaseUnitPrice]
+    | succ m ih => rw [Finset.sum_range_succ,ih]; ring
+  exact ht k
+
+end NoThreeLine.BirthWitness
+#print axioms NoThreeLine.BirthWitness.initial_scheduledSource_unit_product_difference
+#print axioms NoThreeLine.BirthWitness.initial_cumulativeSource_unit_product_difference

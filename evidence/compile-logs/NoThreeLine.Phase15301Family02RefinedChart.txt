@@ -1,0 +1,9 @@
+'NoThreeLine.Phase15301Family02.Refined.original_chart_checked' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.Phase15301Family02.Refined.original_directional_integral_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.Phase15301Family02.Refined.erased_original_directional_integral_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

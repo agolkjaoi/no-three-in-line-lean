@@ -1,0 +1,7 @@
+<original-workspace>\NoThreeLine\PairHistoryPrice.lean:36:25: warning: Variable name `l` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'NoThreeLine.PairWitness.historyPriceSum_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.PairWitness.all_history_source_price_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

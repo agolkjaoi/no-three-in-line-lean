@@ -1,0 +1,9 @@
+<original-workspace>\NoThreeLine\ScheduledCutHierarchy.lean:66:15: warning: This simp argument is unused:
+  phaseCutMixed_mean
+
+Hint: Omit it from the simp argument list.
+  simp only [f,̵p̵h̵a̵s̵e̵C̵u̵t̵M̵i̵x̵e̵d̵_̵m̵e̵a̵n̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NoThreeLine.BirthWitness.scheduledCutMean_eq_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.scheduledCutMean_unit_volterra' depends on axioms: [propext, Classical.choice, Quot.sound]

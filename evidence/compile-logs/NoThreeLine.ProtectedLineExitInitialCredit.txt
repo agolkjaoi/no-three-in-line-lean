@@ -1,0 +1,2 @@
+'NoThreeLine.protectedLineExit_firstBirth_total_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedLineExit_auxReady' depends on axioms: [propext, Classical.choice, Quot.sound]

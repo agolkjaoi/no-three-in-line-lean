@@ -1,0 +1,3 @@
+'NoThreeLine.Phase15301Family12.kernel_data_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.Phase15301Family12.positive_witness_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.Phase15301Family12.all_data_checked' depends on axioms: [propext, Classical.choice, Quot.sound]

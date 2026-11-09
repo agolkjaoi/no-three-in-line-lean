@@ -1,0 +1,7 @@
+'NoThreeLine.FiniteWitnessMoments.positive_excess_le_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FiniteWitnessMoments.overshoot_moment_numerator_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.FiniteWitnessMoments.exists_fixed_parameters_overshoot_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,5 @@
+'NoThreeLine.BirthWitness.initialRootPhase_expired_flag' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.initialRootPhaseWitness_deadline_stable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.phasePointMeasure_deadline_stable' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'NoThreeLine.augRecycledCandidateRegular_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.scheduled_all_candidateRegular_ae' depends on axioms: [propext, Classical.choice, Quot.sound]

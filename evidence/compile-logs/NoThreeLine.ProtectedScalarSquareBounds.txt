@@ -1,0 +1,2 @@
+'NoThreeLine.protectedScalarTotal_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedTimedWeightedScalarSquare_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

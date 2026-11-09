@@ -1,0 +1,5 @@
+<original-workspace>\NoThreeLine\InsertedCutSupermartingale.lean:29:19: warning: `Nat.lt.step` has been deprecated: Use `Nat.lt_succ_of_lt` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.step` to `Nat.lt_succ_of_lt x`).
+'NoThreeLine.insertedCutValue_supermartingale' depends on axioms: [propext, choice, Quot.sound]
+'NoThreeLine.insertedCutValue_maximal' depends on axioms: [propext, choice, Quot.sound]

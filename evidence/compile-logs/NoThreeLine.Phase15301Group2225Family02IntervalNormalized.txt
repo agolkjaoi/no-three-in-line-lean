@@ -1,0 +1,9 @@
+'NoThreeLine.Phase15301Group2225.Family02.IntervalNormalized.upper_partition_checked' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.Phase15301Group2225.Family02.IntervalNormalized.actual_integral_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.Phase15301Group2225.Family02.IntervalNormalized.original_directional_integral_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

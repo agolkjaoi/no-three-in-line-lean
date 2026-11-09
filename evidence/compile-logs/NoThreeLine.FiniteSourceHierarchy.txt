@@ -1,0 +1,11 @@
+<original-workspace>\NoThreeLine\FiniteSourceHierarchy.lean:55:33: warning: Variable name `i` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'NoThreeLine.FiniteSourceHierarchy.primitive_product_identity_nonempty' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.FiniteSourceHierarchy.sum_integral_primitive_products' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

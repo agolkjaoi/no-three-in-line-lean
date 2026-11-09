@@ -1,0 +1,7 @@
+<original-workspace>\NoThreeLine\LongLinePairPrices.lean:88:27: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'NoThreeLine.BirthWitness.long_schedule_coarse_pair_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.long_schedule_coarse_pair_le_lengths' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,3 @@
+<original-workspace>\NoThreeLine\SourceCutExpectation.lean:59:6: warning: `MeasureTheory.integral_finset_sum` has been deprecated: Use `MeasureTheory.integral_finsetSum` instead
+'NoThreeLine.BirthWitness.cutMixedMean_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.calendarMeanSource_le_cutMixedMean' depends on axioms: [propext, Classical.choice, Quot.sound]

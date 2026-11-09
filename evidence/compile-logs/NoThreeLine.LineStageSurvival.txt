@@ -1,0 +1,11 @@
+<original-workspace>\NoThreeLine\LineStageSurvival.lean:75:25: warning: Variable name `i` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'NoThreeLine.BirthWitness.no_line_birth_of_terminal_occupancy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.terminalLineStageDensity_ge_one_of_survival' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

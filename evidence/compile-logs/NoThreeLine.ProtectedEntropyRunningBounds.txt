@@ -1,0 +1,2 @@
+'NoThreeLine.protectedRunningEntropySource_bounds_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedRunningEntropySource_integrable_all' depends on axioms: [propext, Classical.choice, Quot.sound]

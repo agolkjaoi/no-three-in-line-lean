@@ -1,0 +1,2 @@
+'NoThreeLine.GridCutTree.leaves_pairwise' depends on axioms: [propext, Quot.sound]
+'NoThreeLine.gridTreeUnionCheck_sound' depends on axioms: [propext, Classical.choice, Quot.sound]

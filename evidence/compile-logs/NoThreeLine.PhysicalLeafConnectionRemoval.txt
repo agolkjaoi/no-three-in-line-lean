@@ -1,0 +1,5 @@
+'NoThreeLine.BirthWitness.selectedLabelProduct_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.physicalLeafProduct_le_connection_cost' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.physicalLeafProduct_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]

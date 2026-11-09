@@ -1,0 +1,1 @@
+'NoThreeLine.FixedWinnerRestart.fixed_winner_restart_map' depends on axioms: [propext, Classical.choice, Quot.sound]

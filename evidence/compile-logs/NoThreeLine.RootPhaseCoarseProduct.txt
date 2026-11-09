@@ -1,0 +1,7 @@
+<original-workspace>\NoThreeLine\RootPhaseCoarseProduct.lean:39:92: warning: Variable name `q` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'NoThreeLine.BirthWitness.goodPhaseRootInitial_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.initial_rootPhase_coarse_product' depends on axioms: [propext, Classical.choice, Quot.sound]

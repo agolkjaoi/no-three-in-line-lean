@@ -1,0 +1,5 @@
+'NoThreeLine.BirthWitness.cutLossProbability_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.cutLossProbability_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.cut_expected_rate_loss_decomposition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,3 @@
+'NoThreeLine.ShortStars.sum_extraTupleObservable_le_candidates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

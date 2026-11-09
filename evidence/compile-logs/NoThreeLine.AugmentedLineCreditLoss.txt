@@ -1,0 +1,4 @@
+'NoThreeLine.augTimedLineLoss_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augTimedLineLoss_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augTimedLineLoss_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augTimedStep_lineCredit_le' depends on axioms: [propext, Classical.choice, Quot.sound]

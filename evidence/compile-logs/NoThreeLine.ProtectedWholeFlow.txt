@@ -1,0 +1,22 @@
+<original-workspace>\NoThreeLine\ProtectedWholeFlow.lean:76:15: warning: This simp argument is unused:
+  Pi.pow_apply
+
+Hint: Omit it from the simp argument list.
+  simp only [̵P̵i̵.̵p̵o̵w̵_̵a̵p̵p̵l̵y̵,̵N̵a̵t̵.̵r̵e̵d̵u̵c̵e̵S̵u̵b̵,̵p̵o̵w̵_̵o̵n̵e̵,̵N̵a̵t̵.̵c̵a̵s̵t̵_̵o̵f̵N̵a̵t̵]̵[̲N̲a̲t̲.̲r̲e̲d̲u̲c̲e̲S̲u̲b̲,̲ ̲p̲o̲w̲_̲o̲n̲e̲,̲ ̲N̲a̲t̲.̲c̲a̲s̲t̲_̲o̲f̲N̲a̲t̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<original-workspace>\NoThreeLine\ProtectedWholeFlow.lean:75:101: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+<original-workspace>\NoThreeLine\ProtectedWholeFlow.lean:88:15: warning: This simp argument is unused:
+  Pi.pow_apply
+
+Hint: Omit it from the simp argument list.
+  simp only [̵P̵i̵.̵p̵o̵w̵_̵a̵p̵p̵l̵y̵,̵N̵a̵t̵.̵r̵e̵d̵u̵c̵e̵S̵u̵b̵,̵p̵o̵w̵_̵o̵n̵e̵,̵N̵a̵t̵.̵c̵a̵s̵t̵_̵o̵f̵N̵a̵t̵]̵[̲N̲a̲t̲.̲r̲e̲d̲u̲c̲e̲S̲u̲b̲,̲ ̲p̲o̲w̲_̲o̲n̲e̲,̲ ̲N̲a̲t̲.̲c̲a̲s̲t̲_̲o̲f̲N̲a̲t̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+<original-workspace>\NoThreeLine\ProtectedWholeFlow.lean:87:123: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'NoThreeLine.selectedProtectedCreditTotal_square_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.selectedProtectedEntropyTotal_square_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]

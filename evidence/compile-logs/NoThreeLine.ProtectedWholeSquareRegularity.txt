@@ -1,0 +1,7 @@
+'NoThreeLine.protectedCreditSquareSource_withCoordinates_continuous' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.protectedEntropySquareSource_withCoordinates_continuous' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.protectedObservableSquareExternal_shape' depends on axioms: [propext, Classical.choice, Quot.sound]

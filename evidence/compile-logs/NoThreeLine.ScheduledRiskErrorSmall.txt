@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.exists_uniform_scheduledRiskError_mean_threshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.exists_uniform_scheduledRiskError_tail_threshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

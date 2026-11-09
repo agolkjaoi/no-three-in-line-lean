@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.scheduledCutLineExcessIntegral_eq_mean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduledCutLineExcessIntegral_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

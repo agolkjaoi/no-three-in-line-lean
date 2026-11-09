@@ -1,0 +1,7 @@
+<original-workspace>\NoThreeLine\ProtectedCompensatedMartingale.lean:43:9: warning: Variable name `ω` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'NoThreeLine.compensatedProtectedCredit_martingale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.compensatedProtectedCredit_finite_mean' depends on axioms: [propext, Classical.choice, Quot.sound]

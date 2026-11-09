@@ -1,0 +1,4 @@
+'NoThreeLine.ShortStars.maskedCutStarPriceSum_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.scheduledStarPower_future_integral_log_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

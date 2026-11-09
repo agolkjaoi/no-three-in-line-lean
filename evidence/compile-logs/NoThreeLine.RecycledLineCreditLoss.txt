@@ -1,0 +1,5 @@
+'NoThreeLine.recycledLineCreditLoss_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.recycledLineCreditLoss_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augRecycledPair_lineCredit_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.terminalLineCreditLoss_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.terminalLineCreditLoss_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]

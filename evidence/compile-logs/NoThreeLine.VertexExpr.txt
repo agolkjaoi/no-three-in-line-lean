@@ -1,0 +1,4 @@
+'NoThreeLine.qVertexKeys_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.qVertexCoefficient_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.qVertexEnvelopeExpr_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.actualChord_le_qVertexEnvelopeExpr' depends on axioms: [propext, Classical.choice, Quot.sound]

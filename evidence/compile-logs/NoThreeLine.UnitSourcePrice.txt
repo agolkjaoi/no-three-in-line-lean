@@ -1,0 +1,2 @@
+'NoThreeLine.BirthWitness.sourcePrice_eq_one_of_separated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.sourceSum_unit_price' depends on axioms: [propext, Classical.choice, Quot.sound]

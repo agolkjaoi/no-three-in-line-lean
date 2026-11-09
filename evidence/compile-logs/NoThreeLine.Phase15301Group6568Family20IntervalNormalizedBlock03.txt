@@ -1,0 +1,6 @@
+'NoThreeLine.Phase15301Group6568.Family20.IntervalNormalized.block03_normalization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.Phase15301Group6568.Family20.IntervalNormalized.block03_checked' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

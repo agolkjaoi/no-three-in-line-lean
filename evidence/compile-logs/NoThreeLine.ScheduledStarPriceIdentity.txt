@@ -1,0 +1,6 @@
+'NoThreeLine.ShortStars.cutUnitPrice_schedule' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.maskedCutStarPriceSum_schedule' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.shortTimeMean_eq_phase_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.starFullPrice_schedule_eq_shortTimeMean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,2 @@
+'NoThreeLine.BirthWitness.scheduledCutObservation_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.scheduledCutWitness_valid' depends on axioms: [propext, Classical.choice, Quot.sound]

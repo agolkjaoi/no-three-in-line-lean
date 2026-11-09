@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.phaseObservedStepPair_open_initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.observedPhases_raw_section_credit_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

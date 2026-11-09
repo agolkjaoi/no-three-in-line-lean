@@ -1,0 +1,9 @@
+'NoThreeLine.BirthWitness.phaseLineSectionDeadline_massSupport' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.phaseSectionRecycledState_massSupport_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.initial_phaseSection_massSupport_all_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

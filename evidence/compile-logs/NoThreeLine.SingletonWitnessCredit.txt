@@ -1,0 +1,6 @@
+<original-workspace>\NoThreeLine\SingletonWitnessCredit.lean:38:25: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'NoThreeLine.BirthWitness.singleton_mixed_credit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.correctedActiveWitness_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.activeWitness_eta_floor' depends on axioms: [propext, Classical.choice, Quot.sound]

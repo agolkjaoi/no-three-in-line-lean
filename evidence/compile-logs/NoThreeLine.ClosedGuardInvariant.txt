@@ -1,0 +1,1 @@
+'NoThreeLine.firstClosedHit_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]

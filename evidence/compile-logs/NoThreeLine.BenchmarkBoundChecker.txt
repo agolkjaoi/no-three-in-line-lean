@@ -1,0 +1,2 @@
+'NoThreeLine.OneSided.checkUpper_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.OneSided.checkLower_sound' depends on axioms: [propext, Classical.choice, Quot.sound]

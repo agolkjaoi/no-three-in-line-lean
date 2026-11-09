@@ -1,0 +1,2 @@
+'NoThreeLine.clockRHS_eq_protected_cell_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.clockRHS_le_protected_cell_budget' depends on axioms: [propext, Classical.choice, Quot.sound]

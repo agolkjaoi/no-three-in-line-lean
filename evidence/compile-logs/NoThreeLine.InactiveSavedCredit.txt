@@ -1,0 +1,3 @@
+'NoThreeLine.selectedTrajectory_inactive_credit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.observedStep_closed_credit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.observedStep_rootClosed' depends on axioms: [propext, Classical.choice, Quot.sound]

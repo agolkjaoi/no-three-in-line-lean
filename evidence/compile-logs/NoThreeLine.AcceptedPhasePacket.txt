@@ -1,0 +1,4 @@
+'NoThreeLine.FinitePhase.Schedule.checkedAcceptedPrefix_le_coarse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.FinitePhase.checkedAcceptedSchedule_mass' depends on axioms: [propext, Classical.choice, Quot.sound]

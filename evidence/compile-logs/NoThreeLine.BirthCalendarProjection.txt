@@ -1,0 +1,7 @@
+'NoThreeLine.BirthWitness.goodObservedRecycled_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.cutProcess_eq_cappedProcess_interior' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.terminalBirthCalendarRate_eq_cut_interior' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

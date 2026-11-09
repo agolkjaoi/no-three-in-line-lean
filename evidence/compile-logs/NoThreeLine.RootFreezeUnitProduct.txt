@@ -1,0 +1,7 @@
+'NoThreeLine.BirthWitness.unitHierarchyMean_integral_product_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.rootBoundaryMixed_unit_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.rootPoint_activeWitness_unit_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

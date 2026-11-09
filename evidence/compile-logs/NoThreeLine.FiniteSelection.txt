@@ -1,0 +1,5 @@
+'NoThreeLine.noThree_insert_iff' depends on axioms: [propext, Quot.sound]
+'NoThreeLine.safeInsert_noThree' depends on axioms: [propext, Quot.sound]
+'NoThreeLine.geometricallyDead_iff_insert_not_noThree' depends on axioms: [propext, Quot.sound]
+'NoThreeLine.processBirths_empty_noThree' depends on axioms: [propext, Quot.sound]
+'NoThreeLine.height_four_example' depends on axioms: [propext, Classical.choice, Quot.sound]

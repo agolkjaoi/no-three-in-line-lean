@@ -1,0 +1,6 @@
+'NoThreeLine.protected_credit_centered_energy_first_compensation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.protected_entropy_centered_energy_first_compensation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

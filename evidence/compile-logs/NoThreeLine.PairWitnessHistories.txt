@@ -1,0 +1,3 @@
+'NoThreeLine.PairWitness.history_sum_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.PairWitness.history_new_labels_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.PairWitness.actual_cause_tuple_history' depends on axioms: [propext, Classical.choice, Quot.sound]

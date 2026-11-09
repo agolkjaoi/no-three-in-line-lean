@@ -1,0 +1,3 @@
+'NoThreeLine.protectedTwoStateForbidden_history_equal_integrals' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,8 @@
+<original-workspace>\NoThreeLine\RecycledEtaCost.lean:23:25: warning: Variable name `j` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'NoThreeLine.recycled_eta_loss_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.raw_eta_hit_terminal_floor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.raw_eta_hit_cost' depends on axioms: [propext, Classical.choice, Quot.sound]

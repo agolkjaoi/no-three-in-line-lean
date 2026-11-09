@@ -1,0 +1,10 @@
+<original-workspace>\NoThreeLine\ShortStarExtraCandidates.lean:48:51: warning: `_root_.not_imp` has been deprecated: Use `Classical.not_imp` instead
+<original-workspace>\NoThreeLine\ShortStarExtraCandidates.lean:48:51: warning: This simp argument is unused:
+  _root_.not_imp
+
+Hint: Omit it from the simp argument list.
+  simp only [̵N̵o̵E̵x̵t̵r̵a̵S̵e̵l̵e̵c̵t̵e̵d̵E̵x̵c̵e̵p̵t̵i̵o̵n̵,̵n̵o̵t̵_̵f̵o̵r̵a̵l̵l̵,̵_̵r̵o̵o̵t̵_̵.̵n̵o̵t̵_̵i̵m̵p̵,̵n̵o̵t̵_̵n̵o̵t̵]̵[̲N̲o̲E̲x̲t̲r̲a̲S̲e̲l̲e̲c̲t̲e̲d̲E̲x̲c̲e̲p̲t̲i̲o̲n̲,̲ ̲n̲o̲t̲_̲f̲o̲r̲a̲l̲l̲,̲ ̲n̲o̲t̲_̲n̲o̲t̲]̲ at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NoThreeLine.ShortStars.extraCandidates_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.not_noExtraSelected_iff_candidate' depends on axioms: [propext, Classical.choice, Quot.sound]

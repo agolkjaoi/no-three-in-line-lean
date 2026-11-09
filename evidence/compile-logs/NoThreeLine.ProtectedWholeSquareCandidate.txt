@@ -1,0 +1,8 @@
+'NoThreeLine.protectedCreditSquare_candidate_compensation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedEntropySquare_candidate_compensation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.selectedProtectedCreditSquare_likelihood_generator' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.selectedProtectedEntropySquare_likelihood_generator' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

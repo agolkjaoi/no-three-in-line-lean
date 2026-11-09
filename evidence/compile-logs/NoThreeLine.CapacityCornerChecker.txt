@@ -1,0 +1,3 @@
+'NoThreeLine.qChordValue_cast' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.capacityCornerCheck_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.capacityCornerCheck_chart_sound' depends on axioms: [propext, Classical.choice, Quot.sound]

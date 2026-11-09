@@ -1,0 +1,4 @@
+'NoThreeLine.recycledPhases_state_residual_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.recycledPhaseState_expected_credit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.recycledPhaseState_noThree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.recycledPhaseState_initial_expected_credit' depends on axioms: [propext, Classical.choice, Quot.sound]

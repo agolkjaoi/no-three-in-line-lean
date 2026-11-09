@@ -1,0 +1,2 @@
+'NoThreeLine.expMeasure_survival_step_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.expMeasure_survival_compensation_interval' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,6 @@
+'NoThreeLine.FrozenCapacity.outside_rootLine_capacity_of_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.FrozenCapacity.acceptedOutsideSectionInput_le_four_fifths_of_rows' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

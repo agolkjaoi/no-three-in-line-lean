@@ -1,0 +1,4 @@
+'NoThreeLine.EtaPairProduct.labelPairs_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.EtaPairProduct.pairRateSum_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.EtaPairProduct.etaProduct_floor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.EtaPairProduct.selectedEtaProduct_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]

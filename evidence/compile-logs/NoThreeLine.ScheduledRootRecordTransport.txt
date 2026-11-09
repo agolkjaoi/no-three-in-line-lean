@@ -1,0 +1,7 @@
+'NoThreeLine.BirthWitness.scheduledRootTerminal_recordsExtend_full' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduledCut_recordsExtend_full_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.scheduledCut_recordsExtend_full_point_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

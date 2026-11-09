@@ -1,0 +1,10 @@
+'NoThreeLine.BirthWitness.observedRecycledPhases_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.observedRecycledPhaseState_witness_valid' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.observedRecycledPhaseState_record_preserved' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.observedRecycledPhaseState_expected_credit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

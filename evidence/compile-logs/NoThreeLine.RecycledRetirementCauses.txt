@@ -1,0 +1,6 @@
+<original-workspace>\NoThreeLine\RecycledRetirementCauses.lean:66:24: warning: `Nat.lt.step` has been deprecated: Use `Nat.lt_succ_of_lt` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.step` to `Nat.lt_succ_of_lt x`).
+'NoThreeLine.augTimedStep_positive_loss_origin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.recycled_positive_loss_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.terminal_positive_loss_boundary' depends on axioms: [propext, Classical.choice, Quot.sound]

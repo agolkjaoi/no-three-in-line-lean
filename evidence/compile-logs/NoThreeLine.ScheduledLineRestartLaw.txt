@@ -1,0 +1,2 @@
+'NoThreeLine.scheduledLineRestartLaw_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.scheduledLineRestartLaw_exit_integral' depends on axioms: [propext, Classical.choice, Quot.sound]

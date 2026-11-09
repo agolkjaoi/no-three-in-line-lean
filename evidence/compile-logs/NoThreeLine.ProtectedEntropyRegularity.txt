@@ -1,0 +1,15 @@
+<original-workspace>\NoThreeLine\ProtectedEntropyRegularity.lean:59:77: warning: This simp argument is unused:
+  if_neg hp
+
+Hint: Omit it from the simp argument list.
+  simp only [protectedLedgerContinuousDrift, ̲protectedEntropyLedgerCostRate,i̵f̵_̵n̵e̵g̵ h̵p̵,̵mul_zero,
+  ̵  ̵ ̵ ̵ ̵ ̵add_zero,
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲protectedLinePositiveDrift, ̲ProcessState.birthRate, ̲hp, ̲and_false, ̲if_false, ̲zero_mul,
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲sub_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'NoThreeLine.protectedEntropy_generator_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedEntropyCandidateMean_compensation_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.selectedProtectedEntropyCandidateMean_continuousOn' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

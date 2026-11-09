@@ -1,0 +1,4 @@
+'NoThreeLine.fieldChord_le_of_erased_domination' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.erased_directional_square_integral_le_of_erased_domination' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

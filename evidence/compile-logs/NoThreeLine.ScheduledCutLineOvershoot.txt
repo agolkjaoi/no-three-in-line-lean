@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.initial_scheduledCutPoint_line_overshoot_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

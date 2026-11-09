@@ -1,0 +1,2 @@
+'NoThreeLine.VirtualWitness.finite_specified_union_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.VirtualWitness.anyRawVirtualHit_C4_tail' depends on axioms: [propext, Classical.choice, Quot.sound]

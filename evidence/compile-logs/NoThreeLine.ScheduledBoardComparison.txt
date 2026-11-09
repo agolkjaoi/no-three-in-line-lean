@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.initial_scheduledCut_board_integral_le_point' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.initial_scheduledCutBoard_physicalLeaf_coarse_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

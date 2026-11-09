@@ -1,0 +1,3 @@
+'NoThreeLine.VirtualWitness.witnessLabels_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.VirtualWitness.all_labels_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.VirtualWitness.distinct_leaf_count_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

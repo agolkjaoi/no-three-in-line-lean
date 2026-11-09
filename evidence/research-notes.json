@@ -1,0 +1,45 @@
+{
+  "scope": "Text-only, path-redacted historical research context; assertions require the proof obligations described in STATUS.md.",
+  "documents": [
+    {
+      "path": "docs/research-notes/preparation/PROOF_FOR_LEAN_JA.txt",
+      "original_sha256": "9a1684dc1e32d8937c067ae6155d9feedf9fc67523f43ac60248bdbbbd500b89",
+      "public_sha256": "698713fc2414857281ba7fe88a117346f13697322c69f630bf9cd21cbc140e33"
+    },
+    {
+      "path": "docs/research-notes/preparation/geometry_UNIFORM_LATTICE_KERNELS_JA.txt",
+      "original_sha256": "b9410e6ec98904a96d6be66d58b560bd7ff4e6e759d6a3722887f531caec4bc0",
+      "public_sha256": "4091e251f54749073d99e270eded515644d503d7c858cafed54dc6077cf53673"
+    },
+    {
+      "path": "docs/research-notes/preparation/stochastic_PROCESS_AND_MOMENT_KERNEL_JA.txt",
+      "original_sha256": "3f61ab0c906d415d54884876b444acce3da9bc250ee208e90ebf902288932286",
+      "public_sha256": "05aeeebba30437a22d5c3e18b21889e069289d0f7fe13471e67f1841d275628c"
+    },
+    {
+      "path": "docs/research-notes/preparation/stochastic_STOPPING_RISK_AND_OUTPUT_JA.txt",
+      "original_sha256": "f4ee7944e5e9c14b97f0b9ff0cae7cf8ead1e79f7ec2571f0db443533792328a",
+      "public_sha256": "4d74d0081dbb2dbb5e09c5c3bb5c37f2d24daf863db3ddf44a375c1d7d074fef"
+    },
+    {
+      "path": "docs/research-notes/preparation/certificate_GEOMETRIC_SOUNDNESS_JA.txt",
+      "original_sha256": "71214a54612c60d9be9e3c7a9c95dd50afe76b524c7c6a21ae926a3dc2404069",
+      "public_sha256": "771d8d575be8da22478493c99b8cb55ce4d6c81e6baa474bb2c4c9e841499b32"
+    },
+    {
+      "path": "docs/research-notes/preparation/certificate_LEAN_CHECKER_SPEC_JA.txt",
+      "original_sha256": "e6bbc301712b615f95c1f08312f4dbf4e6270a6b9071eaafe58673a517af00f1",
+      "public_sha256": "32dc4dcf06db04f4772b011cb128b329c5470ae001201dddf14d7dee03bce8f4"
+    },
+    {
+      "path": "docs/research-notes/first-followup/FOLLOWUP_FOR_REVIEW_JA.txt",
+      "original_sha256": "4c2dc24ec3a13fd394a944820fa860ca6e4bec170e8b337d14d312f43d004c1c",
+      "public_sha256": "4d13ff56aa8fd1ffb70b3555ce53d4c495ea5bd21f374d9166832b9cab56bc8f"
+    },
+    {
+      "path": "docs/research-notes/second-followup/SECOND_FOLLOWUP_FOR_REVIEW_JA.txt",
+      "original_sha256": "008e72e7dc90af3fe2b549712746f384ddd35d208d5113d1c5bfdf8c08d18022",
+      "public_sha256": "84b588b57cabfeedc51d817fa9549621e2f55eee1cc970b452ee8cfc7922097f"
+    }
+  ]
+}

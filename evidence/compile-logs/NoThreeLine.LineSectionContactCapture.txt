@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.actualLineSectionMass_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.lineSectionObserverStep_interior_contact' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

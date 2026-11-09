@@ -1,0 +1,2 @@
+'NoThreeLine.ShortStars.realized_mem_patternCover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ShortStars.realizedTuples_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]

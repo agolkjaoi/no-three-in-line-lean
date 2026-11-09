@@ -1,0 +1,4 @@
+'NoThreeLine.protectedEntropy_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedEntropy_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedEntropy_birth_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedEntropyCost_actual_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,7 @@
+'NoThreeLine.BirthWitness.terminalCalendarSource_joint_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduledSourceIncrement_eq_calendarIntegral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.finitePhase_mixed_calendar_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

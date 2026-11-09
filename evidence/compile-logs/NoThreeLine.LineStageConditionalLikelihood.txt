@@ -1,0 +1,5 @@
+'NoThreeLine.BirthWitness.lineStageDensity_martingale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.terminalLineStageDensity_condExp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.phaseLineForbiddenLaw_history_event' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

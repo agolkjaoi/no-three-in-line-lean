@@ -1,0 +1,7 @@
+<original-workspace>\NoThreeLine\ScheduledCutLongExcess.lean:61:12: warning: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+<original-workspace>\NoThreeLine\ScheduledCutLongExcess.lean:61:12: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+'NoThreeLine.BirthWitness.scheduledCutLongExcess_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

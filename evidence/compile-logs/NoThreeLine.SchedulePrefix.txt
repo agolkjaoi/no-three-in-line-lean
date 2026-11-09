@@ -1,0 +1,13 @@
+<original-workspace>\NoThreeLine\SchedulePrefix.lean:12:20: warning: Variable name `a` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+<original-workspace>\NoThreeLine\SchedulePrefix.lean:12:22: warning: Variable name `b` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'NoThreeLine.FinitePhase.Schedule.prefix_duration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.scheduleSharedPhases_prefix_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.phaseEndpoint_eq_of_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]

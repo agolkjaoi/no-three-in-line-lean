@@ -1,0 +1,7 @@
+'NoThreeLine.BirthWitness.savedLineFutureCost_eq_phase_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.scheduledLineMain_sum_le_futureCost_point_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduledLineMain_prefix_le_futureCost_point_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

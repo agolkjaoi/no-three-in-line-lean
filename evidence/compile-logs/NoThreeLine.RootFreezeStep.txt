@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.rootObserverStep_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.rootObserverStep_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.rootObserverStep_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.rootObserverStep_mixed_le_raw' depends on axioms: [propext, Classical.choice, Quot.sound]

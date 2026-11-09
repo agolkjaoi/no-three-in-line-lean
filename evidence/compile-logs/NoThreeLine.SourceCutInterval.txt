@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.observedRecycledTerminal_eq_at_done' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.sourceCutTerminal_interior' depends on axioms: [propext, Classical.choice, Quot.sound]

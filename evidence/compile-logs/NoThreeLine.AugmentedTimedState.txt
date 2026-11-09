@@ -1,0 +1,4 @@
+'NoThreeLine.augTimedStep_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augTimedStep_stopped' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augTimedClockStep_credit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augTimedStep_eta_lower' depends on axioms: [propext, Classical.choice, Quot.sound]

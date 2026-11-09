@@ -1,0 +1,5 @@
+<original-workspace>\NoThreeLine\CandidateCreditMean.lean:81:4: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'NoThreeLine.ProcessState.all_mark_credit_compensation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ProcessState.candidateCreditMean_compensation' depends on axioms: [propext, Classical.choice, Quot.sound]

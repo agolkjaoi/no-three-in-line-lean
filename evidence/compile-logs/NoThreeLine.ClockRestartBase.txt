@@ -1,0 +1,6 @@
+<original-workspace>\NoThreeLine\ClockRestartBase.lean:40:4: warning: Try `simp at hz` instead of `simpa using hz`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+'NoThreeLine.ClockRestartBase.clock_headTail_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ClockRestartBase.marks_headTail_map' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ClockRestartBase.exp_residual_restrict_map' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+'NoThreeLine.branchBound_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.rounded_branch_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.integral_chain_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.acceptance_margin' depends on axioms: [propext, Classical.choice, Quot.sound]

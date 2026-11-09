@@ -1,0 +1,7 @@
+'NoThreeLine.BirthWitness.observedRecycled_record_origin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.observedRecycled_birth_value_at_actual_wait' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.observedRecycledTerminal_record_origin' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

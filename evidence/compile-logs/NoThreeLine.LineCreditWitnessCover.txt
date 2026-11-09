@@ -1,0 +1,13 @@
+'NoThreeLine.BirthWitness.active_occupied_line_has_selected_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.physicalLineCreditRate_le_selectedWitness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.physicalLineCreditRate_times_mass_le_low_moments' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.physicalLineCreditRate_mask_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.physicalLineCreditRate_times_unit_mass_le_low_moments' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

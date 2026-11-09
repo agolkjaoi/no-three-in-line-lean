@@ -1,0 +1,8 @@
+# Preserve the exact proof-source bytes recorded in the snapshot.
+*.lean -text
+*.md text eol=lf
+*.py text eol=lf
+*.toml text eol=lf
+*.json -text
+*.txt -text
+lean-toolchain text eol=lf

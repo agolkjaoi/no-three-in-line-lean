@@ -1,0 +1,5 @@
+'NoThreeLine.quotient_domain_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.directionWeight_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.finite_sieve_parityJ_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.parityJ_eq_nested' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.primitiveParityK_le_finite_J_sum' depends on axioms: [propext, Classical.choice, Quot.sound]

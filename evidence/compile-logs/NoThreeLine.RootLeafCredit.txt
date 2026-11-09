@@ -1,0 +1,2 @@
+'NoThreeLine.BirthWitness.mixed_rootLeaf_credit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.rootLeafWitness_eta_floor' depends on axioms: [propext, Classical.choice, Quot.sound]

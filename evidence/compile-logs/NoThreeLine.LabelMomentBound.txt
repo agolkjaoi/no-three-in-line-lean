@@ -1,0 +1,6 @@
+'NoThreeLine.FiniteWitnessMoments.tupleMoment_le_rising_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.FiniteWitnessMoments.tupleMoment_le_main_add_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

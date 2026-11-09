@@ -1,0 +1,3 @@
+'NoThreeLine.ShortStars.scheduledStarIntegral_future_log_tail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

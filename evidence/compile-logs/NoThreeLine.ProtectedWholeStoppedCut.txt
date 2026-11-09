@@ -1,0 +1,2 @@
+'NoThreeLine.protectedStoppedCreditCut_supermartingale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedStoppedEntropyCut_supermartingale' depends on axioms: [propext, Classical.choice, Quot.sound]

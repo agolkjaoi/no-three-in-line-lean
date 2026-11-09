@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.phaseRootObserver_physical_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.initial_virtualCauseBefore_subset_actualHit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

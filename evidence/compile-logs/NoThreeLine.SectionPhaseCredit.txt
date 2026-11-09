@@ -1,0 +1,6 @@
+'NoThreeLine.BirthWitness.observedScheduledPair_section_credit_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.observedPhases_section_credit_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

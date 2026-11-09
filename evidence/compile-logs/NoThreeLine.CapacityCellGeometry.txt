@@ -1,0 +1,2 @@
+'NoThreeLine.FrozenCapacity.cellRect_separated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FrozenCapacity.cellRect_inUnit' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'NoThreeLine.ProcessState.measurable_birth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ProcessState.measurable_thinnedBirth' depends on axioms: [propext, Classical.choice, Quot.sound]

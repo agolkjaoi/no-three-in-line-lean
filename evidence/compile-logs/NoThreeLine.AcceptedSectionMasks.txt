@@ -1,0 +1,8 @@
+<original-workspace>\NoThreeLine\AcceptedSectionMasks.lean:19:21: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'NoThreeLine.AcceptedPhase.boardInput_binary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.accepted_phase_mask_cells' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.physicalLineCreditRate_binary_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

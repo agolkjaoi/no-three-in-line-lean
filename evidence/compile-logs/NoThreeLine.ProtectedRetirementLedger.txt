@@ -1,0 +1,3 @@
+'NoThreeLine.protectedLineCredit_retire' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedLineCredit_augResolve' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedLineSave_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,9 @@
+'NoThreeLine.BirthWitness.scheduledRootCreditMassPath_le_momentPath' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.scheduledRootCreditMassPath_terminal_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.exists_uniform_rootCreditMass_threshold' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,7 @@
+'NoThreeLine.AuxiliaryODE.clockRHS_eq_manuscript_in_region' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.AuxiliaryODE.vectorField_contDiff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.AuxiliaryODE.local_extended_flow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.AuxiliaryODE.vectorField_weight_S1_at_state' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.AuxiliaryODE.clockRHS_nonneg_in_region' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.AuxiliaryODE.lineCreditRHS_nonpos_in_region' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.AuxiliaryODE.specified_iff_designated' depends on axioms: [propext, Classical.choice, Quot.sound]

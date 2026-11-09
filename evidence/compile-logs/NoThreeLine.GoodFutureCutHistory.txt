@@ -1,0 +1,2 @@
+'NoThreeLine.BirthWitness.goodThroughPhaseCut_original' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.goodThroughPhaseCut_history_le' depends on axioms: [propext, Classical.choice, Quot.sound]

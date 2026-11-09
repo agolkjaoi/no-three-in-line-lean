@@ -1,0 +1,4 @@
+'NoThreeLine.continuous_positive_exceedance_rat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.lineSectionContinuousExceedance_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

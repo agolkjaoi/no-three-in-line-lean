@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.markBirthIndicator_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.selectedIndicator_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.selected_card_step' depends on axioms: [propext, Classical.choice, Quot.sound]

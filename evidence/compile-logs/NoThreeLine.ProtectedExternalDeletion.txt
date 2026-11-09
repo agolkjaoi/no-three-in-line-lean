@@ -1,0 +1,6 @@
+<original-workspace>\NoThreeLine\ProtectedExternalDeletion.lean:81:4: warning: 'change (∑ p ∈ A, if specifiedPair Γ p q then specifiedLineWeight e L p else 0) ≤ _' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+'NoThreeLine.protectedExternalDeletion_eq_snapshot_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedExternalDeletion_le_virtual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedExternalDeletion_square_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

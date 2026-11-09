@@ -1,0 +1,3 @@
+'NoThreeLine.protectedSourceFinitePair_eq_iterate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedSourceTerminalPair_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedSourceTerminalPair_map' depends on axioms: [propext, Classical.choice, Quot.sound]

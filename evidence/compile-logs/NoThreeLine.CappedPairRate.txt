@@ -1,0 +1,4 @@
+'NoThreeLine.state_pairRate_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.cappedPairRate_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.cappedPairRate_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augTimedPairCost_capped_integral' depends on axioms: [propext, Classical.choice, Quot.sound]

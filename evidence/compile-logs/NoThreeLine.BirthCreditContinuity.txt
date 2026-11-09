@@ -1,0 +1,5 @@
+'NoThreeLine.ProcessState.birth_credit_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ProcessState.withWeights_birth_credit_continuous' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.ProcessState.thinnedBirth_credit_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

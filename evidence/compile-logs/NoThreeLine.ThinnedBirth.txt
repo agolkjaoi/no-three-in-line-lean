@@ -1,0 +1,4 @@
+'NoThreeLine.markMeasure_accept' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ProcessState.thinnedBirth_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ProcessState.thinnedBirth_integral_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ProcessState.thinned_credit_compensation' depends on axioms: [propext, Classical.choice, Quot.sound]

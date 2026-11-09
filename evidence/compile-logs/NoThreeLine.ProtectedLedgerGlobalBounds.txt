@@ -1,0 +1,3 @@
+'NoThreeLine.protectedRecycledPair_saved_bounds_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedRecycledPair_credit_bounds_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.protectedLinePositiveDrift_bounds_all' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+'NoThreeLine.ProcessState.runTrace_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ProcessState.runTrace_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ProcessState.traceBirthCount_le_grid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.initial_trace_noThree' depends on axioms: [propext, Classical.choice, Quot.sound]

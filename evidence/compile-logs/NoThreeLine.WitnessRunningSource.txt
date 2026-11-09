@@ -1,0 +1,3 @@
+'NoThreeLine.BirthWitness.observedAdvance_eq_remaining_drop' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.runningSource_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.clockRunningSource_mean' depends on axioms: [propext, Classical.choice, Quot.sound]

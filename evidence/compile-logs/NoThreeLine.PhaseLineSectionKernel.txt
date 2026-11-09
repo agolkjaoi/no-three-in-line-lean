@@ -1,0 +1,7 @@
+'NoThreeLine.BirthWitness.phaseSectionScheduledPair_projection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.phaseSectionScheduledPair_residual_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.BirthWitness.phaseSectionScheduledPair_mean_le' depends on axioms: [propext, Classical.choice, Quot.sound]

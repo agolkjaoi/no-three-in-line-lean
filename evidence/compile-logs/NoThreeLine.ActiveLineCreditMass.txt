@@ -1,0 +1,5 @@
+'NoThreeLine.BirthWitness.activeLineCreditMass_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.activeLineCreditMass_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.activeLineCreditMass_le_low_moments' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

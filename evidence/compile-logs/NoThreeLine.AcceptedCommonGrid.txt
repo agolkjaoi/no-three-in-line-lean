@@ -1,0 +1,4 @@
+'NoThreeLine.AcceptedPhase.coarseMask_eq_commonField' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.FinitePhase.Schedule.accepted_inputDeadline_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

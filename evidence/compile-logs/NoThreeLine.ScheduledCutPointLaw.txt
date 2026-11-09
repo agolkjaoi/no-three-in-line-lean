@@ -1,0 +1,4 @@
+'NoThreeLine.BirthWitness.initial_scheduledCutCredit_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.scheduledCutPointMeasure_probability' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

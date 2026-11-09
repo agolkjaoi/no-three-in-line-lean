@@ -1,0 +1,2 @@
+'NoThreeLine.map_prod_eq_of_sections' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.stateLaw_eq_of_transition_laws' depends on axioms: [propext, Classical.choice, Quot.sound]

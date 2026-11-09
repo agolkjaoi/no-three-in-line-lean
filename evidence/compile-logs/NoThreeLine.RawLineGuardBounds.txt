@@ -1,0 +1,3 @@
+'NoThreeLine.selectedTrajectory_activeLineGuardBounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.augRawOutcome_activeLineGuardBounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.emptyLineCredit_augRawOutcome' depends on axioms: [propext, Classical.choice, Quot.sound]

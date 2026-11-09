@@ -1,0 +1,7 @@
+'NoThreeLine.ScheduleUnionBatch00448Reference.phase_matches' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.ScheduleUnionBatch00448Reference.actual_duration_reference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'NoThreeLine.ScheduleUnionBatch00448Reference.ordered_matches' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

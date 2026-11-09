@@ -1,0 +1,2 @@
+'NoThreeLine.augRecycledTerminal_eta_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine.BirthWitness.sourceCutTerminal_etaProduct_floor' depends on axioms: [propext, Classical.choice, Quot.sound]
