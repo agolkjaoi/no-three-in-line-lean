@@ -1,0 +1,176 @@
+\section{The target and the structure of the argument}\label{sec:overview}
+
+Write \(V_n=\{0,\ldots,n-1\}^2\). A set \(S\subseteq V_n\) has the
+\emph{no-three-in-line property} if every three distinct points of \(S\)
+are noncollinear. Equivalently,
+\[
+ (q_x-p_x)(r_y-p_y)-(q_y-p_y)(r_x-p_x)\ne0
+ \qquad(p,q,r\in S\text{ distinct}).
+\]
+Every such set has at most two points on each horizontal row, hence
+\(|S|\le2n\). The numerical conclusion proved below is
+\begin{equation}\label{eq:target}
+ \exists n_0\ \forall n\ge n_0\ \exists S\subseteq V_n:
+ \quad \NoThree(S),\qquad 1501n\le1000|S|.
+\end{equation}
+The positive improvement over \(3n/2\) is the fixed number \(n/1000\).
+The quantifier is over every sufficiently large integer \(n\), with no
+divisibility restriction.
+
+\subsection{Finite input, fixed before the grid size}
+Choose a finite rational time partition
+\(0=t_0<t_1<\cdots<t_J=T\) and a fixed finite rational rectangular
+partition of the unit square. A common refinement may be taken to be a
+\(G\times G\) grid for a fixed integer \(G\). Let \(\mathcal B\) be the
+union of its horizontal and vertical grid lines.
+There are four parity types \(r\in(\Z/2\Z)^2\). For each type choose
+a deterministic function
+\[
+ f_{r,t}:[0,1]^2\longrightarrow[0,1]
+\]
+that is constant on every open spatial cell and every time interval.
+Set it to zero on \(\mathcal B\), outside the square, and after time \(T\).
+Define
+\begin{equation}\label{eq:input}
+ m_t(p)=f_{\typ(p),t}(p/n),\qquad
+ F_{r,t}(x)=\int_0^t f_{r,u}(x)\dd u,\qquad
+ A=\frac14\sum_r\int_{[0,1]^2}F_{r,T}(x)\dd x.
+\end{equation}
+Here \(\typ(p)=p\bmod2\). The factor \(1/4\) belongs to the spatial
+mass, not to the birth rate of an individual point.
+The last-use time \(\tau_r(x)\) is the right endpoint of the last interval
+on which that type and cell is used; it is zero for an unused cell.
+For a grid point write \(\tau_p=\tau_{\typ(p)}(p/n)\).
+
+The concrete construction has \(G=256\) and 481 phases. An integer
+field and a rank assigned to each positive type-cell specify its one
+exposure phase. Ranks are used in decreasing order, so the cumulative
+field at the end of the phase of rank \(j\) is supported on ranks
+at least \(j\). Section~\ref{sec:certificates} gives the exact masks,
+durations and data format. Removing \(\mathcal B\) is part of the
+definition of the discrete process, even though it has zero planar area.
+
+\subsection{The geometric input conditions}
+A primitive integer direction \(v\) is identified with \(-v\). Put
+\(h(v)=\max(|v_1|,|v_2|)\) and \(\bar v=v\bmod2\ne0\).
+For a field \(F\) define the major-coordinate chord integral
+\[
+ C_vF(x)=\int_{\R}F\bigl(x+s v/h(v)\bigr)\dd s.
+\]
+This is not an arc-length integral. Let \(\Gamma\) be a fixed finite
+family of designated directions containing both coordinate directions,
+of cardinality \(g\).
+The numerical example uses all directions of height at most three,
+so \(g=16\). Define the line capacity
+\begin{equation}\label{eq:capacity}
+ L_{v,r}(F;x)=\frac{C_v(F_r+F_{r+\bar v})(x)}{2h(v)}.
+\end{equation}
+Let the four direction families be
+\((1,u),(1,-u),(u,1),(-u,1)\), \(0\le u\le1\), and let
+\(c_{F,j}(x,u)\) denote the corresponding chord. Set
+\begin{equation}\label{eq:risk}
+ g_F(x)=\frac14\sum_{j=1}^4\int_0^1c_{F,j}(x,u)^2\dd u,
+ \qquad
+ \mathcal R_r(F;x)=\frac{D_*}{6}\sum_{s\ne r}g_{F_r+F_s}(x).
+\end{equation}
+Fix a finite set \(P\) of pairwise coprime odd integers greater than one
+and require \(D_*\ge D_P=\tfrac34\prod_{q\in P}(1-q^{-2})\).
+This is part of the admissibility hypothesis below.
+Section~\ref{sec:sieve} proves the resulting finite-sieve bound;
+the concrete input uses \(D_*=76/125\) and 175 odd prime factors.
+
+The finite schedule is \emph{admissible} for fixed parameters if there
+are positive constants \(\kappa_H,\kappa_L\) and a number \(0\le r_*<d\)
+such that
+\begin{align}
+ L_{v,r}(F_T;x)&\le K-\kappa_H &&(v\in\Gamma),\label{eq:heavyinput}\\
+ L_{v,r}(F_T;x)&\le\lambda-\kappa_L &&(v\notin\Gamma),\label{eq:lightinput}\\
+ \mathcal R_r(F_{\tau_r(x)};x)&\le r_* &&(\tau_r(x)>0),\label{eq:riskinput}
+\end{align}
+uniformly over the relevant roots, types and lines. In the last formula
+\emph{every one of the four fields is evaluated at the same root's
+deadline}. The constants satisfy
+\begin{equation}\label{eq:exponents}
+ \begin{gathered}
+ 0<K<2,\quad 0<\rho<1,\quad 0\le\lambda<1-\rho,\\
+ 0<d<\gamma<1,\quad 0<\xi<d,\quad \zeta>0,\quad 1-d-2\xi-\zeta>0.
+ \end{gathered}
+\end{equation}
+All data and all displayed constants are fixed before \(n\) tends to
+infinity. Constants depending on a moment order may depend on that
+order, but the order is also fixed before taking the limit.
+
+\begin{theorem}[Analytic reduction]\label{thm:bridge}
+For an admissible finite schedule, the stopped compensated process
+defined in Section~\ref{sec:process} produces a random set \(S_n\subseteq
+V_n\) with the no-three-in-line property and
+\[
+ \E|S_n|=(A-o(1))n.
+\]
+Consequently, for every fixed \(c<A\), a set of size at least \(cn\)
+exists for every sufficiently large \(n\).
+\end{theorem}
+
+The detailed argument for this theorem occupies
+Sections~\ref{sec:geometry}--\ref{sec:closing}. The concrete schedule
+and the exact finite verification of
+\eqref{eq:heavyinput}--\eqref{eq:riskinput} are given in
+Sections~\ref{sec:certificates} and~\ref{sec:numerics}.
+Corollary~\ref{cor:target} combines them with the analytic reduction
+to obtain \eqref{eq:target}. The finite computation verifies the
+geometric input; the probabilistic lemmas are proved in the text.
+
+\subsection{Why saved credit is the useful quantity}
+Each active point has a weight \(w_p\), initially one. It is selected at
+rate \(m_t(p)w_p/n\). Weights grow to compensate for the chance of
+selection, deletion by a newly completed pair, or a prescribed
+halving. At an early safety stop, the positive weight is saved rather
+than discarded. The resulting process \(Z_p\) is a bounded martingale
+with \(\E Z_p(t)=1\).
+
+The change of probability measure
+\[
+ \dd\Prob^{(p)}=Z_p(T)\dd\Prob
+\]
+measures the amount of credit lost by retiring \(p\), rather than just
+the raw probability that \(p\) retires. Let \(\theta_p\) be its first
+positive saving time and \(E_p\) the event that this happens strictly
+before \(\tau_p\) for a safety reason. Put
+\[
+ A_n=\frac1{n^2}\sum_{p\in V_n}F_{\typ(p),T}(p/n).
+\]
+The exact identity proved in Section~\ref{sec:loss} is
+\begin{equation}\label{eq:previewloss}
+ A_n-\frac{\E|S_n|}{n}
+ =\frac1{n^2}\sum_p\E^{(p)}\left[
+ \ind_{E_p}\int_{\theta_p}^{T}m_t(p)\dd t\right].
+\end{equation}
+Thus a bound \(\sup_p\Prob^{(p)}(E_p)\le\varepsilon\) implies
+\(\E|S_n|/n\ge(1-\varepsilon)A_n\).
+There are five causes to control: weight cap, ordinary-line tag,
+pair-correction floor, virtual-deletion bound, and designated-line clock.
+The last three are global safety stops. The paper proves their estimates
+on the already stopped process; it does not assume that those stops
+are rare while deriving the estimates that make them rare.
+
+\subsection{A fixed budget suffices for the numerical target}
+The exact mass and target are
+\begin{equation}\label{eq:massnumbers}
+ A =\frac{3842853135627}{2560000000000},\qquad
+ c=\frac{1501}{1000},\qquad
+ \Delta=A-c=\frac{293135627}{2560000000000}.
+\end{equation}
+The grid comparison gives \(A_n\ge A(1-512/n)^2\). For sufficiently
+large \(n\), the five stopping-cause estimates with fixed parameters give
+\(\sup_p\Prob^{(p)}(E_p)<10^{-5}\). Taking also \(n\ge2^{24}\),
+\[
+ (1-10^{-5})A(1-2^{-15})^2-c
+ =\frac{2165079963272809251797}{274877906944000000000000000}>0.
+\]
+This strict rational inequality is enough for \eqref{eq:target}.
+There is no need to prove an effective, practically small threshold
+\(n_0\), or to compute an unbounded sequence of ever tighter error
+budgets. The asymptotic argument is a way to obtain one fixed budget.
+The condition \(n\ge2^{24}\) bounds only the displayed mass error;
+the probability estimates impose additional asymptotic thresholds.
+

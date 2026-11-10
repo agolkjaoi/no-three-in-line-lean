@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "pdf_sha256": "0830737b1b2ba333ad43425f65a208c1a7cd532552fb2cfde2f3c433f1b48913",
+  "pages": 36,
+  "scope": "AI visual inspection of rendered pages; not human peer review or mathematical certification.",
+  "coverage": "All 36 pages inspected in contact sheets; enlarged inspection of dense equations, capacity table and final comparison; final revised pages 35-36 re-rendered at 120 dpi and inspected.",
+  "issues_found": [],
+  "author_metadata_empty": true,
+  "latex_reference_and_overflow_checks": "PASS"
+}

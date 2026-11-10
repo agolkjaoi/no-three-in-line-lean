@@ -1,0 +1,20 @@
+{
+  "phase": 186,
+  "method": "farey",
+  "bins": 2048,
+  "global": false,
+  "cells": 448,
+  "failures": 0,
+  "max_units": "39461597444764",
+  "max_cell": [
+    3,
+    33,
+    90
+  ],
+  "risk_numerator": "749770351450516",
+  "risk_denominator": "750000000000000",
+  "seconds": 12.358028945000001,
+  "risk_exact": "187442587862629/187500000000000",
+  "csv": "phase_186_farey.csv",
+  "csv_sha256": "cc7da673f0f0ea18b30fb66cb4c4d1663369eb7807b83a21a3e5c880b1fdc00b"
+}

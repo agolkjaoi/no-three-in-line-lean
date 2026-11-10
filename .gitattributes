@@ -9,3 +9,5 @@ lean-toolchain text eol=lf
 # Preserve the manuscript bundle's own byte manifest across platforms.
 docs/paper/** -text
 *.pdf binary
+*.bin binary
+*.zip binary

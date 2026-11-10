@@ -150,6 +150,36 @@ def verify(require_manifest=False):
     files = published_files()
     private_path = re.compile(r'[A-Za-z]:[\\/]+Users[\\/]+|/home/[^ /\s]+/|/Users/[^ /\s]+/')
     private_key = re.compile(r'-----BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY-----|\bgh[pousr]_[A-Za-z0-9]{30,}\b|\bgithub_pat_[A-Za-z0-9_]{30,}\b')
+    binary_record = json.loads((ROOT / 'evidence/paper-481-integration.json').read_text(encoding='utf-8'))
+    binary_artifacts = {r['path']: r for r in binary_record['binary_artifacts']}
+    check(set(binary_artifacts) == {
+        'docs/paper/481-phase/output/pdf/no_three_in_line_481_en.pdf',
+        'docs/paper/481-phase/verification/data/full_rank.bin',
+        'docs/paper/releases/no_three_line_481_complete_en_20261110.zip',
+    }, 'unexpected 481-phase binary inventory')
+    for rel in binary_artifacts:
+        check((ROOT / rel).is_file(), f'missing reviewed binary: {rel}')
+    paper_root = ROOT / 'docs/paper/481-phase'
+    paper_files = set()
+    for line in (paper_root / 'MANIFEST.sha256').read_text(encoding='utf-8').splitlines():
+        expected, rel = line.split('  ', 1)
+        path = (paper_root / rel).resolve()
+        inside = paper_root.resolve() in path.parents
+        check(inside, '481-phase bundle path escapes root')
+        if not inside:
+            continue
+        check(rel not in paper_files, f'duplicate 481-phase manifest entry: {rel}')
+        paper_files.add(rel)
+        check(path.is_file() and digest(path.read_bytes()) == expected, f'481-phase bundle hash: {rel}')
+    paper_actual = {p.relative_to(paper_root).as_posix() for p in paper_root.rglob('*') if p.is_file()
+                    and not any(x in IGNORED for x in p.relative_to(paper_root).parts)}
+    check(paper_actual == paper_files | {'MANIFEST.sha256'}, '481-phase bundle inventory mismatch')
+    paper_qa = json.loads((paper_root / 'evidence/pdf_qa.json').read_text(encoding='utf-8'))
+    paper_visual = json.loads((paper_root / 'evidence/visual_review.json').read_text(encoding='utf-8'))
+    check(paper_qa['metadata_author_empty'] is True and paper_qa['pending_execution_status'] is False,
+          '481-phase PDF metadata or execution status')
+    check(paper_visual['status'] == 'PASS' and paper_visual['pdf_sha256'] == paper_qa['sha256'],
+          '481-phase visual review record')
     for path in files:
         rel = path.relative_to(ROOT).as_posix()
         if path.suffix in {'.olean', '.ilean', '.ir', '.pyc'}:
@@ -165,6 +195,17 @@ def verify(require_manifest=False):
                   'manuscript PDF author metadata record')
             # This verifies artifact identity and its recorded review, not the
             # contents of compressed PDF streams or the mathematical proof.
+            continue
+        if rel in binary_artifacts:
+            raw = path.read_bytes()
+            record = binary_artifacts[rel]
+            check(digest(raw) == record['sha256'] and len(raw) == record['bytes'], f'reviewed binary identity: {rel}')
+            if path.suffix == '.pdf':
+                check(raw.startswith(b'%PDF-') and digest(raw) == paper_qa['sha256'], '481-phase reviewed PDF identity')
+            elif path.suffix == '.zip':
+                check(raw.startswith(b'PK\x03\x04'), '481-phase release ZIP signature')
+            elif path.suffix == '.bin':
+                check(len(raw) == 4 * 4 * 256 * 256, '481-phase rank table size')
             continue
         text = path.read_text(encoding='utf-8')
         check(not private_path.search(text), f'personal machine path: {rel}')

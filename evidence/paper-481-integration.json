@@ -1,0 +1,44 @@
+{
+  "edition": "2026-11-10-paper-481",
+  "scope": "Publication of the completed English computer-assisted proof manuscript and fresh finite geometric replay; the audited Lean snapshot is unchanged.",
+  "manuscript_version": "0.2",
+  "pages": 36,
+  "bundle_root": "docs/paper/481-phase",
+  "bundle_file_count": 2262,
+  "bundle_files_byte_identical": true,
+  "binary_artifacts": [
+    {
+      "path": "docs/paper/481-phase/output/pdf/no_three_in_line_481_en.pdf",
+      "bytes": 530602,
+      "sha256": "0830737b1b2ba333ad43425f65a208c1a7cd532552fb2cfde2f3c433f1b48913"
+    },
+    {
+      "path": "docs/paper/481-phase/verification/data/full_rank.bin",
+      "bytes": 1048576,
+      "sha256": "a0b1ccc5ad66694b6aca433e804c0ccf3e2d784c8b42c58c31734bc8e052bb89"
+    },
+    {
+      "path": "docs/paper/releases/no_three_line_481_complete_en_20261110.zip",
+      "bytes": 3576521,
+      "sha256": "cfc3cd0e1aa17444a74caddca898da4d88ec20f0324fc7b091a51f1d9f0385a6"
+    }
+  ],
+  "finite_replay": {
+    "phases": 481,
+    "type_cells": 242176,
+    "max_risk_exact": "93740574637267/93750000000000",
+    "elapsed_seconds": 1355.41168614,
+    "all_accepted_csvs_equal_prior": 481,
+    "cached_phase_records_reused": 0,
+    "sanitizer_error_logs": [],
+    "execution_record": "docs/paper/481-phase/verification/evidence/EXECUTION_PROVENANCE.json"
+  },
+  "lean_snapshot_id": "2026-11-10-audited-2",
+  "lean_source_modules_unchanged": 3242,
+  "lean_target_proved": false,
+  "independent_human_peer_review": false,
+  "named_mathematical_author": null,
+  "license": "MIT",
+  "ai_disclosure": "AI_USAGE.md",
+  "previous_manuscript_retained": "docs/paper/output/pdf/no_three_in_line_proof_draft_en.pdf"
+}

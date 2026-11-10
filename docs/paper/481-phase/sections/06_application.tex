@@ -1,0 +1,330 @@
+\section{The 481-phase application and a fixed error budget}\label{sec:numerics}
+
+\subsection{One concrete finite input}
+We use the field and reverse ranks defined in Section~\ref{sec:certificates},
+with spatial grid \(G=256\), time scale \(249/250\), and 481 nonempty phases.
+There are 242,176 positive type/cells; each is used exactly once. By
+Lemma~\ref{lem:reverse}, their reverse order defines masks in \([0,1]\),
+and the checked background field is the cumulative field at the end of
+the corresponding forward phase. The four types use a common endpoint.
+This construction replaces the earlier candidate input; its mass is a
+direct sum over disjoint type/cells, with no unverified union-area correction.
+
+The exact mass and duration are
+\begin{equation}\label{eq:input481numbers}
+ A=\frac{3842853135627}{2560000000000}=1.501114506104296875,
+ \qquad T=\frac{30088384743729}{25000000000}.
+\end{equation}
+The field is already time-scaled in these formulas. No further factor
+\((249/250)^2\) is applied to its squared-chord risk. The coefficient
+of the twelve integrals is \(D_*/24=19/750\).
+
+\begin{center}
+\begin{tabular}{@{}ll@{}}
+\toprule
+Quantity & Exact value or choice\\
+\midrule
+Target \(c\) & \(1501/1000\)\\
+Designated clock cap \(K\) & \(255/128\)\\
+Ordinary capacity cap \(\lambda\) & \(4/5\)\\
+Ordinary credit floor \(\rho\) & \(1/8\)\\
+Continuum risk bound \(r_*\) & \(9999/10000\)\\
+Weight exponent \(d\) & \(19999/20000\)\\
+Virtual exponent \(\gamma\) & \(39999/40000\)\\
+Geometric and correction exponents \(\xi,\zeta\) & \(10^{-6},10^{-6}\)\\
+Finite-sieve coefficient \(D_*\) & \(76/125\)\\
+Spatial grid; designated direction count & \(256;\ 16\)\\
+Total early-retirement probability budget & \(10^{-5}\)\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The capacity bounds for this same field are
+\begin{align*}
+ U_H&=\frac{159305594247}{80000000000},
+ &K-U_H&=\frac{69405753}{80000000000},\\
+ U_L&=\frac{2535641192953}{3200000000000},
+ &\lambda-U_L&=\frac{24358807047}{3200000000000},\\
+ U_{\rm tail}&=\frac{294190968417}{400000000000},
+ &1-\rho-\lambda&=\frac3{40}.
+\end{align*}
+All margins are strict. The finite calculation covers 144 direction/type-pair
+rows, including both axes; six tail bounds cover all heights at least eight.
+
+The maximum in the freshly recomputed complete angular-replay records is
+\begin{equation}\label{eq:recordedrisk481}
+ r_{\rm rec}=\frac{93740574637267}{93750000000000},\qquad
+ r_*-r_{\rm rec}=\frac{50362733}{93750000000000}>0.
+\end{equation}
+It occurs at reverse rank 205, type 2, microcell \((5,238)\).
+Every positive type/cell is covered by exactly one phase record.
+The checking algorithms and their soundness are described in
+Section~\ref{sec:certificates}; the execution status for this edition
+is stated separately in Section~\ref{sec:status}.
+
+The finite sieve consists of the 175 odd primes from 3 to 1049, with
+\[
+ D_P=\frac34\prod_p(1-p^{-2})<\frac{76}{125}.
+\]
+For the discrete pair sum set
+\begin{equation}\label{eq:adiscrete}
+ a=r_*+\frac1{320000}=\frac{319969}{320000}<d.
+\end{equation}
+Equation~\eqref{eq:discrete481} gives
+\(\mathcal B_n^{\Gamma^c}\le a\log n\) once
+\(\log n\ge3\cdot10^{18}\). This explicitly pays the additive
+lattice error; its coefficient is not silently left equal to \(r_*\).
+The exponent conditions hold because
+\[
+ 1-d-2\xi-\zeta=\frac{47}{10^6}>0,\qquad
+ \gamma-d=\frac1{40000}>0.
+\]
+
+\subsection{Three global causes with fixed orders}
+All moment orders are chosen before taking \(n\) to infinity.
+For the pair-correction and virtual-deletion guards use
+\(m_{\rm guard}=2^{18}=262144\). Including the factor \(B=n^d\)
+for transport to the root point law, the powers in
+\eqref{eq:etatail} and \eqref{eq:virtualtail} are respectively
+\begin{align*}
+ 4-m+2m\xi+d(m-1)+m\zeta+d&=-8.320768,\\
+ 3-\gamma m+d(m-1)+\xi+d&=-3.553599.
+\end{align*}
+Each of these two probabilities is therefore less than \(2\cdot10^{-6}\),
+uniformly in the root, for sufficiently large \(n\). Their constants
+are finite for this fixed order; no unspecified constant is assigned
+an assumed numerical value.
+
+For designated-line clocks, \(C_{\rm line}=4G=1024\) and
+\[
+ \varepsilon_H=\frac{K-U_H}{8C_{\rm line}T}
+ =\frac{115676255}{1314581588376682496}.
+\]
+Equations~\eqref{eq:clockexplicit}--\eqref{eq:clockthreshold} give
+the same budget \(2\cdot10^{-6}\). In particular,
+\(\log n\ge10^7\) suffices for this clock estimate. This is a
+threshold for one cause, not a value of the final \(n_0\).
+
+\subsection{The weight cap with a fixed moment order}
+By \eqref{eq:hazarddecomp}, for every fixed integer \(m\), uniformly
+in the root,
+\[
+ I_p\le Y_n+R_n,\qquad
+ \|Y_n\|_{L^m(\Prob^{(p)})}\le(r_*+o_m(1))\log n,
+ \qquad \E^{(p)}R_n=o(\log n),
+\]
+where \(Y_n,R_n\ge0\). Put
+\[
+ h=\frac{d-r_*}{4}=\frac1{80000},\qquad
+ b=\frac{d+r_*}{2}=\frac{39997}{40000},\qquad
+ m_{\rm cap}=2^{22}=4194304.
+\]
+After increasing \(n\) by a root-independent threshold, we have
+\begin{equation}\label{eq:fixedriskmoment}
+ \|Y_n\|_{m_{\rm cap}}\le(r_*+h/2)\log n,\qquad
+ \E^{(p)}R_n\le10^{-6}h\log n.
+\end{equation}
+For \(q=(r_*+h/2)/(b-h)=159985/159986\), Bernoulli's inequality
+gives \(q^{-159985}\ge2\). Since \(26\cdot159985\le m_{\rm cap}\),
+Markov's inequality yields
+\begin{equation}\label{eq:fixedcapbudget}
+ \Prob^{(p)}(I_p>b\log n)
+ \le q^{m_{\rm cap}}+10^{-6}
+ \le2^{-26}+10^{-6}<2\cdot10^{-6}.
+\end{equation}
+The two terms pay for \(Y_n>(b-h)\log n\) and \(R_n>h\log n\)
+separately.
+
+Both axes are designated directions, so an active root has
+\(\sum_{\ell\ni p,\,\ell\in\Gamma} b_{N_\ell}\ge1\) in
+Lemma~\ref{lem:product}. Its self-correction
+contribution is nonpositive. Each designated factor is at most
+\(2/(2-K)=256\), and there are 16 designated directions. Thus
+\[
+ \log w_p\le I_p+16\log256<I_p+128.
+\]
+Reaching \(w_p=n^d\) requires \(I_p>d\log n-128\).
+If \(\log n>5120000\), this implies the event in
+\eqref{eq:fixedcapbudget}, so the fourth cause fits its budget.
+
+\subsection{Ordinary-line tags with a fixed moment order}
+Use the line-cell allowance
+\[
+ e=\frac{1-\rho-\lambda}{4TC_{\rm line}}
+ =\frac{9765625}{641885541199552},\qquad
+ b_{\rm tag}=131458159,\qquad k_{\rm tag}=87,
+\]
+and fix \(m_{\rm tag}=b_{\rm tag}k_{\rm tag}+3=11436859836\).
+Since \(b_{\rm tag}e/2\ge1\), Bernoulli's inequality implies
+\[
+ \left(\frac2{2+e}\right)^{m_{\rm tag}-3}\le2^{-87}.
+\]
+The principal term in \eqref{eq:tagprob} is bounded by
+\begin{equation}\label{eq:fixedtagbudget}
+ \frac{16C_{\rm line}}{e^2}\,2^{-87}
+ =\frac{100590099609629337889425049}
+ {219902325555200000000000000000000}
+ <\frac1{2000000}.
+\end{equation}
+For this fixed order, \(m>2\) and \(1-(1-d)(m-1)<0\); hence
+the remainder in \eqref{eq:tagremainder} tends to zero. Increase
+\(n\) until \(\Theta_m(n)\le2\) and
+\(C_{\rm line}R_m(n;e)\le1/2000000\). The tag probability is then
+less than
+\[
+ 2\left[\frac{16C_{\rm line}}{e^2}2^{-87}
+          +\frac1{2000000}\right]<2\cdot10^{-6}.
+\]
+The credit identity and \eqref{eq:tagcapacity}, with this same
+\(e\), ensure that a tag cannot hit its floor without a cell crossing.
+This large moment order is one fixed integer; no expansion into
+that many monomials is part of the numerical verification.
+
+\subsection{The final rational comparison}
+There are five causes, each with probability less than \(2\cdot10^{-6}\)
+under the appropriate root point law. The maximum of their finitely
+many root-uniform thresholds gives
+\begin{equation}\label{eq:fixedfivebudget}
+ \sup_p\Prob^{(p)}(E_p)<10^{-5}
+\end{equation}
+for every sufficiently large \(n\). The causes need not be independent
+or disjoint. This is a bound for each root under its own point law,
+not a simultaneous-success probability for all roots under one law.
+
+\begin{corollary}[The numerical lower bound]\label{cor:target}
+For every sufficiently large integer \(n\), there is a set
+\(S\subseteq\{0,\ldots,n-1\}^2\) with no three distinct collinear
+points and \(|S|\ge\lceil1501n/1000\rceil\).
+\end{corollary}
+\begin{proof}
+The finite input satisfies Proposition~\ref{prop:contract}, with the
+values above. The lattice comparison and positive margins supply
+the hypotheses of the stopped process. Equation~\eqref{eq:massgrid}
+gives \(A_n\ge A(1-512/n)^2\) for every integer \(n\ge512\).
+By Proposition~\ref{prop:loss} and \eqref{eq:fixedfivebudget},
+\(\E|S_n|/n\ge(1-10^{-5})A_n\). For \(n\ge2^{24}\), in
+addition to the probability thresholds,
+\begin{align}
+ \frac{\E|S_n|}{n}-\frac{1501}{1000}
+ &\ge(1-10^{-5})A(1-2^{-15})^2-\frac{1501}{1000}\notag\\
+ &=\frac{2165079963272809251797}
+ {274877906944000000000000000}>0.
+ \label{eq:exactfinalcomparison}
+\end{align}
+Every output is legal by Proposition~\ref{prop:construction}.
+Some output therefore has cardinality at least \(\lceil1501n/1000\rceil\).
+All comparisons apply to every sufficiently large integer \(n\),
+with no parity or divisibility restriction.
+\end{proof}
+
+A legal set has at most two points per row, so \(|S_n|\le2n\).
+Equation~\eqref{eq:exactfinalcomparison} also gives
+\[
+ \Prob\{|S_n|\ge\lceil1501n/1000\rceil\}>\frac1{64000}
+\]
+past the same thresholds: on the complementary event \(|S_n|<1501n/1000\),
+and the rational margin divided by \(2-1501/1000\) exceeds \(1/64000\).
+The proof does not compute the final \(n_0\) or provide a practical
+bound for small-grid simulations.
+
+\section{Verification scope and provenance}\label{sec:status}
+
+\subsection{Finite computation and mathematical proof}
+The input consists of 1,024 nonnegative field integers and 262,144 ranks.
+The latter assign all 242,176 positive type/cells to 481 phases.
+Source, data and replay records are distributed under \path{verification/}.
+The checker evaluates all four direction families directly, without
+assuming reflection or type symmetry. The 481 freshly accepted records
+use 385 tube bounds, 95 Farey bounds, and one global tube bound.
+
+\noindent\textbf{Fresh execution for this edition.}
+On 10 November 2026 the checker was rebuilt using GCC 13.3.0 on
+Ubuntu under WSL, with four OpenMP threads and undefined-behavior
+sanitization enabled. No cached phase result was reused.
+All 481 phases and 242,176 positive type/cells passed; coverage checking
+found no missing, duplicate or failing cell. The complete angular
+replay took 1,355.4 seconds (about 22.6 minutes).
+All 481 accepted CSV files are byte-identical to the incoming dossier's
+records, and the maximum is exactly \eqref{eq:recordedrisk481}.
+No sanitizer error was reported. Capacity and clock-constant checks
+also passed. The separate arithmetic ledger passed 69 checks,
+including actual field/rank reconstruction and agreement with this run.
+
+The reproduction driver \path{verification/reproduce.py} requires a new
+output directory and records the compiler, flags, input and source hashes,
+executable hash, commands, exit codes and result hashes. Unsafe cached
+resumption has been removed from the Python wrapper. The mathematical
+C++ sources and fixed input are unchanged from the reviewed independent
+implementation. Execution provenance and all per-phase results are
+included in \path{verification/evidence/}; the machine-specific executable
+is rebuilt from source rather than distributed.
+
+The soundness arguments in Section~\ref{sec:certificates} connect finite
+integer computations to geometric bounds. Hashes establish which files
+were used; hashes alone do not prove those bounds. Likewise, exact
+arithmetic certifies finite rational inequalities and field/rank
+reconstruction, not the stochastic lemmas. Those lemmas are proved
+in the preceding sections as natural-language mathematics.
+
+The proof uses fixed orders and a fixed error budget. It needs neither
+growing-order moment estimates nor an explicit value of the final \(n_0\).
+The available partial Lean development concerns earlier parts of the
+project and does not formally certify this manuscript or its 481-phase
+application. No independent human review or complete formal verification
+is claimed.
+
+\subsection{Companion files}
+The editable manuscript is \path{main.tex} and its section files.
+\path{data/parameters.json} gives exact parameters and finite-sieve factors.
+\path{scripts/check_arithmetic.py} reconstructs the input mass, phase
+durations and supports from the field and rank files, then checks
+capacity margins, discrete-risk slack, fixed-order witnesses and the
+final rational budget. Its report is \path{evidence/arithmetic.json}.
+Geometric replay, capacity checking and execution provenance have
+separate reports in \path{verification/evidence/}; the arithmetic
+script does not replace them. Source identifiers and hashes are
+retained in the companion provenance records.
+
+\subsection{AI use and licensing}
+This work involved substantial use of OpenAI ChatGPT/Codex and AI reviews
+supplied by the project maintainer. AI systems contributed mathematical
+proposals and derivations, numerical programs, exact arithmetic checks,
+Lean definitions and proofs, build orchestration, review, translation
+and exposition. Separate AI contexts reviewed parts of the work. This
+English edition was assembled and checked by AI assistance; separate
+AI reviews are not independent human peer review.
+
+The human maintainer chose the direction and requested experiments and
+revisions as a hobby project. This disclosure does not attribute every
+mathematical or programming step to human authorship. No named author,
+affiliation or personal contact address is supplied. The repository's
+hosting account is public. The project material and this manuscript
+are distributed under the MIT license in \path{LICENSE}; retain its
+notices when redistributing.
+
+\begin{thebibliography}{9}
+\bibitem{preparation}
+Project preparation notes, \emph{Integrated proof draft preceding
+Lean formalization}, 8--9 November 2026 (Japanese).
+\href{https://github.com/agolkjaoi/no-three-in-line-lean/blob/282b636c160d049e3ef4d82f619fd44d98f8cf1d/docs/research-notes/preparation/PROOF_FOR_LEAN_JA.txt}{Fixed-version text}.
+Historical source for the process and stopping arguments.
+\bibitem{followup}
+Project first followup, 9 November 2026 (Japanese).
+\href{https://github.com/agolkjaoi/no-three-in-line-lean/blob/282b636c160d049e3ef4d82f619fd44d98f8cf1d/docs/research-notes/first-followup/FOLLOWUP_FOR_REVIEW_JA.txt}{Fixed-version text}.
+Historical source for remaining exposure and the fixed loss budget.
+\bibitem{second}
+Project second followup, 9 November 2026 (Japanese).
+\href{https://github.com/agolkjaoi/no-three-in-line-lean/blob/282b636c160d049e3ef4d82f619fd44d98f8cf1d/docs/research-notes/second-followup/SECOND_FOLLOWUP_FOR_REVIEW_JA.txt}{Fixed-version text}.
+Historical source for the finite sieve and linewise cell count.
+\bibitem{formal}
+\emph{no-three-in-line-lean}, partial formalization snapshot, 10 November 2026.
+\href{https://github.com/agolkjaoi/no-three-in-line-lean/tree/282b636c160d049e3ef4d82f619fd44d98f8cf1d}{Source snapshot}.
+This is a partial formalization, not a formal certificate of the present
+numerical theorem.
+\bibitem{dossier}
+Project 481-phase dossier and fixed-budget closure, 10 November 2026.
+Finite input and executable verification sources are included in this
+edition. The relevant arguments are developed in English here; the
+historical Japanese supplements are not required for the mathematical
+argument.
+\end{thebibliography}

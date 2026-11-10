@@ -1,20 +1,37 @@
-# No-three-in-line: partial Lean formalization toward 1.501n
+# No-three-in-line: a 1.501n proof manuscript and partial Lean formalization
 
-**Work in progress. The final 1.501n theorem has not been proved in this repository.**
+The [36-page English manuscript](docs/paper/481-phase/output/pdf/no_three_in_line_481_en.pdf) presents a computer-assisted proof that every sufficiently large `n × n` integer grid contains at least `ceil(1.501 * n)` points with no three distinct points collinear. Its concrete 481-phase geometric input has been freshly checked in full. **The separate Lean development still does not prove `NoThreeLine.Target`.**
 
-This is an AI-assisted research snapshot containing a dependency-closed collection of completed Lean modules. It is intended to make the existing work inspectable and allow further development. No named author is supplied.
+This is an AI-assisted hobby research project, with no named author. The manuscript has not undergone independent human peer review. Its mathematical arguments, the finite computations, and the partial formalization have distinct verification scopes, described below.
 
-[日本語](README_JA.md) · [Proof status](STATUS.md) · [Build instructions](docs/REPRODUCING.md) · [Start contributing](CONTRIBUTING.md) · [AI use](AI_USAGE.md)
+[日本語](README_JA.md) · [Paper and downloads](docs/paper/README.md) · [Status](STATUS.md) · [Lean build](docs/REPRODUCING.md) · [Contributing](CONTRIBUTING.md) · [AI use](AI_USAGE.md)
 
-## English proof draft
+## Read or reproduce the paper
 
-The [31-page English manuscript](docs/paper/output/pdf/no_three_in_line_proof_draft_en.pdf) presents the construction, saved-credit identity, geometric and probabilistic arguments, and numerical checking contract without requiring Lean. [Editable LaTeX sources, exact-arithmetic checks and reading instructions](docs/paper/README.md) accompany it.
+- [English PDF, version 0.2: the 481-phase construction](docs/paper/481-phase/output/pdf/no_three_in_line_481_en.pdf)
+- [Complete ZIP: paper, editable sources, input, checkers and execution evidence](docs/paper/releases/no_three_line_481_complete_en_20261110.zip)
+- [Bundle contents and reproduction commands](docs/paper/481-phase/README.txt)
+- [Fresh execution provenance](docs/paper/481-phase/verification/evidence/EXECUTION_PROVENANCE.json) and [finite-check summary](docs/paper/481-phase/verification/evidence/FINAL_REPORT.json)
 
-**The numerical application is conditional.** Complete compatible geometric input checking, phase matching, mass and root-deadline pair bounds remain obligations. This research draft is not an unconditional proof of the target or a new independent proof audit. It has no named author and discloses substantial AI use.
+The paper gives the process, saved-credit identity, uniform lattice comparison, common-stopping moment argument, all five stopping-loss estimates, and exact numerical closure in English. Its input mass is `3842853135627/2560000000000 = 1.501114506104296875`. It uses fixed moment orders and a fixed loss budget to obtain the bound for all sufficiently large integers `n`, with no parity or divisibility restriction. It does not give a numerical threshold for the full theorem or a practical small-grid construction guarantee.
 
-## Target and present scope
+The new input has **481 phases and 242,176 positive type/cells**. A fresh build and complete angular replay, using no cached phase results, accepted every phase in **1,355.4 seconds** on the recorded GCC 13.3.0 / Ubuntu-WSL / four-thread environment. All 481 accepted CSVs were byte-identical to the supplied dossier records. Capacity checks, finite clock constants and report integrity also passed. The [comparison report](docs/paper/481-phase/evidence/replay_comparison.json) records the output comparison.
 
-The intended target is a set of at least `1.501 * n` points in every sufficiently large `n × n` integer grid, with no three distinct points collinear. The exact definition is in [Target.lean](NoThreeLine/Target.lean):
+This is a new finite construction replacing the historical 15,348-phase candidate in the paper. The earlier [31-page conditional draft](docs/paper/output/pdf/no_three_in_line_proof_draft_en.pdf) remains as a historical version; its outstanding-input status does not describe the current manuscript.
+
+## What each kind of evidence establishes
+
+| Component | Current scope |
+| --- | --- |
+| English mathematical manuscript | Presents an ordinary computer-assisted proof of the sufficiently-large-`n` lower bound. The stochastic arguments are natural-language mathematics, not certified by running the numerical checker. |
+| Fresh finite computation | Rebuilds and checks all 481 phases and 242,176 type/cells, all 144 finite capacity rows and six direction-tail bounds, with exact arithmetic and recorded provenance. |
+| Lean snapshot | Contains 3,242 audited modules, including substantial conditional geometric, probabilistic and output results. It does **not** prove `NoThreeLine.Target` or formally certify the new 481-phase application. |
+
+No independent human peer review or complete Lean formalization is claimed. Hashes identify files and executions; they do not replace mathematical arguments or Lean proof checking.
+
+## The formal target and fixed Lean snapshot
+
+The exact target is defined in [Target.lean](NoThreeLine/Target.lean):
 
 ```lean
 def Target : Prop :=
@@ -22,31 +39,29 @@ def Target : Prop :=
     ∃ s : Finset (Grid n), NoThree s ∧ 1501 * n ≤ 1000 * s.card
 ```
 
-`Target` is a definition, not a theorem. The snapshot contains geometric checkers, finite-sieve and lattice estimates, a concrete stochastic construction, and substantial conditional stopping and output results. Their hypotheses matter: none of the intermediate results substitutes for a proof of `Target`.
+`Target` remains a definition, not a proved theorem. The Lean sources are unchanged by the paper update. Their frozen audit is from **2026-11-09 15:22 UTC (2026-11-10 00:22 JST)**: **3,242 modules / 839,734 source lines**, with matching source and compilation-log hashes and included local imports. The 33 modules not verified in that audit are listed separately, not shipped as completed proofs. These counts are not a completion percentage.
 
-The frozen audit is from **2026-11-09 15:22 UTC (2026-11-10 00:22 JST)**. This package includes **3,242 modules / 839,734 source lines** whose source and compilation-log hashes match that audit and whose local imports are also included. Most of the bulk is explicit data and supporting proofs. These counts are not a completion percentage. The 33 modules not verified in that audit are listed separately and are not shipped as completed proofs.
+The earlier snapshot update added 94 audited modules, including continuous one-phase concentration, frozen clock-cause smallness and conditional exact 1.501n output. Its concrete-input hypotheses remain unsupplied in Lean. In particular, the historical 15,348-phase route still has only 20 of 80 canonical leaves at benchmark phase 15301 certified, together with their 80 symmetry images. The new complete external 481-phase check does not increase those Lean coverage counts. See [STATUS.md](STATUS.md) and [CHANGELOG.md](CHANGELOG.md).
 
-This update adds 94 audited modules. It supplies the continuous one-phase concentration link and its frozen clock-cause application, then derives the exact 1.501n output from explicit accepted-schedule, mass, capacity and actual pair-budget inputs. Those concrete premises are not yet fully supplied. See [the changelog](CHANGELOG.md).
+## Lean reading paths
 
-## Reading paths
-
-| Area | Entry point | What to look for |
+| Area | Entry point | Scope to inspect |
 | --- | --- | --- |
-| Exact target | [Target](NoThreeLine/Target.lean) | Quantifiers, integer determinant, cardinality inequality |
-| Small concrete geometric example | [Concrete](NoThreeLine/Concrete.lean) | Actual rectangles, four charts, rational checking and a uniform margin |
-| One analytic branch | [AffineBranch](NoThreeLine/AffineBranch.lean) | A concrete `a+b/u` branch bounded by a rational integral expression |
-| Finite-sieve/lattice connection | [FiniteS6](NoThreeLine/FiniteS6.lean) | `masked_board_sieve_upper` and its explicit assumptions |
-| Actual probabilistic risk | [ScheduledRiskTailSmall](NoThreeLine/ScheduledRiskTailSmall.lean) | Uniform tail estimate under a deterministic angular budget |
-| Expected size and legal output | [ScheduledCutOutputExistence](NoThreeLine/ScheduledCutOutputExistence.lean) | Actual exposure minus loss, and a no-three output attaining that bound |
-| Continuous one-phase concentration | [ProtectedCellOnePhasePowerTail](NoThreeLine/ProtectedCellOnePhasePowerTail.lean) | Uniform bound by `2*n^(-r)` on actual one-phase exceedance, with the stated readiness, cap and gap conditions |
-| Frozen clock stopping | [FrozenClockCauseSmall](NoThreeLine/FrozenClockCauseSmall.lean) | Uniformly small actual clock-cause probability under frozen matching and duration inputs |
-| Final conditional assembly | [FrozenFiveCauseOutput](NoThreeLine/FrozenFiveCauseOutput.lean) | Exact 1.501n output once all low rows, accepted-schedule matching, mass and actual root-deadline pair bounds are supplied |
+| Exact target | [Target](NoThreeLine/Target.lean) | Quantifiers, integer determinant and cardinality inequality |
+| Small concrete geometry | [Concrete](NoThreeLine/Concrete.lean) | Actual rectangles, four charts, rational checks and a uniform margin |
+| One analytic branch | [AffineBranch](NoThreeLine/AffineBranch.lean) | A concrete `a+b/u` branch and rational integral bound |
+| Finite sieve and lattice | [FiniteS6](NoThreeLine/FiniteS6.lean) | `masked_board_sieve_upper` and its assumptions |
+| Probabilistic risk | [ScheduledRiskTailSmall](NoThreeLine/ScheduledRiskTailSmall.lean) | Uniform tails under a deterministic angular budget |
+| Expected size and legality | [ScheduledCutOutputExistence](NoThreeLine/ScheduledCutOutputExistence.lean) | Exposure minus loss and extraction of a legal output |
+| One-phase concentration | [ProtectedCellOnePhasePowerTail](NoThreeLine/ProtectedCellOnePhasePowerTail.lean) | Actual exceedance bounds with readiness, cap and gap conditions |
+| Frozen clock stopping | [FrozenClockCauseSmall](NoThreeLine/FrozenClockCauseSmall.lean) | Small clock-cause probability under matching and duration inputs |
+| Conditional final assembly | [FrozenFiveCauseOutput](NoThreeLine/FrozenFiveCauseOutput.lean) | Exact target once concrete schedule, capacity, mass and pair bounds are supplied |
 
-[STATUS.md](STATUS.md) identifies the remaining links. [The research notes](docs/research-notes/README.md) provide the mathematical background; they are historical working arguments, not a certification of their every assertion.
+The [research notes](docs/research-notes/README.md) are historical background. The current mathematical reading route is the [481-phase paper](docs/paper/README.md); inclusion of an older note does not certify every assertion in it.
 
-## Try a bounded first build
+## Try a bounded Lean build
 
-With Lean managed by Elan, Python 3.11+, Git and the pinned dependencies available:
+With Elan, Python 3.11+, Git and the pinned dependencies available:
 
 ```text
 python scripts/verify_snapshot.py
@@ -56,20 +71,13 @@ lake build NoThreeLine.Target NoThreeLine.AffineBranch
 lake build NoThreeLine.Concrete
 ```
 
-The toolchain is Lean **4.32.2**; mathlib is pinned to commit **905b95818eb32af7874a58b427f50c1711a5e96c**. The default `lake build` builds the small entry library, not every numerical certificate. See [reproduction instructions](docs/REPRODUCING.md) for the full snapshot and an explicit offline reuse mode.
+The toolchain is Lean **4.32.2**; mathlib is pinned to **905b95818eb32af7874a58b427f50c1711a5e96c**. The default `lake build` builds the small entry library, not every numerical certificate. [Reproduction instructions](docs/REPRODUCING.md) cover the full snapshot and explicit offline reuse. The paper's C++/Python replay has [separate instructions](docs/paper/481-phase/README.txt) and does not require Lean.
 
-## Evidence and limitations
+## Snapshot evidence and continued development
 
-- [snapshot.json](snapshot.json) fixes the scope and capture time.
-- [compilation.json](evidence/compilation.json) binds each original source, compilation log and recorded artifact, including direct-import versions. Early legacy records use the saved dependency audit, and are labelled as such.
-- [MANIFEST.json](MANIFEST.json) binds the public files. Verifying hashes checks package identity; it does not re-prove Lean theorems.
-- Existing compilation records were checked during packaging. A fresh rebuild of all 3,242 modules on a second machine has not been performed. [Publication validation](evidence/publication-validation.json) distinguishes newly compiled samples from inherited evidence.
-- The numerical coverage described in [STATUS.md](STATUS.md) is partial. It must not be presented as certification of all phases or all leaves.
+- [snapshot.json](snapshot.json) fixes the Lean capture scope and time.
+- [compilation.json](evidence/compilation.json) binds original sources, compilation logs, artifacts and recorded import versions. Early legacy records use a labelled saved dependency audit.
+- [MANIFEST.json](MANIFEST.json) binds public files. [Publication validation](evidence/publication-validation.json) distinguishes inherited compilation evidence from newly compiled samples.
+- A fresh rebuild of all 3,242 Lean modules on a second machine has not been performed. The complete fresh C++/Python replay is a separate result for the new paper.
 
-The active development workspace continues separately. The audited Lean snapshot stays fixed; accompanying mathematical exposition may be added. Before starting a large contribution, compare it with any newer snapshot.
-
-## License and continued development
-
-The original code and associated documentation are available under the [MIT License](LICENSE). Forks, fixes and further formalization are welcome; retain the license notices. See [CONTRIBUTING.md](CONTRIBUTING.md) for concrete starting points and [LICENSE_DECISION.md](LICENSE_DECISION.md) for scope.
-
-This public edition preserves the proof sources from the fixed preparation snapshot. The historical preparation records describe checks made before publication; [publication.json](publication.json) records this edition's intended repository and licensing decision. The active research task continues separately.
+The project is a hobby effort, with no planned expert outreach. Forks, fixes and further formalization are welcome under the [MIT License](LICENSE); retain its notices. [CONTRIBUTING.md](CONTRIBUTING.md) describes entry points for the fixed Lean snapshot. Compare versions before extending its historical numerical route. AI use should be described accurately; [AI_USAGE.md](AI_USAGE.md) and the paper disclose substantial AI contributions. No named mathematical author, affiliation or personal contact address is supplied.

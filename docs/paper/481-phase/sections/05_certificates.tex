@@ -1,0 +1,386 @@
+\section{The finite input and its geometric checker}\label{sec:certificates}
+
+This section specifies the 481-phase input and proves the geometric
+upper bounds computed by its checker. The checker evaluates whole
+closed root cells and whole angular intervals. Its input is an integer
+field table and a deletion-rank table; neither sampled risks nor
+search priorities are acceptance premises. The concrete arithmetic
+results and execution record are given in Section~\ref{sec:numerics}.
+
+\subsection{A schedule defined by reverse deletion ranks}\label{sec:rankinput}
+Index the four types by \(r=0,1,2,3\), with
+\(\typ(p)=(p_x\bmod2)+2(p_y\bmod2)\). The file
+\texttt{field\_units.txt} contains 1024 nonnegative integers
+\(u_{r,a,b}\), in that order, with \(0\le a,b<16\).
+Set \(G=256\) and write
+\(C_{ij}=(i/G,(i+1)/G)\times(j/G,(j+1)/G)\). Define
+\begin{equation}\label{eq:rankfield}
+ W_r^{(0)}\big|_{C_{ij}}
+ =\frac{249}{250\cdot10^8}
+       u_{r,\lfloor i/16\rfloor,\lfloor j/16\rfloor}.
+\end{equation}
+All fields and masks are zero on every fine-grid boundary and outside
+the square. Thus the coarse table defines the values, but the boundary
+convention is that of the fine grid.
+
+The file \texttt{full\_rank.bin} contains \(4G^2=262144\)
+little-endian signed 32-bit integers \(\nu_{r,i,j}\), in type, first
+coordinate, second coordinate order. A zero-valued cell has rank
+\(-1\); every positive cell has a rank in \(\{0,\ldots,480\}\).
+For \(0\le j\le481\), let
+\[
+ W_r^{(j)}=W_r^{(0)}\ind_{\{\nu\ge j\}},
+ \qquad E_r^{(j)}=W_r^{(0)}\ind_{\{\nu=j\}}
+       \quad(0\le j<481).
+\]
+The indicators here are type-dependent cell indicators.
+Then \(W^{(j)}-W^{(j+1)}=E^{(j)}\), and \(W^{(481)}=0\).
+For every nonempty rank class set
+\(\delta_j=\max_{r,i,k}E_r^{(j)}|_{C_{ik}}>0\).
+Use the phases in decreasing rank order, from 480 to 0. On the phase
+of duration \(\delta_j\), use the mask
+\begin{equation}\label{eq:rankmask}
+ f_r=E_r^{(j)}/\delta_j.
+\end{equation}
+It has rational values in \([0,1]\). This defines the chronological
+schedule completely, including its durations and masks.
+
+\begin{lemma}[Reverse deletion and the common deadline]\label{lem:reverse}
+The field at the end of the rank-\(j\) phase is \(W^{(j)}\).
+Every positive typed cell is used once, and its deadline is the end
+of its rank's phase. Consequently, a risk bound for \(W^{(j)}\)
+on every rank-\(j\) root cell is a bound for that cell's actual
+common-deadline risk. The terminal field is \(W^{(0)}\), and
+\[
+ A=\frac14\sum_r\int W_r^{(0)},\qquad
+ T=\sum_{j=0}^{480}\delta_j.
+\]
+\end{lemma}
+\begin{proof}
+At the indicated endpoint the phases already run are exactly those
+with ranks \(k\ge j\). Their exposures sum to
+\(\sum_{k=j}^{480}E^{(k)}=W^{(j)}\). This equality holds for all
+four fields at the same time. A positive typed cell belongs to just
+one rank class, so its last use is precisely that phase. Finally the
+classes partition all positive typed cells. There are no overlapping
+accepted-region areas to count with multiplicity.
+\end{proof}
+
+All intermediate fields are componentwise at most \(W^{(0)}\).
+Capacities and squared-chord risk are monotone for nonnegative fields.
+In particular, a terminal-field capacity bound controls the entire
+schedule. The rank correspondence itself is checked before any
+geometric calculation: the program rejects an out-of-range rank, a
+mismatch between positivity and rank, or an empty requested phase.
+
+\subsection{Exact maxima on a closed root cell}
+Let \(F\) be a nonnegative rectangular step field, extended by zero
+outside the unit square. For a direction \((1,u)\), \(u>0\), put
+\[
+ C(v;u)=\int_{\R}F(t,v+ut)\dd t.
+\]
+For a closed root box \(B=[a_0,a_1]\times[b_0,b_1]\), its possible
+intercepts form the interval
+\(l(u)=b_0-ua_1\le v\le h(u)=b_1-ua_0\).
+At each field vertex \((a,b)\), combine the signed corner
+coefficients of its incident rectangles, with exterior values zero.
+The coefficients for one rectangle of value \(f\), in lower-left,
+lower-right, upper-left, upper-right order, are \(-f,+f,+f,-f\).
+
+\begin{lemma}[Corner representation]\label{lem:corners}
+For \(u>0\),
+\begin{equation}\label{eq:corners}
+ C(v;u)=\frac1u\sum_{a,b}k_{a,b}(v-b+ua)_+.
+\end{equation}
+\end{lemma}
+\begin{proof}
+For the indicator of \((a_0,a_1)\times(b_0,b_1)\), integrate
+\(\ind_{v+ut>b_0}-\ind_{v+ut>b_1}\) over \(a_0<t<a_1\).
+For the first indicator the result is
+\([(v+ua_1-b_0)_+-(v+ua_0-b_0)_+]/u\), and similarly for the
+second. Add the identities with the rectangle weights and combine
+shared corners. A nonaxis line meets the zeroed grid lines in finitely
+many points, which do not affect this integral.
+\end{proof}
+
+\begin{proposition}[Exact closed-box envelope]\label{prop:envelope}
+For fixed \(u>0\), the maximum chord of all roots in \(B\) is
+\begin{equation}\label{eq:envelope}
+ U_B(u)=\max\bigl\{C(v;u):
+ v\in\{l(u),h(u)\}\cup
+       \{b-ua:l(u)\le b-ua\le h(u)\}\bigr\}.
+\end{equation}
+The second set ranges over the field vertices. In particular this
+maximum is obtainable by exact rational arithmetic at rational \(u\).
+\end{proposition}
+\begin{proof}
+By \eqref{eq:corners}, the chord is continuous and piecewise affine
+in \(v\), with knots among \(b-ua\). The maximum on an interval is
+at an endpoint or at an included knot. Every possible root intercept
+belongs to that interval, and every intercept in it is attained by
+some root of the box.
+\end{proof}
+
+The implementation sorts projected vertices, combines equal knots,
+and accumulates the slope and then the value of the chord numerator.
+A segment tree returns the largest included knot value; the two
+interval endpoints are evaluated separately. The zero value and zero
+slope beyond the last knot are checked. Taking a maximum over all
+knots, rather than only the root interval, also gives a valid bound
+simultaneously for every root in the square.
+
+\subsection{A rigorous angular-bin bound by vertical dilation}
+For \(\delta\ge0\), let
+\[
+ (D_\delta F)(t,y)=\sup_{|z-y|\le\delta}F(t,z).
+\]
+\begin{lemma}[Tube domination]\label{lem:tube}
+For \((x_0,y_0)\in[0,1]^2\) and \(|u-u_0|\le\delta\),
+\[
+ c_{F,1}((x_0,y_0),u)
+ \le c_{D_\delta F,1}((x_0,y_0),u_0).
+\]
+\end{lemma}
+\begin{proof}
+Only \(0\le t\le1\) contributes. On this interval,
+\(|(u-u_0)(t-x_0)|\le\delta\). The point of the original line is
+therefore among those in the vertical supremum at the corresponding
+point of the central line. Integrate the resulting pointwise bound.
+\end{proof}
+
+Choose \(N=2048\), \(H=2N\), \(\delta=1/H\), and
+\(u_k=(2k+1)/H\), \(0\le k<N\). Lemma~\ref{lem:tube} gives
+\begin{equation}\label{eq:tube}
+ \sup_{x\in B}\int_0^1 c_{F,1}(x,u)^2\dd u
+ \le\frac1N\sum_{k=0}^{N-1}
+       \left(\sup_{x\in B}c_{D_\delta F,1}(x,u_k)\right)^2.
+\end{equation}
+This is a bound on all angles in each bin, not a quadrature
+approximation whose error has been omitted.
+
+The dilation is itself a finite rational rectangular field. In each
+column, let the original cell values be \(f_j\), with exterior values
+zero. Since \(\delta<1/(2G)\), the central strip of cell \(j\)
+has value \(f_j\), and the strip of width \(2\delta\) about its
+boundary \(j/G\) has value \(\max(f_{j-1},f_j)\). These strips
+give an explicit decomposition, including the two outer boundaries.
+Values on strip endpoints do not affect the positive-slope chord.
+The program forms the integer type-pair field before this dilation;
+it does not round each type's field separately.
+
+All dilated vertices have coordinates \((a/H,b/H)\) with integers
+\(a,b\). At \(u=p/H\), their projected intercepts are \(Hb-pa\).
+The integer sweep computes a numerator whose raw-field chord is
+that numerator divided by \(pH\). With rounding scale
+\(Q_c=10^6\), the true scaled chord in \eqref{eq:rankfield} is
+bounded in \(1/Q_c\) units by
+\[
+ L=\left\lceil\frac{249\,\text{numerator}}{25000\,pH}\right\rceil.
+\]
+This uses \(Q_c\,249/(250\cdot10^8)=249/25000\).
+The bin contributes the integer upper bound \(\lceil L^2/N\rceil\)
+in units \(1/Q_c^2\). All divisions round upward.
+
+\subsection{Complete Farey partitions and rational integral bounds}
+If the tube estimate is too large to accept a phase, the checker
+uses the same residual field and every root box of that phase in a
+second calculation. Its partition is the list of all reduced fractions
+in \([0,1]\) with denominator at most \(G=256\).
+
+A projected-knot ordering or a knot's membership in the root intercept
+interval can change only at a slope joining two field or root-box
+vertices. Those vertices are on the \(1/G\) grid, so every such slope
+in \([0,1]\) has reduced denominator at most \(G\). On an open
+interval between consecutive fractions, the candidate set in
+\eqref{eq:envelope} is fixed and every candidate has the form
+\(a+b/u\). Thus \(U_B(u)\) is convex as a function of \(1/u\).
+Its endpoint secant in that coordinate bounds it from above.
+Switches between maximizing candidates require no extra partition.
+At a positive partition endpoint, continuity of the chord and of the
+root intercept interval ensures that each one-sided candidate limit
+is bounded by the endpoint maximum used in the calculation.
+
+Let the consecutive positive fractions be \(\alpha=a/b\) and
+\(\beta=c/d\), so \(bc-ad=1\) and \(\beta-\alpha=1/(bd)\).
+Let \(A,B\) be upward-rounded endpoint chord values in units
+\(1/Q_c\). The reciprocal-coordinate secant through these rounded
+values remains an upper bound for \(Q_c U_B\).
+
+\begin{lemma}[Rational affine integral bound]\label{lem:affine}
+An upper bound for \(Q_c^2\int_\alpha^\beta U_B(u)^2\dd u\) is
+the smaller of \(\max(A^2,B^2)/(bd)\) and
+\begin{equation}\label{eq:affine}
+ \begin{cases}
+ (A^2+AB+B^2)/(3bd),&B\le A,\\[2pt]
+ (A'^2+A'B'+B'^2)/(3bd),&B>A,
+ \end{cases}
+\end{equation}
+where
+\[
+ A'=A+\frac{(B-A)bc}{(ad+bc)^2},\qquad
+ B'=B+\frac{(B-A)ad}{(ad+bc)^2}.
+\]
+\end{lemma}
+\begin{proof}
+Write the reciprocal-coordinate secant as \(V(u)=s+t/u\).
+It is nonnegative and monotone on the interval. If \(B\le A\),
+then \(t\ge0\), so the endpoint secant in \(u\) is an upper bound.
+If \(B>A\), then \(t<0\) and \(V\) is concave; its tangent at
+\((\alpha+\beta)/2\) is an upper bound. Substitution and
+\(bc-ad=1\) give tangent endpoint values \(A',B'\).
+The integral of the square of an affine function with endpoint
+values \(x,y\) on an interval of length \(1/(bd)\) equals
+\((x^2+xy+y^2)/(3bd)\). The constant endpoint-maximum bound is
+valid by monotonicity. Take the smaller of these two valid bounds.
+\end{proof}
+
+On the first interval \((0,1/G)\), every active candidate is bounded
+and of the form \(a+b/u\), hence \(b=0\). Its maximum is constant,
+so the first positive endpoint suffices. The value at angle zero
+does not affect the angular integral; it does not replace the axis
+capacity check below.
+
+For an ordinary vertex \((i/G,j/G)\) at angle \(p/q\), the
+projection is \(qj-pi\). The integer numerator is normalized by
+\(pG\), and the rounded scaled chord is
+\(\lceil249\,\text{numerator}/(25000\,pG)\rceil\).
+The tangent values in \eqref{eq:affine} are retained as exact rational
+numbers. Only the final integral bound is rounded upward to an integer
+in units \(1/Q_c^2\). No logarithmic numerical integration is used.
+
+\subsection{Four direction families, integer ranges and acceptance}
+For each of the six unordered type pairs, the checker transforms the
+field and root box by each of
+\[
+ (x,y),\quad(x,1-y),\quad(y,x),\quad(y,1-x).
+\]
+These give the four direction families of \eqref{eq:risk} and preserve
+the major-coordinate integration parameter. Type labels are retained.
+No transpose symmetry of the fields or symmetry of the random process
+is assumed. Each type receives three pairs and four families.
+
+If their twelve integral bounds sum to the integer \(J\), then
+\begin{equation}\label{eq:certRisk}
+ \mathcal R_r(W^{(j)};x)\le\frac{19J}{750Q_c^2}
+ \quad\hbox{throughout the checked root box}.
+\end{equation}
+The acceptance test is
+\[
+ J\le\left\lfloor\frac{9999\cdot750Q_c^2}{190000}\right\rfloor
+      =39469736842105.
+\]
+It implies \(\mathcal R_r\le9999/10000<1\). Each output row is
+identified by type and fine-cell coordinates. The replay driver
+compares the complete set of rows, and its cardinality, with the rank
+class to exclude missing or repeated cells. It independently compares
+the row integers to the rational risk threshold. Passing only selected
+cells or retaining an unsuccessful tube bound is insufficient.
+
+For this fixed input, the largest single-type integer is 628311458
+and the largest type-pair integer is 1181489833. Deletion and dilation
+cannot increase the latter bound. Its physical chord, in \(1/Q_c\)
+units and rounded upward, is less than 13000000. A corner coefficient
+has absolute value at most four times the pair maximum, below
+\(2^{33}\). Even at the largest supported angular parameter
+\(N=65536\), projected coordinates are below \(2^{35}\); a coarse
+sum-of-absolute-values bound puts sweep intermediates below \(2^{86}\).
+Actual chord numerators are below \(2^{65}\) before multiplication
+by 249. The values and arithmetic used for chord conversion and
+squaring are therefore within signed 128-bit range.
+The sum over all bins of one tube integral is at most
+\(13000000^2+N\); twelve such sums, and their risk numerator after
+multiplication by 19, are also far below that range.
+The same bound holds for a Farey integral with the number of intervals
+in place of \(N\), using the endpoint-maximum bound on each interval.
+
+For the Farey tangent put \(D=(ad+bc)^2\). Since
+\(ad,bc\le G^2\), its rational numerator uses
+\[
+ A_L=AD+(B-A)bc,\qquad B_L=BD+(B-A)ad,
+\]
+and denominator \(3bdD^2\). The bound
+\(A_L,B_L\le13000000(D+G^2)\) puts
+\(A_L^2+A_LB_L+B_L^2\) below \(2^{117}\), and the denominator
+below \(2^{86}\). The final ceiling addition also fits. Ordinary
+integer division and signed 128-bit intermediates suffice for these
+fixed data. These estimates are part of the soundness argument;
+runtime undefined-behavior checks provide an additional implementation
+check. They are not a claim that arbitrary int64 field tables would
+be safe without a new range bound.
+
+\subsection{Capacity: axes, finite directions and the infinite tail}
+Exchange the two coordinates, transforming the field and root as
+well, when the second coordinate of the direction is larger in
+absolute value. Reverse the direction's orientation if necessary.
+It then has the form \(v=(h,b)\), with \(|b|\le h\). Put
+\(q=b/h\); the horizontal-coordinate chord below, divided by
+\(2h\), is exactly the capacity in \eqref{eq:capacity}.
+For a nonaxis slope \(q\ne0\), the chord of a rectangular cell
+\((A,B)\times(C,D)\) at intercept \(v\) is
+\[
+ \pos{\min\left(B,\max\left(\frac{C-v}{q},\frac{D-v}{q}\right)\right)
+ -\max\left(A,\min\left(\frac{C-v}{q},\frac{D-v}{q}\right)\right)}.
+\]
+It is continuous and piecewise affine in \(v\), with knots among
+\(C-qA,C-qB,D-qA,D-qB\). Hence the maximum of the summed chord
+is attained at an intercept through a grid vertex. The independent
+capacity calculation uses this direct rectangle-intersection formula,
+not the corner-sweep routine.
+
+Axis directions need a different rule. In an open horizontal strip
+the chord is its weighted row sum, whereas on a zeroed horizontal
+boundary it is zero. Check all open-strip values, and use column sums
+for the vertical direction. Further boundary zeroing on the fine grid
+cannot increase these capacities: it removes finitely many points
+from a nonaxis chord and may zero an entire axis chord.
+
+Enumerate all 72 primitive unoriented directions of heights one
+through seven. A primitive direction has nonzero parity, so it pairs
+the four types into two unordered pairs; there are 144 finite
+direction/type-pair checks. The 16 directions of height at most three
+are designated. For every remaining direction with \(h\ge8\),
+\[
+ L_{v,r}(W^{(0)};x)
+ \le\frac{\|W_r^{(0)}+W_{r+\bar v}^{(0)}\|_\infty}{2h}
+ \le\frac{\|W_r^{(0)}+W_{r+\bar v}^{(0)}\|_\infty}{16}.
+\]
+Checking the six pair maxima therefore completes the infinite tail.
+All these calculations may use the coarse \(16\times16\) envelope.
+
+\begin{proposition}[Finite geometric checking contract]\label{prop:contract}
+Suppose the specified field and rank tables satisfy the stated format
+and positivity correspondence, every rank class is covered by its
+checked closed cells, and the exact tube or Farey calculation proves
+the common bound \(U_R\le9999/10000\). Suppose the capacity
+calculation covers all finite directions and the tail, with bounds
+\(U_H<K\) and \(U_L<\lambda<1-\rho\). If \(9999/10000<d<1\),
+then the schedule \eqref{eq:rankmask} has the geometric input
+properties \eqref{eq:heavyinput}--\eqref{eq:riskinput}, with uniform
+positive margins and the exact mass given by its finite field sum.
+\end{proposition}
+\begin{proof}
+The capacity calculation covers every line intercept and direction,
+and terminal-field domination transfers it to all times.
+Proposition~\ref{prop:envelope}, Lemma~\ref{lem:tube} and
+Lemma~\ref{lem:affine} justify the angular bounds on every checked
+closed cell. Equation~\eqref{eq:certRisk} gives the risk bound, while
+Lemma~\ref{lem:reverse} identifies the four tested fields with the
+four actual fields at that root's deadline. The finite maxima leave
+the positive margins \(K-U_H\), \(\lambda-U_L\) and
+\(d-9999/10000\), independent of \(n\). The rank classes partition
+all positive typed cells, giving the mass without overlap ambiguity.
+Proposition~\ref{prop:pair} and \eqref{eq:discrete481} then provide
+the uniform discrete comparison used by the stochastic argument.
+\end{proof}
+
+The executable \texttt{independent/check\_phase.cpp}, with
+\texttt{farey\_independent.inc}, implements these two angular bounds.
+Its explicit rectangles, standard sorting, segment tree, ordinary
+division, wider intermediates and four separate coordinate transforms
+provide a second implementation of the geometric conditions.
+Both implementations still use the mathematical lemmas proved here.
+Input hashes identify the data; they do not prove the inequalities.
+For a complete reproduction the checker is rebuilt and every phase
+is evaluated from the fixed input, followed by per-cell coverage and
+integer comparisons. Reusing cached phase reports without binding them
+to the current inputs and checker is not such a reproduction.

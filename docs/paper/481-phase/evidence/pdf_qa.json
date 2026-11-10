@@ -1,0 +1,12 @@
+{
+  "pdf": "output/pdf/no_three_in_line_481_en.pdf",
+  "sha256": "0830737b1b2ba333ad43425f65a208c1a7cd532552fb2cfde2f3c433f1b48913",
+  "pages": 36,
+  "bytes": 530602,
+  "metadata_author_empty": true,
+  "characters_outside_page": [],
+  "unresolved_references": false,
+  "latex_errors_or_overfull_boxes": [],
+  "pending_execution_status": false,
+  "visual_inspection": "Separate manual image review required; not certified by this script."
+}

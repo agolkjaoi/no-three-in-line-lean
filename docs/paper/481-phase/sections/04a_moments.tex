@@ -1,0 +1,171 @@
+\section{Mixed moments without independence}\label{sec:moments}
+
+The estimates must retain leading coefficient one. Replacing all
+joint probabilities by an unspecified constant multiple of products
+would lose the narrow numerical margin. The following compensating
+factors separate ordinary-line dependence, designated-line dependence,
+and simultaneous changes caused from outside a pair's baseline.
+
+Fix disjoint sets of labels \(C,D\), called roots and witnesses, and
+keep their union \(L=C\cup D\) fixed through the argument. If a witness
+\(q\) has been born, let \(b_q\) be a deterministic factor
+\(e_q(t_q)\in[0,1]\) evaluated at its birth time; otherwise set it to
+zero. For a line put \(m_\ell=|C\cap\ell|\). Define
+\begin{align}
+ \Phi_{C,D}={}&\ind_{C\text{ active}}
+ \prod_{q\in D}b_q\prod_{p\in C}w_p\,
+ \prod_{\ell\notin\Gamma}r_\ell^{(m_\ell-1)_+}
+ \prod_{\ell\in\Gamma}a_{N_\ell}(k_\ell)^{-(m_\ell-1)_+},
+ \label{eq:phi}\\
+ E_L={}&\prod_{\{a,b\}\subseteq L}\eta_{ab},
+ \qquad Y_{C,D}=E_L\Phi_{C,D}.\label{eq:etaall}
+\end{align}
+Only lines containing two roots contribute nontrivial factors, so the
+products are finite. The correction \(E_L\) uses the entire label set,
+not just the current roots. This makes it identical on the two sides
+of a witness-birth transition.
+
+\begin{lemma}[Generator and source bound]\label{lem:source}
+The positive source in the compensated drift of \(Y_{C,D}\) is at
+most
+\begin{equation}\label{eq:source}
+ \sum_{q\in D}\beta_q(t)Y_{C\cup\{q\},D\setminus\{q\}},
+\end{equation}
+where \(\beta_q=m_t(q)e_q(t)/n\) if no pair of labels in \(L\) shares
+a designated line. In general one may multiply each \(\beta_q\) by
+\(\max(1,A_1)^g\), where \(A_1=1/(2-K)\).
+Every other compensated drift and every auxiliary positive-retirement
+jump is nonpositive.
+\end{lemma}
+\begin{proof}
+Fix a birth cause outside the current roots and group roots by the
+lines they share with it. On an active ordinary line, the \(m\) root
+compensations contribute \(m\lambda_q\), while the factor
+\(r^{m-1}\) subtracts \((m-1)\lambda_q\); the group is killed at the
+birth. On a designated line of occupancy zero, the continuous
+contribution is \(\lambda_q/2\), and the group multiplier is
+\((1/2)^m(a_0/a_1)^{m-1}=1/2\). Occupancy one gives continuous
+contribution \(\lambda_q\) and multiplier zero. An empty ordinary
+line contributes nothing and has multiplier one.
+
+Thus each group has a multiplier \(J_i\in\{0,1/2,1\}\), and its
+combined relative drift is
+\[
+ \lambda_q\left[\sum_i(1-J_i)+\prod_iJ_i-1\right].
+\]
+For \(d_i=1-J_i\in[0,1]\), the finite Bonferroni inequality gives
+\[
+ 0\le\sum_i d_i-\left(1-\prod_i(1-d_i)\right)
+ \le\sum_{i<j}d_i d_j.
+\]
+One way to prove the upper bound is to introduce independent Bernoulli
+variables with success probabilities \(d_i\) just for this finite
+algebraic identity: if their sum is \(N\), then
+\(N-\ind_{N\ge1}\le\binom N2\), and take expectations.
+This auxiliary proof does not assume independence in the geometric
+process. Different groups supply a pair of roots whose baseline does
+not contain \(q\). The negative logarithmic drift of \(E_L\), namely
+\(-\sum_{\{a,b\}\subseteq L}\kappa_{ab}\), pays this upper bound.
+There is no jump cross term because \(E_L\) is continuous.
+If \(q\) is a root, its own continuous compensation and zeroing jump
+cancel; the shared-line correction cancels the other terms on its
+line. Thus internal causes introduce no extra positive drift.
+
+It remains to consider an unborn witness \(q\in D\). On a branch
+where all roots survive its birth, any shared ordinary line was
+previously empty, so its credit factor is one. A shared designated
+line containing \(k\ge1\) roots must previously have occupancy zero.
+Comparing the post-birth observation with the pre-birth source gives
+the exact factor
+\[
+ 2^{-k}a_1^{-(k-1)}a_0^k=a_1.
+\]
+The rate divided by the source's \(w_q\) is \(m_t(q)/n\).
+The witness factor supplies \(e_q(t)\), and \(E_L\) cancels exactly.
+There are at most \(g\) shared designated lines. This proves
+\eqref{eq:source}. Prior retirement of an auxiliary root only drops
+the observation to zero.
+\end{proof}
+
+\begin{proposition}[Mixed moments at a common stopping time]\label{prop:mixed}
+Write \(R=|L|\) and \(F_q^\beta(t)=\int_0^t\beta_q(u)\dd u\).
+On the stopped process,
+\begin{equation}\label{eq:mixed}
+ \E\Phi_{C,D}(t)\le
+ (1-\epsilon_n)^{-\binom R2}\prod_{q\in D}F_q^\beta(t).
+\end{equation}
+More precisely, for a deterministic \(h\le T\) and any common
+bounded stopping time \(\theta\le h\),
+\begin{equation}\label{eq:mixedstop}
+ \E\Phi_{C,D}(\theta)\le
+ (1-\epsilon_n)^{-\binom R2}\prod_{q\in D}F_q^\beta(h).
+\end{equation}
+The entire fixed-label hierarchy is frozen at the same \(\theta\),
+using the postgeometry, prepositive observation convention.
+\end{proposition}
+\begin{proof}
+For \(A\subseteq D\), abbreviate
+\[
+ Y_A(t)=Y_{C\cup(D\setminus A),A}(t),\qquad
+ h_q(t)=\int_t^h\beta_q(u)\dd u.
+\]
+Every \(Y_A\) uses the same label set \(L=C\cup D\). Define the
+nonnegative backward polynomial
+\begin{equation}\label{eq:backwardpoly}
+ \mathcal P(t)=\sum_{A\subseteq D}Y_A(t)
+                  \prod_{q\in D\setminus A}h_q(t),
+ \qquad 0\le t\le h.
+\end{equation}
+For \(q\in A\), the source of \(Y_A\) in Lemma~\ref{lem:source}
+is at most \(\beta_qY_{A\setminus\{q\}}\). In the summand indexed
+by \(A\setminus\{q\}\), differentiating its factor \(h_q\)
+gives exactly the opposite term, since \(h'_q=-\beta_q\).
+Thus all positive sources cancel term by term. The remaining
+drift and auxiliary-retirement jumps are nonpositive, so
+\(\mathcal P\) is a supermartingale. For fixed \(n\) and fixed
+finite labels all these stopped observations are bounded, as are
+the deterministic coefficients; no unlocalized local-martingale
+expectation is being used.
+
+At time zero all summands containing a witness vanish. The remaining
+root-only observation is at most one. Hence
+\[
+ \mathcal P(0)\le\prod_{q\in D}F_q^\beta(h),\qquad
+ \E Y_{C,D}(\theta)\le\E\mathcal P(\theta)\le\mathcal P(0).
+\]
+The first inequality follows from the \(A=D\) term of the
+nonnegative sum. Finally divide by the pathwise lower bound
+\(E_L\ge(1-\epsilon_n)^{\binom R2}\). This proves
+\eqref{eq:mixedstop}; set \(h=\theta=t\) for \eqref{eq:mixed}.
+The integrals on the right always end at the deterministic \(h\),
+not at the random \(\theta\).
+
+For clarity, saving a boundary observation before simultaneous
+positive retirements is implemented by freezing the whole auxiliary
+hierarchy at \(\theta\). It does not restore an auxiliary root
+that retired earlier. Lemma~\ref{lem:source} already holds after
+the geometric birth update without using the subsequent positive
+retirement, so it also applies to a birth that triggers this freeze.
+At a continuous boundary the values are unchanged by freezing.
+\end{proof}
+
+For fixed \(R\), the first factor in \eqref{eq:mixed} is \(1+o(1)\).
+Removing connection factors costs only a constant depending on
+\(R,g,K,\rho\), because \(r\ge\rho\) and \(a_N\le2/(2-K)\).
+In particular, products with \(j\) distinct born witnesses cost
+at most \(C_R(t/n)^j\). A repeated root weight is bounded by
+\(w^k\le B^{k-1}w\). A witness repeated many times is still just one
+birth and must not be charged as independent births.
+
+For estimates under \(\Prob^{(p)}\), put \(p\) among the roots of
+every member of the hierarchy, and freeze all of it at the first
+positive root boundary or global stop, capped at \(T\). Use the
+postgeometry, prepositive observation convention. Lemma~\ref{lem:pointlaw}
+then converts the expectation to the desired point-law moment.
+No witnesses born after this common boundary may be added.
+These conventions are needed for estimates at first crossings,
+not just at deterministic times. In the witness-free case the
+polynomial is the single observation itself. Its supermartingale
+property therefore also supplies conditional estimates between
+two observation times, as used below to remove ordinary-line credit.
+

@@ -1,0 +1,38 @@
+{
+  "edition": "0.2, 481-phase construction, 2026-11-10",
+  "prior_english_paper": {
+    "version": "0.1",
+    "pdf_sha256": "a3dd3e141803e6e7aa29e636514fce6d7954d1206af2007937fc81fe7b19fb0c"
+  },
+  "incoming_dossier": {
+    "filename": "no_three_all_in_one_2026-11-10.zip",
+    "sha256": "92fee7646d8079deee5ed865c585e12d10296646721567f406e94962a71f8114",
+    "mathematical_sources": {
+      "01_GEOMETRIC_ARGUMENT_JA.md": "23c47ade90a496ceac5a5ea4e65458c91b60102417752a2278b93fa51def67ff",
+      "02_CHECKER_SOUNDNESS_JA.md": "72c45f7846ee9149a610c73fed59e4c4a243f078c48e4fbdb0a3863dfbfbfe49",
+      "03_UNIFORM_BRIDGE_JA.md": "8e4bb8b2107a344d03e8c5ce30213a45236afc7e7a29b74cce4edba0a1478f64",
+      "04_ANALYTIC_SUPPLEMENT_JA.md": "6cfc21a1ef488c3472066b34c24efca8b621d0e81b61fcae24bc87732d7e3201",
+      "05_PROTECTED_CLOCK_EXPLICIT_JA.md": "0650b8657617f18a6a1062f7a09d1f5462997243989ae28c858ead2c18216f4f",
+      "06_FIXED_BUDGET_CLOSURE_JA.md": "b2b24bee858c923fb7c9f907237e135e96b3a5dc2c0970acb5f99d63f530fb99"
+    }
+  },
+  "integration": {
+    "geometry": [
+      "02_geometry.tex",
+      "05_certificates.tex"
+    ],
+    "common_stopping_and_concentration": [
+      "04a_moments.tex",
+      "04b_global.tex",
+      "04b_clock.tex",
+      "04c_risk.tex",
+      "04d_tags.tex"
+    ],
+    "fixed_budget_and_input": [
+      "01_overview.tex",
+      "06_application.tex"
+    ]
+  },
+  "changes_to_checker": "C++ mathematical sources and integer input unchanged; unsafe resumption removed from Python wrapper; fresh-directory provenance driver added.",
+  "authorship": "No named mathematical author; substantial AI involvement disclosed in manuscript and README."
+}

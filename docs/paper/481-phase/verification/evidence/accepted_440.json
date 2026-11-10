@@ -1,0 +1,20 @@
+{
+  "phase": 440,
+  "method": "tube",
+  "bins": 2048,
+  "global": false,
+  "cells": 774,
+  "failures": 0,
+  "max_units": "39458608418825",
+  "max_cell": [
+    1,
+    9,
+    104
+  ],
+  "risk_numerator": "749713559957675",
+  "risk_denominator": "750000000000000",
+  "seconds": 1.7423678539998946,
+  "risk_exact": "29988542398307/30000000000000",
+  "csv": "phase_440_tube.csv",
+  "csv_sha256": "2716643963cd449fdee99ea645edb6a01c5e81ac4c7a9109893b8885c1dee52a"
+}

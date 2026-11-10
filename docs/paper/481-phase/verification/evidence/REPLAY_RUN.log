@@ -1,0 +1,595 @@
+ACCEPT phase=0 method=tube cells=64 upper=0.996700110681623 seconds=0.277
+ACCEPT phase=1 method=tube cells=60 upper=0.997071795627035 seconds=0.318
+ACCEPT phase=2 method=tube cells=62 upper=0.998120311923620 seconds=0.311
+ACCEPT phase=3 method=tube cells=74 upper=0.997780027642012 seconds=0.370
+ACCEPT phase=4 method=tube cells=58 upper=0.997646872408769 seconds=0.321
+ACCEPT phase=5 method=tube cells=46 upper=0.998077639265476 seconds=0.266
+ACCEPT phase=6 method=tube cells=54 upper=0.998513720139615 seconds=0.291
+ACCEPT phase=7 method=tube cells=42 upper=0.997877974352569 seconds=0.296
+ACCEPT phase=8 method=tube cells=46 upper=0.998214160548472 seconds=0.284
+ACCEPT phase=9 method=tube cells=42 upper=0.998107788832480 seconds=0.262
+ACCEPT phase=10 method=tube cells=34 upper=0.998218545303264 seconds=0.268
+ACCEPT phase=11 method=tube cells=48 upper=0.997772856794759 seconds=0.269
+ACCEPT phase=12 method=tube cells=46 upper=0.997883899741513 seconds=0.275
+ACCEPT phase=13 method=tube cells=44 upper=0.997586151910165 seconds=0.282
+ACCEPT phase=14 method=tube cells=54 upper=0.997795040754111 seconds=0.289
+ACCEPT phase=15 method=tube cells=52 upper=0.997269636952824 seconds=0.296
+ACCEPT phase=16 method=tube cells=86 upper=0.998057830242664 seconds=0.307
+ACCEPT phase=17 method=tube cells=128 upper=0.997924185211563 seconds=0.345
+ACCEPT phase=18 method=tube cells=140 upper=0.998667512108275 seconds=0.385
+ACCEPT phase=19 method=tube cells=182 upper=0.997866568690645 seconds=0.428
+ACCEPT phase=20 method=tube cells=170 upper=0.996865096432415 seconds=0.480
+ACCEPT phase=21 method=tube cells=160 upper=0.997940425110823 seconds=0.430
+ACCEPT phase=22 method=tube cells=174 upper=0.997955327592660 seconds=0.416
+ACCEPT phase=23 method=tube cells=138 upper=0.997012732151161 seconds=0.409
+ACCEPT phase=24 method=tube cells=120 upper=0.998166869511029 seconds=0.375
+ACCEPT phase=25 method=tube cells=98 upper=0.997685928479664 seconds=0.372
+ACCEPT phase=26 method=tube cells=86 upper=0.997499083597827 seconds=0.337
+ACCEPT phase=27 method=tube cells=68 upper=0.997458633152880 seconds=0.327
+ACCEPT phase=28 method=tube cells=92 upper=0.998214065094296 seconds=0.357
+ACCEPT phase=29 method=tube cells=84 upper=0.997827069417441 seconds=0.337
+ACCEPT phase=30 method=tube cells=82 upper=0.997715356427327 seconds=0.361
+ACCEPT phase=31 method=tube cells=92 upper=0.998049063040921 seconds=0.383
+ACCEPT phase=32 method=tube cells=100 upper=0.998009263568528 seconds=0.381
+ACCEPT phase=33 method=tube cells=106 upper=0.998257157447417 seconds=0.385
+ACCEPT phase=34 method=tube cells=104 upper=0.998244379613499 seconds=0.402
+ACCEPT phase=35 method=tube cells=92 upper=0.997751432992727 seconds=0.368
+ACCEPT phase=36 method=tube cells=88 upper=0.997815107579512 seconds=0.380
+ACCEPT phase=37 method=tube cells=116 upper=0.998170859711593 seconds=0.436
+ACCEPT phase=38 method=tube cells=108 upper=0.998287648148883 seconds=0.396
+ACCEPT phase=39 method=tube cells=96 upper=0.998048135139821 seconds=0.376
+ACCEPT phase=40 method=tube cells=94 upper=0.998188815095241 seconds=0.390
+ACCEPT phase=41 method=tube cells=120 upper=0.998280435147849 seconds=0.427
+ACCEPT phase=42 method=tube cells=124 upper=0.997960038789973 seconds=0.472
+ACCEPT phase=43 method=tube cells=106 upper=0.997733310159039 seconds=0.440
+ACCEPT phase=44 method=tube cells=92 upper=0.997882744679175 seconds=0.388
+ACCEPT phase=45 method=tube cells=144 upper=0.998231631912972 seconds=0.431
+ACCEPT phase=46 method=tube cells=136 upper=0.998209649068316 seconds=0.456
+ACCEPT phase=47 method=tube cells=120 upper=0.998213633801339 seconds=0.427
+ACCEPT phase=48 method=tube cells=112 upper=0.998195827192327 seconds=0.435
+ACCEPT phase=49 method=tube cells=144 upper=0.998723160173155 seconds=0.442
+ACCEPT phase=50 method=tube cells=144 upper=0.998608431825635 seconds=0.467
+ACCEPT phase=51 method=tube cells=140 upper=0.998559036110844 seconds=0.488
+ACCEPT phase=52 method=tube cells=108 upper=0.998090682102807 seconds=0.438
+ACCEPT phase=53 method=tube cells=134 upper=0.997891224604464 seconds=0.466
+ACCEPT phase=54 method=tube cells=148 upper=0.998612319221328 seconds=0.505
+ACCEPT phase=55 method=tube cells=120 upper=0.997918921944093 seconds=0.463
+ACCEPT phase=56 method=tube cells=116 upper=0.998656611371427 seconds=0.471
+ACCEPT phase=57 method=tube cells=90 upper=0.998181913640805 seconds=0.421
+ACCEPT phase=58 method=tube cells=116 upper=0.997887599113359 seconds=0.435
+ACCEPT phase=59 method=tube cells=132 upper=0.998662476599911 seconds=0.453
+ACCEPT phase=60 method=tube cells=80 upper=0.997747696719081 seconds=0.401
+ACCEPT phase=61 method=tube cells=76 upper=0.997950574302949 seconds=0.376
+ACCEPT phase=62 method=tube cells=104 upper=0.997586970170347 seconds=0.403
+ACCEPT phase=63 method=tube cells=110 upper=0.998243821207755 seconds=0.441
+ACCEPT phase=64 method=tube cells=100 upper=0.997935553374884 seconds=0.436
+ACCEPT phase=65 method=tube cells=68 upper=0.997416381721215 seconds=0.366
+ACCEPT phase=66 method=tube cells=36 upper=0.997935371098257 seconds=0.330
+ACCEPT phase=67 method=tube cells=50 upper=0.998273079660597 seconds=0.344
+ACCEPT phase=68 method=tube cells=84 upper=0.997945108502295 seconds=0.376
+ACCEPT phase=69 method=tube cells=152 upper=0.998035973088201 seconds=0.475
+ACCEPT phase=70 method=tube cells=128 upper=0.997737506030245 seconds=0.471
+ACCEPT phase=71 method=tube cells=116 upper=0.997562196446420 seconds=0.419
+ACCEPT phase=72 method=tube cells=146 upper=0.998125121691591 seconds=0.467
+ACCEPT phase=73 method=tube cells=124 upper=0.997620974592200 seconds=0.459
+ACCEPT phase=74 method=tube cells=80 upper=0.997969254283644 seconds=0.414
+ACCEPT phase=75 method=tube cells=68 upper=0.998236364858876 seconds=0.395
+ACCEPT phase=76 method=tube cells=72 upper=0.997486772303740 seconds=0.396
+ACCEPT phase=77 method=tube cells=142 upper=0.997890641521089 seconds=0.472
+ACCEPT phase=78 method=tube cells=144 upper=0.998272880753879 seconds=0.501
+ACCEPT phase=79 method=tube cells=192 upper=0.998332468920300 seconds=0.556
+ACCEPT phase=80 method=tube cells=178 upper=0.997838791280405 seconds=0.552
+ACCEPT phase=81 method=tube cells=160 upper=0.998359076609093 seconds=0.532
+ACCEPT phase=82 method=tube cells=168 upper=0.997727413068669 seconds=0.522
+ACCEPT phase=83 method=tube cells=158 upper=0.997794394991028 seconds=0.543
+ACCEPT phase=84 method=tube cells=156 upper=0.998065724167344 seconds=0.510
+ACCEPT phase=85 method=tube cells=152 upper=0.998368667161219 seconds=0.541
+ACCEPT phase=86 method=tube cells=150 upper=0.998351466629052 seconds=0.538
+ACCEPT phase=87 method=tube cells=150 upper=0.997443526627205 seconds=0.557
+ACCEPT phase=88 method=tube cells=182 upper=0.998652661726641 seconds=0.598
+ACCEPT phase=89 method=tube cells=158 upper=0.998349445848813 seconds=0.556
+ACCEPT phase=90 method=tube cells=214 upper=0.998223355646859 seconds=0.617
+ACCEPT phase=91 method=tube cells=214 upper=0.998229834278664 seconds=0.611
+ACCEPT phase=92 method=tube cells=158 upper=0.998450718819121 seconds=0.563
+ACCEPT phase=93 method=tube cells=168 upper=0.997881941856113 seconds=0.576
+ACCEPT phase=94 method=tube cells=198 upper=0.998279028430941 seconds=0.636
+ACCEPT phase=95 method=tube cells=176 upper=0.998072083184801 seconds=0.619
+ACCEPT phase=96 method=tube cells=172 upper=0.998146589576485 seconds=0.620
+ACCEPT phase=97 method=tube cells=184 upper=0.997573597033875 seconds=0.590
+ACCEPT phase=98 method=tube cells=204 upper=0.997965776235427 seconds=0.637
+ACCEPT phase=99 method=tube cells=200 upper=0.998121994411063 seconds=0.629
+ACCEPT phase=100 method=tube cells=204 upper=0.998477807382512 seconds=0.646
+ACCEPT phase=101 method=tube cells=166 upper=0.998497891668204 seconds=0.601
+ACCEPT phase=102 method=tube cells=184 upper=0.997783461250243 seconds=0.611
+ACCEPT phase=103 method=tube cells=164 upper=0.998116739972133 seconds=0.580
+ACCEPT phase=104 method=tube cells=152 upper=0.998095776147409 seconds=0.564
+ACCEPT phase=105 method=tube cells=122 upper=0.997822828525887 seconds=0.524
+ACCEPT phase=106 method=tube cells=164 upper=0.998536116777721 seconds=0.566
+ACCEPT phase=107 method=tube cells=216 upper=0.997734090487949 seconds=0.642
+ACCEPT phase=108 method=tube cells=212 upper=0.997900064183945 seconds=0.661
+ACCEPT phase=109 method=tube cells=268 upper=0.998074463535987 seconds=0.730
+ACCEPT phase=110 method=tube cells=316 upper=0.997994653099084 seconds=0.734
+ACCEPT phase=111 method=tube cells=358 upper=0.998062509093592 seconds=0.831
+ACCEPT phase=112 method=tube cells=352 upper=0.999128803456857 seconds=0.849
+ACCEPT phase=113 method=tube cells=362 upper=0.997315326453211 seconds=0.848
+ACCEPT phase=114 method=tube cells=344 upper=0.997635370698653 seconds=0.840
+ACCEPT phase=115 method=tube cells=314 upper=0.997504334744740 seconds=0.801
+ACCEPT phase=116 method=tube cells=308 upper=0.997727840709700 seconds=0.789
+ACCEPT phase=117 method=tube cells=264 upper=0.997538994431601 seconds=0.768
+ACCEPT phase=118 method=tube cells=236 upper=0.997586448705669 seconds=0.716
+ACCEPT phase=119 method=tube cells=238 upper=0.997987387527001 seconds=0.714
+ACCEPT phase=120 method=tube cells=228 upper=0.997627414807956 seconds=0.701
+ACCEPT phase=121 method=tube cells=216 upper=0.997366275148480 seconds=0.681
+ACCEPT phase=122 method=tube cells=222 upper=0.998129674519116 seconds=0.706
+ACCEPT phase=123 method=tube cells=204 upper=0.997329197690592 seconds=0.705
+ACCEPT phase=124 method=tube cells=222 upper=0.998066805785081 seconds=0.706
+ACCEPT phase=125 method=tube cells=196 upper=0.997552171503755 seconds=0.696
+ACCEPT phase=126 method=tube cells=244 upper=0.997814637991801 seconds=0.781
+ACCEPT phase=127 method=tube cells=230 upper=0.998256446131421 seconds=0.758
+ACCEPT phase=128 method=tube cells=232 upper=0.997983108450437 seconds=0.737
+ACCEPT phase=129 method=tube cells=234 upper=0.999626870468671 seconds=0.739
+ACCEPT phase=130 method=tube cells=252 upper=0.998998282538655 seconds=0.774
+ACCEPT phase=131 method=tube cells=262 upper=0.998645910447217 seconds=0.802
+ACCEPT phase=132 method=tube cells=302 upper=0.998283759012840 seconds=0.838
+ACCEPT phase=133 method=tube cells=284 upper=0.997173949322076 seconds=0.878
+ACCEPT phase=134 method=tube cells=326 upper=0.998719304943904 seconds=0.951
+ACCEPT phase=135 method=tube cells=334 upper=0.998809452030581 seconds=0.884
+ACCEPT phase=136 method=tube cells=366 upper=0.998554182132027 seconds=0.932
+ACCEPT phase=137 method=tube cells=402 upper=0.997645071900825 seconds=0.987
+ACCEPT phase=138 method=tube cells=386 upper=0.997563574977233 seconds=0.972
+ACCEPT phase=139 method=tube cells=414 upper=0.999421577343819 seconds=1.025
+ACCEPT phase=140 method=tube cells=412 upper=0.998729057341753 seconds=1.038
+ACCEPT phase=141 method=tube cells=410 upper=0.998284843922467 seconds=1.039
+ACCEPT phase=142 method=tube cells=410 upper=0.997874041955807 seconds=1.005
+ACCEPT phase=143 method=tube cells=390 upper=0.998276867011765 seconds=0.998
+ACCEPT phase=144 method=tube cells=372 upper=0.998639562359725 seconds=0.969
+ACCEPT phase=145 method=tube cells=338 upper=0.997684967038421 seconds=0.952
+ACCEPT phase=146 method=tube cells=332 upper=0.999396041631833 seconds=0.929
+ACCEPT phase=147 method=tube cells=294 upper=0.997963664956871 seconds=0.865
+ACCEPT phase=148 method=tube cells=304 upper=0.997904626947736 seconds=0.909
+ACCEPT phase=149 method=tube cells=310 upper=0.999071015634752 seconds=0.902
+ACCEPT phase=150 method=tube cells=264 upper=0.998128916965328 seconds=0.831
+ACCEPT phase=151 method=tube cells=286 upper=0.998451990405192 seconds=0.891
+ACCEPT phase=152 method=tube cells=266 upper=0.997833426243033 seconds=0.835
+ACCEPT phase=153 method=tube cells=276 upper=0.997776033567500 seconds=0.857
+ACCEPT phase=154 method=tube cells=286 upper=0.998347410438347 seconds=0.892
+ACCEPT phase=155 method=tube cells=288 upper=0.998129098744104 seconds=0.898
+ACCEPT phase=156 method=tube cells=306 upper=0.998720067333420 seconds=0.899
+ACCEPT phase=157 method=tube cells=312 upper=0.998405191828420 seconds=0.935
+ACCEPT phase=158 method=tube cells=338 upper=0.998688091041031 seconds=0.960
+ACCEPT phase=159 method=tube cells=362 upper=0.998523029581040 seconds=0.972
+ACCEPT phase=160 method=tube cells=356 upper=0.998289831634760 seconds=0.981
+ACCEPT phase=161 method=tube cells=382 upper=0.997875837304719 seconds=1.024
+ACCEPT phase=162 method=tube cells=398 upper=0.998262009327444 seconds=1.043
+ACCEPT phase=163 method=tube cells=426 upper=0.998350747091528 seconds=1.087
+ACCEPT phase=164 method=tube cells=392 upper=0.998105856966795 seconds=1.018
+ACCEPT phase=165 method=tube cells=374 upper=0.998262020190707 seconds=1.014
+ACCEPT phase=166 method=tube cells=352 upper=0.998422091275567 seconds=0.982
+ACCEPT phase=167 method=tube cells=340 upper=0.998651448932853 seconds=0.955
+ACCEPT phase=168 method=tube cells=320 upper=0.997493146308372 seconds=0.961
+phase=169 tube: 124 upper bounds too coarse; trying fallback
+ACCEPT phase=169 method=farey cells=516 upper=0.999459844524681 seconds=12.611
+phase=170 tube: 158 upper bounds too coarse; trying fallback
+ACCEPT phase=170 method=farey cells=518 upper=0.999718400236547 seconds=12.521
+phase=171 tube: 144 upper bounds too coarse; trying fallback
+ACCEPT phase=171 method=farey cells=514 upper=0.999786146919317 seconds=12.555
+phase=172 tube: 164 upper bounds too coarse; trying fallback
+ACCEPT phase=172 method=farey cells=524 upper=0.999814254140373 seconds=12.910
+phase=173 tube: 136 upper bounds too coarse; trying fallback
+ACCEPT phase=173 method=farey cells=484 upper=0.999859111134683 seconds=11.841
+phase=174 tube: 164 upper bounds too coarse; trying fallback
+ACCEPT phase=174 method=farey cells=508 upper=0.999831531746167 seconds=12.219
+phase=175 tube: 194 upper bounds too coarse; trying fallback
+ACCEPT phase=175 method=farey cells=542 upper=0.999756428767453 seconds=13.195
+phase=176 tube: 174 upper bounds too coarse; trying fallback
+ACCEPT phase=176 method=farey cells=552 upper=0.999851804253484 seconds=13.292
+phase=177 tube: 196 upper bounds too coarse; trying fallback
+ACCEPT phase=177 method=farey cells=600 upper=0.999763978838468 seconds=14.213
+phase=178 tube: 172 upper bounds too coarse; trying fallback
+ACCEPT phase=178 method=farey cells=608 upper=0.999857132166199 seconds=14.260
+phase=179 tube: 152 upper bounds too coarse; trying fallback
+ACCEPT phase=179 method=farey cells=610 upper=0.999861849741685 seconds=14.468
+phase=180 tube: 140 upper bounds too coarse; trying fallback
+ACCEPT phase=180 method=farey cells=580 upper=0.999899215782948 seconds=13.984
+phase=181 tube: 164 upper bounds too coarse; trying fallback
+ACCEPT phase=181 method=farey cells=566 upper=0.999877086917415 seconds=14.146
+phase=182 tube: 200 upper bounds too coarse; trying fallback
+ACCEPT phase=182 method=farey cells=558 upper=0.999889586352035 seconds=13.949
+phase=183 tube: 132 upper bounds too coarse; trying fallback
+ACCEPT phase=183 method=farey cells=480 upper=0.999562450823840 seconds=12.513
+phase=184 tube: 128 upper bounds too coarse; trying fallback
+ACCEPT phase=184 method=farey cells=436 upper=0.999838202161135 seconds=11.576
+phase=185 tube: 156 upper bounds too coarse; trying fallback
+ACCEPT phase=185 method=farey cells=438 upper=0.999749092459055 seconds=11.578
+phase=186 tube: 144 upper bounds too coarse; trying fallback
+ACCEPT phase=186 method=farey cells=448 upper=0.999693801934021 seconds=12.358
+phase=187 tube: 164 upper bounds too coarse; trying fallback
+ACCEPT phase=187 method=farey cells=514 upper=0.999847853036107 seconds=12.892
+phase=188 tube: 182 upper bounds too coarse; trying fallback
+ACCEPT phase=188 method=farey cells=518 upper=0.999897226018411 seconds=13.564
+phase=189 tube: 202 upper bounds too coarse; trying fallback
+ACCEPT phase=189 method=farey cells=564 upper=0.999694850924604 seconds=14.241
+phase=190 tube: 222 upper bounds too coarse; trying fallback
+ACCEPT phase=190 method=farey cells=598 upper=0.999885344701392 seconds=14.936
+phase=191 tube: 184 upper bounds too coarse; trying fallback
+ACCEPT phase=191 method=farey cells=632 upper=0.999721118806605 seconds=15.579
+phase=192 tube: 198 upper bounds too coarse; trying fallback
+ACCEPT phase=192 method=farey cells=632 upper=0.999875575915891 seconds=15.467
+phase=193 tube: 212 upper bounds too coarse; trying fallback
+ACCEPT phase=193 method=farey cells=612 upper=0.999898810809272 seconds=15.479
+phase=194 tube: 232 upper bounds too coarse; trying fallback
+ACCEPT phase=194 method=farey cells=610 upper=0.999889697878387 seconds=14.977
+phase=195 tube: 180 upper bounds too coarse; trying fallback
+ACCEPT phase=195 method=farey cells=562 upper=0.999876657178733 seconds=14.169
+phase=196 tube: 220 upper bounds too coarse; trying fallback
+ACCEPT phase=196 method=farey cells=590 upper=0.999894968958656 seconds=15.035
+phase=197 tube: 188 upper bounds too coarse; trying fallback
+ACCEPT phase=197 method=farey cells=578 upper=0.999861919804109 seconds=14.502
+phase=198 tube: 192 upper bounds too coarse; trying fallback
+ACCEPT phase=198 method=farey cells=586 upper=0.999893076788632 seconds=14.740
+phase=199 tube: 168 upper bounds too coarse; trying fallback
+ACCEPT phase=199 method=farey cells=558 upper=0.999688469386675 seconds=14.314
+phase=200 tube: 192 upper bounds too coarse; trying fallback
+ACCEPT phase=200 method=farey cells=586 upper=0.999898406774044 seconds=14.633
+phase=201 tube: 164 upper bounds too coarse; trying fallback
+ACCEPT phase=201 method=farey cells=562 upper=0.999754211297568 seconds=14.177
+phase=202 tube: 196 upper bounds too coarse; trying fallback
+ACCEPT phase=202 method=farey cells=574 upper=0.999878686656285 seconds=13.810
+phase=203 tube: 164 upper bounds too coarse; trying fallback
+ACCEPT phase=203 method=farey cells=546 upper=0.999724618155824 seconds=13.200
+phase=204 tube: 156 upper bounds too coarse; trying fallback
+ACCEPT phase=204 method=farey cells=526 upper=0.999827332632648 seconds=12.414
+phase=205 tube: 144 upper bounds too coarse; trying fallback
+ACCEPT phase=205 method=farey cells=542 upper=0.999899462797515 seconds=12.093
+phase=206 tube: 136 upper bounds too coarse; trying fallback
+ACCEPT phase=206 method=farey cells=562 upper=0.999724163316597 seconds=12.174
+phase=207 tube: 176 upper bounds too coarse; trying fallback
+ACCEPT phase=207 method=farey cells=634 upper=0.999868751052608 seconds=13.005
+phase=208 tube: 216 upper bounds too coarse; trying fallback
+ACCEPT phase=208 method=farey cells=780 upper=0.999781093648740 seconds=14.615
+phase=209 tube: 162 upper bounds too coarse; trying fallback
+ACCEPT phase=209 method=farey cells=678 upper=0.999814518575913 seconds=12.571
+phase=210 tube: 88 upper bounds too coarse; trying fallback
+ACCEPT phase=210 method=farey cells=380 upper=0.999861035343621 seconds=7.743
+phase=211 tube: 92 upper bounds too coarse; trying fallback
+ACCEPT phase=211 method=farey cells=318 upper=0.999785406553233 seconds=6.497
+phase=212 tube: 118 upper bounds too coarse; trying fallback
+ACCEPT phase=212 method=farey cells=292 upper=0.999835434280655 seconds=6.104
+phase=213 tube: 132 upper bounds too coarse; trying fallback
+ACCEPT phase=213 method=farey cells=326 upper=0.999897344296856 seconds=6.493
+phase=214 tube: 152 upper bounds too coarse; trying fallback
+ACCEPT phase=214 method=farey cells=346 upper=0.999896437701191 seconds=6.469
+phase=215 tube: 52 upper bounds too coarse; trying fallback
+ACCEPT phase=215 method=farey cells=234 upper=0.999763770267919 seconds=4.906
+phase=216 tube: 28 upper bounds too coarse; trying fallback
+ACCEPT phase=216 method=farey cells=150 upper=0.999764143796493 seconds=3.889
+phase=217 tube: 46 upper bounds too coarse; trying fallback
+ACCEPT phase=217 method=farey cells=146 upper=0.999105852377015 seconds=3.928
+phase=218 tube: 44 upper bounds too coarse; trying fallback
+ACCEPT phase=218 method=farey cells=148 upper=0.999870706665684 seconds=3.252
+phase=219 tube: 52 upper bounds too coarse; trying fallback
+ACCEPT phase=219 method=farey cells=158 upper=0.999887936616057 seconds=3.419
+phase=220 tube: 56 upper bounds too coarse; trying fallback
+ACCEPT phase=220 method=farey cells=164 upper=0.999872760581416 seconds=3.648
+phase=221 tube: 44 upper bounds too coarse; trying fallback
+ACCEPT phase=221 method=farey cells=166 upper=0.999844285211243 seconds=3.748
+phase=222 tube: 48 upper bounds too coarse; trying fallback
+ACCEPT phase=222 method=farey cells=176 upper=0.999593882126259 seconds=4.126
+phase=223 tube: 42 upper bounds too coarse; trying fallback
+ACCEPT phase=223 method=farey cells=186 upper=0.999844751973400 seconds=4.148
+phase=224 tube: 52 upper bounds too coarse; trying fallback
+ACCEPT phase=224 method=farey cells=196 upper=0.999604616635729 seconds=4.360
+phase=225 tube: 48 upper bounds too coarse; trying fallback
+ACCEPT phase=225 method=farey cells=208 upper=0.999864281726131 seconds=4.607
+phase=226 tube: 54 upper bounds too coarse; trying fallback
+ACCEPT phase=226 method=farey cells=206 upper=0.999148862349201 seconds=4.688
+phase=227 tube: 32 upper bounds too coarse; trying fallback
+ACCEPT phase=227 method=farey cells=204 upper=0.999304032737512 seconds=4.716
+phase=228 tube: 46 upper bounds too coarse; trying fallback
+ACCEPT phase=228 method=farey cells=206 upper=0.999888289737720 seconds=4.766
+phase=229 tube: 52 upper bounds too coarse; trying fallback
+ACCEPT phase=229 method=farey cells=208 upper=0.999599629086532 seconds=4.749
+phase=230 tube: 40 upper bounds too coarse; trying fallback
+ACCEPT phase=230 method=farey cells=204 upper=0.999488502282239 seconds=4.620
+phase=231 tube: 48 upper bounds too coarse; trying fallback
+ACCEPT phase=231 method=farey cells=210 upper=0.999692305844660 seconds=4.813
+phase=232 tube: 52 upper bounds too coarse; trying fallback
+ACCEPT phase=232 method=farey cells=208 upper=0.999487516514409 seconds=4.695
+phase=233 tube: 56 upper bounds too coarse; trying fallback
+ACCEPT phase=233 method=farey cells=210 upper=0.999748724727203 seconds=4.736
+phase=234 tube: 52 upper bounds too coarse; trying fallback
+ACCEPT phase=234 method=farey cells=196 upper=0.999177526671360 seconds=4.475
+phase=235 tube: 64 upper bounds too coarse; trying fallback
+ACCEPT phase=235 method=farey cells=210 upper=0.999693543935605 seconds=4.803
+phase=236 tube: 52 upper bounds too coarse; trying fallback
+ACCEPT phase=236 method=farey cells=200 upper=0.999734774588775 seconds=4.495
+phase=237 tube: 54 upper bounds too coarse; trying fallback
+ACCEPT phase=237 method=farey cells=208 upper=0.999730172472488 seconds=5.365
+phase=238 tube: 50 upper bounds too coarse; trying fallback
+ACCEPT phase=238 method=farey cells=208 upper=0.999770826808917 seconds=5.382
+phase=239 tube: 52 upper bounds too coarse; trying fallback
+ACCEPT phase=239 method=farey cells=224 upper=0.999892231964297 seconds=5.686
+phase=240 tube: 60 upper bounds too coarse; trying fallback
+ACCEPT phase=240 method=farey cells=234 upper=0.999248260668448 seconds=5.949
+phase=241 tube: 34 upper bounds too coarse; trying fallback
+ACCEPT phase=241 method=farey cells=236 upper=0.999371402539829 seconds=6.064
+phase=242 tube: 50 upper bounds too coarse; trying fallback
+ACCEPT phase=242 method=farey cells=248 upper=0.999626235996807 seconds=6.731
+phase=243 tube: 62 upper bounds too coarse; trying fallback
+ACCEPT phase=243 method=farey cells=254 upper=0.999493470463647 seconds=6.769
+phase=244 tube: 72 upper bounds too coarse; trying fallback
+ACCEPT phase=244 method=farey cells=272 upper=0.999841918636071 seconds=7.245
+phase=245 tube: 62 upper bounds too coarse; trying fallback
+ACCEPT phase=245 method=farey cells=260 upper=0.999729636676288 seconds=7.231
+phase=246 tube: 86 upper bounds too coarse; trying fallback
+ACCEPT phase=246 method=farey cells=268 upper=0.999703100035461 seconds=7.244
+phase=247 tube: 72 upper bounds too coarse; trying fallback
+ACCEPT phase=247 method=farey cells=254 upper=0.999658416925428 seconds=6.791
+phase=248 tube: 86 upper bounds too coarse; trying fallback
+ACCEPT phase=248 method=farey cells=268 upper=0.999884397414693 seconds=7.505
+phase=249 tube: 58 upper bounds too coarse; trying fallback
+ACCEPT phase=249 method=farey cells=234 upper=0.999798963737385 seconds=6.669
+phase=250 tube: 80 upper bounds too coarse; trying fallback
+ACCEPT phase=250 method=farey cells=252 upper=0.999846443682961 seconds=7.324
+phase=251 tube: 60 upper bounds too coarse; trying fallback
+ACCEPT phase=251 method=farey cells=240 upper=0.999886021764365 seconds=6.907
+phase=252 tube: 64 upper bounds too coarse; trying fallback
+ACCEPT phase=252 method=farey cells=254 upper=0.999699828248229 seconds=7.194
+phase=253 tube: 66 upper bounds too coarse; trying fallback
+ACCEPT phase=253 method=farey cells=276 upper=0.999637909525747 seconds=7.983
+phase=254 tube: 76 upper bounds too coarse; trying fallback
+ACCEPT phase=254 method=farey cells=276 upper=0.999763781496741 seconds=7.742
+phase=255 tube: 86 upper bounds too coarse; trying fallback
+ACCEPT phase=255 method=farey cells=308 upper=0.999755322354665 seconds=8.442
+phase=256 tube: 48 upper bounds too coarse; trying fallback
+ACCEPT phase=256 method=farey cells=254 upper=0.998837111048832 seconds=6.773
+phase=257 tube: 132 upper bounds too coarse; trying fallback
+ACCEPT phase=257 method=farey cells=336 upper=0.999866343378283 seconds=9.017
+phase=258 tube: 60 upper bounds too coarse; trying fallback
+ACCEPT phase=258 method=farey cells=280 upper=0.999684610885548 seconds=7.835
+phase=259 tube: 68 upper bounds too coarse; trying fallback
+ACCEPT phase=259 method=farey cells=282 upper=0.999897380448891 seconds=8.335
+phase=260 tube: 94 upper bounds too coarse; trying fallback
+ACCEPT phase=260 method=farey cells=308 upper=0.999876068609603 seconds=8.732
+phase=261 tube: 90 upper bounds too coarse; trying fallback
+ACCEPT phase=261 method=farey cells=302 upper=0.999865755138916 seconds=7.583
+phase=262 tube: 114 upper bounds too coarse; trying fallback
+ACCEPT phase=262 method=farey cells=358 upper=0.999857163812700 seconds=9.531
+phase=263 tube: 84 upper bounds too coarse; trying fallback
+ACCEPT phase=263 method=farey cells=358 upper=0.999839082600589 seconds=9.042
+ACCEPT phase=264 method=tube cells=302 upper=0.999659067262495 seconds=0.780
+ACCEPT phase=265 method=tube cells=316 upper=0.999831357437988 seconds=0.807
+ACCEPT phase=266 method=tube cells=352 upper=0.999841106373227 seconds=0.972
+ACCEPT phase=267 method=tube cells=338 upper=0.999759776256740 seconds=1.037
+ACCEPT phase=268 method=tube cells=338 upper=0.999651032969260 seconds=0.943
+ACCEPT phase=269 method=tube cells=342 upper=0.999669661713592 seconds=0.993
+ACCEPT phase=270 method=tube cells=308 upper=0.999894152376352 seconds=0.941
+ACCEPT phase=271 method=tube cells=294 upper=0.999852039218656 seconds=0.914
+ACCEPT phase=272 method=tube cells=298 upper=0.999789268374065 seconds=0.976
+ACCEPT phase=273 method=tube cells=278 upper=0.999829548541595 seconds=0.937
+ACCEPT phase=274 method=tube cells=268 upper=0.999801496070863 seconds=0.876
+ACCEPT phase=275 method=tube cells=290 upper=0.999851646318644 seconds=0.934
+ACCEPT phase=276 method=tube cells=278 upper=0.999861324610084 seconds=0.962
+ACCEPT phase=277 method=tube cells=284 upper=0.999807150440919 seconds=0.927
+ACCEPT phase=278 method=tube cells=286 upper=0.999847229686792 seconds=0.903
+ACCEPT phase=279 method=tube cells=328 upper=0.999684170469981 seconds=1.002
+ACCEPT phase=280 method=tube cells=330 upper=0.999891430701947 seconds=1.054
+ACCEPT phase=281 method=tube cells=338 upper=0.999878332800564 seconds=0.955
+ACCEPT phase=282 method=tube cells=362 upper=0.999855873873719 seconds=1.066
+ACCEPT phase=283 method=tube cells=360 upper=0.999875083518807 seconds=1.095
+ACCEPT phase=284 method=tube cells=342 upper=0.999870854281345 seconds=1.080
+ACCEPT phase=285 method=tube cells=402 upper=0.999879062798323 seconds=1.162
+ACCEPT phase=286 method=tube cells=358 upper=0.999843681988096 seconds=1.111
+ACCEPT phase=287 method=tube cells=382 upper=0.999771970986105 seconds=1.135
+ACCEPT phase=288 method=tube cells=378 upper=0.999866903277173 seconds=1.124
+ACCEPT phase=289 method=tube cells=352 upper=0.999743730882875 seconds=1.130
+ACCEPT phase=290 method=tube cells=390 upper=0.999879852229272 seconds=1.172
+ACCEPT phase=291 method=tube cells=356 upper=0.999775252906544 seconds=1.155
+ACCEPT phase=292 method=tube cells=380 upper=0.999883643040163 seconds=1.187
+ACCEPT phase=293 method=tube cells=398 upper=0.999867936421908 seconds=1.241
+ACCEPT phase=294 method=tube cells=386 upper=0.999889208114728 seconds=1.209
+ACCEPT phase=295 method=tube cells=404 upper=0.999819232976399 seconds=1.215
+ACCEPT phase=296 method=tube cells=424 upper=0.999816988304011 seconds=1.283
+ACCEPT phase=297 method=tube cells=410 upper=0.999826143039051 seconds=1.303
+ACCEPT phase=298 method=tube cells=426 upper=0.999808243014639 seconds=1.321
+ACCEPT phase=299 method=tube cells=436 upper=0.999883872650375 seconds=1.298
+ACCEPT phase=300 method=tube cells=464 upper=0.999880479545432 seconds=1.349
+ACCEPT phase=301 method=tube cells=462 upper=0.999883016568692 seconds=1.381
+ACCEPT phase=302 method=tube cells=502 upper=0.999837604986600 seconds=1.412
+ACCEPT phase=303 method=tube cells=572 upper=0.999890058181923 seconds=1.499
+ACCEPT phase=304 method=tube cells=608 upper=0.999858111521984 seconds=1.554
+ACCEPT phase=305 method=tube cells=614 upper=0.999884182592916 seconds=1.550
+ACCEPT phase=306 method=tube cells=594 upper=0.999715860573325 seconds=1.555
+ACCEPT phase=307 method=tube cells=594 upper=0.999895809655507 seconds=1.527
+ACCEPT phase=308 method=tube cells=632 upper=0.999754185617903 seconds=1.590
+ACCEPT phase=309 method=tube cells=578 upper=0.999864158256936 seconds=1.547
+ACCEPT phase=310 method=tube cells=574 upper=0.999818346386036 seconds=1.540
+ACCEPT phase=311 method=tube cells=546 upper=0.999872233069419 seconds=1.497
+ACCEPT phase=312 method=tube cells=550 upper=0.999844277557941 seconds=1.539
+ACCEPT phase=313 method=tube cells=500 upper=0.999860319007597 seconds=1.457
+ACCEPT phase=314 method=tube cells=498 upper=0.999863282001965 seconds=1.439
+ACCEPT phase=315 method=tube cells=524 upper=0.999824808320920 seconds=1.479
+ACCEPT phase=316 method=tube cells=536 upper=0.999885197575855 seconds=1.479
+ACCEPT phase=317 method=tube cells=568 upper=0.999850601279783 seconds=1.565
+ACCEPT phase=318 method=tube cells=588 upper=0.999869214739577 seconds=1.557
+ACCEPT phase=319 method=tube cells=670 upper=0.999871916983620 seconds=1.687
+ACCEPT phase=320 method=tube cells=624 upper=0.999883017498020 seconds=1.642
+ACCEPT phase=321 method=tube cells=648 upper=0.999766843760232 seconds=1.652
+ACCEPT phase=322 method=tube cells=628 upper=0.999859213351541 seconds=1.606
+ACCEPT phase=323 method=tube cells=656 upper=0.999885300611917 seconds=1.670
+ACCEPT phase=324 method=tube cells=602 upper=0.999884684693680 seconds=1.648
+ACCEPT phase=325 method=tube cells=600 upper=0.999887721610512 seconds=1.599
+ACCEPT phase=326 method=tube cells=518 upper=0.999833338092000 seconds=1.475
+ACCEPT phase=327 method=tube cells=522 upper=0.999880479117957 seconds=1.520
+ACCEPT phase=328 method=tube cells=504 upper=0.999846409436956 seconds=1.466
+ACCEPT phase=329 method=tube cells=480 upper=0.999884938941496 seconds=1.440
+ACCEPT phase=330 method=tube cells=454 upper=0.999876151060077 seconds=1.394
+ACCEPT phase=331 method=tube cells=460 upper=0.999855571000824 seconds=1.393
+ACCEPT phase=332 method=tube cells=492 upper=0.999885056774581 seconds=1.537
+ACCEPT phase=333 method=tube cells=460 upper=0.999849842766824 seconds=1.441
+ACCEPT phase=334 method=tube cells=526 upper=0.999803706589864 seconds=1.492
+ACCEPT phase=335 method=tube cells=500 upper=0.999875236260693 seconds=1.475
+ACCEPT phase=336 method=tube cells=558 upper=0.999877155292993 seconds=1.513
+ACCEPT phase=337 method=tube cells=602 upper=0.999696223569977 seconds=1.578
+ACCEPT phase=338 method=tube cells=604 upper=0.999865643991095 seconds=1.565
+ACCEPT phase=339 method=tube cells=650 upper=0.999885135183984 seconds=1.665
+ACCEPT phase=340 method=tube cells=690 upper=0.999880983575127 seconds=1.689
+ACCEPT phase=341 method=tube cells=688 upper=0.999862177367172 seconds=1.647
+ACCEPT phase=342 method=tube cells=782 upper=0.999893528168516 seconds=1.797
+ACCEPT phase=343 method=tube cells=776 upper=0.999879479282655 seconds=1.807
+ACCEPT phase=344 method=tube cells=840 upper=0.999824695768593 seconds=1.913
+ACCEPT phase=345 method=tube cells=850 upper=0.999875110509447 seconds=1.911
+ACCEPT phase=346 method=tube cells=916 upper=0.999887779208911 seconds=2.009
+ACCEPT phase=347 method=tube cells=912 upper=0.999896038176081 seconds=2.084
+ACCEPT phase=348 method=tube cells=934 upper=0.999847908997491 seconds=2.037
+ACCEPT phase=349 method=tube cells=874 upper=0.999834376818555 seconds=1.976
+ACCEPT phase=350 method=tube cells=918 upper=0.999832683585523 seconds=2.072
+ACCEPT phase=351 method=tube cells=890 upper=0.999849538338665 seconds=2.020
+ACCEPT phase=352 method=tube cells=924 upper=0.999882432414604 seconds=2.037
+ACCEPT phase=353 method=tube cells=896 upper=0.999799592080913 seconds=1.974
+ACCEPT phase=354 method=tube cells=904 upper=0.999731916675427 seconds=2.054
+ACCEPT phase=355 method=tube cells=886 upper=0.999824003461565 seconds=2.055
+ACCEPT phase=356 method=tube cells=846 upper=0.999882238176717 seconds=2.028
+ACCEPT phase=357 method=tube cells=804 upper=0.999847986232795 seconds=1.975
+ACCEPT phase=358 method=tube cells=784 upper=0.999894902818085 seconds=2.069
+ACCEPT phase=359 method=tube cells=752 upper=0.999888797501700 seconds=1.996
+ACCEPT phase=360 method=tube cells=790 upper=0.999852396212367 seconds=1.915
+ACCEPT phase=361 method=tube cells=1064 upper=0.999867035290136 seconds=2.202
+ACCEPT phase=362 method=tube cells=996 upper=0.999813404830088 seconds=2.148
+ACCEPT phase=363 method=tube cells=722 upper=0.999818912238716 seconds=1.832
+ACCEPT phase=364 method=tube cells=812 upper=0.999851780508880 seconds=1.962
+ACCEPT phase=365 method=tube cells=788 upper=0.999855052738812 seconds=1.854
+ACCEPT phase=366 method=tube cells=684 upper=0.999874637287315 seconds=1.715
+ACCEPT phase=367 method=tube cells=686 upper=0.999897919182921 seconds=1.731
+ACCEPT phase=368 method=tube cells=708 upper=0.999872692880717 seconds=1.768
+ACCEPT phase=369 method=tube cells=894 upper=0.999865888096939 seconds=2.057
+ACCEPT phase=370 method=tube cells=1094 upper=0.999885788318231 seconds=2.126
+ACCEPT phase=371 method=tube cells=1324 upper=0.999793346544933 seconds=2.366
+ACCEPT phase=372 method=tube cells=2006 upper=0.999899000155368 seconds=2.889
+ACCEPT phase=373 method=tube cells=1292 upper=0.999784165185624 seconds=2.104
+ACCEPT phase=374 method=tube cells=896 upper=0.999788125023099 seconds=1.679
+ACCEPT phase=375 method=tube cells=816 upper=0.999821060581889 seconds=1.649
+ACCEPT phase=376 method=tube cells=726 upper=0.999872321800331 seconds=1.462
+ACCEPT phase=377 method=tube cells=640 upper=0.999818832514513 seconds=1.364
+ACCEPT phase=378 method=tube cells=578 upper=0.999880713842437 seconds=1.310
+ACCEPT phase=379 method=tube cells=502 upper=0.999774784514212 seconds=1.193
+ACCEPT phase=380 method=tube cells=468 upper=0.999649776106289 seconds=1.157
+ACCEPT phase=381 method=tube cells=406 upper=0.999817075146601 seconds=1.066
+ACCEPT phase=382 method=tube cells=402 upper=0.999850202469783 seconds=1.053
+ACCEPT phase=383 method=tube cells=358 upper=0.999784999773291 seconds=1.013
+ACCEPT phase=384 method=tube cells=374 upper=0.999851472345499 seconds=1.051
+ACCEPT phase=385 method=tube cells=348 upper=0.999867831538463 seconds=0.993
+ACCEPT phase=386 method=tube cells=398 upper=0.999821956171995 seconds=1.070
+ACCEPT phase=387 method=tube cells=382 upper=0.999865771934688 seconds=1.051
+ACCEPT phase=388 method=tube cells=402 upper=0.999795310145533 seconds=1.067
+ACCEPT phase=389 method=tube cells=432 upper=0.999893388819881 seconds=1.182
+ACCEPT phase=390 method=tube cells=490 upper=0.999742926935419 seconds=1.253
+ACCEPT phase=391 method=tube cells=500 upper=0.999782024465960 seconds=1.267
+ACCEPT phase=392 method=tube cells=518 upper=0.999654247436431 seconds=1.272
+ACCEPT phase=393 method=tube cells=528 upper=0.999895969366264 seconds=1.307
+ACCEPT phase=394 method=tube cells=502 upper=0.999790536494612 seconds=1.262
+ACCEPT phase=395 method=tube cells=552 upper=0.999883699194080 seconds=1.372
+ACCEPT phase=396 method=tube cells=560 upper=0.999800866493931 seconds=1.343
+ACCEPT phase=397 method=tube cells=566 upper=0.999773310485269 seconds=1.386
+ACCEPT phase=398 method=tube cells=544 upper=0.999837060567313 seconds=1.306
+ACCEPT phase=399 method=tube cells=532 upper=0.999846855997908 seconds=1.345
+ACCEPT phase=400 method=tube cells=502 upper=0.999895914914595 seconds=1.362
+ACCEPT phase=401 method=tube cells=466 upper=0.999617619583016 seconds=1.265
+ACCEPT phase=402 method=tube cells=482 upper=0.999889617612836 seconds=1.273
+ACCEPT phase=403 method=tube cells=482 upper=0.999897366697425 seconds=1.232
+ACCEPT phase=404 method=tube cells=478 upper=0.999832775623651 seconds=1.266
+ACCEPT phase=405 method=tube cells=448 upper=0.999862570992148 seconds=1.216
+ACCEPT phase=406 method=tube cells=444 upper=0.999656361168013 seconds=1.218
+ACCEPT phase=407 method=tube cells=456 upper=0.999893428957103 seconds=1.253
+ACCEPT phase=408 method=tube cells=472 upper=0.999805508279963 seconds=1.235
+ACCEPT phase=409 method=tube cells=500 upper=0.999810650624263 seconds=1.299
+ACCEPT phase=410 method=tube cells=504 upper=0.999865702647439 seconds=1.284
+ACCEPT phase=411 method=tube cells=512 upper=0.999883681146664 seconds=1.306
+ACCEPT phase=412 method=tube cells=520 upper=0.999726459726543 seconds=1.357
+ACCEPT phase=413 method=tube cells=564 upper=0.999880013699759 seconds=1.417
+ACCEPT phase=414 method=tube cells=562 upper=0.999887660845041 seconds=1.412
+ACCEPT phase=415 method=tube cells=590 upper=0.999806365123140 seconds=1.453
+ACCEPT phase=416 method=tube cells=588 upper=0.999797946310008 seconds=1.509
+ACCEPT phase=417 method=tube cells=592 upper=0.999819341290053 seconds=1.473
+ACCEPT phase=418 method=tube cells=620 upper=0.999723439685004 seconds=1.505
+ACCEPT phase=419 method=tube cells=620 upper=0.999788370649399 seconds=1.477
+ACCEPT phase=420 method=tube cells=638 upper=0.999801620371472 seconds=1.476
+ACCEPT phase=421 method=tube cells=658 upper=0.999845584915945 seconds=1.578
+ACCEPT phase=422 method=tube cells=676 upper=0.999618172351688 seconds=1.602
+ACCEPT phase=423 method=tube cells=706 upper=0.999822285258657 seconds=1.566
+ACCEPT phase=424 method=tube cells=730 upper=0.999880622655889 seconds=1.624
+ACCEPT phase=425 method=tube cells=762 upper=0.999869619510257 seconds=1.648
+ACCEPT phase=426 method=tube cells=794 upper=0.999882902671267 seconds=1.663
+ACCEPT phase=427 method=tube cells=776 upper=0.999796619327487 seconds=1.751
+ACCEPT phase=428 method=tube cells=804 upper=0.999785557181129 seconds=1.797
+ACCEPT phase=429 method=tube cells=772 upper=0.999873004153436 seconds=1.696
+ACCEPT phase=430 method=tube cells=756 upper=0.999856096580597 seconds=1.726
+ACCEPT phase=431 method=tube cells=704 upper=0.999883772695808 seconds=1.625
+ACCEPT phase=432 method=tube cells=680 upper=0.999771048865743 seconds=1.539
+ACCEPT phase=433 method=tube cells=676 upper=0.999888602295827 seconds=1.547
+ACCEPT phase=434 method=tube cells=650 upper=0.999655357678985 seconds=1.486
+ACCEPT phase=435 method=tube cells=662 upper=0.999831224253283 seconds=1.535
+ACCEPT phase=436 method=tube cells=672 upper=0.999698457123185 seconds=1.553
+ACCEPT phase=437 method=tube cells=684 upper=0.999871025076829 seconds=1.591
+ACCEPT phase=438 method=tube cells=740 upper=0.999725662628080 seconds=1.636
+ACCEPT phase=439 method=tube cells=766 upper=0.999877986522701 seconds=1.706
+ACCEPT phase=440 method=tube cells=774 upper=0.999618079943567 seconds=1.742
+ACCEPT phase=441 method=tube cells=814 upper=0.999897772272033 seconds=1.731
+ACCEPT phase=442 method=tube cells=870 upper=0.999876099575955 seconds=1.800
+ACCEPT phase=443 method=tube cells=880 upper=0.999506332722900 seconds=1.824
+ACCEPT phase=444 method=tube cells=936 upper=0.999684511975475 seconds=1.902
+ACCEPT phase=445 method=tube cells=932 upper=0.999866502226972 seconds=1.896
+ACCEPT phase=446 method=tube cells=1030 upper=0.999780656597744 seconds=2.022
+ACCEPT phase=447 method=tube cells=992 upper=0.999830273300901 seconds=1.943
+ACCEPT phase=448 method=tube cells=1064 upper=0.999871981427921 seconds=2.082
+ACCEPT phase=449 method=tube cells=1052 upper=0.999655333420444 seconds=2.111
+ACCEPT phase=450 method=tube cells=1040 upper=0.999658427349157 seconds=2.006
+ACCEPT phase=451 method=tube cells=980 upper=0.999847091918425 seconds=1.949
+ACCEPT phase=452 method=tube cells=906 upper=0.999706869500865 seconds=1.851
+ACCEPT phase=453 method=tube cells=832 upper=0.999871482612333 seconds=1.771
+ACCEPT phase=454 method=tube cells=780 upper=0.999610381368780 seconds=1.699
+ACCEPT phase=455 method=tube cells=760 upper=0.999863370084471 seconds=1.660
+ACCEPT phase=456 method=tube cells=756 upper=0.999799432867551 seconds=1.714
+ACCEPT phase=457 method=tube cells=808 upper=0.999829170685403 seconds=1.732
+ACCEPT phase=458 method=tube cells=868 upper=0.999814506267105 seconds=1.855
+ACCEPT phase=459 method=tube cells=920 upper=0.999802452901185 seconds=1.927
+ACCEPT phase=460 method=tube cells=964 upper=0.999856187642227 seconds=1.924
+ACCEPT phase=461 method=tube cells=1022 upper=0.999820756661740 seconds=2.055
+ACCEPT phase=462 method=tube cells=1094 upper=0.999731025598860 seconds=2.115
+ACCEPT phase=463 method=tube cells=1200 upper=0.999841608766008 seconds=2.224
+ACCEPT phase=464 method=tube cells=1252 upper=0.999837938633237 seconds=2.344
+ACCEPT phase=465 method=tube cells=1328 upper=0.999787205445367 seconds=2.422
+ACCEPT phase=466 method=tube cells=1484 upper=0.999886118794477 seconds=2.618
+ACCEPT phase=467 method=tube cells=1680 upper=0.999736650272955 seconds=2.863
+ACCEPT phase=468 method=tube cells=1826 upper=0.999821544915804 seconds=2.997
+ACCEPT phase=469 method=tube cells=2054 upper=0.998857170626544 seconds=3.351
+ACCEPT phase=470 method=tube cells=2052 upper=0.993997690348039 seconds=3.312
+ACCEPT phase=471 method=tube cells=2048 upper=0.978329864967577 seconds=3.358
+ACCEPT phase=472 method=tube cells=2066 upper=0.980384640844929 seconds=3.433
+ACCEPT phase=473 method=tube cells=2116 upper=0.997198305261665 seconds=3.475
+ACCEPT phase=474 method=tube cells=2564 upper=0.999674112535564 seconds=4.162
+ACCEPT phase=475 method=tube cells=3064 upper=0.995569924439288 seconds=5.515
+ACCEPT phase=476 method=tube cells=2932 upper=0.999243312392301 seconds=5.425
+ACCEPT phase=477 method=tube cells=2816 upper=0.931342070862197 seconds=4.432
+ACCEPT phase=478 method=tube cells=2720 upper=0.793328934313387 seconds=4.393
+ACCEPT phase=479 method=tube cells=9414 upper=0.678794683974743 seconds=11.167
+ACCEPT phase=480 method=tube_global cells=6778 upper=0.449862283265280 seconds=0.443
+{
+  "scope": "Independent deterministic geometric replay, not stochastic-proof certification.",
+  "start": 0,
+  "end": 481,
+  "phases_checked": 481,
+  "type_cells_checked": 242176,
+  "positive_type_cells": 242176,
+  "all_four_direction_families_evaluated_directly": true,
+  "symmetry_assumptions_used": false,
+  "original_checker_headers_imported": false,
+  "undefined_behavior_sanitizer": true,
+  "integer_division": "ordinary division; signed 128-bit intermediates",
+  "point_samples_used_as_acceptance_test": false,
+  "max_risk_exact": "93740574637267/93750000000000",
+  "rank_sha256": "a0b1ccc5ad66694b6aca433e804c0ccf3e2d784c8b42c58c31734bc8e052bb89",
+  "field_sha256": "7cc7337012ace9346b19622c74e9fe05c270372dcb34951a53359a8ccf82ec92",
+  "elapsed_seconds": 1355.41168614,
+  "status": "ALL 481 PHASES ACCEPTED BY THE INDEPENDENT IMPLEMENTATION"
+}

@@ -1,0 +1,93 @@
+{
+  "status": "PASS: fresh build, 481 phases, capacities, clock constants, and report integrity",
+  "scope": "Fresh deterministic geometric execution; not formal certification of the stochastic proof.",
+  "started_utc": "2026-11-10T06:29:45.950994+00:00",
+  "platform": "Linux 5.15.167.4-microsoft-standard-WSL2",
+  "python": "3.12.3",
+  "threads": 4,
+  "cached_phase_records_reused": 0,
+  "input_and_source_sha256": {
+    "data/field_units.txt": "7cc7337012ace9346b19622c74e9fe05c270372dcb34951a53359a8ccf82ec92",
+    "data/full_rank.bin": "a0b1ccc5ad66694b6aca433e804c0ccf3e2d784c8b42c58c31734bc8e052bb89",
+    "data/SOURCE_LICENSE.txt": "80dd525884c78f59e906dc033fd49e2bc3ceea466b5fc8c51aecc5ab90a5366f",
+    "independent/check_phase.cpp": "2ee497393b393428a071bb059b55e89db2a0f396e7e76cba6cb1c9d23608972c",
+    "independent/farey_independent.inc": "b060d215ec8351d8b9ab6b9894a79df16e253612400cc8265ac52764f0abb838",
+    "independent/replay_all.py": "1b817aae73a5f9d85dfb7a2c4df196919cae4d851eb9c3cb039650839ef0aa3b",
+    "independent/build.sh": "2c101181b12da886d95e248884c9e7ea109dd2017337d6cdf3c7bedf2461afbd",
+    "check_capacity_independent.py": "29de88ee0f4193873e311e273da405327990d93b4642cd08d6aac0b0b48de9fe",
+    "check_clock_constants.py": "ef86b94a48a7825de1f7a4a2f90e01d88c6176f29a49de70ab61230d546a64eb",
+    "check_report_integrity.py": "c45bc85bc36a4d8994d62fd9ad587981897b4ed70f6cfbd4518ab677f6ac2fab"
+  },
+  "driver_sha256": "5f66ca65d28bffa94f6c670fb82f25cec3e33871681e9912ad0cc6697fd258ab",
+  "commands": [
+    {
+      "command": [
+        "/usr/bin/g++",
+        "-O3",
+        "-g",
+        "-std=c++17",
+        "-fopenmp",
+        "-fsanitize=undefined",
+        "-fno-sanitize-recover=all",
+        "check_phase.cpp",
+        "-o",
+        "check_phase"
+      ],
+      "working_directory": "independent",
+      "exit_code": 0,
+      "elapsed_seconds": 3.52133527
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "check_capacity_independent.py"
+      ],
+      "working_directory": ".",
+      "exit_code": 0,
+      "elapsed_seconds": 1.9255120340000005
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "check_clock_constants.py"
+      ],
+      "working_directory": ".",
+      "exit_code": 0,
+      "elapsed_seconds": 0.17109866000000018
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "independent/replay_all.py",
+        "--threads",
+        "4"
+      ],
+      "working_directory": ".",
+      "exit_code": 0,
+      "elapsed_seconds": 1355.543275972
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "check_report_integrity.py"
+      ],
+      "working_directory": ".",
+      "exit_code": 0,
+      "elapsed_seconds": 8.593150371000092
+    }
+  ],
+  "compiler_version": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+  "build_flags": [
+    "-O3",
+    "-g",
+    "-std=c++17",
+    "-fopenmp",
+    "-fsanitize=undefined",
+    "-fno-sanitize-recover=all"
+  ],
+  "executable_sha256": "e4a26e0ad35a245c32a6b7addb730477bf16f54ea81a7ef182e5ca6a0f2c7563",
+  "final_report_sha256": "b1304a2e055eb2da4a00f0f9376bc1afac5e3d92acfb6799cb0d3e5d78306665",
+  "replay_summary_sha256": "760f63a47187610e923acdb354931eb20ab55f10bf783b573d65129eabdcc1ad",
+  "finished_utc": "2026-11-10T06:52:35.852440+00:00",
+  "elapsed_seconds": 1369.901522558
+}

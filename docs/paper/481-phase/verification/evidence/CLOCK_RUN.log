@@ -1,0 +1,19 @@
+{
+  "status": "ALL FINITE ARITHMETIC CHECKS PASSED",
+  "scope": "Arithmetic and input checks, not probabilistic-proof certification",
+  "mass": "3842853135627/2560000000000",
+  "total_time": "30088384743729/25000000000",
+  "positive_type_cells": 242176,
+  "field_max": "78224776521/12500000000",
+  "designated_directions": 16,
+  "direction_width_sum": 54,
+  "kappa_H": "69405753/80000000000",
+  "clock_tolerance": "115676255/1314581588376682496",
+  "clock_tolerance_lower_bound": "1/17179869184",
+  "line_piece_cap": 1024,
+  "discrete_capacity_error": 1835008,
+  "point_law_prefactor": 221184,
+  "explicit_clock_threshold": "log(n) >= 10000000",
+  "clock_probability_budget": "1/500000",
+  "final_n0_claimed": false
+}

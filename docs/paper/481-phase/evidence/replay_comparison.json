@@ -1,0 +1,13 @@
+{
+  "status": "PASS: all accepted CSVs exactly match the prior full replay",
+  "phases": 481,
+  "type_cells": 242176,
+  "byte_identical_accepted_csvs": 481,
+  "mathematical_cpp_source_unchanged": true,
+  "fresh_compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "fresh_replay_seconds": 1355.41168614,
+  "fresh_driver_seconds": 1369.901522558,
+  "max_risk_exact": "93740574637267/93750000000000",
+  "sanitizer_error_logs": [],
+  "scope": "Equality of independently rerun deterministic outputs; not certification of stochastic mathematics."
+}

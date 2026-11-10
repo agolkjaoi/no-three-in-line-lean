@@ -1,8 +1,18 @@
 # Changes
 
-## 2026-11-10 — English mathematical manuscript
+## 2026-11-10 — 481-phase computer-assisted proof, English Version 0.2
 
-Added a [31-page English proof draft](docs/paper/README.md), its editable LaTeX sources, a small exact-arithmetic ledger and checker, and PDF build/layout records. The exposition develops the process, geometric estimates, concentration arguments and finite checking contract. The numerical application remains conditional on complete compatible input verification.
+Added the [481-phase English manuscript and complete verification package](docs/paper/481-phase/), with a [current PDF](docs/paper/481-phase/output/pdf/no_three_in_line_481_en.pdf) and [downloadable ZIP](docs/paper/releases/no_three_line_481_complete_en_20261110.zip). The paper gives an ordinary mathematical, computer-assisted proof of a no-three-in-line set of size at least `ceil(1.501 n)` for every sufficiently large integer `n`. This replaces the conditional numerical application of Version 0.1 with a different, fully checked finite input of mass `1.501114506104296875`.
+
+A fresh build and full finite replay completed in approximately 22.6 minutes: all 481 phases and 242,176 positive type/cells passed, with no missing, duplicate or failing cells. All 481 accepted per-phase CSV files were byte-for-byte identical to the supplied records. The package includes exact-arithmetic checks, capacity checks, checker soundness arguments, execution provenance, sources and data. Its reproduction driver uses a new output directory and accepts no cached phase results.
+
+The English proof now includes the common-stopping mixed-moment argument, protected-line concentration with conditional restart, and the fixed loss budget. The finite execution checks geometric inputs; it does not automatically certify the stochastic proofs. No independent human peer review or complete formal verification is claimed.
+
+The 3,242-module partial Lean snapshot is unchanged, and its final `Target` remains unproved in Lean. See the [paper landing page](docs/paper/README.md) and [reproduction instructions](docs/REPRODUCING.md) for the separate mathematical and formalization scopes.
+
+## 2026-11-10 — English mathematical manuscript, Version 0.1
+
+Added a 31-page English proof draft, its editable LaTeX sources, a small exact-arithmetic ledger and checker, and PDF build/layout records. The exposition develops the process, geometric estimates, concentration arguments and finite checking contract. At this edition, the numerical application remained conditional on complete compatible input verification. The [paper landing page](docs/paper/README.md) distinguishes it from Version 0.2.
 
 The 45 small arithmetic checks pass, including all 15,225 pairwise coprimality checks for the 175 finite-sieve factors. These checks do not replay the full geometric certificate. All PDF pages were visually checked, and the PDF has an empty author field. AI involvement is disclosed in the manuscript.
 
@@ -18,7 +28,7 @@ The one-phase concentration gap described in the first publication has been supp
 - Updated the remaining-work list and contribution entry points to the full concrete geometry, schedule, mass and root-deadline pair-budget obligations.
 - Preserved the exact target, MIT license, AI-use disclosure and absence of named authors.
 
-The final target remains unproved. The new statements retain their actual hypotheses; they are not a certification of the complete numerical input. See [STATUS.md](STATUS.md), [the audit delta](evidence/progress-update.json), and [publication validation](evidence/publication-validation.json).
+At this Lean snapshot, the final target remained unproved. The new statements retained their actual hypotheses; they were not a certification of the complete numerical input. See [STATUS.md](STATUS.md), [the audit delta](evidence/progress-update.json), and [publication validation](evidence/publication-validation.json).
 
 This snapshot is based on the audit at 2026-11-09 15:22:46 UTC (2026-11-10 00:22:46 JST), following the first public edition (`2026-11-10-public-1`).
 

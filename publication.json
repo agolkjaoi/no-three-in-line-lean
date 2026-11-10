@@ -1,6 +1,6 @@
 {
-  "edition": "2026-11-10-public-2",
-  "prepared_utc": "2026-11-09T16:22:12.866191+00:00",
+  "edition": "2026-11-10-public-3-paper-481",
+  "prepared_utc": "2026-11-10T07:02:07.060605+00:00",
   "repository": "agolkjaoi/no-three-in-line-lean",
   "repository_url": "https://github.com/agolkjaoi/no-three-in-line-lean",
   "visibility": "public",
@@ -11,7 +11,17 @@
   "final_target_proved": false,
   "original_lean_source_files_unchanged": true,
   "publication_authorized_by_maintainer": true,
-  "note": "Updated fixed snapshot. New Lean files preserve audited source bytes. The final target remains unproved; previous preparation evidence retains its dated scope.",
-  "previous_edition": "2026-11-10-public-1",
-  "git_history": "Fresh root commit with privacy-preserving author and committer metadata; proof sources and their recorded audits unchanged."
+  "note": "Added the 481-phase English manuscript and full fresh finite replay. The existing Lean sources, compile evidence and fixed snapshot remain unchanged; final_target_proved refers only to Lean.",
+  "previous_edition": "2026-11-10-public-2",
+  "git_history": "The privacy-corrected history is retained. Author and committer use the approved GitHub noreply identity.",
+  "final_target_proved_scope": "Lean proof of NoThreeLine.Target; not the status of the ordinary mathematical manuscript.",
+  "manuscript": {
+    "version": "0.2",
+    "directory": "docs/paper/481-phase",
+    "claimed_result": "For every sufficiently large n, a no-three-in-line subset of the n by n grid has at least ceil(1.501 n) points.",
+    "proof_kind": "Ordinary mathematical arguments with exact finite geometric computation",
+    "finite_input_replay": "PASS: 481 phases, 242176 type-cells",
+    "complete_lean_formalization": false,
+    "independent_human_peer_review": false
+  }
 }

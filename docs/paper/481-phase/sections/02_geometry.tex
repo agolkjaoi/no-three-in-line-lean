@@ -1,0 +1,350 @@
+\section{Uniform lattice geometry}\label{sec:geometry}
+
+In this section a line means its intersection with \(V_n\), and only
+lines containing at least two grid points are counted. Write \(L_\ell\)
+for its cardinality and \(L_{pq}\) for the length of the line through
+distinct \(p,q\). Constants in this section are uniform in the root's
+position, including roots approaching a cell boundary as \(n\) changes.
+
+\begin{lemma}[Direction and line counts]\label{lem:lines}
+There are at most \(4h\) primitive unoriented directions of height
+\(h\). Every grid line of that height has at most \(2n/h\) points.
+Consequently, uniformly in \(p\),
+\begin{align}
+ \sum_{\ell\ni p}L_\ell^2&\le16n^2(1+\log n),\label{eq:line2}\\
+ \sum_{\ell\ni p}L_\ell^k&\le
+ 4(2n)^k\left(1+\frac1{k-2}\right)\qquad(k>2).
+ \label{eq:linek}
+\end{align}
+\end{lemma}
+\begin{proof}
+If \(v\) is primitive, the integer points on its line are precisely
+\(p+\Z v\). Indeed, Bezout coefficients show that a real multiple of
+\(v\) with integer coordinates has an integer multiplier. A coordinate
+of absolute step \(h\) gives \(L_\ell\le1+(n-1)/h\le2n/h\).
+For \(h\ge2\), counting the primitive points on the boundary of the
+square of radius \(h\), with opposite signs identified, gives
+\(4\varphi(h)\le4h\); height one has four directions. Sum
+\(4h(2n/h)^k\), using the harmonic bound when \(k=2\) and an integral
+comparison when \(k>2\). The same argument gives
+\(\sum_{q\ne p}L_{pq}=\sum_{\ell\ni p}(L_\ell-1)L_\ell
+\le\sum L_\ell^2\).
+\end{proof}
+
+\begin{lemma}[Two uniform incidence kernels]\label{lem:kernels}
+For every fixed \(\xi>0\),
+\begin{align}
+ \sum_{q\notin\ell(a,b)}L_{aq}L_{bq}&\le C_\xi n^{2+\xi}
+       &&(a\ne b),\label{eq:twostar}\\
+ \sum_{q\in\ell\cap V_n}L_{pq}&\le C_\xi n^{1+\xi}
+       &&(p\notin\ell).
+       \label{eq:fixedline}
+\end{align}
+\end{lemma}
+\begin{proof}
+The elementary divisor estimate \(\tau(m)\le C_\epsilon m^\epsilon\)
+follows by writing \(m=\prod l^{a_l}\). For sufficiently large primes,
+\(a+1\le2^a\le l^{\epsilon a}\); the finitely many smaller primes have
+finite suprema of \((a+1)/l^{\epsilon a}\). Hence, with
+\(\Delta_n=\max_{m\le2n^2}\tau(m)\),
+\(\Delta_n(1+\log n)^2\le C_\xi n^\xi\).
+
+For \eqref{eq:twostar}, write \(q-a=e u\), \(q-b=f v\), where
+\(e,f>0\) and \(u,v\) are primitive, and put \(w=b-a\).
+Then \(eu-fv=w\) and \(f\mid\det(u,w)\). The exclusion of the baseline
+ensures \(1\le|\det(u,w)|\le2n^2\), so for fixed \(u\) there are at
+most \(\Delta_n\) choices of \(f\). In dyadic height bands
+\(H\le h(u)<2H\), \(J\le h(v)<2J\), assume \(H\le J\).
+There are \(O(H^2)\) choices of \(u\). The congruence
+\(eu\equiv w\pmod f\) confines \(e\) to at most one residue class
+modulo \(f\), by Bezout. A coordinate with \(|u_i|\ge H\), together
+with \(|v_i|<2J\), confines \(e/f\) to an interval of length at most
+\(4J/H\). Thus the number of candidates is
+\(O(\Delta_n HJ)\). Their individual weights are at most
+\(4n^2/(HJ)\). Interchange \(a,b\) when \(H>J\), then sum the
+\(O((1+\log n)^2)\) bands.
+
+For \eqref{eq:fixedline}, the cases of zero or one grid point are
+immediate. Otherwise write \(\ell\cap\Z^2=a+\Z v\) with primitive
+\(v\), and let \(D=|\det(v,p-a)|\in[1,2n^2]\).
+For \(q\in\ell\), put \(g(q)=\gcd(|q_1-p_1|,|q_2-p_2|)\).
+Then \(g(q)\mid D\). For each \(e\mid D\), the condition
+\(q\equiv p\pmod e\) restricts the line parameter to one residue class.
+Within \(\|q-p\|_\infty\le R\), this gives at most
+\(2R/(e h(v))+1\) choices. Since
+\(g(q)\le\sum_{e\mid g(q)}e\) and relevant \(e\le R\),
+\[
+ \sum_{\|q-p\|_\infty\le R}g(q)\le3R\tau(D).
+\]
+In the shell \(R/2<\|q-p\|_\infty\le R\),
+\(L_{pq}\le4ng(q)/R\), so the shell contributes at most
+\(12n\tau(D)\). Sum dyadic shells and use the divisor estimate.
+\end{proof}
+
+\subsection{Parity, chords and a uniform boundary estimate}
+Suppose \(F_r\) are constant on a fixed partition into \(R\) open
+rectangular cells, vanish on the common boundaries, and lie in
+\([0,M]\). Along a primitive line through a root of type \(r\), the
+types alternate between \(r\) and \(r+\bar v\).
+
+\begin{lemma}[Lattice-to-chord comparison]\label{lem:chord}
+For every root and primitive direction of height \(h\),
+\begin{equation}\label{eq:chorderror}
+ \left|\sum_{q\in\ell(p,v)\setminus\{p\}}
+ F_{\typ(q)}(q/n)
+ -\frac n{2h}C_v(F_r+F_{r+\bar v})(p/n)\right|
+ \le(4R+1)M.
+\end{equation}
+Moreover \(A_n=A+O_{R,T}(n^{-1})\).
+\end{lemma}
+\begin{proof}
+Each parity subsequence has major-coordinate spacing \(2h/n\).
+The number of points of any shifted one-dimensional lattice in an
+open interval differs from interval length divided by spacing by at
+most two. Sum over the two types and the \(R\) cells, then remove the
+root, costing at most \(M\). A line coinciding with a common boundary
+has field identically zero on both sides of \eqref{eq:chorderror}.
+For the mass statement, count each coordinate of each parity class
+in an open rectangle: the count is
+\(n^2\operatorname{area}(E)/4+O(n)\). Sum the fixed number of cells
+and types. No assumption that \(n\) is even or a multiple of \(G\)
+is used.
+\end{proof}
+
+The regular grid in the concrete input permits a useful relative
+version of the mass estimate.
+\begin{lemma}[Mass on every integer grid]\label{lem:massgrid}
+For nonnegative four-type fields constant on the open cells of a
+\(G\times G\) grid and zero on its grid lines, let
+\(A=\tfrac14\sum_r\int F_r\) and
+\(A_n=n^{-2}\sum_{p\in V_n}F_{\typ(p)}(p/n)\). For every integer
+\(n\ge2G\),
+\begin{equation}\label{eq:massgrid}
+ A(1-2G/n)^2\le A_n\le A(1+2G/n)^2.
+\end{equation}
+\end{lemma}
+\begin{proof}
+For a coordinate parity \(e\in\{0,1\}\), the number of integers of
+that parity in \((in/G,(i+1)n/G)\) is
+\[
+ N_{i,e}=\left\lceil\frac{(i+1)n-eG}{2G}\right\rceil
+          -\left\lfloor\frac{in-eG}{2G}\right\rfloor-1.
+\]
+It lies between \(n/(2G)-1\) and \(n/(2G)+1\). Since the lower
+bound is nonnegative, the number of points of any specified parity
+type in a cell lies between the squares of these bounds. Multiply
+by that cell's nonnegative field value and sum over cells and types.
+The continuum contribution of a typed cell of value \(v\) is
+\(v/(4G^2)\), giving \eqref{eq:massgrid}. Boundary points have field
+zero, as required by the definition of the input.
+\end{proof}
+
+\begin{lemma}[Uniform bounded variation]\label{lem:bv}
+For a nonnegative field \(F\le M\) on \(R\) fixed rectangular cells,
+each of the four functions \(u\mapsto c_{F,j}(x,u)^2\) satisfies
+\[
+ \|c_{F,j}(x,\cdot)^2\|_\infty\le M^2,
+ \qquad \Var(c_{F,j}(x,\cdot)^2)\le(4R+2)M^2,
+\]
+uniformly in \(x\in[0,1]^2\).
+\end{lemma}
+\begin{proof}
+For \((1,u)\), the chord of a rectangle \((a,b)\times(c,d)\) through
+\((x,y)\), for \(u>0\), is
+\[
+ \pos{\min(b,x+(d-y)/u)-\max(a,x+(c-y)/u)}.
+\]
+Its changes of branch occur only at slopes from the root to the four
+vertices. Commonly refine the at most \(4R\) switch values. On each
+interval the total chord has the form \(\alpha+\beta/u\), hence is
+monotone, as is its square since it is nonnegative. The square lies
+in \([0,M^2]\). At positive switches the values agree. At zero, a line
+may coincide with a common boundary; its possible endpoint jump costs
+at most one further \(M^2\). The stated bound follows. Reflections
+and coordinate exchange give the other three families.
+\end{proof}
+
+This proof uses bounded variation, not a uniform derivative bound.
+For example, for a half-square and a root a distance \(\epsilon\)
+above its boundary, a chord can have the form
+\(\max(0,1/2-\epsilon/u)\). Its derivative near \(u=2\epsilon\)
+is unbounded as \(\epsilon\downarrow0\), whereas its squared
+variation remains at most \(1/4\).
+
+\subsection{A finite sieve for primitive directions}\label{sec:sieve}
+Let \(P\) be a fixed finite set of pairwise coprime odd integers greater
+than one; primality is unnecessary. Put
+\[
+ Q=\prod_{p\in P}p,\qquad
+ D_P=\frac34\prod_{p\in P}(1-p^{-2}),\qquad
+ A_P=\prod_{p\in P}(1+p^{-2}).
+\]
+For \(e=(\epsilon,\eta)\in\{(0,1),(1,0),(1,1)\}\) and a nonnegative
+BV function \(w\) on \([0,1]\), define
+\[
+ K_{N,e}(w)=\sum_{h\le N}\frac1{h^2}
+ \sum_{\substack{1\le a\le h\,;\ (a,h)=1\\(h,a)\bmod2=e}}w(a/h).
+\]
+Write \(I=\int_0^1w\), \(M_w=\sup w\), and \(V_w=\Var(w)\).
+
+\begin{lemma}[Finite-sieve upper bound]\label{lem:sieve}
+For every real \(N\ge Q\),
+\begin{equation}\label{eq:sieve}
+ K_{N,e}(w)\le\frac{D_P}{3}I\log N+C_P(M_w+V_w),\qquad
+ C_P=\left(5+\frac14\log Q\right)A_P.
+\end{equation}
+The rational upper bound
+\(C_P\le[5+\tfrac14\sum_{p\in P}(p-1)]A_P\) is also valid.
+\end{lemma}
+\begin{proof}
+For real \(x\ge1\), omit the coprimality condition and denote the
+corresponding sum by \(J_e(x;w)\). Counting alternating tags gives
+\[
+ \left|\sum_{\substack{1\le b\le k\\b\equiv\eta\ (2)}}w(b/k)
+       -\frac k2 I\right|\le2M_w+V_w.
+\]
+To see this, place intervals of length \(2/k\) to the left of the
+tags; the oscillation errors sum to at most \(V_w\), and the omitted
+or cut end intervals have total length at most \(4/k\).
+Also the parity harmonic sum differs from \(\tfrac12\log x\)
+by at most two, by comparing ordinary harmonic sums with integrals.
+The finite estimate \(\sum_{k\le m}k^{-2}\le2\) therefore gives
+\[
+ J_e(x;w)=\frac I4\log x+E_e(x),\qquad
+ |E_e(x)|\le5(M_w+V_w).
+\]
+Nonnegativity of \(w\) allows the bound
+\[
+ \ind_{(a,h)=1}\le
+ \prod_{p\in P}(1-\ind_{p\mid a,\ p\mid h}).
+\]
+Expand this finite product. For \(A\subseteq P\), put
+\(d_A=\prod_{p\in A}p\) and \(s_A=(-1)^{|A|}\).
+Pairwise coprimality identifies simultaneous divisibility with
+divisibility by \(d_A\); oddness preserves the parity class. Thus
+\[
+ K_{N,e}(w)\le\sum_{A\subseteq P}\frac{s_A}{d_A^2}J_e(N/d_A;w).
+\]
+Since \(N\ge Q\), every \(N/d_A\ge1\). Substituting the two-sided
+estimate for \(J_e\) and using
+\(\sum s_A/d_A^2=4D_P/3\), \(\sum1/d_A^2=A_P\),
+\(\log d_A\le\log Q\), and \(I\le M_w\) proves
+\eqref{eq:sieve}. It is essential to use a two-sided error estimate
+inside the signed inclusion-exclusion sum. Finally \(\log p\le p-1\)
+gives the rational constant.
+\end{proof}
+
+Only a one-sided bound is needed in this application. Consequently
+no infinite Mobius series, value of \(\zeta(2)\), or assertion of
+probabilistic independence between parity and direction is required.
+The recorded choice of 175 factors gives \(D_P<76/125\); its product
+\(Q\) has 440 decimal digits. This large fixed threshold is compatible
+with the asymptotic quantifiers, but gives no useful small-grid claim.
+The factors and rational comparison are included in the companion data.
+
+\subsection{The common-deadline pair sum}
+For four fields \(F\) and a root \(p\), define
+\begin{equation}\label{eq:pairsum}
+ \mathcal B_n(p;F)=\frac1{2n^2}
+ \sum_{\substack{q,z\in V_n\setminus\{p\},\ q\ne z\\p,q,z\text{ collinear}}}
+ F_{\typ(q)}(q/n)F_{\typ(z)}(z/n).
+\end{equation}
+The pair sum is ordered; the factor \(1/2\) removes this duplication.
+A superscript \(\Gamma^c\) restricts it to nondesignated directions.
+
+\begin{proposition}[Uniform risk comparison]\label{prop:pair}
+If \(D_*\ge D_P\), then for \(n\ge\max(2,Q)\),
+\[
+ \mathcal B_n^{\Gamma^c}(p;F)
+ \le\mathcal R_{\typ(p)}(F;p/n)\log n+C_{\rm geom},
+\]
+where, with \(E_0=(4R+1)M\), one may take
+\begin{equation}\label{eq:geomconstant}
+ C_{\rm geom}=M^2+4ME_0+2E_0^2+6C_P(4R+3)M^2.
+\end{equation}
+This constant is independent of \(n,p\) and of the field values
+within their fixed partition and bound.
+\end{proposition}
+\begin{proof}
+For each direction let \(W_v\) be the weighted line sum with the root
+removed. The contribution is
+\((W_v^2-\sum_qF_{\typ(q)}(q/n)^2)/(2n^2)\).
+Discard the nonnegative diagonal term. By \eqref{eq:chorderror},
+\(W_v\le nC_v(F_r+F_{r+\bar v})/(2h)+E_0\), while
+\(C_v(F_r+F_{r+\bar v})\le2M\). Expanding the square, and using
+at most \(4h\) directions at height \(h\le n\), gives
+\[
+ \mathcal B_n^{\Gamma^c}(p;F)
+ \le\frac18\sum_{\substack{v\text{ primitive}/\pm\\h(v)\le n}}
+ \frac{C_v(F_r+F_{r+\bar v})(p/n)^2}{h(v)^2}
+       +4ME_0+2E_0^2.
+\]
+Indeed, the cross term is at most
+\(\sum_{h\le n}4h\,ME_0/(nh)\le4ME_0\); the squared error is at
+most \(\sum_{h\le n}4h\,E_0^2/(2n^2)\le2E_0^2\).
+Represent nonaxis directions by the four families with slope
+\(a/h\), \(1\le a\le h\). The diagonal overlap can be retained for
+an upper bound; the two axes contribute at most \(M^2\) separately.
+Apply Lemma~\ref{lem:sieve} to each of the twelve family/parity
+functions. Their supremum plus variation is at most
+\((4R+3)(2M)^2\), by Lemma~\ref{lem:bv}, so the total sieve error,
+including the factor \(1/8\), is at most \(6C_P(4R+3)M^2\).
+For each nonzero parity \(v\), the four integrals sum to
+\(4g_{F_r+F_{r+v}}\). The coefficient is
+\(\tfrac18\cdot\tfrac{D_P}{3}\cdot4=D_P/6\).
+Increase it to \(D_*/6\). The directions discarded at the start
+only increase the upper bound.
+\end{proof}
+
+For a general time-dependent input take \(M=T\) once and for all.
+Any smaller bound on its terminal fields is also valid. The same
+constant works for every time, including every root's last-use time.
+For a fixed root with deadline \(\tau\), finite-product differentiation
+gives the exact identity
+\begin{equation}\label{eq:timesym}
+ \frac1{n^2}\int_0^\tau\sum_{q,z}^{\Gamma^c}m_t(q)F_{\typ(z),t}(z/n)\dd t
+ =\mathcal B_n^{\Gamma^c}(p;F_\tau).
+\end{equation}
+Indeed, differentiate each product \(F_t(q)F_t(z)\), exchange \(q,z\),
+and integrate. The index set is symmetric and consists of distinct
+points different from the root. Using separate deadlines for \(q\)
+and \(z\) would not give this identity.
+
+\subsection{Explicit constants for the 481-phase input}\label{sec:uniform481}
+The input defined in Section~\ref{sec:rankinput} has \(G=256\).
+Every cumulative field is dominated by its terminal field, whose
+maximum is \(6.25798212168<7\). Thus \(R=256^2=65536\) and \(M=7\)
+work at every time, although the sum of the phase durations is much
+larger than seven. Lemma~\ref{lem:massgrid} gives
+\[
+ A_n\ge A(1-512/n)^2\qquad(n\ge512).
+\]
+
+For the 175 odd primes from 3 through 1049 used by the finite sieve,
+\(\sum_{p\in P}(p-1)=84164\). Also
+\[
+ S:=\sum_{p\in P}p^{-2}<\sum_{k\ge1}\frac1{4k(k+1)}=\frac14.
+\]
+The elementary symmetric sum of degree \(j\) in the numbers \(p^{-2}\)
+is at most \(S^j\); expanding the finite product gives
+\(A_P\le(1-S)^{-1}<4/3\). Hence the rational choice
+\(C_P=84184/3\) is sufficient in Lemma~\ref{lem:sieve}. Substitution
+in \eqref{eq:geomconstant}, with \(E_0=1835015\), gives
+\begin{equation}\label{eq:geomnumeric}
+ C_{\rm geom}=8897332619623<10^{13}.
+\end{equation}
+
+Consequently a continuum certificate
+\(\mathcal R_{\typ(p)}(F_{\tau_p};p/n)\le r_*=9999/10000\)
+implies, uniformly over every used root,
+\begin{equation}\label{eq:discrete481}
+ \mathcal B_n^{\Gamma^c}(p;F_{\tau_p})\le a\log n,
+ \qquad a=\frac{9999}{10000}+\frac1{320000}
+          =\frac{319969}{320000}<\frac{19999}{20000}=d,
+\end{equation}
+provided \(\log n\ge3\cdot10^{18}\). This condition implies
+\(n\ge Q\), since \(\log Q\le84164\), and it absorbs
+\eqref{eq:geomnumeric} with room to spare. It is only a sufficient
+threshold for the deterministic lattice comparison, not a claimed
+threshold for all stochastic error terms in the final theorem.
+
