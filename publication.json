@@ -1,6 +1,6 @@
 {
-  "edition": "2026-11-10-public-3-paper-481",
-  "prepared_utc": "2026-11-10T07:02:07.060605+00:00",
+  "edition": "2026-11-11-public-4-lean481-margin",
+  "prepared_utc": "2026-11-11T11:21:02.760773+00:00",
   "repository": "agolkjaoi/no-three-in-line-lean",
   "repository_url": "https://github.com/agolkjaoi/no-three-in-line-lean",
   "visibility": "public",
@@ -11,8 +11,8 @@
   "final_target_proved": false,
   "original_lean_source_files_unchanged": true,
   "publication_authorized_by_maintainer": true,
-  "note": "Added the 481-phase English manuscript and full fresh finite replay. The existing Lean sources, compile evidence and fixed snapshot remain unchanged; final_target_proved refers only to Lean.",
-  "previous_edition": "2026-11-10-public-2",
+  "note": "See docs/FORMALIZATION_481.md for incremental Lean results and their explicit premises. The frozen source snapshot and the 481-phase manuscript bundle retain their own versioned records.",
+  "previous_edition": "2026-11-10-public-3-paper-481",
   "git_history": "The privacy-corrected history is retained. Author and committer use the approved GitHub noreply identity.",
   "final_target_proved_scope": "Lean proof of NoThreeLine.Target; not the status of the ordinary mathematical manuscript.",
   "manuscript": {

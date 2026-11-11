@@ -1,0 +1,12 @@
+{
+  "module": "NoThreeLine481.NumericalMargin",
+  "source": "NoThreeLine481/NumericalMargin.lean",
+  "source_sha256": "ca41bd51154ab626833e9a9b680bb09a59ad73c5e0ff3c906d2029d351c7b96a",
+  "compiler": "Lean 4.32.2",
+  "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "build_basis": "saved local compiled imports of the audited public snapshot plus earlier 481 progress modules",
+  "log": "evidence/481-progress/NoThreeLine481.NumericalMargin.txt",
+  "log_sha256": "bfca849c48f30a76a1509a10a454304729b7428ea1d2bd3e1f83dbc91c20aac4",
+  "seconds": 17.71,
+  "status": "PASS"
+}

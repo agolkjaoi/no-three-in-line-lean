@@ -143,6 +143,40 @@ def verify(require_manifest=False):
     root_code = lean_code((ROOT / 'NoThreeLine.lean').read_text(encoding='utf-8'))
     check(not marker.search(root_code), 'forbidden proof marker: entry module')
     check(all(x in rows for x in local_imports(root_code)), 'entry module dependency missing')
+    progress_records = {}
+    for receipt in sorted((ROOT / 'evidence/481-progress').glob('*.json')):
+        row = json.loads(receipt.read_text(encoding='utf-8'))
+        name = row['module']
+        check(name not in progress_records, f'duplicate 481 progress record: {name}')
+        progress_records[name] = row
+    progress_sources = [ROOT / 'NoThreeLine481.lean', *(ROOT / 'NoThreeLine481').rglob('*.lean')]
+    expected_progress = {p.relative_to(ROOT).with_suffix('').as_posix().replace('/', '.'): p
+                         for p in progress_sources}
+    check(set(progress_records) == set(expected_progress), '481 progress source inventory mismatch')
+    for name, src in expected_progress.items():
+        if name not in progress_records:
+            continue
+        row = progress_records[name]
+        check(row['source'] == src.relative_to(ROOT).as_posix(), f'481 progress source path: {name}')
+        check(row['status'] == 'PASS', f'481 progress status: {name}')
+        if not src.is_file():
+            check(False, f'missing 481 progress source: {name}')
+            continue
+        raw = src.read_bytes()
+        check(digest(raw) == row['source_sha256'], f'481 progress source hash: {name}')
+        code = lean_code(raw.decode('utf-8'))
+        check(not marker.search(code), f'481 progress proof marker: {name}')
+        for dep in re.findall(r'^\s*import\s+(NoThreeLine(?:481)?\.\S+)\s*$', code, re.M):
+            check(dep in rows or dep in expected_progress, f'481 progress dependency: {name} -> {dep}')
+        log = ROOT / 'evidence/481-progress' / (name + '.txt')
+        check(row['log'] == log.relative_to(ROOT).as_posix(), f'481 progress log path: {name}')
+        if log.is_file():
+            raw = log.read_bytes()
+            check(digest(raw) == row['log_sha256'], f'481 progress log hash: {name}')
+            check(not any(x in raw for x in (b'sorryAx', b'error:', b'Lean.trustCompiler', b'Lean.ofReduceBool')),
+                  f'481 progress log error/trust marker: {name}')
+        else:
+            check(False, f'missing 481 progress log: {name}')
     notes = json.loads((ROOT / 'evidence/research-notes.json').read_text(encoding='utf-8'))['documents']
     for row in notes:
         check(digest((ROOT / row['path']).read_bytes()) == row['public_sha256'], f'research note hash: {row["path"]}')

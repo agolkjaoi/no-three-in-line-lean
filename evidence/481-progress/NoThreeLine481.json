@@ -1,0 +1,12 @@
+{
+  "module": "NoThreeLine481",
+  "source": "NoThreeLine481.lean",
+  "source_sha256": "c3d5ec03cf9c09d860a6a59b1c33eed05b50b4c66a75f250b90eb6e6612a5e5f",
+  "compiler": "Lean 4.32.2",
+  "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "build_basis": "saved local compiled imports of the audited public snapshot plus earlier 481 progress modules",
+  "log": "evidence/481-progress/NoThreeLine481.txt",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "seconds": 15.279,
+  "status": "PASS"
+}

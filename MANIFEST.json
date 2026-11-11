@@ -1,7 +1,7 @@
 {
-  "scope": "All distributed files except this manifest; includes the current 481-phase manuscript, exact input, fresh replay, release ZIP and historical manuscript. Excludes temporary build products.",
+  "scope": "All distributed files except this manifest, including the frozen snapshot, the 481-phase manuscript and the separately audited Lean progress. Excludes temporary build products.",
   "snapshot_id": "2026-11-10-audited-2",
-  "publication_edition": "2026-11-10-public-3-paper-481",
+  "publication_edition": "2026-11-11-public-4-lean481-margin",
   "files": [
     {
       "path": ".gitattributes",
@@ -15,18 +15,23 @@
     },
     {
       "path": "AI_USAGE.md",
-      "bytes": 2545,
-      "sha256": "fb8432929ce6179f65e9dcca85977d66b4ed0822581ffcc5a94f6951e44f6024"
+      "bytes": 2691,
+      "sha256": "f4327ad574fcb84ce10a0f643d6876821841f35c8433224aa39488fc3d364b69"
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 4562,
-      "sha256": "62362b4846ee106206798ec4bbe974d753032dd43e21a39335f0454ab5070db7"
+      "bytes": 4845,
+      "sha256": "5e92fbf06d45f4d301981db2f5128660647b67df41af3fa42e1d50867a71799e"
     },
     {
       "path": "CONTRIBUTING.md",
       "bytes": 4121,
       "sha256": "cc47c703f38c3faaa4ddb17e809088f128ad18e76cd0f08036b0fafd895add7f"
+    },
+    {
+      "path": "docs/FORMALIZATION_481.md",
+      "bytes": 1116,
+      "sha256": "4c9637f425534d5afb19b592ec596113c89b1be331c0dcd7d8a0bec647a99fa7"
     },
     {
       "path": "docs/ISSUE_DRAFTS.md",
@@ -11512,6 +11517,26 @@
       "path": "docs/research-notes/second-followup/SECOND_FOLLOWUP_FOR_REVIEW_JA.txt",
       "bytes": 76402,
       "sha256": "84b588b57cabfeedc51d817fa9549621e2f55eee1cc970b452ee8cfc7922097f"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.json",
+      "bytes": 533,
+      "sha256": "d784e36e5ba3b9b68a68e5686544ca9b1adc90e829698d33c57db8aefc7b8128"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.NumericalMargin.json",
+      "bytes": 580,
+      "sha256": "6b78ba95f8f198d2ba5d92da7f41c55ea7d8c2440038acded34b0e0ec0fc8343"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.NumericalMargin.txt",
+      "bytes": 312,
+      "sha256": "bfca849c48f30a76a1509a10a454304729b7428ea1d2bd3e1f83dbc91c20aac4"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
       "path": "evidence/compilation.json",
@@ -27810,8 +27835,8 @@
     },
     {
       "path": "lakefile.toml",
-      "bytes": 273,
-      "sha256": "397c19242598f1e7d783c7ddf870eb7bcee504785a8ceae44494fcf7bd63bde8"
+      "bytes": 311,
+      "sha256": "cc3fedae2823c26475f6d72fdcd554faca2a8f27d94218f0469c1b3e0a7f902e"
     },
     {
       "path": "lean-toolchain",
@@ -44044,14 +44069,24 @@
       "sha256": "0937e87f0d7a6c302e14d30bd73e0111743e37be9c2c571122432be98ca5e8e0"
     },
     {
+      "path": "NoThreeLine481/NumericalMargin.lean",
+      "bytes": 2641,
+      "sha256": "ca41bd51154ab626833e9a9b680bb09a59ad73c5e0ff3c906d2029d351c7b96a"
+    },
+    {
+      "path": "NoThreeLine481.lean",
+      "bytes": 38,
+      "sha256": "c3d5ec03cf9c09d860a6a59b1c33eed05b50b4c66a75f250b90eb6e6612a5e5f"
+    },
+    {
       "path": "publication.json",
-      "bytes": 1493,
-      "sha256": "bb8c9fa8110b644621fbf27f17aa901af592bef27d3ffc1ee7d3208921c2870f"
+      "bytes": 1477,
+      "sha256": "c286b332f89d64db0e5a079896f7ec9f42b8897e8a86ccb0029cf3e825e49d01"
     },
     {
       "path": "README.md",
-      "bytes": 8545,
-      "sha256": "93df49a32cafc8e9d7f677e168a4483f0e277eb852d86cd22cab7fbae1479e24"
+      "bytes": 8601,
+      "sha256": "c750cdeede43c288c5b9971a1892ddf8a5d96fca1ddff587931c89ba9e1bc336"
     },
     {
       "path": "README_JA.md",
@@ -44065,8 +44100,8 @@
     },
     {
       "path": "scripts/verify_snapshot.py",
-      "bytes": 12512,
-      "sha256": "5df2b374e7da3ba167194e48ac4c6780290e2d57fc16cc8873fea5277bc1a9d9"
+      "bytes": 14608,
+      "sha256": "a5c9492e4ad897375e30ce978c500641e3eb88593c524a77458ee4fe6bec2d65"
     },
     {
       "path": "snapshot.json",
@@ -44075,8 +44110,8 @@
     },
     {
       "path": "STATUS.md",
-      "bytes": 10804,
-      "sha256": "236e0b6f83b4057430571faa52145179bc9c74fde87a8f0531a5559b3ee32ee9"
+      "bytes": 10924,
+      "sha256": "17be58c028eafbfe28d36e3e84a852079b65db4bf8abc0f51d0e208abde06413"
     }
   ]
 }

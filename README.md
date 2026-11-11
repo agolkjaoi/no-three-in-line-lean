@@ -4,7 +4,7 @@ The [36-page English manuscript](docs/paper/481-phase/output/pdf/no_three_in_lin
 
 This is an AI-assisted hobby research project, with no named author. The manuscript has not undergone independent human peer review. Its mathematical arguments, the finite computations, and the partial formalization have distinct verification scopes, described below.
 
-[日本語](README_JA.md) · [Paper and downloads](docs/paper/README.md) · [Status](STATUS.md) · [Lean build](docs/REPRODUCING.md) · [Contributing](CONTRIBUTING.md) · [AI use](AI_USAGE.md)
+[日本語](README_JA.md) · [Paper and downloads](docs/paper/README.md) · [Status](STATUS.md) · [481-phase Lean progress](docs/FORMALIZATION_481.md) · [Lean build](docs/REPRODUCING.md) · [Contributing](CONTRIBUTING.md) · [AI use](AI_USAGE.md)
 
 ## Read or reproduce the paper
 

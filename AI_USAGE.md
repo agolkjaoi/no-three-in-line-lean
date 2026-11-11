@@ -8,6 +8,8 @@ The human maintainer selected the research direction, requested revisions and ex
 
 The English manuscripts added on 10 November 2026 were assembled and checked with ChatGPT/Codex from the preparation notes, followups and later 481-phase dossier. AI work included translation, new mathematical exposition and derivations, checker review, exact-arithmetic checking, full finite replay, packaging and PDF layout review.
 
+The subsequent [481-phase Lean progress](docs/FORMALIZATION_481.md) includes proofs, build checks and documentation prepared with ChatGPT/Codex.
+
 [Version 0.2](docs/paper/481-phase/) presents an ordinary mathematical, computer-assisted proof of the `1.501 n` lower bound for all sufficiently large integer grids. Its finite input was rebuilt and replayed across all 481 phases and 242,176 positive type/cells. The stochastic arguments are natural-language proofs in the manuscript; the finite replay checks the geometric input and does not certify those arguments automatically. Version 0.1 had a conditional numerical application, and that limitation should not be confused with the stated scope of Version 0.2.
 
 No independent human peer review or complete formal verification of Version 0.2 is claimed. The separate 3,242-module Lean snapshot is unchanged, and it does not prove the final `Target`. Separate AI reviews and a fresh execution are recorded as those activities, not as independent human authorship or human peer review.
