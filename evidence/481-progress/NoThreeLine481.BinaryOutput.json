@@ -1,0 +1,50 @@
+{
+  "module": "NoThreeLine481.BinaryOutput",
+  "source": "NoThreeLine481/BinaryOutput.lean",
+  "source_sha256": "3d31ed6db2b6f0317652344e132b1e02bc87606ca8ebb7b65fbe7ac6477865f4",
+  "compiler": "Lean 4.32.2",
+  "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "build_basis": "saved local compiled imports of the audited public snapshot plus earlier 481 progress modules",
+  "log": "evidence/481-progress/NoThreeLine481.BinaryOutput.txt",
+  "log_sha256": "e5a101101cdd03b6cc2f28577544302d4b3ca3424f98ab85d66ac2360fbd6245",
+  "seconds": 20.088,
+  "olean_sha256": "8b3df36d307f5bb31227f6cd235d2e0f16c41d082aa39d191a46a24cde6a7cb3",
+  "direct_local_imports": [
+    {
+      "module": "NoThreeLine.FrozenOtherThreeCauses",
+      "source_sha256": "52ade4ff77bd360381f7da9e57aa0755303f8e75dff4b1a82bcbc3b1ee66ffa3",
+      "olean_sha256": "967be2fa37200b9b74d559c26a1b87b1bfbb45697ed57b1303c95bf4451db537"
+    },
+    {
+      "module": "NoThreeLine.ScheduleFiveCauseOutput",
+      "source_sha256": "1db7b7c3438cb82929b508c74ae7f9e535b9919b2fe1e4cdf7210c61c6a06335",
+      "olean_sha256": "2a1a8398c3bf93c53f020e3511169aff43d923a01d6829ec90ac31ce6901215c"
+    },
+    {
+      "module": "NoThreeLine.ScheduleTagInput",
+      "source_sha256": "91bdb90f569c4064fd557c78267b8c768ac253e72ce892232ef2c95cf806fbaf",
+      "olean_sha256": "c6c845a2ee13da1d0537b7597d74230942008a93ead85aaec3ef8a4b30df885a"
+    },
+    {
+      "module": "NoThreeLine.SpecifiedClockFrozenParameters",
+      "source_sha256": "4a374854419e6f4c56f283f21b8d3203611807a39863d9c55f6112ab0e921426",
+      "olean_sha256": "7733219045c1bae4ab0476a790ef3f556e8bdf46b4baa483ecdd9017250b02cd"
+    },
+    {
+      "module": "NoThreeLine.Target",
+      "source_sha256": "7959a88bb94f0a4594c8faecdcfd51b9b842657275456c7646b8da0f5bdd818a",
+      "olean_sha256": "05013ba395b62c5a2e9a3fb00ae6491dc8d6ed2586789f7bd860cdc3d30fdabd"
+    },
+    {
+      "module": "NoThreeLine481.BinaryClock",
+      "source_sha256": "838ae42dbabdbe6075746f498a812c464a5834ab8f06d33dbad6a3d3f5aa84cd",
+      "olean_sha256": "f89a5313075bb62a1290ca336d655a00edfb90e1c19d6e91ce08ad3f0a2fbee4"
+    },
+    {
+      "module": "NoThreeLine481.NumericalMargin",
+      "source_sha256": "ca41bd51154ab626833e9a9b680bb09a59ad73c5e0ff3c906d2029d351c7b96a",
+      "olean_sha256": "17ba56c14edab3cde8e5047926f191929a3195f8a1a1460967a18d6ca09f2d13"
+    }
+  ],
+  "status": "PASS"
+}

@@ -10,6 +10,8 @@
 
 - [Binary phase refinement](../NoThreeLine481/PhaseRefinement.lean) turns a list of fractional exposure phases into a finite schedule of binary masks. For each phase the construction uses the successive differences of its sorted positive weights. It preserves the total schedule duration and the terminal exposure at each point.
 
+- [Conditional output theorem](../NoThreeLine481/BinaryOutput.lean) combines the five stopping bounds for any finite binary schedule. The [clock bound](../NoThreeLine481/BinaryClock.lean) is uniform over schedules of fixed phase count and bounded total time with strict designated-line capacity slack. The output theorem requires terminal line capacities and board mass, together with a discrete pair-sum bound at each root’s deadline. A family supplying these inputs for all sufficiently large boards implies `NoThreeLine.Target`.
+
 The [compilation records](../evidence/481-progress/) identify the modules and their axiom reports. The checks used the pinned Lean toolchain and saved local compiled dependencies. To rebuild the entry module in a Lake checkout, run `lake build NoThreeLine481`.
 
 The remaining work includes the actual lattice mass estimate, the instantiation of the binary refinement on the 481 phases, the transfer from the concrete masks to the line capacities, and the certified angular bounds. The unconditional `NoThreeLine.Target` remains open in Lean.

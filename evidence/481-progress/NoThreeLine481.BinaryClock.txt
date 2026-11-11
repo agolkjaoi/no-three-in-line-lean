@@ -1,0 +1,1 @@
+'NoThreeLine481.exists_binary_schedule_clock_small' depends on axioms: [propext, Classical.choice, Quot.sound]

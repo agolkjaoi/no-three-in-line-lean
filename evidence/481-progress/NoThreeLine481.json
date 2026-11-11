@@ -1,14 +1,14 @@
 {
   "module": "NoThreeLine481",
   "source": "NoThreeLine481.lean",
-  "source_sha256": "92772d039b9f04748509c5a5bfc348293327645ebd8bf273b3c5fe6256c61454",
+  "source_sha256": "b14983b11deb2e68ddbba6202d9119c87f0b6c0309586dfcc8ee416d13b2b031",
   "compiler": "Lean 4.32.2",
   "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
   "build_basis": "saved local compiled imports of the audited public snapshot plus earlier 481 progress modules",
   "log": "evidence/481-progress/NoThreeLine481.txt",
   "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "seconds": 16.962,
-  "olean_sha256": "10ec34ddea4d9a709ad2631747380e1c6c9bbae405696b8fb0443e69faff68a5",
+  "seconds": 18.688,
+  "olean_sha256": "3b90f103ab6500d3676bdd01727cb24c0076b972ae05c9605bf69c9aba38cbc5",
   "direct_local_imports": [
     {
       "module": "NoThreeLine481.NumericalMargin",
@@ -24,6 +24,11 @@
       "module": "NoThreeLine481.PhaseRefinement",
       "source_sha256": "f3794d781d36d9e56db8577eed2f12df83671a0a12147f63b1e9b22417541629",
       "olean_sha256": "823360f77b911396ece9142530f3e98001b298737d7142b96aabf3654e7b2597"
+    },
+    {
+      "module": "NoThreeLine481.BinaryOutput",
+      "source_sha256": "3d31ed6db2b6f0317652344e132b1e02bc87606ca8ebb7b65fbe7ac6477865f4",
+      "olean_sha256": "8b3df36d307f5bb31227f6cd235d2e0f16c41d082aa39d191a46a24cde6a7cb3"
     }
   ],
   "status": "PASS"

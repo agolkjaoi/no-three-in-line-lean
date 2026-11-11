@@ -1,0 +1,30 @@
+{
+  "module": "NoThreeLine481.BinaryClock",
+  "source": "NoThreeLine481/BinaryClock.lean",
+  "source_sha256": "838ae42dbabdbe6075746f498a812c464a5834ab8f06d33dbad6a3d3f5aa84cd",
+  "compiler": "Lean 4.32.2",
+  "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "build_basis": "saved local compiled imports of the audited public snapshot plus earlier 481 progress modules",
+  "log": "evidence/481-progress/NoThreeLine481.BinaryClock.txt",
+  "log_sha256": "b0f36b822531e1be2bf139ce96a75da6f82dc138ac56bc3bdbc0de7bd2b66475",
+  "seconds": 21.446,
+  "olean_sha256": "f89a5313075bb62a1290ca336d655a00edfb90e1c19d6e91ce08ad3f0a2fbee4",
+  "direct_local_imports": [
+    {
+      "module": "NoThreeLine.ClockFinitePhaseUniformTail",
+      "source_sha256": "b4e4975f0b0d07e2eecdf44043f50ce01210e054f4d90edf09f2c79f2a27ea39",
+      "olean_sha256": "0210aca68d5176b2cd5a25b3b28b11adad43f206a007af00ab65e42f7d7f24d4"
+    },
+    {
+      "module": "NoThreeLine.ClockFinitePhasePolynomialLoss",
+      "source_sha256": "e73a31fc3a53651e6546ba9a9acbc88aecc8a22eaa757060283307a5790efc02",
+      "olean_sha256": "7946440bb70a16cb45a7eb2d8992b342d41e455c9bfeddfeb7ce1376a620cf51"
+    },
+    {
+      "module": "NoThreeLine.ScheduleSpecifiedClockInput",
+      "source_sha256": "551300b09aa13f9836ee9cf2d616d120707865e1428e075b9f3fddfeda38b9ff",
+      "olean_sha256": "771d8e0fc226a1d8608cd48ba4f5b64bc4611316c1629aa0001a706fb1be534f"
+    }
+  ],
+  "status": "PASS"
+}

@@ -1,7 +1,7 @@
 {
   "scope": "All distributed files except this manifest, including the frozen snapshot, the 481-phase manuscript and the separately audited Lean progress. Excludes temporary build products.",
   "snapshot_id": "2026-11-10-audited-2",
-  "publication_edition": "2026-11-11-public-6-lean481-refinement",
+  "publication_edition": "2026-11-11-public-7-lean481-output",
   "files": [
     {
       "path": ".gitattributes",
@@ -20,8 +20,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 5194,
-      "sha256": "5fd073c9ca77c7dc60dd7bbc5ef0dc6cba9bd44cf4d9a07db9b26bb5618254c6"
+      "bytes": 5350,
+      "sha256": "fba7f36b44e202528211b9aa4221cd19c941a5cc4fac4098bb74b186d3c64b69"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -30,8 +30,8 @@
     },
     {
       "path": "docs/FORMALIZATION_481.md",
-      "bytes": 1772,
-      "sha256": "7e59151b2cd5b3acdfe473ad04d37ea62dd1bd30da5a9199e91c344bb3609d85"
+      "bytes": 2307,
+      "sha256": "f87f378a9e5fe51f5e88c1a61dc37c39639418b013f8d95b2dba5e31756e33b9"
     },
     {
       "path": "docs/ISSUE_DRAFTS.md",
@@ -11519,6 +11519,26 @@
       "sha256": "84b588b57cabfeedc51d817fa9549621e2f55eee1cc970b452ee8cfc7922097f"
     },
     {
+      "path": "evidence/481-progress/NoThreeLine481.BinaryClock.json",
+      "bytes": 1446,
+      "sha256": "98eee16b89370710a8492166c058c62860564d91b79c43e2c1fd252d9e05b965"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.BinaryClock.txt",
+      "bytes": 111,
+      "sha256": "b0f36b822531e1be2bf139ce96a75da6f82dc138ac56bc3bdbc0de7bd2b66475"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.BinaryOutput.json",
+      "bytes": 2394,
+      "sha256": "c9a3bae7867ea4921365268a57ac5a3bc555e7a8c1b40e4028a89f20a08a085c"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.BinaryOutput.txt",
+      "bytes": 218,
+      "sha256": "e5a101101cdd03b6cc2f28577544302d4b3ca3424f98ab85d66ac2360fbd6245"
+    },
+    {
       "path": "evidence/481-progress/NoThreeLine481.CapacityLowRow099.json",
       "bytes": 1195,
       "sha256": "a8a945e361debf9d7062752266a899bb0b828d3c026c831229d15c270e758125"
@@ -11660,8 +11680,8 @@
     },
     {
       "path": "evidence/481-progress/NoThreeLine481.json",
-      "bytes": 1377,
-      "sha256": "40ba20e102a1beb6c55780d3c6172034c78fb4ca88a6606c00f5e7d981eab0c9"
+      "bytes": 1617,
+      "sha256": "13de514b41962a647e2547b69a4a455dcae453768a8d2bf88e48ee531444eb6f"
     },
     {
       "path": "evidence/481-progress/NoThreeLine481.NumericalMargin.json",
@@ -44219,6 +44239,16 @@
       "sha256": "0937e87f0d7a6c302e14d30bd73e0111743e37be9c2c571122432be98ca5e8e0"
     },
     {
+      "path": "NoThreeLine481/BinaryClock.lean",
+      "bytes": 3980,
+      "sha256": "838ae42dbabdbe6075746f498a812c464a5834ab8f06d33dbad6a3d3f5aa84cd"
+    },
+    {
+      "path": "NoThreeLine481/BinaryOutput.lean",
+      "bytes": 4896,
+      "sha256": "3d31ed6db2b6f0317652344e132b1e02bc87606ca8ebb7b65fbe7ac6477865f4"
+    },
+    {
       "path": "NoThreeLine481/CapacityLowRow099.lean",
       "bytes": 2012,
       "sha256": "e17f4563b5ec33d223b2881a18372f10dae0361008761610556b09ce69d5281d"
@@ -44300,13 +44330,13 @@
     },
     {
       "path": "NoThreeLine481.lean",
-      "bytes": 111,
-      "sha256": "92772d039b9f04748509c5a5bfc348293327645ebd8bf273b3c5fe6256c61454"
+      "bytes": 146,
+      "sha256": "b14983b11deb2e68ddbba6202d9119c87f0b6c0309586dfcc8ee416d13b2b031"
     },
     {
       "path": "publication.json",
-      "bytes": 1488,
-      "sha256": "411b73e8dc55268218bfa4e3eb8f111a03d91642489b0f788fa9a09d237eb399"
+      "bytes": 1486,
+      "sha256": "9bf879a75483bf6055a8b88145d42a64d22b044450d405cff71d9cb50f9e0440"
     },
     {
       "path": "README.md",
