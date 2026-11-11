@@ -1,0 +1,2 @@
+'NoThreeLine481.replay_root_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine481.pairAngularSquare_eq_replay' depends on axioms: [propext, Classical.choice, Quot.sound]

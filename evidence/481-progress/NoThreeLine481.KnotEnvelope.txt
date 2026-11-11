@@ -1,0 +1,4 @@
+'NoThreeLine481.scaled_integer_hinge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine481.hinge_sum_sweep_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine481.hingeSum_le_of_knots' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine481.rectangular_chord_le_of_knots' depends on axioms: [propext, Classical.choice, Quot.sound]

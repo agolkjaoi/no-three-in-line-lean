@@ -1,7 +1,7 @@
 {
   "scope": "All distributed files except this manifest, including the frozen snapshot, the 481-phase manuscript and the separately audited Lean progress. Excludes temporary build products.",
   "snapshot_id": "2026-11-10-audited-2",
-  "publication_edition": "2026-11-11-public-10-lean481-archived-rank",
+  "publication_edition": "2026-11-11-public-11-lean481-angular-checker-lemmas",
   "files": [
     {
       "path": ".gitattributes",
@@ -20,8 +20,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 6013,
-      "sha256": "6e8160b4e99575ea335deca2342cd8272a593ed1f9351ca5b4ba7ff376f7e5fe"
+      "bytes": 6198,
+      "sha256": "cf1a95977bc1e1a10f5732082f125da7eb4d03c6ed75db5f364b6198331c6aa7"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -30,8 +30,8 @@
     },
     {
       "path": "docs/FORMALIZATION_481.md",
-      "bytes": 3929,
-      "sha256": "a456668ad1d7b7c7669dd3f88a43c16fded42e9019d851ab6646eb6e6fbf435e"
+      "bytes": 4620,
+      "sha256": "6e18f6ee110e2f6bfb515b50fc3851f9fded004582ca48e0c2c20215709643e4"
     },
     {
       "path": "docs/ISSUE_DRAFTS.md",
@@ -11519,6 +11519,26 @@
       "sha256": "84b588b57cabfeedc51d817fa9549621e2f55eee1cc970b452ee8cfc7922097f"
     },
     {
+      "path": "evidence/481-progress/NoThreeLine481.AngularBounds.json",
+      "bytes": 930,
+      "sha256": "3b8e47af1dfa57e19afadf22423e15fd3052859e867d4d3098167dd915c8576d"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.AngularBounds.txt",
+      "bytes": 673,
+      "sha256": "3b5ad25589a972cb7af90f12dfaace343794e0b98b43c971b693641b93b09631"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.AngularPrices.json",
+      "bytes": 932,
+      "sha256": "a7b4a8576ee6b52b4a4fe234d7bfab9fae091f6da2310f1279b2a04a9444982e"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.AngularPrices.txt",
+      "bytes": 228,
+      "sha256": "11b31579b6395c056a212bd8448b323e44121be4228e7f8282903d3ea9615cef"
+    },
+    {
       "path": "evidence/481-progress/NoThreeLine481.AngularTransfer.json",
       "bytes": 932,
       "sha256": "cee0193b5c398fe08e17976f4f738a577551bb482311ad34c9d313891a38ea02"
@@ -11699,6 +11719,16 @@
       "sha256": "d7914aca230e285e2c4dadad223c79ef71fba53aa4872f824ee1e27f35040c9d"
     },
     {
+      "path": "evidence/481-progress/NoThreeLine481.FareyPartition.json",
+      "bytes": 694,
+      "sha256": "771e9814c5767de7301238cc095974ceaff91bc34e1105c6f0bbf33be7b46293"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.FareyPartition.txt",
+      "bytes": 64,
+      "sha256": "e8b382b74adb94ba11f0ed857fcea12fa3ce2d9e62e3eb04e1b8badba0163c46"
+    },
+    {
       "path": "evidence/481-progress/NoThreeLine481.FineGridGeometry.json",
       "bytes": 942,
       "sha256": "9f77b0f781d9f8578e305159adb5b005b1d92d3da705208d1ba0f3d04ada7bdb"
@@ -11739,9 +11769,29 @@
       "sha256": "fe3874a7f947ab964a985ffeb02a7462a09412e4cfed94715a8864f1af7b9148"
     },
     {
+      "path": "evidence/481-progress/NoThreeLine481.IntegerSlice.json",
+      "bytes": 930,
+      "sha256": "f7e2465d148d03acf7b8ef627745ce23d9ce2060c9668158c1a273d623df8ec6"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.IntegerSlice.txt",
+      "bytes": 340,
+      "sha256": "83075db05603f9d5a177767f53811f6a5756ec517d325e25d0509a76e700b6ff"
+    },
+    {
       "path": "evidence/481-progress/NoThreeLine481.json",
-      "bytes": 2581,
-      "sha256": "d95d4e8302d231502b1029f03a9ff7ad0ebaf8a10d2c90ab2183a429cf1adbf3"
+      "bytes": 3785,
+      "sha256": "ee9cb351b78527720a0736803a5ff8c4e8ddeb0852c1727d1491e101d5b9297c"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.KnotEnvelope.json",
+      "bytes": 929,
+      "sha256": "e7d4df927f6ba872889bd7f22c9de0e4ad68e591756c1b65c2808a4384322695"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.KnotEnvelope.txt",
+      "bytes": 397,
+      "sha256": "34fc911ab3878425f801a5a03f550bc5b56fb1fc70e6e08a7a39b9dce4bbe333"
     },
     {
       "path": "evidence/481-progress/NoThreeLine481.NumericalMargin.json",
@@ -11802,6 +11852,16 @@
       "path": "evidence/481-progress/NoThreeLine481.RankTable.txt",
       "bytes": 64,
       "sha256": "668bca307d6b0c92e9078b56a42bbd74516ae3ecfc35f1159afc958a03bc136c"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.ReplayCharts.json",
+      "bytes": 927,
+      "sha256": "67f7fa4d7787260bae5e5f318dc3db64a5c615cb33e0bd163fa7d6144cb65270"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.ReplayCharts.txt",
+      "bytes": 196,
+      "sha256": "a0cdb938b3c10962c8afe644fbbedd8c5c6ba5d190d6a4fc9104506cd634d0f2"
     },
     {
       "path": "evidence/481-progress/NoThreeLine481.TerminalCapacity.json",
@@ -44359,6 +44419,16 @@
       "sha256": "0937e87f0d7a6c302e14d30bd73e0111743e37be9c2c571122432be98ca5e8e0"
     },
     {
+      "path": "NoThreeLine481/AngularBounds.lean",
+      "bytes": 7663,
+      "sha256": "9c7d7a5372946ae5a91a939f51028bdbfe4483c462489600f93c6881430a32dd"
+    },
+    {
+      "path": "NoThreeLine481/AngularPrices.lean",
+      "bytes": 2489,
+      "sha256": "3a5219d60b17a9b8257875f9f7b877f69aae32d7091390c1e70e8888fda83c32"
+    },
+    {
       "path": "NoThreeLine481/AngularTransfer.lean",
       "bytes": 1967,
       "sha256": "fca5ed80cdac54f320fcb3ad36efa85b7fa1d75a6468568a12fbe41342900242"
@@ -44449,6 +44519,11 @@
       "sha256": "2f39560e70ef62f98d8fbf4c5ef0f4242dbca54acc091a8a9dd87b17853730bd"
     },
     {
+      "path": "NoThreeLine481/FareyPartition.lean",
+      "bytes": 1039,
+      "sha256": "6f55e3e2d67ce3ac81739fc4168d0ed6925d38744881b7d10c609b95ad7ad8b8"
+    },
+    {
       "path": "NoThreeLine481/FineGridGeometry.lean",
       "bytes": 5384,
       "sha256": "2b2023845612e2880f7bfb1af53a51fce1cf718ce455e087616bc695a9601b45"
@@ -44467,6 +44542,16 @@
       "path": "NoThreeLine481/FineRankOutput.lean",
       "bytes": 4872,
       "sha256": "35f9102321d41f1385ac4112139b5640e1b220b9c0be3313e2f00d33cb6ca29a"
+    },
+    {
+      "path": "NoThreeLine481/IntegerSlice.lean",
+      "bytes": 5924,
+      "sha256": "5872a52c60f8b440b2e73774886df3eb1bdb7b63f821f87a968e68ff2ec5c181"
+    },
+    {
+      "path": "NoThreeLine481/KnotEnvelope.lean",
+      "bytes": 7942,
+      "sha256": "454ca1452f1151ac324be0be55026e4f99787daa7ad71de9ca00e4dc2116375a"
     },
     {
       "path": "NoThreeLine481/NumericalMargin.lean",
@@ -44499,6 +44584,11 @@
       "sha256": "a6df29dbc47e0005303429f3f8324eefa03315ad3db1655a1c5cfd15bedeb569"
     },
     {
+      "path": "NoThreeLine481/ReplayCharts.lean",
+      "bytes": 3514,
+      "sha256": "a66ad3100ca9f3962238b97166a911f99afc31a41694b2397b1e368305596b5f"
+    },
+    {
       "path": "NoThreeLine481/TerminalCapacity.lean",
       "bytes": 3914,
       "sha256": "3aedc61ad104a8a94869fbac29cad3610089d85d5a281fea5dafe1814c467f99"
@@ -44510,13 +44600,13 @@
     },
     {
       "path": "NoThreeLine481.lean",
-      "bytes": 290,
-      "sha256": "ead6bddbc4db993677c9878e08726c1aa88fb7821d749acfb450fa1ecb4fbced"
+      "bytes": 469,
+      "sha256": "aafc8673681d65a796370fe3b549b0b95283aadce75ef7e2bd2557501fc324b2"
     },
     {
       "path": "publication.json",
-      "bytes": 1493,
-      "sha256": "4d08cc25b88c3b2273f044385dd5e6a713513ba4f530d06e7840ae99fd1fc885"
+      "bytes": 1507,
+      "sha256": "e64ca41f0c1eaad69c868b0a5e13c0a523cb7ca237672359dbc4d35b28c5cd98"
     },
     {
       "path": "README.md",

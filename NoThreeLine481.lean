@@ -6,3 +6,8 @@ import NoThreeLine481.FineGridOutput
 import NoThreeLine481.RankedPhases
 import NoThreeLine481.AngularTransfer
 import NoThreeLine481.Archived481
+import NoThreeLine481.IntegerSlice
+import NoThreeLine481.ReplayCharts
+import NoThreeLine481.AngularBounds
+import NoThreeLine481.AngularPrices
+import NoThreeLine481.FareyPartition

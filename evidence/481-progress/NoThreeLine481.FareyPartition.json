@@ -1,0 +1,14 @@
+{
+  "module": "NoThreeLine481.FareyPartition",
+  "source": "NoThreeLine481/FareyPartition.lean",
+  "source_sha256": "6f55e3e2d67ce3ac81739fc4168d0ed6925d38744881b7d10c609b95ad7ad8b8",
+  "compiler": "Lean 4.32.2",
+  "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "build_basis": "saved local compiled imports of the audited public snapshot plus earlier 481 progress modules",
+  "log": "evidence/481-progress/NoThreeLine481.FareyPartition.txt",
+  "log_sha256": "e8b382b74adb94ba11f0ed857fcea12fa3ce2d9e62e3eb04e1b8badba0163c46",
+  "seconds": 13.522,
+  "olean_sha256": "584bce5141fc3298af51f33498fff63f9b2a930fce40ee438591e122cdc9a3de",
+  "direct_local_imports": [],
+  "status": "PASS"
+}

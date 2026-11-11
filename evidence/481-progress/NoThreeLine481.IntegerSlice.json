@@ -1,0 +1,20 @@
+{
+  "module": "NoThreeLine481.IntegerSlice",
+  "source": "NoThreeLine481/IntegerSlice.lean",
+  "source_sha256": "5872a52c60f8b440b2e73774886df3eb1bdb7b63f821f87a968e68ff2ec5c181",
+  "compiler": "Lean 4.32.2",
+  "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "build_basis": "saved local compiled imports of the audited public snapshot plus earlier 481 progress modules",
+  "log": "evidence/481-progress/NoThreeLine481.IntegerSlice.txt",
+  "log_sha256": "83075db05603f9d5a177767f53811f6a5756ec517d325e25d0509a76e700b6ff",
+  "seconds": 16.897,
+  "olean_sha256": "781804a9d52f6f5cc2085074e1a4c34e424bc5bb48b677b288415ae8fe6b7754",
+  "direct_local_imports": [
+    {
+      "module": "NoThreeLine481.KnotEnvelope",
+      "source_sha256": "454ca1452f1151ac324be0be55026e4f99787daa7ad71de9ca00e4dc2116375a",
+      "olean_sha256": "2068f834f197e5a691b01799fce1ef2da98f0eb688872f96fe1add6507892d57"
+    }
+  ],
+  "status": "PASS"
+}

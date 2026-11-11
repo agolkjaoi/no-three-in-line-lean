@@ -16,6 +16,8 @@ Proved that the rank-end pair bound controls refined deadlines, and that strict 
 
 Instantiated the ranked binary schedule with the archived 481-phase input. Proved that the archived input gives the final target conditional on its per-cell continuum angular bounds. Checked the generated rank literal and all Lean decoder outputs against the archived rank file.
 
+Checked general angular checker lemmas for integer chord slices, the external checker’s coordinate maps, the Farey partition, bin estimates and the exact cell acceptance inequality.
+
 ## 2026-11-10 — 481-phase computer-assisted proof, English Version 0.2
 
 Added the [481-phase English manuscript and complete verification package](docs/paper/481-phase/), with a [current PDF](docs/paper/481-phase/output/pdf/no_three_in_line_481_en.pdf) and [downloadable ZIP](docs/paper/releases/no_three_line_481_complete_en_20261110.zip). The paper gives an ordinary mathematical, computer-assisted proof of a no-three-in-line set of size at least `ceil(1.501 n)` for every sufficiently large integer `n`. This replaces the conditional numerical application of Version 0.1 with a different, fully checked finite input of mass `1.501114506104296875`.

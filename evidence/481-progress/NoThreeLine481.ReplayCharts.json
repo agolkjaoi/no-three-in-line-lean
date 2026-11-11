@@ -1,0 +1,20 @@
+{
+  "module": "NoThreeLine481.ReplayCharts",
+  "source": "NoThreeLine481/ReplayCharts.lean",
+  "source_sha256": "a66ad3100ca9f3962238b97166a911f99afc31a41694b2397b1e368305596b5f",
+  "compiler": "Lean 4.32.2",
+  "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "build_basis": "saved local compiled imports of the audited public snapshot plus earlier 481 progress modules",
+  "log": "evidence/481-progress/NoThreeLine481.ReplayCharts.txt",
+  "log_sha256": "a0cdb938b3c10962c8afe644fbbedd8c5c6ba5d190d6a4fc9104506cd634d0f2",
+  "seconds": 18.052,
+  "olean_sha256": "8073b7d0396601231b49b16746b35c8230afc37630984f1226ae34df772ca1f7",
+  "direct_local_imports": [
+    {
+      "module": "NoThreeLine.AngularSieve",
+      "source_sha256": "0588bc6bc6cb6145d3027d16561f7516b642f94cd58a9caa033d75d625f5eb4c",
+      "olean_sha256": "6a412e3ed761988ab062e8b440a300403f783b6ae814d839b81d8864937baac6"
+    }
+  ],
+  "status": "PASS"
+}

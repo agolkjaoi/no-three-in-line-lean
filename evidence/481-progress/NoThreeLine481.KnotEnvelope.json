@@ -1,0 +1,20 @@
+{
+  "module": "NoThreeLine481.KnotEnvelope",
+  "source": "NoThreeLine481/KnotEnvelope.lean",
+  "source_sha256": "454ca1452f1151ac324be0be55026e4f99787daa7ad71de9ca00e4dc2116375a",
+  "compiler": "Lean 4.32.2",
+  "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "build_basis": "saved local compiled imports of the audited public snapshot plus earlier 481 progress modules",
+  "log": "evidence/481-progress/NoThreeLine481.KnotEnvelope.txt",
+  "log_sha256": "34fc911ab3878425f801a5a03f550bc5b56fb1fc70e6e08a7a39b9dce4bbe333",
+  "seconds": 18.195,
+  "olean_sha256": "2068f834f197e5a691b01799fce1ef2da98f0eb688872f96fe1add6507892d57",
+  "direct_local_imports": [
+    {
+      "module": "NoThreeLine.VertexEnvelope",
+      "source_sha256": "1954b88eef12635dda99cd3f3f2921101a33e4ac490f097a2a45491ee77bc35e",
+      "olean_sha256": "bbe213715777e31665440485774b8b009d3d0a22bf43329eca586eeebff976eb"
+    }
+  ],
+  "status": "PASS"
+}

@@ -1,14 +1,14 @@
 {
   "module": "NoThreeLine481",
   "source": "NoThreeLine481.lean",
-  "source_sha256": "ead6bddbc4db993677c9878e08726c1aa88fb7821d749acfb450fa1ecb4fbced",
+  "source_sha256": "aafc8673681d65a796370fe3b549b0b95283aadce75ef7e2bd2557501fc324b2",
   "compiler": "Lean 4.32.2",
   "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
   "build_basis": "saved local compiled imports of the audited public snapshot plus earlier 481 progress modules",
   "log": "evidence/481-progress/NoThreeLine481.txt",
   "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "seconds": 23.073,
-  "olean_sha256": "45c410de50b07621ba873cfed5090c6b66642703197c5868d1cd665233388b09",
+  "seconds": 20.431,
+  "olean_sha256": "ee259433898c8020077c6891883c6a4a4ef23da733272388246aa043d63344c9",
   "direct_local_imports": [
     {
       "module": "NoThreeLine481.NumericalMargin",
@@ -49,6 +49,31 @@
       "module": "NoThreeLine481.Archived481",
       "source_sha256": "28c5bad9896f7651a61500b1ddaa742611e4f7b923c08f29a01c358f33e57500",
       "olean_sha256": "8af7ae1db92088d1c2d3e9e2dbb4478bf62620338fb15f72e72b51625104d681"
+    },
+    {
+      "module": "NoThreeLine481.IntegerSlice",
+      "source_sha256": "5872a52c60f8b440b2e73774886df3eb1bdb7b63f821f87a968e68ff2ec5c181",
+      "olean_sha256": "781804a9d52f6f5cc2085074e1a4c34e424bc5bb48b677b288415ae8fe6b7754"
+    },
+    {
+      "module": "NoThreeLine481.ReplayCharts",
+      "source_sha256": "a66ad3100ca9f3962238b97166a911f99afc31a41694b2397b1e368305596b5f",
+      "olean_sha256": "8073b7d0396601231b49b16746b35c8230afc37630984f1226ae34df772ca1f7"
+    },
+    {
+      "module": "NoThreeLine481.AngularBounds",
+      "source_sha256": "9c7d7a5372946ae5a91a939f51028bdbfe4483c462489600f93c6881430a32dd",
+      "olean_sha256": "8c5e94953e2872664d3e2b7b831d54fb9cc61fdff546f1ffd3cedb8b211b0349"
+    },
+    {
+      "module": "NoThreeLine481.AngularPrices",
+      "source_sha256": "3a5219d60b17a9b8257875f9f7b877f69aae32d7091390c1e70e8888fda83c32",
+      "olean_sha256": "4120ba38043016842884047dd496b037c3e47efc090635efc131302758a858fe"
+    },
+    {
+      "module": "NoThreeLine481.FareyPartition",
+      "source_sha256": "6f55e3e2d67ce3ac81739fc4168d0ed6925d38744881b7d10c609b95ad7ad8b8",
+      "olean_sha256": "584bce5141fc3298af51f33498fff63f9b2a930fce40ee438591e122cdc9a3de"
     }
   ],
   "status": "PASS"

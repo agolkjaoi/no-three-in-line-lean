@@ -1,0 +1,20 @@
+{
+  "module": "NoThreeLine481.AngularBounds",
+  "source": "NoThreeLine481/AngularBounds.lean",
+  "source_sha256": "9c7d7a5372946ae5a91a939f51028bdbfe4483c462489600f93c6881430a32dd",
+  "compiler": "Lean 4.32.2",
+  "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "build_basis": "saved local compiled imports of the audited public snapshot plus earlier 481 progress modules",
+  "log": "evidence/481-progress/NoThreeLine481.AngularBounds.txt",
+  "log_sha256": "3b5ad25589a972cb7af90f12dfaace343794e0b98b43c971b693641b93b09631",
+  "seconds": 15.916,
+  "olean_sha256": "8c5e94953e2872664d3e2b7b831d54fb9cc61fdff546f1ffd3cedb8b211b0349",
+  "direct_local_imports": [
+    {
+      "module": "NoThreeLine.AffineBranch",
+      "source_sha256": "a476cf66f8fb28cac0c944653176d2ded3add5894560006af2b4fdf2dd05bf4f",
+      "olean_sha256": "e68155d507779cd4620b57e4f1e0db4b74d9b9cd8b7aa8cd08e2bd8698acc606"
+    }
+  ],
+  "status": "PASS"
+}

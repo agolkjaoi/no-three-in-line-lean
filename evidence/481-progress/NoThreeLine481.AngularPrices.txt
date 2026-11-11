@@ -1,0 +1,2 @@
+'NoThreeLine481.angularIntegral_le_of_integer_bins' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine481.fineCellAngularRisk_le_of_integer_prices' depends on axioms: [propext, Classical.choice, Quot.sound]

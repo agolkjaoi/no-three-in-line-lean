@@ -1,0 +1,7 @@
+'NoThreeLine481.tube_chord_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine481.constant_bin_square_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine481.branch_le_reciprocal_secant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine481.farey_denominator_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine481.farey_grid_sign' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine481.ceil_div_mul_bound' depends on axioms: [propext, Quot.sound]
+'NoThreeLine481.farey_bin_square_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

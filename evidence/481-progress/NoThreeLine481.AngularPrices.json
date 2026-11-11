@@ -1,0 +1,20 @@
+{
+  "module": "NoThreeLine481.AngularPrices",
+  "source": "NoThreeLine481/AngularPrices.lean",
+  "source_sha256": "3a5219d60b17a9b8257875f9f7b877f69aae32d7091390c1e70e8888fda83c32",
+  "compiler": "Lean 4.32.2",
+  "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "build_basis": "saved local compiled imports of the audited public snapshot plus earlier 481 progress modules",
+  "log": "evidence/481-progress/NoThreeLine481.AngularPrices.txt",
+  "log_sha256": "11b31579b6395c056a212bd8448b323e44121be4228e7f8282903d3ea9615cef",
+  "seconds": 19.365,
+  "olean_sha256": "4120ba38043016842884047dd496b037c3e47efc090635efc131302758a858fe",
+  "direct_local_imports": [
+    {
+      "module": "NoThreeLine481.Archived481",
+      "source_sha256": "28c5bad9896f7651a61500b1ddaa742611e4f7b923c08f29a01c358f33e57500",
+      "olean_sha256": "8af7ae1db92088d1c2d3e9e2dbb4478bf62620338fb15f72e72b51625104d681"
+    }
+  ],
+  "status": "PASS"
+}
