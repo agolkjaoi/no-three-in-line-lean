@@ -1,0 +1,6 @@
+'NoThreeLine481.farey_offset_sameSign' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine481.offset_nonneg_endpoints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine481.movingChord_le_reciprocalSecant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine481.rectangular_chord_le_farey_secant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine481.movingChord_first_bin_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine481.rectangular_chord_le_first_farey_bin' depends on axioms: [propext, Classical.choice, Quot.sound]

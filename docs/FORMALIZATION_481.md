@@ -20,6 +20,8 @@
 
 - [Angular checker lemmas](../NoThreeLine481/IntegerSlice.lean) show that integer endpoint and knot maxima at a positive slope bound the real chord throughout a root interval. The [chart proof](../NoThreeLine481/ReplayCharts.lean) uses the external checker’s four coordinate maps. [Bin and acceptance arithmetic](../NoThreeLine481/AngularPrices.lean) assembles certified bin prices into the cell risk bound. The [Farey partition](../NoThreeLine481/FareyPartition.lean) checks the 19,948 intervals at order 256 in the kernel, and [angular estimates](../NoThreeLine481/AngularBounds.lean) supply separate real bounds for tubes and positive Farey bins under their stated geometric premises.
 
+- [Farey bin geometry](../NoThreeLine481/FareySecant.lean) proves the real chord bound throughout a closed root box on a positive Farey bin from its endpoint bounds. It also proves the first bin’s constant bound from the first positive endpoint. The hypotheses state the integer grid of the vertices and the endpoint chord inequalities.
+
 The [compilation records](../evidence/481-progress/) identify the modules and their axiom reports. The checks used the pinned Lean toolchain and saved local compiled dependencies. To rebuild the entry module in a Lake checkout, run `lake build NoThreeLine481`.
 
-The unconditional `NoThreeLine.Target` remains open in Lean. Its remaining premise on this route is `FineCellAngularCertificate archivedRanks481`, the continuum angular bound for every positive typed fine cell. The published C++ replay checks those inputs externally.
+The unconditional `NoThreeLine.Target` remains open in Lean. Its remaining premise on this route is `FineCellAngularCertificate archivedRanks481`, the continuum angular bound for every positive typed fine cell. The published C++ replay checks those inputs externally. The remaining Lean work is to bind the checker’s corner and tube data to the real bounds and certify the complete per-cell integer computations.

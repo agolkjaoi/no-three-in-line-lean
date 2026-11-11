@@ -11,3 +11,4 @@ import NoThreeLine481.ReplayCharts
 import NoThreeLine481.AngularBounds
 import NoThreeLine481.AngularPrices
 import NoThreeLine481.FareyPartition
+import NoThreeLine481.FareySecant

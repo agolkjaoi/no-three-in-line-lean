@@ -1,0 +1,30 @@
+{
+  "module": "NoThreeLine481.FareySecant",
+  "source": "NoThreeLine481/FareySecant.lean",
+  "source_sha256": "249a838fb2a53ef0214fb9dc51aa01037925a9985171a66688e49fd99e687d5a",
+  "compiler": "Lean 4.32.2",
+  "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "build_basis": "saved local compiled imports of the audited public snapshot plus earlier 481 progress modules",
+  "log": "evidence/481-progress/NoThreeLine481.FareySecant.txt",
+  "log_sha256": "7f66894d359c3d4342310d5073de595b1c1d3cee252f339b080c1a311c1bd12f",
+  "seconds": 18.552,
+  "olean_sha256": "1b4c848b32a3e4962e9a462689a0f5d89b326bbf20da88e897aa113136fcd8d3",
+  "direct_local_imports": [
+    {
+      "module": "NoThreeLine.AngularBV",
+      "source_sha256": "fbadf6539954832ccb9aac6ed93b9ee3c4140d22112037e34ed558b26253153f",
+      "olean_sha256": "b07c8ffdbc65f88934e66ff8b470d62587e43cd833d4cd4166eeca0fc64ce4e8"
+    },
+    {
+      "module": "NoThreeLine481.AngularBounds",
+      "source_sha256": "9c7d7a5372946ae5a91a939f51028bdbfe4483c462489600f93c6881430a32dd",
+      "olean_sha256": "8c5e94953e2872664d3e2b7b831d54fb9cc61fdff546f1ffd3cedb8b211b0349"
+    },
+    {
+      "module": "NoThreeLine481.KnotEnvelope",
+      "source_sha256": "454ca1452f1151ac324be0be55026e4f99787daa7ad71de9ca00e4dc2116375a",
+      "olean_sha256": "2068f834f197e5a691b01799fce1ef2da98f0eb688872f96fe1add6507892d57"
+    }
+  ],
+  "status": "PASS"
+}
