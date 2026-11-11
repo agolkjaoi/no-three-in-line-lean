@@ -1,0 +1,2 @@
+'NoThreeLine481.specifiedClockCap_of_coarse_domination' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine481.ordinaryTagCap_of_coarse_domination' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+'NoThreeLine481.coarseCellUnits_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine481.coarseField_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine481.fineGridTerminal_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine481.boardMassFloor_le_fineGridTerminal' depends on axioms: [propext, Classical.choice, Quot.sound]

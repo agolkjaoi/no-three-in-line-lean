@@ -1,0 +1,35 @@
+{
+  "module": "NoThreeLine481.TerminalMass",
+  "source": "NoThreeLine481/TerminalMass.lean",
+  "source_sha256": "c7303774e2f63ebf6629b13e78a581fa48b59d5b10f44ad6fc78c8da6f63a9c7",
+  "compiler": "Lean 4.32.2",
+  "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "build_basis": "saved local compiled imports of the audited public snapshot plus earlier 481 progress modules",
+  "log": "evidence/481-progress/NoThreeLine481.TerminalMass.txt",
+  "log_sha256": "64d01d40d73e56ef086149b2b2cd7021b7c375e02335df4d4703bb8651c559eb",
+  "seconds": 28.6,
+  "olean_sha256": "f38624ed2ddbf2222f8b843fe568a89a95fd58f4728986e7245434dabaf82d1e",
+  "direct_local_imports": [
+    {
+      "module": "NoThreeLine.FrozenCapacityClockInput",
+      "source_sha256": "40da16af5fde4c3b6840e679bcc4c6e9b299d89aed193e51756dddd8805dcb4e",
+      "olean_sha256": "a92cdaab0e9fbec6f9ea4e30f91184629f109e550fb70f534800ffcde374cb43"
+    },
+    {
+      "module": "NoThreeLine.MaskedAreaRiemann",
+      "source_sha256": "79a19d0e1bea5bb9eee8b98c29c4b71a84508de2ef38171da200239eccd02b26",
+      "olean_sha256": "9bce4972af033c3a0fd3858598b286f204ede3da5cc4cc5d723273a66eef788c"
+    },
+    {
+      "module": "NoThreeLine.ScaledPacketRiemann",
+      "source_sha256": "ce4da3149b0cb87f2d68e63e96e8466c1df10fb55375ee716e32a23ff077ccbc",
+      "olean_sha256": "9aed708ae238b047d1b72a6c51f9ef6873dd8f1fd1dc182c98ce5c0018b81db1"
+    },
+    {
+      "module": "NoThreeLine481.NumericalMargin",
+      "source_sha256": "ca41bd51154ab626833e9a9b680bb09a59ad73c5e0ff3c906d2029d351c7b96a",
+      "olean_sha256": "17ba56c14edab3cde8e5047926f191929a3195f8a1a1460967a18d6ca09f2d13"
+    }
+  ],
+  "status": "PASS"
+}

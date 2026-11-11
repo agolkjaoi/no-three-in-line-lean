@@ -1,7 +1,7 @@
 {
   "scope": "All distributed files except this manifest, including the frozen snapshot, the 481-phase manuscript and the separately audited Lean progress. Excludes temporary build products.",
   "snapshot_id": "2026-11-10-audited-2",
-  "publication_edition": "2026-11-11-public-7-lean481-output",
+  "publication_edition": "2026-11-11-public-8-lean481-terminal-field",
   "files": [
     {
       "path": ".gitattributes",
@@ -20,8 +20,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 5350,
-      "sha256": "fba7f36b44e202528211b9aa4221cd19c941a5cc4fac4098bb74b186d3c64b69"
+      "bytes": 5560,
+      "sha256": "dc7f8d08e2472630e559c2e2f69afc1fc589e889dd6e23b274b2ca2695706ff1"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -30,8 +30,8 @@
     },
     {
       "path": "docs/FORMALIZATION_481.md",
-      "bytes": 2307,
-      "sha256": "f87f378a9e5fe51f5e88c1a61dc37c39639418b013f8d95b2dba5e31756e33b9"
+      "bytes": 2757,
+      "sha256": "9eb6d91d262b5b394b77a3df933e86ad719a6491a4a72cb0dc490e5f3d0ebc86"
     },
     {
       "path": "docs/ISSUE_DRAFTS.md",
@@ -11679,9 +11679,19 @@
       "sha256": "d7914aca230e285e2c4dadad223c79ef71fba53aa4872f824ee1e27f35040c9d"
     },
     {
+      "path": "evidence/481-progress/NoThreeLine481.FineGridOutput.json",
+      "bytes": 1420,
+      "sha256": "138d579f14799bca9b8d6ae903ec51887df742b09424083cb9a51e08b4e0bb82"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.FineGridOutput.txt",
+      "bytes": 233,
+      "sha256": "65c961d8c701984efd8d65bf00907b55f118c8eebaeea584fb065c3810f325db"
+    },
+    {
       "path": "evidence/481-progress/NoThreeLine481.json",
-      "bytes": 1617,
-      "sha256": "13de514b41962a647e2547b69a4a455dcae453768a8d2bf88e48ee531444eb6f"
+      "bytes": 1859,
+      "sha256": "30e4a6c0e2b1294f07ea5945ec4a313ed9bc252d601f29eb6ebcc0b5d60d535b"
     },
     {
       "path": "evidence/481-progress/NoThreeLine481.NumericalMargin.json",
@@ -11702,6 +11712,26 @@
       "path": "evidence/481-progress/NoThreeLine481.PhaseRefinement.txt",
       "bytes": 404,
       "sha256": "7e8c11b95395e811ce1a0875c50d7e6faaf0d0b173c884053319ecd3dfb2dd66"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.TerminalCapacity.json",
+      "bytes": 1443,
+      "sha256": "21121a382d33d8509241de7f1ab34740e8786d520e3295bcd9378307a9a98ce3"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.TerminalCapacity.txt",
+      "bytes": 227,
+      "sha256": "420338f9c4c3e6c15b88a6855f734a6e1fed7796d4d29535202995933fd5d485"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.TerminalMass.json",
+      "bytes": 1666,
+      "sha256": "01b1d5723f178cc3bd7e47990d06fce32d22f1c02f4133e9c75d4458cb1f15c8"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.TerminalMass.txt",
+      "bytes": 400,
+      "sha256": "64d01d40d73e56ef086149b2b2cd7021b7c375e02335df4d4703bb8651c559eb"
     },
     {
       "path": "evidence/481-progress/NoThreeLine481.txt",
@@ -44319,6 +44349,11 @@
       "sha256": "2f39560e70ef62f98d8fbf4c5ef0f4242dbca54acc091a8a9dd87b17853730bd"
     },
     {
+      "path": "NoThreeLine481/FineGridOutput.lean",
+      "bytes": 2593,
+      "sha256": "b872dc9be7aa84bfa9583269555a16b75a0b59c90fe154f67c4d02cac54b2723"
+    },
+    {
       "path": "NoThreeLine481/NumericalMargin.lean",
       "bytes": 2641,
       "sha256": "ca41bd51154ab626833e9a9b680bb09a59ad73c5e0ff3c906d2029d351c7b96a"
@@ -44329,14 +44364,24 @@
       "sha256": "f3794d781d36d9e56db8577eed2f12df83671a0a12147f63b1e9b22417541629"
     },
     {
+      "path": "NoThreeLine481/TerminalCapacity.lean",
+      "bytes": 3914,
+      "sha256": "3aedc61ad104a8a94869fbac29cad3610089d85d5a281fea5dafe1814c467f99"
+    },
+    {
+      "path": "NoThreeLine481/TerminalMass.lean",
+      "bytes": 4851,
+      "sha256": "c7303774e2f63ebf6629b13e78a581fa48b59d5b10f44ad6fc78c8da6f63a9c7"
+    },
+    {
       "path": "NoThreeLine481.lean",
-      "bytes": 146,
-      "sha256": "b14983b11deb2e68ddbba6202d9119c87f0b6c0309586dfcc8ee416d13b2b031"
+      "bytes": 183,
+      "sha256": "3e9852d2efae477c23ededd36ca994acc594ce101a271c0dad09386b4eb64731"
     },
     {
       "path": "publication.json",
-      "bytes": 1486,
-      "sha256": "9bf879a75483bf6055a8b88145d42a64d22b044450d405cff71d9cb50f9e0440"
+      "bytes": 1490,
+      "sha256": "7edc4df67880a145f310955df7fa241d4b859137002dd9a8a67b4a275f78873a"
     },
     {
       "path": "README.md",

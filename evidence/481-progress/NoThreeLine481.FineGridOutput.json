@@ -1,0 +1,30 @@
+{
+  "module": "NoThreeLine481.FineGridOutput",
+  "source": "NoThreeLine481/FineGridOutput.lean",
+  "source_sha256": "b872dc9be7aa84bfa9583269555a16b75a0b59c90fe154f67c4d02cac54b2723",
+  "compiler": "Lean 4.32.2",
+  "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "build_basis": "saved local compiled imports of the audited public snapshot plus earlier 481 progress modules",
+  "log": "evidence/481-progress/NoThreeLine481.FineGridOutput.txt",
+  "log_sha256": "65c961d8c701984efd8d65bf00907b55f118c8eebaeea584fb065c3810f325db",
+  "seconds": 19.209,
+  "olean_sha256": "80953bc9ccfffca611ef4cc3a25c1a19f583bfb23bbac892eacb4a364197bbce",
+  "direct_local_imports": [
+    {
+      "module": "NoThreeLine481.BinaryOutput",
+      "source_sha256": "3d31ed6db2b6f0317652344e132b1e02bc87606ca8ebb7b65fbe7ac6477865f4",
+      "olean_sha256": "8b3df36d307f5bb31227f6cd235d2e0f16c41d082aa39d191a46a24cde6a7cb3"
+    },
+    {
+      "module": "NoThreeLine481.TerminalCapacity",
+      "source_sha256": "3aedc61ad104a8a94869fbac29cad3610089d85d5a281fea5dafe1814c467f99",
+      "olean_sha256": "cc717fb85eb7d997e5adc917d400f63b578fd3bcbcd33b3639f57cc266f665ab"
+    },
+    {
+      "module": "NoThreeLine481.TerminalMass",
+      "source_sha256": "c7303774e2f63ebf6629b13e78a581fa48b59d5b10f44ad6fc78c8da6f63a9c7",
+      "olean_sha256": "f38624ed2ddbf2222f8b843fe568a89a95fd58f4728986e7245434dabaf82d1e"
+    }
+  ],
+  "status": "PASS"
+}

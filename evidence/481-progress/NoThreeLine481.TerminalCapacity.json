@@ -1,0 +1,30 @@
+{
+  "module": "NoThreeLine481.TerminalCapacity",
+  "source": "NoThreeLine481/TerminalCapacity.lean",
+  "source_sha256": "3aedc61ad104a8a94869fbac29cad3610089d85d5a281fea5dafe1814c467f99",
+  "compiler": "Lean 4.32.2",
+  "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "build_basis": "saved local compiled imports of the audited public snapshot plus earlier 481 progress modules",
+  "log": "evidence/481-progress/NoThreeLine481.TerminalCapacity.txt",
+  "log_sha256": "420338f9c4c3e6c15b88a6855f734a6e1fed7796d4d29535202995933fd5d485",
+  "seconds": 19.777,
+  "olean_sha256": "cc717fb85eb7d997e5adc917d400f63b578fd3bcbcd33b3639f57cc266f665ab",
+  "direct_local_imports": [
+    {
+      "module": "NoThreeLine.FrozenOutsideCapacityInput",
+      "source_sha256": "c0b5c55fdd826e42e2b95dbda0cdd55dbc278062353cbd02c6ab67d16566c57e",
+      "olean_sha256": "a99f785a25d8608c0ac6fcf4801d583d8d703b77ac160c0e28aa279d1ac69a00"
+    },
+    {
+      "module": "NoThreeLine.FrozenSpecifiedClockBound",
+      "source_sha256": "0557e53b1a60f7ada4723bf956dfa2b8ad91ce2df4d570a343f694f7327f68da",
+      "olean_sha256": "5d3e797c5eb064761390a854746e0620fe52e277e95d7bf9744f563a414795be"
+    },
+    {
+      "module": "NoThreeLine481.CapacityRows",
+      "source_sha256": "2f39560e70ef62f98d8fbf4c5ef0f4242dbca54acc091a8a9dd87b17853730bd",
+      "olean_sha256": "95ea6257dd6097ae4eb8cfef3b954b68803f2494391a1fe2612bc6dfe979e1bc"
+    }
+  ],
+  "status": "PASS"
+}
