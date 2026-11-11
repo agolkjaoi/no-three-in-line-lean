@@ -1,7 +1,7 @@
 {
   "scope": "All distributed files except this manifest, including the frozen snapshot, the 481-phase manuscript and the separately audited Lean progress. Excludes temporary build products.",
   "snapshot_id": "2026-11-10-audited-2",
-  "publication_edition": "2026-11-11-public-4-lean481-margin",
+  "publication_edition": "2026-11-11-public-5-lean481-capacity",
   "files": [
     {
       "path": ".gitattributes",
@@ -20,8 +20,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 4845,
-      "sha256": "5e92fbf06d45f4d301981db2f5128660647b67df41af3fa42e1d50867a71799e"
+      "bytes": 5051,
+      "sha256": "6c418d6a577a845a5bb522b90be9889f7486de0472451ea70397060ff9806108"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -30,8 +30,8 @@
     },
     {
       "path": "docs/FORMALIZATION_481.md",
-      "bytes": 1116,
-      "sha256": "4c9637f425534d5afb19b592ec596113c89b1be331c0dcd7d8a0bec647a99fa7"
+      "bytes": 1408,
+      "sha256": "9ee1462c3b4933336331a7292d82bdc73ea8d84157cfac15dd5da5d5ba0ca9b7"
     },
     {
       "path": "docs/ISSUE_DRAFTS.md",
@@ -11519,9 +11519,149 @@
       "sha256": "84b588b57cabfeedc51d817fa9549621e2f55eee1cc970b452ee8cfc7922097f"
     },
     {
+      "path": "evidence/481-progress/NoThreeLine481.CapacityLowRow099.json",
+      "bytes": 1195,
+      "sha256": "a8a945e361debf9d7062752266a899bb0b828d3c026c831229d15c270e758125"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.CapacityLowRow099.txt",
+      "bytes": 212,
+      "sha256": "59b41a6fd566e8bd14ffba2998dce07812327e0cb31896dc39b0b8431d887d26"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.CapacityLowRow100.json",
+      "bytes": 1195,
+      "sha256": "586e67940645b338252814279fed9daab6fda262c13ba6818a75b701f3a60e9d"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.CapacityLowRow100.txt",
+      "bytes": 212,
+      "sha256": "7b9ff0284be70aea59e0eac84ff15fd2ac6ccc90f8afe3429a190b4b1052051b"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.CapacityLowRow101.json",
+      "bytes": 1195,
+      "sha256": "91f32d01fd02c9142ac7660b3a5e4261f9aa6217de2917439678e38255276d2f"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.CapacityLowRow101.txt",
+      "bytes": 212,
+      "sha256": "edcdd72d503a593414870873940efc4390a481614933bd6cd08af06654126bb2"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.CapacityLowRow102.json",
+      "bytes": 1195,
+      "sha256": "b8fdb772eb17b6445d2cec470ac985c33bd6ce23cff013061c9c581e5204bc5d"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.CapacityLowRow102.txt",
+      "bytes": 212,
+      "sha256": "c65afc3c31f60bb0a726a01165f17f73f971ce226db8b9a410a3ea3a4f314727"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.CapacityLowRow103.json",
+      "bytes": 1195,
+      "sha256": "38798a7f6f5f8160abb6c9a1054424099d0d70903f43811d289ba9281a24f73f"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.CapacityLowRow103.txt",
+      "bytes": 212,
+      "sha256": "237be2301faaf8c6f450e4dc5db8e40266fa3ca2dad20d54efbc5c7144dcea46"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.CapacityLowRow104.json",
+      "bytes": 1195,
+      "sha256": "368ac07272e1203de46cee9b60d1fc1e3fd2c7bcb08e120c8e8ee2f72bb8ba69"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.CapacityLowRow104.txt",
+      "bytes": 212,
+      "sha256": "e56f7c26e982e37e8a0653569afad4d379436b23df552b8e6e9cb878d8ca972e"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.CapacityLowRow105.json",
+      "bytes": 1195,
+      "sha256": "4016f347fbef8bfc964a5b5ecbc8d70b7c68b6e90515cd63e7f3ec88cc4c1e24"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.CapacityLowRow105.txt",
+      "bytes": 212,
+      "sha256": "c082b89ba7ccf1d462796929355bca8c1f65c09e67f61a1ca5f89070a7f9efbc"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.CapacityLowRow106.json",
+      "bytes": 1195,
+      "sha256": "a7def373d3af3f51e72005884fe144ea65658ff84aa879589eae96f72062e25f"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.CapacityLowRow106.txt",
+      "bytes": 212,
+      "sha256": "73eb3b958e7c752a9d9b69a941a3cef3ff68940737a123bdb45f884e4444b45f"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.CapacityLowRow107.json",
+      "bytes": 1195,
+      "sha256": "801e7e795a930dad2279c525fd9c7229d92e4e124519753ed98250d0c855c81b"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.CapacityLowRow107.txt",
+      "bytes": 212,
+      "sha256": "ac5afae99096d6825e934a4bde72f78b32fb6d07273b49a4cecfa5a3efe1b94d"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.CapacityLowRow108.json",
+      "bytes": 1195,
+      "sha256": "657595bf06ab3f0263185c8ac44dcbcc66606885309307fbdf9e896a315bf80b"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.CapacityLowRow108.txt",
+      "bytes": 212,
+      "sha256": "e74786be48d7600180c8de0597b1d686691c67664b4d6c1fd31b822b1e6f3896"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.CapacityLowRow109.json",
+      "bytes": 1195,
+      "sha256": "ad81241874a50899777af3e1815e0ba17753b41d6582c7d08a1443da152bdf74"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.CapacityLowRow109.txt",
+      "bytes": 212,
+      "sha256": "ee7203e445cc0075bc76ada4c6e63c55385b037c356ac3a4ffdc5db5238099ad"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.CapacityLowRow110.json",
+      "bytes": 1195,
+      "sha256": "a4f7d73851c4b361d33ae452d1515c087a77ea61c107b5daec0ed2d448dc9745"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.CapacityLowRow110.txt",
+      "bytes": 212,
+      "sha256": "cd66a893d2e42f659c05496dce265eeeaf1e905592509b570abbe753300760bf"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.CapacityLowRow111.json",
+      "bytes": 1195,
+      "sha256": "bb6336d93cff6973193cd61d6c69d9f9b5d8a56f4200dbc2401ebe2860ee8569"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.CapacityLowRow111.txt",
+      "bytes": 212,
+      "sha256": "3c681007f1fe1f2e56568fa2718288976ea77d90566a3bd258cd4e0182d257a1"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.CapacityRows.json",
+      "bytes": 8057,
+      "sha256": "f9f68c760f6a31bd44b69ca72f2fe3df53cefd0227e2fc515476c2db38f58c55"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.CapacityRows.txt",
+      "bytes": 98,
+      "sha256": "d7914aca230e285e2c4dadad223c79ef71fba53aa4872f824ee1e27f35040c9d"
+    },
+    {
       "path": "evidence/481-progress/NoThreeLine481.json",
-      "bytes": 533,
-      "sha256": "d784e36e5ba3b9b68a68e5686544ca9b1adc90e829698d33c57db8aefc7b8128"
+      "bytes": 1134,
+      "sha256": "aca30442c674c927fab7acad7936ada7df9689e682768a94aca80fb7f3d12eb9"
     },
     {
       "path": "evidence/481-progress/NoThreeLine481.NumericalMargin.json",
@@ -44069,19 +44209,89 @@
       "sha256": "0937e87f0d7a6c302e14d30bd73e0111743e37be9c2c571122432be98ca5e8e0"
     },
     {
+      "path": "NoThreeLine481/CapacityLowRow099.lean",
+      "bytes": 2012,
+      "sha256": "e17f4563b5ec33d223b2881a18372f10dae0361008761610556b09ce69d5281d"
+    },
+    {
+      "path": "NoThreeLine481/CapacityLowRow100.lean",
+      "bytes": 2011,
+      "sha256": "c375d7462f1d68c66899cd7211d1e1e493ed344fcb14f82e1c1853fe8385312b"
+    },
+    {
+      "path": "NoThreeLine481/CapacityLowRow101.lean",
+      "bytes": 2011,
+      "sha256": "644f6cfbccbabdc4e490e79fbea3238d943f2f1ba12dc4148add5d8040306d32"
+    },
+    {
+      "path": "NoThreeLine481/CapacityLowRow102.lean",
+      "bytes": 1994,
+      "sha256": "cc12081a86ac3e307e252c877042c12ba74bbcf6f973c165494a38efe8be38df"
+    },
+    {
+      "path": "NoThreeLine481/CapacityLowRow103.lean",
+      "bytes": 1996,
+      "sha256": "5a641e995164567ee77bc5333a251e7d754bf03ce5d8ff7c39485d0a6846ab2b"
+    },
+    {
+      "path": "NoThreeLine481/CapacityLowRow104.lean",
+      "bytes": 2018,
+      "sha256": "7e2dbbdbabeba97131823cb59c1ee9f7c96236acf9ac6bf51f6a29f308261741"
+    },
+    {
+      "path": "NoThreeLine481/CapacityLowRow105.lean",
+      "bytes": 2008,
+      "sha256": "d9822772e68283530206e5dd822a2de203942d8ce9df3bd3a26b16c0dae8d56c"
+    },
+    {
+      "path": "NoThreeLine481/CapacityLowRow106.lean",
+      "bytes": 2018,
+      "sha256": "f591479a5bb61f6238838490968e1bf67b4c305ff3ad38eebbacedeefbb82ee7"
+    },
+    {
+      "path": "NoThreeLine481/CapacityLowRow107.lean",
+      "bytes": 2013,
+      "sha256": "1a72f8b5a039665b6ef117eb99d4cf8bea913fea162e211e2887484f7fae53bb"
+    },
+    {
+      "path": "NoThreeLine481/CapacityLowRow108.lean",
+      "bytes": 2020,
+      "sha256": "c639bd5c211f9ad71fac5687f5db9c704b6b725fe9577138a9c0422a722a4e53"
+    },
+    {
+      "path": "NoThreeLine481/CapacityLowRow109.lean",
+      "bytes": 1993,
+      "sha256": "36c3b1b6078df57afdb525e32ba519116de3393cccd58ce6bc55d3878d8f1c82"
+    },
+    {
+      "path": "NoThreeLine481/CapacityLowRow110.lean",
+      "bytes": 2014,
+      "sha256": "cf4c4e8d1b616f341ef7d569d698d2a966e8efe8f927d7c257a6d36897143c42"
+    },
+    {
+      "path": "NoThreeLine481/CapacityLowRow111.lean",
+      "bytes": 2010,
+      "sha256": "6955fbf1bcb928a40862d174441b802fafc750037759f8cd58d9b73210b20526"
+    },
+    {
+      "path": "NoThreeLine481/CapacityRows.lean",
+      "bytes": 9526,
+      "sha256": "2f39560e70ef62f98d8fbf4c5ef0f4242dbca54acc091a8a9dd87b17853730bd"
+    },
+    {
       "path": "NoThreeLine481/NumericalMargin.lean",
       "bytes": 2641,
       "sha256": "ca41bd51154ab626833e9a9b680bb09a59ad73c5e0ff3c906d2029d351c7b96a"
     },
     {
       "path": "NoThreeLine481.lean",
-      "bytes": 38,
-      "sha256": "c3d5ec03cf9c09d860a6a59b1c33eed05b50b4c66a75f250b90eb6e6612a5e5f"
+      "bytes": 73,
+      "sha256": "d5fe7831d3099ec8236d35f50f441f9a0214cb183a1fb842980860a993b5343e"
     },
     {
       "path": "publication.json",
-      "bytes": 1477,
-      "sha256": "c286b332f89d64db0e5a079896f7ec9f42b8897e8a86ccb0029cf3e825e49d01"
+      "bytes": 1484,
+      "sha256": "dd3dab3100d1575489c3dbdce562902c5ed6b5adec3ce457d770da71ea2cb923"
     },
     {
       "path": "README.md",
@@ -44110,8 +44320,8 @@
     },
     {
       "path": "STATUS.md",
-      "bytes": 10924,
-      "sha256": "17be58c028eafbfe28d36e3e84a852079b65db4bf8abc0f51d0e208abde06413"
+      "bytes": 11003,
+      "sha256": "3f6521e1607384b9c871fca94dcf56fef15f7f8d78f91f84567a9af17823481f"
     }
   ]
 }

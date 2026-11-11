@@ -1,6 +1,6 @@
 # Mathematical, computational and formalization status
 
-The [481-phase Lean progress page](docs/FORMALIZATION_481.md) records checked modules added after the frozen snapshot.
+The [481-phase Lean progress page](docs/FORMALIZATION_481.md) records checked modules added after the frozen snapshot, including complete coverage of the 112 low-height ordinary-line capacity rows.
 
 This page separates the **10 November 2026 English 481-phase manuscript** from the **unchanged Lean snapshot**, whose cutoff is **2026-11-09 15:22:46 UTC (2026-11-10 00:22:46 JST)**. The new paper and finite replay do not add Lean modules or change historical Lean coverage counts.
 

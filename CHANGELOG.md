@@ -4,6 +4,8 @@
 
 Added the exact final mass and retention comparison from Section 10 as a Lean theorem with explicit lattice mass and retention hypotheses. The [progress page](docs/FORMALIZATION_481.md) links the checked modules and describes their scope.
 
+Completed the 112-row low-height ordinary-line capacity table in Lean. The 13 additional row checks use integer bounds with kernel evaluation, and the combined theorem covers the full common coarse table.
+
 ## 2026-11-10 — 481-phase computer-assisted proof, English Version 0.2
 
 Added the [481-phase English manuscript and complete verification package](docs/paper/481-phase/), with a [current PDF](docs/paper/481-phase/output/pdf/no_three_in_line_481_en.pdf) and [downloadable ZIP](docs/paper/releases/no_three_line_481_complete_en_20261110.zip). The paper gives an ordinary mathematical, computer-assisted proof of a no-three-in-line set of size at least `ceil(1.501 n)` for every sufficiently large integer `n`. This replaces the conditional numerical application of Version 0.1 with a different, fully checked finite input of mass `1.501114506104296875`.

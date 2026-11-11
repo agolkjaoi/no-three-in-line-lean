@@ -1,0 +1,25 @@
+{
+  "module": "NoThreeLine481.CapacityLowRow109",
+  "source": "NoThreeLine481/CapacityLowRow109.lean",
+  "source_sha256": "36c3b1b6078df57afdb525e32ba519116de3393cccd58ce6bc55d3878d8f1c82",
+  "compiler": "Lean 4.32.2",
+  "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "build_basis": "saved local compiled imports of the audited public snapshot plus earlier 481 progress modules",
+  "log": "evidence/481-progress/NoThreeLine481.CapacityLowRow109.txt",
+  "log_sha256": "ee7203e445cc0075bc76ada4c6e63c55385b037c356ac3a4ffdc5db5238099ad",
+  "seconds": 85.157,
+  "olean_sha256": "7cec47e3971631549d027d3fc7381b2ce659a25d19d04270211b5bebee97b3a0",
+  "direct_local_imports": [
+    {
+      "module": "NoThreeLine.IntegerCapacityChecker",
+      "source_sha256": "5a0674ea8c22f239fa0dcc4bc04ea1ff70d958d33b9aea264f2e6de178abbb65",
+      "olean_sha256": "152eea07a88ed734d4ffa73f0fe53893238b9aee63f811d1a1e23838a8d403cc"
+    },
+    {
+      "module": "NoThreeLine.FrozenCapacityData",
+      "source_sha256": "3fec0c040482601dee30ca10b8504101798dc602b139f5e4f29ee77d19df6f4b",
+      "olean_sha256": "1bb2288fbe07f7b593e3f962cd76a2a6594bca00f9237731f2a7951e1732d2de"
+    }
+  ],
+  "status": "PASS"
+}

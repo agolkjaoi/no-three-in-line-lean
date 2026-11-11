@@ -1,0 +1,165 @@
+{
+  "module": "NoThreeLine481.CapacityRows",
+  "source": "NoThreeLine481/CapacityRows.lean",
+  "source_sha256": "2f39560e70ef62f98d8fbf4c5ef0f4242dbca54acc091a8a9dd87b17853730bd",
+  "compiler": "Lean 4.32.2",
+  "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "build_basis": "saved local compiled imports of the audited public snapshot plus earlier 481 progress modules",
+  "log": "evidence/481-progress/NoThreeLine481.CapacityRows.txt",
+  "log_sha256": "d7914aca230e285e2c4dadad223c79ef71fba53aa4872f824ee1e27f35040c9d",
+  "seconds": 20.418,
+  "olean_sha256": "95ea6257dd6097ae4eb8cfef3b954b68803f2494391a1fe2612bc6dfe979e1bc",
+  "direct_local_imports": [
+    {
+      "module": "NoThreeLine.CapacityLowAssembly",
+      "source_sha256": "24fe4eba4efbc874cde176a074a96e03f38bf3101eadb485bd3a3a836a243aa9",
+      "olean_sha256": "94db43ce3b1d0806257089e0fbe092372e0c04e58a9601d50e4557e356166434"
+    },
+    {
+      "module": "NoThreeLine.CapacityLowRowSemantics",
+      "source_sha256": "53a90b2997842c3cfcac3d6e69be8f8af09d0cdad00b8333fd7171633be1a3d7",
+      "olean_sha256": "78f5f9eaaf81e3deec214e9e10696a098344910724ae96a2d3608ec868482b9c"
+    },
+    {
+      "module": "NoThreeLine.CapacityLowAccepted000",
+      "source_sha256": "5cafa9e32ab673e7cf47d5b73ffe6ae8b7780e0e98a339ce33a0ddfadb11c035",
+      "olean_sha256": "ed0389d36fa87503c99ff28cce8a84c54a0ccaf97b78d64044123d8e469b2efd"
+    },
+    {
+      "module": "NoThreeLine.CapacityLowAccepted008",
+      "source_sha256": "ca3f1a899ad8f9ad53b1988e2fad0efc0e70e5c7d2debdd8fa3f2c5f74034169",
+      "olean_sha256": "dde977fc2519f93a5d3ed134790d8d9d3f3f1e3ed4abab0a32846b911092f45f"
+    },
+    {
+      "module": "NoThreeLine.CapacityLowAccepted016",
+      "source_sha256": "a4e80e2cfd3eb0822bdb598f64a10754f3a9dc8275bbe9c28ddb43c8cbb26dfa",
+      "olean_sha256": "47cc82e419de79d0e4cb1e142255ce14195cc97eb54aa6510ca0af617e3d1579"
+    },
+    {
+      "module": "NoThreeLine.CapacityLowAccepted024",
+      "source_sha256": "1efbe7b09e39684fb9c10810b5df149298f6917104f6e41b34d303e0c2ee6e2b",
+      "olean_sha256": "5b9f82dcd5e9587661e4be821f3cbd0288c0a3729c22c74f556a3e62427b6f4e"
+    },
+    {
+      "module": "NoThreeLine.CapacityLowAccepted032",
+      "source_sha256": "ac517655671bbc4ff1601473f94cb6f740fbde0a883b21c82363504febac83fb",
+      "olean_sha256": "203246e22109e0554a799ce07e8cfebfbe8e7cb370684477b7a79529a2ad882a"
+    },
+    {
+      "module": "NoThreeLine.CapacityLowAccepted040",
+      "source_sha256": "5736378ce4a27aaeafaf8325c16b62c45cf188d501c115d8f5e2ff6f5b779c6c",
+      "olean_sha256": "4df67c185b5088df1782508ca581d5f1f972b7b2f272c548b911f45eddb42042"
+    },
+    {
+      "module": "NoThreeLine.CapacityLowAccepted048",
+      "source_sha256": "569d50a630ffec9a41c58057dad03c273409f56b73b71179d3d36c366640b0b3",
+      "olean_sha256": "0678ac6f2e1d0bb6accdc281c3024b74edfac49c10ee02a6b2d05d13f9b4ebb4"
+    },
+    {
+      "module": "NoThreeLine.CapacityLowAccepted056",
+      "source_sha256": "ced09004478008b721ac6a17098c95b9df0f300a7579d255a5976ce45c6f317f",
+      "olean_sha256": "798c5509acd7439fdbdd98510d5e1e52f435e8ccb1a476941b41bce3ce408127"
+    },
+    {
+      "module": "NoThreeLine.CapacityLowAccepted064",
+      "source_sha256": "4b3e6d6c87ca13b58c0e687f99c05ff0f2f051bd898d0de7e7bbb66ed240d94a",
+      "olean_sha256": "227dcfc99aa0c99909a727f570f903e7cf72ba9921e6ef2ef65703c491aae2a9"
+    },
+    {
+      "module": "NoThreeLine.CapacityLowAccepted072",
+      "source_sha256": "dd25e00772915de55695830e8d550be6d83203fa3439a997a411e39381087cd3",
+      "olean_sha256": "b3cc64b86898286f972613abaae10adbec3b538abfff4435598e5ebed038666d"
+    },
+    {
+      "module": "NoThreeLine.CapacityLowAccepted080",
+      "source_sha256": "091ef26c93b53ca5dfb99b535fff43b17b32618d5b620758cf68fa8a5a2f3128",
+      "olean_sha256": "87781db8f67c53eb5b2695ece0403ba452e400e5e86e85bb79f508db0ed03dfb"
+    },
+    {
+      "module": "NoThreeLine.CapacityLowAccepted088",
+      "source_sha256": "26f11aac19e68d1d9e168e5c8a777c7677324fa2dfa8ea4c18fb32a683e82908",
+      "olean_sha256": "195efec3840d622415ba87a1744a636a74ad933e30f1521c360f1ce6975d9f29"
+    },
+    {
+      "module": "NoThreeLine.CapacityLowRow096",
+      "source_sha256": "8c220a7da971ffea62f7bfacb8b4d6ea1934fe7057905da5b85ede11c3ff4682",
+      "olean_sha256": "8f9805df2ecf51ecb31ea80cfa99ca67eb95502f01aae21cbd8eae7e6453a6d4"
+    },
+    {
+      "module": "NoThreeLine.CapacityLowRow097",
+      "source_sha256": "cdbf6bba34d91463818d5a8a8cc6dfc23d37eedeb61a5fdbfe6ea42148912e68",
+      "olean_sha256": "d7c1bfe35d9ab366efb47abef7936a1ec942416a286a75422e88c0e97b3feb1e"
+    },
+    {
+      "module": "NoThreeLine.CapacityLowRow098",
+      "source_sha256": "a55f5b2b5b809983f7f768de23b90d81855ea515a479412f73db2cc1e49342d7",
+      "olean_sha256": "4f5e61a1c7e4c87e35bafc1b721c7cd265ee63eb7c95162405aa87aef46a3037"
+    },
+    {
+      "module": "NoThreeLine481.CapacityLowRow099",
+      "source_sha256": "e17f4563b5ec33d223b2881a18372f10dae0361008761610556b09ce69d5281d",
+      "olean_sha256": "273e69cdce1cd4aee35bb731dcf418fcbd4c0b2b98176ff026a0e050c56d559e"
+    },
+    {
+      "module": "NoThreeLine481.CapacityLowRow100",
+      "source_sha256": "c375d7462f1d68c66899cd7211d1e1e493ed344fcb14f82e1c1853fe8385312b",
+      "olean_sha256": "4462e2ac952659204471863f78c176efd4b352b3b1a187500380e6a8414d3f5b"
+    },
+    {
+      "module": "NoThreeLine481.CapacityLowRow101",
+      "source_sha256": "644f6cfbccbabdc4e490e79fbea3238d943f2f1ba12dc4148add5d8040306d32",
+      "olean_sha256": "747439cb2741f1be3331ee4d05b558f95b251b03ff7824450b2aa50adce4d70c"
+    },
+    {
+      "module": "NoThreeLine481.CapacityLowRow102",
+      "source_sha256": "cc12081a86ac3e307e252c877042c12ba74bbcf6f973c165494a38efe8be38df",
+      "olean_sha256": "6009562151378382b8a2473bf22cbd8ba52bc4f4ae3159a8b6f5357a84ff3cc5"
+    },
+    {
+      "module": "NoThreeLine481.CapacityLowRow103",
+      "source_sha256": "5a641e995164567ee77bc5333a251e7d754bf03ce5d8ff7c39485d0a6846ab2b",
+      "olean_sha256": "0c03ff36ab085b4991df4ec5e64b1e4c16f14d1154ab6cf45f808fd487a6ce7f"
+    },
+    {
+      "module": "NoThreeLine481.CapacityLowRow104",
+      "source_sha256": "7e2dbbdbabeba97131823cb59c1ee9f7c96236acf9ac6bf51f6a29f308261741",
+      "olean_sha256": "b497a73004b67ba939ee58552f81879240ec1e3a895643c6d881df89749446b6"
+    },
+    {
+      "module": "NoThreeLine481.CapacityLowRow105",
+      "source_sha256": "d9822772e68283530206e5dd822a2de203942d8ce9df3bd3a26b16c0dae8d56c",
+      "olean_sha256": "eb9566260a63a131bb1aba7f8c6e37ebf75f309b00277b7ef8a14d8102790e7a"
+    },
+    {
+      "module": "NoThreeLine481.CapacityLowRow106",
+      "source_sha256": "f591479a5bb61f6238838490968e1bf67b4c305ff3ad38eebbacedeefbb82ee7",
+      "olean_sha256": "19eb1b7eee9192f4b54adce9c80e54a38ab6cd2588dd21565128bef2cd7c0fd1"
+    },
+    {
+      "module": "NoThreeLine481.CapacityLowRow107",
+      "source_sha256": "1a72f8b5a039665b6ef117eb99d4cf8bea913fea162e211e2887484f7fae53bb",
+      "olean_sha256": "fd02e35d93d1d021166c3627380eba91c2644b8b16e65ded8c4894b6165d99bf"
+    },
+    {
+      "module": "NoThreeLine481.CapacityLowRow108",
+      "source_sha256": "c639bd5c211f9ad71fac5687f5db9c704b6b725fe9577138a9c0422a722a4e53",
+      "olean_sha256": "df36018b3b539d8bb5bcf4ec3ab8f09d48b97222bfdc60b4d379a2e2794e7f16"
+    },
+    {
+      "module": "NoThreeLine481.CapacityLowRow109",
+      "source_sha256": "36c3b1b6078df57afdb525e32ba519116de3393cccd58ce6bc55d3878d8f1c82",
+      "olean_sha256": "7cec47e3971631549d027d3fc7381b2ce659a25d19d04270211b5bebee97b3a0"
+    },
+    {
+      "module": "NoThreeLine481.CapacityLowRow110",
+      "source_sha256": "cf4c4e8d1b616f341ef7d569d698d2a966e8efe8f927d7c257a6d36897143c42",
+      "olean_sha256": "331cb5477a0bd859399d833413b69ee93244e00516f7fe9ea6847c445901ab5e"
+    },
+    {
+      "module": "NoThreeLine481.CapacityLowRow111",
+      "source_sha256": "6955fbf1bcb928a40862d174441b802fafc750037759f8cd58d9b73210b20526",
+      "olean_sha256": "c8b821672b58f5e1ad1550c31bfdc8abc391b7aafdfca6a9d03b6d344a378973"
+    }
+  ],
+  "status": "PASS"
+}
