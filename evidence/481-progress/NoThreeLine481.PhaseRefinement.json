@@ -1,0 +1,20 @@
+{
+  "module": "NoThreeLine481.PhaseRefinement",
+  "source": "NoThreeLine481/PhaseRefinement.lean",
+  "source_sha256": "f3794d781d36d9e56db8577eed2f12df83671a0a12147f63b1e9b22417541629",
+  "compiler": "Lean 4.32.2",
+  "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "build_basis": "saved local compiled imports of the audited public snapshot plus earlier 481 progress modules",
+  "log": "evidence/481-progress/NoThreeLine481.PhaseRefinement.txt",
+  "log_sha256": "7e8c11b95395e811ce1a0875c50d7e6faaf0d0b173c884053319ecd3dfb2dd66",
+  "seconds": 17.268,
+  "olean_sha256": "823360f77b911396ece9142530f3e98001b298737d7142b96aabf3654e7b2597",
+  "direct_local_imports": [
+    {
+      "module": "NoThreeLine.FiniteDurationSchedule",
+      "source_sha256": "d021b4c3dc897ff9ddfdb2541e2ce757dd3ea481e278d668335555e0daf48cac",
+      "olean_sha256": "853687f017b3a5339bbca8fd0d79f2a0a127c66b5753a9406a5503429933ffb5"
+    }
+  ],
+  "status": "PASS"
+}

@@ -1,7 +1,7 @@
 {
   "scope": "All distributed files except this manifest, including the frozen snapshot, the 481-phase manuscript and the separately audited Lean progress. Excludes temporary build products.",
   "snapshot_id": "2026-11-10-audited-2",
-  "publication_edition": "2026-11-11-public-5-lean481-capacity",
+  "publication_edition": "2026-11-11-public-6-lean481-refinement",
   "files": [
     {
       "path": ".gitattributes",
@@ -20,8 +20,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 5051,
-      "sha256": "6c418d6a577a845a5bb522b90be9889f7486de0472451ea70397060ff9806108"
+      "bytes": 5194,
+      "sha256": "5fd073c9ca77c7dc60dd7bbc5ef0dc6cba9bd44cf4d9a07db9b26bb5618254c6"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -30,8 +30,8 @@
     },
     {
       "path": "docs/FORMALIZATION_481.md",
-      "bytes": 1408,
-      "sha256": "9ee1462c3b4933336331a7292d82bdc73ea8d84157cfac15dd5da5d5ba0ca9b7"
+      "bytes": 1772,
+      "sha256": "7e59151b2cd5b3acdfe473ad04d37ea62dd1bd30da5a9199e91c344bb3609d85"
     },
     {
       "path": "docs/ISSUE_DRAFTS.md",
@@ -11660,8 +11660,8 @@
     },
     {
       "path": "evidence/481-progress/NoThreeLine481.json",
-      "bytes": 1134,
-      "sha256": "aca30442c674c927fab7acad7936ada7df9689e682768a94aca80fb7f3d12eb9"
+      "bytes": 1377,
+      "sha256": "40ba20e102a1beb6c55780d3c6172034c78fb4ca88a6606c00f5e7d981eab0c9"
     },
     {
       "path": "evidence/481-progress/NoThreeLine481.NumericalMargin.json",
@@ -11672,6 +11672,16 @@
       "path": "evidence/481-progress/NoThreeLine481.NumericalMargin.txt",
       "bytes": 312,
       "sha256": "bfca849c48f30a76a1509a10a454304729b7428ea1d2bd3e1f83dbc91c20aac4"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.PhaseRefinement.json",
+      "bytes": 946,
+      "sha256": "d93c9d594844b7c94ed850e7eb13652b7c6d9e3f06f3d7ec3ccc03380f7c9eb4"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.PhaseRefinement.txt",
+      "bytes": 404,
+      "sha256": "7e8c11b95395e811ce1a0875c50d7e6faaf0d0b173c884053319ecd3dfb2dd66"
     },
     {
       "path": "evidence/481-progress/NoThreeLine481.txt",
@@ -44284,14 +44294,19 @@
       "sha256": "ca41bd51154ab626833e9a9b680bb09a59ad73c5e0ff3c906d2029d351c7b96a"
     },
     {
+      "path": "NoThreeLine481/PhaseRefinement.lean",
+      "bytes": 8144,
+      "sha256": "f3794d781d36d9e56db8577eed2f12df83671a0a12147f63b1e9b22417541629"
+    },
+    {
       "path": "NoThreeLine481.lean",
-      "bytes": 73,
-      "sha256": "d5fe7831d3099ec8236d35f50f441f9a0214cb183a1fb842980860a993b5343e"
+      "bytes": 111,
+      "sha256": "92772d039b9f04748509c5a5bfc348293327645ebd8bf273b3c5fe6256c61454"
     },
     {
       "path": "publication.json",
-      "bytes": 1484,
-      "sha256": "dd3dab3100d1575489c3dbdce562902c5ed6b5adec3ce457d770da71ea2cb923"
+      "bytes": 1488,
+      "sha256": "411b73e8dc55268218bfa4e3eb8f111a03d91642489b0f788fa9a09d237eb399"
     },
     {
       "path": "README.md",
