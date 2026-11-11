@@ -1,0 +1,20 @@
+{
+  "module": "NoThreeLine481.FineRankGeometry",
+  "source": "NoThreeLine481/FineRankGeometry.lean",
+  "source_sha256": "2051a517ee8eae54106d311be9ebe7c8c776a90c367aef39ae0c5a7fdea24de1",
+  "compiler": "Lean 4.32.2",
+  "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "build_basis": "saved local compiled imports of the audited public snapshot plus earlier 481 progress modules",
+  "log": "evidence/481-progress/NoThreeLine481.FineRankGeometry.txt",
+  "log_sha256": "7dcb7a6b70f2d40a2dd9889f2f89003aadf9026c6c2a9ac9ca34f59735e769c0",
+  "seconds": 18.581,
+  "olean_sha256": "224a2d9cbe83c7a58c740728d740cf1613459e7855dd5d03b387aff6626d9e1e",
+  "direct_local_imports": [
+    {
+      "module": "NoThreeLine481.FineGridGeometry",
+      "source_sha256": "2b2023845612e2880f7bfb1af53a51fce1cf718ce455e087616bc695a9601b45",
+      "olean_sha256": "4bde3b64533e9687aa174650897d9782cb7c9f06c8b23a2d354b978f26aa4d74"
+    }
+  ],
+  "status": "PASS"
+}

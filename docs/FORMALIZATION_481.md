@@ -16,6 +16,8 @@
 
 - [Ranked phase construction](../NoThreeLine481/RankedPhases.lean) realizes an arbitrary single-use rank assignment with a fixed number of binary layers and exact terminal exposure. The [deadline proof](../NoThreeLine481/PhaseDeadline.lean) bounds the discrete pair sum at a refined root deadline by the pair sum at the original phase endpoint. The [angular transfer](../NoThreeLine481/AngularTransfer.lean) absorbs the uniform lattice error when there is strict angular slack.
 
+- [Archived 481-phase instance](../NoThreeLine481/Archived481.lean) proves the final target from a single geometric hypothesis. For every positive typed fine cell, its squared-chord risk at the archived rank endpoint must be at most `9999/10000` throughout the cell. The theorem constructs a binary schedule, permitting idle subphases to keep the number of layers uniform across boards. The [rank generator](../scripts/check_481_rank_literal.py) matches all 262,144 archived entries and 1,024 coarse weights. The [Lean runtime check](../scripts/check_481_rank_decoder.lean) independently reads the archived rank file and compares all 262,144 decoder outputs.
+
 The [compilation records](../evidence/481-progress/) identify the modules and their axiom reports. The checks used the pinned Lean toolchain and saved local compiled dependencies. To rebuild the entry module in a Lake checkout, run `lake build NoThreeLine481`.
 
-The remaining work includes the instantiation of the binary refinement and terminal-field identity on the 481 phases, and the certified angular bounds at the root deadlines. The unconditional `NoThreeLine.Target` remains open in Lean.
+The unconditional `NoThreeLine.Target` remains open in Lean. Its remaining premise on this route is `FineCellAngularCertificate archivedRanks481`, the continuum angular bound for every positive typed fine cell. The published C++ replay checks those inputs externally.

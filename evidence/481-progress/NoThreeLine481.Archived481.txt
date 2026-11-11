@@ -1,0 +1,2 @@
+'NoThreeLine481.fineAngularCertificate_of_cell_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine481.target_of_archived481_cell_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]

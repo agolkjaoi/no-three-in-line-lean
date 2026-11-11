@@ -1,0 +1,3 @@
+'NoThreeLine481.fineRect_separated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine481.fineCell_contains' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine481.coarseParent_contains' depends on axioms: [propext, Classical.choice, Quot.sound]

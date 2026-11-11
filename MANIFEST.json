@@ -1,7 +1,7 @@
 {
   "scope": "All distributed files except this manifest, including the frozen snapshot, the 481-phase manuscript and the separately audited Lean progress. Excludes temporary build products.",
   "snapshot_id": "2026-11-10-audited-2",
-  "publication_edition": "2026-11-11-public-9-lean481-deadlines",
+  "publication_edition": "2026-11-11-public-10-lean481-archived-rank",
   "files": [
     {
       "path": ".gitattributes",
@@ -20,8 +20,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 5733,
-      "sha256": "2134d78e7c4b33eeba1e6e3ebd8f47d8ee820627052b9b51f040106f56145ef2"
+      "bytes": 6013,
+      "sha256": "6e8160b4e99575ea335deca2342cd8272a593ed1f9351ca5b4ba7ff376f7e5fe"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -30,8 +30,8 @@
     },
     {
       "path": "docs/FORMALIZATION_481.md",
-      "bytes": 3236,
-      "sha256": "89dacbf77d9ed5045105eb4e5f7e46aebe2d81dc5b4960940ff23c0a40c9b8aa"
+      "bytes": 3929,
+      "sha256": "a456668ad1d7b7c7669dd3f88a43c16fded42e9019d851ab6646eb6e6fbf435e"
     },
     {
       "path": "docs/ISSUE_DRAFTS.md",
@@ -11529,6 +11529,16 @@
       "sha256": "f747dded0c7628be6e14089bc03f1e5ece9ed948ed0d88542611f229d043ebe8"
     },
     {
+      "path": "evidence/481-progress/NoThreeLine481.Archived481.json",
+      "bytes": 1166,
+      "sha256": "a54f66e8b88348200fc5d2df718d977cd133605fd1591f3f784bc76217770da4"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.Archived481.txt",
+      "bytes": 234,
+      "sha256": "576ccc3fbd904bc6e76f0a34d886570cc30093f774290bedef9e683c36f5427b"
+    },
+    {
       "path": "evidence/481-progress/NoThreeLine481.BinaryClock.json",
       "bytes": 1446,
       "sha256": "98eee16b89370710a8492166c058c62860564d91b79c43e2c1fd252d9e05b965"
@@ -11689,6 +11699,16 @@
       "sha256": "d7914aca230e285e2c4dadad223c79ef71fba53aa4872f824ee1e27f35040c9d"
     },
     {
+      "path": "evidence/481-progress/NoThreeLine481.FineGridGeometry.json",
+      "bytes": 942,
+      "sha256": "9f77b0f781d9f8578e305159adb5b005b1d92d3da705208d1ba0f3d04ada7bdb"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.FineGridGeometry.txt",
+      "bytes": 287,
+      "sha256": "9392486e3c8ab899bf203ada556b5b34ad38af24e6d52eeac4797ec46ca06c5e"
+    },
+    {
       "path": "evidence/481-progress/NoThreeLine481.FineGridOutput.json",
       "bytes": 1420,
       "sha256": "138d579f14799bca9b8d6ae903ec51887df742b09424083cb9a51e08b4e0bb82"
@@ -11699,9 +11719,29 @@
       "sha256": "65c961d8c701984efd8d65bf00907b55f118c8eebaeea584fb065c3810f325db"
     },
     {
+      "path": "evidence/481-progress/NoThreeLine481.FineRankGeometry.json",
+      "bytes": 946,
+      "sha256": "801c922339019c8d4517ba591bd654dca7289b8a5593299a7419cd4ee7c8bfb9"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.FineRankGeometry.txt",
+      "bytes": 206,
+      "sha256": "7dcb7a6b70f2d40a2dd9889f2f89003aadf9026c6c2a9ac9ca34f59735e769c0"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.FineRankOutput.json",
+      "bytes": 1665,
+      "sha256": "d076c3947c6f6f8110bc452a2c5665575285dd4d588a2a66074267d40aa49201"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.FineRankOutput.txt",
+      "bytes": 111,
+      "sha256": "fe3874a7f947ab964a985ffeb02a7462a09412e4cfed94715a8864f1af7b9148"
+    },
+    {
       "path": "evidence/481-progress/NoThreeLine481.json",
-      "bytes": 2342,
-      "sha256": "afcc7bd747ef8c7f9f17ccd66017aec0664f6f84cba519092345171868d1febc"
+      "bytes": 2581,
+      "sha256": "d95d4e8302d231502b1029f03a9ff7ad0ebaf8a10d2c90ab2183a429cf1adbf3"
     },
     {
       "path": "evidence/481-progress/NoThreeLine481.NumericalMargin.json",
@@ -11734,6 +11774,16 @@
       "sha256": "7e8c11b95395e811ce1a0875c50d7e6faaf0d0b173c884053319ecd3dfb2dd66"
     },
     {
+      "path": "evidence/481-progress/NoThreeLine481.RankData.json",
+      "bytes": 675,
+      "sha256": "23f58f2c0bc77f99f3382fca649b2c3f859fc0de22fa9e82910b3ae58e58efe0"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.RankData.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
       "path": "evidence/481-progress/NoThreeLine481.RankedPhases.json",
       "bytes": 931,
       "sha256": "354b407d5678ac6016a0ced8d22300439d40b5531b70b9c33df61dfcc5d55edb"
@@ -11742,6 +11792,16 @@
       "path": "evidence/481-progress/NoThreeLine481.RankedPhases.txt",
       "bytes": 452,
       "sha256": "37cf2e47d195727a48f80027a6fa3adefe8b0db126bd0a801bf8cf6fb1e142b5"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.RankTable.json",
+      "bytes": 1148,
+      "sha256": "2998ddef38b64524246cd24eed9c26e84a4c15bd6b3fd7b11ec942702908b499"
+    },
+    {
+      "path": "evidence/481-progress/NoThreeLine481.RankTable.txt",
+      "bytes": 64,
+      "sha256": "668bca307d6b0c92e9078b56a42bbd74516ae3ecfc35f1159afc958a03bc136c"
     },
     {
       "path": "evidence/481-progress/NoThreeLine481.TerminalCapacity.json",
@@ -44304,6 +44364,11 @@
       "sha256": "fca5ed80cdac54f320fcb3ad36efa85b7fa1d75a6468568a12fbe41342900242"
     },
     {
+      "path": "NoThreeLine481/Archived481.lean",
+      "bytes": 2560,
+      "sha256": "28c5bad9896f7651a61500b1ddaa742611e4f7b923c08f29a01c358f33e57500"
+    },
+    {
       "path": "NoThreeLine481/BinaryClock.lean",
       "bytes": 3980,
       "sha256": "838ae42dbabdbe6075746f498a812c464a5834ab8f06d33dbad6a3d3f5aa84cd"
@@ -44384,9 +44449,24 @@
       "sha256": "2f39560e70ef62f98d8fbf4c5ef0f4242dbca54acc091a8a9dd87b17853730bd"
     },
     {
+      "path": "NoThreeLine481/FineGridGeometry.lean",
+      "bytes": 5384,
+      "sha256": "2b2023845612e2880f7bfb1af53a51fce1cf718ce455e087616bc695a9601b45"
+    },
+    {
       "path": "NoThreeLine481/FineGridOutput.lean",
       "bytes": 2593,
       "sha256": "b872dc9be7aa84bfa9583269555a16b75a0b59c90fe154f67c4d02cac54b2723"
+    },
+    {
+      "path": "NoThreeLine481/FineRankGeometry.lean",
+      "bytes": 3407,
+      "sha256": "2051a517ee8eae54106d311be9ebe7c8c776a90c367aef39ae0c5a7fdea24de1"
+    },
+    {
+      "path": "NoThreeLine481/FineRankOutput.lean",
+      "bytes": 4872,
+      "sha256": "35f9102321d41f1385ac4112139b5640e1b220b9c0be3313e2f00d33cb6ca29a"
     },
     {
       "path": "NoThreeLine481/NumericalMargin.lean",
@@ -44404,9 +44484,19 @@
       "sha256": "f3794d781d36d9e56db8577eed2f12df83671a0a12147f63b1e9b22417541629"
     },
     {
+      "path": "NoThreeLine481/RankData.lean",
+      "bytes": 526152,
+      "sha256": "df846425406e1bb879e8d259f9800c88313206e5e1becdef1292fe3e80c2f365"
+    },
+    {
       "path": "NoThreeLine481/RankedPhases.lean",
       "bytes": 6054,
       "sha256": "dbf8295ea204405c716743a381217bb6c448076243ba89f81f8ba7531c90f2b2"
+    },
+    {
+      "path": "NoThreeLine481/RankTable.lean",
+      "bytes": 1240,
+      "sha256": "a6df29dbc47e0005303429f3f8324eefa03315ad3db1655a1c5cfd15bedeb569"
     },
     {
       "path": "NoThreeLine481/TerminalCapacity.lean",
@@ -44420,13 +44510,13 @@
     },
     {
       "path": "NoThreeLine481.lean",
-      "bytes": 256,
-      "sha256": "aced53518e3f4d87472f21495908dae59ca8deb7b841a69610b9b796e25bf7b7"
+      "bytes": 290,
+      "sha256": "ead6bddbc4db993677c9878e08726c1aa88fb7821d749acfb450fa1ecb4fbced"
     },
     {
       "path": "publication.json",
       "bytes": 1493,
-      "sha256": "f4bff672c76a7aca5d737d034ec9a67f43b8f124ff6fd93dabe44069d64326f6"
+      "sha256": "4d08cc25b88c3b2273f044385dd5e6a713513ba4f530d06e7840ae99fd1fc885"
     },
     {
       "path": "README.md",
@@ -44442,6 +44532,16 @@
       "path": "scripts/build_snapshot.py",
       "bytes": 10574,
       "sha256": "8f54683b81d3d2d124eadf043c22d6daf9368e66638b21e7999e97ca766c19b5"
+    },
+    {
+      "path": "scripts/check_481_rank_decoder.lean",
+      "bytes": 967,
+      "sha256": "275fb97d9169c72bdda95a20e083919b2faa3f9dd012fdd93e377558be7b7365"
+    },
+    {
+      "path": "scripts/check_481_rank_literal.py",
+      "bytes": 3381,
+      "sha256": "2aeed3f21d8f5cb8c472be085e0d80f2b7a837a2500124283c758e6fdcd854df"
     },
     {
       "path": "scripts/verify_snapshot.py",

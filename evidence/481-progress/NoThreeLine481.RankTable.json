@@ -1,0 +1,25 @@
+{
+  "module": "NoThreeLine481.RankTable",
+  "source": "NoThreeLine481/RankTable.lean",
+  "source_sha256": "a6df29dbc47e0005303429f3f8324eefa03315ad3db1655a1c5cfd15bedeb569",
+  "compiler": "Lean 4.32.2",
+  "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "build_basis": "saved local compiled imports of the audited public snapshot plus earlier 481 progress modules",
+  "log": "evidence/481-progress/NoThreeLine481.RankTable.txt",
+  "log_sha256": "668bca307d6b0c92e9078b56a42bbd74516ae3ecfc35f1159afc958a03bc136c",
+  "seconds": 12.364,
+  "olean_sha256": "649058ea144c8203721f2c5d7c4b672cd0f3b231e48e8a8b7c8cfbc58935d77b",
+  "direct_local_imports": [
+    {
+      "module": "NoThreeLine.Target",
+      "source_sha256": "7959a88bb94f0a4594c8faecdcfd51b9b842657275456c7646b8da0f5bdd818a",
+      "olean_sha256": "05013ba395b62c5a2e9a3fb00ae6491dc8d6ed2586789f7bd860cdc3d30fdabd"
+    },
+    {
+      "module": "NoThreeLine481.RankData",
+      "source_sha256": "df846425406e1bb879e8d259f9800c88313206e5e1becdef1292fe3e80c2f365",
+      "olean_sha256": "bdc51440c4bac24f87defe5220ccc699ef5771eba296650d6a5d962d2dbe64b7"
+    }
+  ],
+  "status": "PASS"
+}

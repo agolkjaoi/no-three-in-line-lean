@@ -1,0 +1,35 @@
+{
+  "module": "NoThreeLine481.FineRankOutput",
+  "source": "NoThreeLine481/FineRankOutput.lean",
+  "source_sha256": "35f9102321d41f1385ac4112139b5640e1b220b9c0be3313e2f00d33cb6ca29a",
+  "compiler": "Lean 4.32.2",
+  "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "build_basis": "saved local compiled imports of the audited public snapshot plus earlier 481 progress modules",
+  "log": "evidence/481-progress/NoThreeLine481.FineRankOutput.txt",
+  "log_sha256": "fe3874a7f947ab964a985ffeb02a7462a09412e4cfed94715a8864f1af7b9148",
+  "seconds": 20.047,
+  "olean_sha256": "3a55eb51eafbc0e464e6914a4b08c4a3cc3a659028a29d7fdfea68ddea0405a6",
+  "direct_local_imports": [
+    {
+      "module": "NoThreeLine481.AngularTransfer",
+      "source_sha256": "fca5ed80cdac54f320fcb3ad36efa85b7fa1d75a6468568a12fbe41342900242",
+      "olean_sha256": "bb1216315dcae6cc81406466063e9207ef0ccbd36031856eff05deb8d1b1abf1"
+    },
+    {
+      "module": "NoThreeLine481.FineGridOutput",
+      "source_sha256": "b872dc9be7aa84bfa9583269555a16b75a0b59c90fe154f67c4d02cac54b2723",
+      "olean_sha256": "80953bc9ccfffca611ef4cc3a25c1a19f583bfb23bbac892eacb4a364197bbce"
+    },
+    {
+      "module": "NoThreeLine481.FineRankGeometry",
+      "source_sha256": "2051a517ee8eae54106d311be9ebe7c8c776a90c367aef39ae0c5a7fdea24de1",
+      "olean_sha256": "224a2d9cbe83c7a58c740728d740cf1613459e7855dd5d03b387aff6626d9e1e"
+    },
+    {
+      "module": "NoThreeLine481.RankedPhases",
+      "source_sha256": "dbf8295ea204405c716743a381217bb6c448076243ba89f81f8ba7531c90f2b2",
+      "olean_sha256": "d5fd9821b5289ec86d2d759fe1ed404cbc12052226dc741c7e02fd8641f042e2"
+    }
+  ],
+  "status": "PASS"
+}

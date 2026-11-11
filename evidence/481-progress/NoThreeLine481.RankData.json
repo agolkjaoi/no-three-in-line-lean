@@ -1,0 +1,14 @@
+{
+  "module": "NoThreeLine481.RankData",
+  "source": "NoThreeLine481/RankData.lean",
+  "source_sha256": "df846425406e1bb879e8d259f9800c88313206e5e1becdef1292fe3e80c2f365",
+  "compiler": "Lean 4.32.2",
+  "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "build_basis": "saved local compiled imports of the audited public snapshot plus earlier 481 progress modules",
+  "log": "evidence/481-progress/NoThreeLine481.RankData.txt",
+  "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "seconds": 1.614,
+  "olean_sha256": "bdc51440c4bac24f87defe5220ccc699ef5771eba296650d6a5d962d2dbe64b7",
+  "direct_local_imports": [],
+  "status": "PASS"
+}
