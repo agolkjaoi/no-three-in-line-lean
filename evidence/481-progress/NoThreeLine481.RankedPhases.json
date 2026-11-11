@@ -1,0 +1,20 @@
+{
+  "module": "NoThreeLine481.RankedPhases",
+  "source": "NoThreeLine481/RankedPhases.lean",
+  "source_sha256": "dbf8295ea204405c716743a381217bb6c448076243ba89f81f8ba7531c90f2b2",
+  "compiler": "Lean 4.32.2",
+  "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "build_basis": "saved local compiled imports of the audited public snapshot plus earlier 481 progress modules",
+  "log": "evidence/481-progress/NoThreeLine481.RankedPhases.txt",
+  "log_sha256": "37cf2e47d195727a48f80027a6fa3adefe8b0db126bd0a801bf8cf6fb1e142b5",
+  "seconds": 17.983,
+  "olean_sha256": "d5fd9821b5289ec86d2d759fe1ed404cbc12052226dc741c7e02fd8641f042e2",
+  "direct_local_imports": [
+    {
+      "module": "NoThreeLine481.PhaseDeadline",
+      "source_sha256": "bccdc34be9a10582c9816c0ce4942f1e2d9787b49dcd3d27ce4ca4e81d7bd44f",
+      "olean_sha256": "e4895ad1015bdb217019f56b5952adab4a3c0b3b410933b3d33097c5b935d9d8"
+    }
+  ],
+  "status": "PASS"
+}

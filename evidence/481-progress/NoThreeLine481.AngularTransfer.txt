@@ -1,0 +1,1 @@
+'NoThreeLine481.eventually_pair_budget_of_angular' depends on axioms: [propext, Classical.choice, Quot.sound]

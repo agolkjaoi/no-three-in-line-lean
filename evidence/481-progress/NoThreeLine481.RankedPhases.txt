@@ -1,0 +1,4 @@
+'NoThreeLine481.rankedExposurePhases_weight_pos_of_deadline' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine481.rankedExposurePhases_refined_length' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine481.rankedExposurePhases_terminal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'NoThreeLine481.rankedExposurePhases_deadline_pairSum' depends on axioms: [propext, Classical.choice, Quot.sound]

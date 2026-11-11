@@ -1,0 +1,20 @@
+{
+  "module": "NoThreeLine481.AngularTransfer",
+  "source": "NoThreeLine481/AngularTransfer.lean",
+  "source_sha256": "fca5ed80cdac54f320fcb3ad36efa85b7fa1d75a6468568a12fbe41342900242",
+  "compiler": "Lean 4.32.2",
+  "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "build_basis": "saved local compiled imports of the audited public snapshot plus earlier 481 progress modules",
+  "log": "evidence/481-progress/NoThreeLine481.AngularTransfer.txt",
+  "log_sha256": "f747dded0c7628be6e14089bc03f1e5ece9ed948ed0d88542611f229d043ebe8",
+  "seconds": 18.025,
+  "olean_sha256": "bb1216315dcae6cc81406466063e9207ef0ccbd36031856eff05deb8d1b1abf1",
+  "direct_local_imports": [
+    {
+      "module": "NoThreeLine.FiniteS6",
+      "source_sha256": "4962fe3496b458eb7f1214b5b7f75832d5c297dd1f2a8c6d5607ddcb3dc27b97",
+      "olean_sha256": "63f05cf2cdf86d776e826e2fc028faf353b31bd25446509d2c85e5ba7c1634ae"
+    }
+  ],
+  "status": "PASS"
+}

@@ -1,0 +1,30 @@
+{
+  "module": "NoThreeLine481.PhaseDeadline",
+  "source": "NoThreeLine481/PhaseDeadline.lean",
+  "source_sha256": "bccdc34be9a10582c9816c0ce4942f1e2d9787b49dcd3d27ce4ca4e81d7bd44f",
+  "compiler": "Lean 4.32.2",
+  "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+  "build_basis": "saved local compiled imports of the audited public snapshot plus earlier 481 progress modules",
+  "log": "evidence/481-progress/NoThreeLine481.PhaseDeadline.txt",
+  "log_sha256": "6dd85d275468ddf68e889e662e06e80ae566d445cf56f1169d203cd993b3c24c",
+  "seconds": 23.52,
+  "olean_sha256": "e4895ad1015bdb217019f56b5952adab4a3c0b3b410933b3d33097c5b935d9d8",
+  "direct_local_imports": [
+    {
+      "module": "NoThreeLine.SchedulePrefixCumulative",
+      "source_sha256": "ef5869cdfa5227fbcf91f236238a04043413a1d2360ffcf4228ab3a7a71c2a98",
+      "olean_sha256": "877e0c4e26a18921cb35d734d3f838750b1c88071cfeb7a13e77f90a0732052c"
+    },
+    {
+      "module": "NoThreeLine.MaskedPairBound",
+      "source_sha256": "46eddb8a7670875ce4bbbff01f719666c55cf859de06c73df0f64e17f3158501",
+      "olean_sha256": "95c6f9cf15cb846637e65dabe60a07538e0528a9e6968b3a5c9736fceaa4e7d0"
+    },
+    {
+      "module": "NoThreeLine481.PhaseRefinement",
+      "source_sha256": "f3794d781d36d9e56db8577eed2f12df83671a0a12147f63b1e9b22417541629",
+      "olean_sha256": "823360f77b911396ece9142530f3e98001b298737d7142b96aabf3654e7b2597"
+    }
+  ],
+  "status": "PASS"
+}

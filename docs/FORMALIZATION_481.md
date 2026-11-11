@@ -14,6 +14,8 @@
 
 - [Terminal field](../NoThreeLine481/FineGridOutput.lean) supplies the mass and both line capacities for any binary schedule realizing the manuscript’s terminal field. The [mass proof](../NoThreeLine481/TerminalMass.lean) evaluates the 1,024 common coarse weights in the kernel and controls the erased fine-grid lines. The [capacity proof](../NoThreeLine481/TerminalCapacity.lean) transfers the certified coarse bounds to the actual lattice line sums. The pair-sum premise is still explicit.
 
+- [Ranked phase construction](../NoThreeLine481/RankedPhases.lean) realizes an arbitrary single-use rank assignment with a fixed number of binary layers and exact terminal exposure. The [deadline proof](../NoThreeLine481/PhaseDeadline.lean) bounds the discrete pair sum at a refined root deadline by the pair sum at the original phase endpoint. The [angular transfer](../NoThreeLine481/AngularTransfer.lean) absorbs the uniform lattice error when there is strict angular slack.
+
 The [compilation records](../evidence/481-progress/) identify the modules and their axiom reports. The checks used the pinned Lean toolchain and saved local compiled dependencies. To rebuild the entry module in a Lake checkout, run `lake build NoThreeLine481`.
 
 The remaining work includes the instantiation of the binary refinement and terminal-field identity on the 481 phases, and the certified angular bounds at the root deadlines. The unconditional `NoThreeLine.Target` remains open in Lean.
