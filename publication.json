@@ -1,6 +1,6 @@
 {
-  "edition": "2026-11-11-public-12-lean481-farey-geometry",
-  "prepared_utc": "2026-11-11T12:22:43.051188+00:00",
+  "edition": "2026-11-13-public-13-repository-guide",
+  "prepared_utc": "2026-11-13T04:40:15.032569+00:00",
   "repository": "agolkjaoi/no-three-in-line-lean",
   "repository_url": "https://github.com/agolkjaoi/no-three-in-line-lean",
   "visibility": "public",
@@ -12,7 +12,7 @@
   "original_lean_source_files_unchanged": true,
   "publication_authorized_by_maintainer": true,
   "note": "See docs/FORMALIZATION_481.md for incremental Lean results and their explicit premises. The frozen source snapshot and the 481-phase manuscript bundle retain their own versioned records.",
-  "previous_edition": "2026-11-11-public-11-lean481-angular-checker-lemmas",
+  "previous_edition": "2026-11-11-public-12-lean481-farey-geometry",
   "git_history": "The privacy-corrected history is retained. Author and committer use the approved GitHub noreply identity.",
   "final_target_proved_scope": "Lean proof of NoThreeLine.Target; not the status of the ordinary mathematical manuscript.",
   "manuscript": {

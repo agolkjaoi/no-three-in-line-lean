@@ -1,7 +1,7 @@
 {
   "scope": "All distributed files except this manifest, including the frozen snapshot, the 481-phase manuscript and the separately audited Lean progress. Excludes temporary build products.",
   "snapshot_id": "2026-11-10-audited-2",
-  "publication_edition": "2026-11-11-public-12-lean481-farey-geometry",
+  "publication_edition": "2026-11-13-public-13-repository-guide",
   "files": [
     {
       "path": ".gitattributes",
@@ -20,13 +20,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 6313,
-      "sha256": "a61521e1caff7d7db7c86dd1c7de1bd222574921e8378228b1d360385e3c6783"
+      "bytes": 6609,
+      "sha256": "7bffc713b3a3f1675c63315078c9d2dd509cef6261a9c8fc4db5c4dd57a13166"
     },
     {
       "path": "CONTRIBUTING.md",
-      "bytes": 4121,
-      "sha256": "cc47c703f38c3faaa4ddb17e809088f128ad18e76cd0f08036b0fafd895add7f"
+      "bytes": 4256,
+      "sha256": "6efb749885bd934adce3d5cd7dcf4aa5830748983c8e9f30b73c0eba7f7f46e2"
     },
     {
       "path": "docs/FORMALIZATION_481.md",
@@ -11385,8 +11385,8 @@
     },
     {
       "path": "docs/paper/README.md",
-      "bytes": 4659,
-      "sha256": "10f8c39aa1d228e8354b162903be06d01d5b1ee45e3930266e68d461d6e71701"
+      "bytes": 4741,
+      "sha256": "29a7429da1d492972a78c97977dd8467d622d2e7518fa1e7146e2b727d64e192"
     },
     {
       "path": "docs/paper/README.txt",
@@ -11470,8 +11470,8 @@
     },
     {
       "path": "docs/REPRODUCING.md",
-      "bytes": 8313,
-      "sha256": "e8d1e611641e2fa79c8a10fd14d4e65f9b4166d254f3773df1ff434808fc7e06"
+      "bytes": 11150,
+      "sha256": "4ff5dde79d7ee64237c6ffe9899e5f447e2753b82e1761ba10df763ba1cc91ca"
     },
     {
       "path": "docs/research-notes/first-followup/FOLLOWUP_FOR_REVIEW_JA.txt",
@@ -44620,18 +44620,18 @@
     },
     {
       "path": "publication.json",
-      "bytes": 1508,
-      "sha256": "9caaae87061ebdd7fe64b12346984bc2de9c1a6a4d8e53db615b9ac29aad1fbc"
+      "bytes": 1494,
+      "sha256": "30aa283a2108827cdbbdc8dce55deb0a9fe1cc5348cd783eb25a43cc9159cd97"
     },
     {
       "path": "README.md",
-      "bytes": 8601,
-      "sha256": "c750cdeede43c288c5b9971a1892ddf8a5d96fca1ddff587931c89ba9e1bc336"
+      "bytes": 2403,
+      "sha256": "e502993d8295be61d0d935c348f161b5ede1465943fb37f29583fc9a36d1f5ab"
     },
     {
       "path": "README_JA.md",
-      "bytes": 7368,
-      "sha256": "bf670202f3122ab0fdb2bdbfd5b77b4f99a78c4d1885f2f29eae5379223d0b2e"
+      "bytes": 2579,
+      "sha256": "4033e04b4b97eef26d28721f6efa09933e29fb8b707d872f66eeb72efa1690ad"
     },
     {
       "path": "scripts/build_snapshot.py",
@@ -44660,8 +44660,8 @@
     },
     {
       "path": "STATUS.md",
-      "bytes": 11003,
-      "sha256": "3f6521e1607384b9c871fca94dcf56fef15f7f8d78f91f84567a9af17823481f"
+      "bytes": 10850,
+      "sha256": "d9e99dfb14af1165b720468c1fab9efc6ede54993ddeccdab92e02d75b376fcc"
     }
   ]
 }

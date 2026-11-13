@@ -1,6 +1,6 @@
 # English manuscript and reproducible finite computation
 
-**[Read the current 36-page PDF](481-phase/output/pdf/no_three_in_line_481_en.pdf)** · **[Download the complete ZIP (3.6 MB)](releases/no_three_line_481_complete_en_20261110.zip)**
+**[Read the current 36-page PDF](481-phase/output/pdf/no_three_in_line_481_en.pdf)** · **[Download the complete ZIP (3.6 MB)](releases/no_three_line_481_complete_en_20261110.zip)** · **[Reproduce reverse rank 205](../REPRODUCING.md#reproduce-reverse-rank-205)**
 
 ## Version 0.2: the 481-phase construction
 

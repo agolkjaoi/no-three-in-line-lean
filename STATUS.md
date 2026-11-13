@@ -1,8 +1,8 @@
 # Mathematical, computational and formalization status
 
-The [481-phase Lean progress page](docs/FORMALIZATION_481.md) records checked modules added after the frozen snapshot, including complete coverage of the 112 low-height ordinary-line capacity rows.
+For the archived 481-phase input, [Lean derives the target](NoThreeLine481/Archived481.lean) conditional on the continuum angular certificate for all positive typed cells. The [481-phase Lean progress page](docs/FORMALIZATION_481.md) documents the checked steps and the remaining angle checker work.
 
-This page separates the **10 November 2026 English 481-phase manuscript** from the **unchanged Lean snapshot**, whose cutoff is **2026-11-09 15:22:46 UTC (2026-11-10 00:22:46 JST)**. The new paper and finite replay do not add Lean modules or change historical Lean coverage counts.
+The **10 November 2026 English manuscript** uses the 481-phase input. The historical Lean audit below covers the snapshot taken at **2026-11-09 15:22:46 UTC (2026-11-10 00:22:46 JST)**.
 
 ## Current English manuscript
 
@@ -77,7 +77,7 @@ The following counts belong to the **15,348-phase formalization route**, not the
 
 Lean literals in the data modules are build inputs. Their extraction is not certified by a general JSON-parser theorem. Proven lookup, field-matching and certificate statements must be used at their stated scope. The successful 481-phase C++/Python replay does not create new Lean proofs for these data or transfer automatically to the old formal input.
 
-## Remaining formalization work
+## Remaining work on the historical 15,348-phase route
 
 The theorem `exists_uniform_accepted_frozen_output_of_inputs` supplies probabilistic estimates and loss assembly under concrete assumptions. To prove `NoThreeLine.Target` using the existing frozen interface, construct the required inputs for every sufficiently large `n` and discharge:
 
@@ -86,7 +86,7 @@ The theorem `exists_uniform_accepted_frozen_output_of_inputs` supplies probabili
 3. Actual board input mass at least a fixed `mass > 1501/1000`.
 4. The actual normalized pair-sum bound at every used root's deadline, at most `a*log n`, with admissible fixed `0 <= a < d < gamma < 1` and `0 < zeta < 1-d`.
 
-Alternatively, a formalization can adapt the interfaces to the new 481-phase construction and formally establish its input, checker soundness and uniform lattice transfer. The English paper supplies a mathematical route outside Lean; its inclusion in the repository does not discharge formal theorem premises.
+For the archived 481-phase route, see the [current Lean progress and remaining angular certificate](docs/FORMALIZATION_481.md).
 
 The earlier one-phase concentration gap is no longer an unsupplied theorem premise in this Lean snapshot. Complete formal input assembly remains substantial work. A conditional output theorem is an interface, not the unconditional formal target. Corrections or necessary amendments to either the manuscript or the formalization should be recorded openly.
 

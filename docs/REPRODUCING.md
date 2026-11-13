@@ -10,6 +10,22 @@ python scripts/verify_snapshot.py
 
 This checks the published files and recorded evidence. It is not a replacement for running the geometric checker or Lean.
 
+## Reproduce reverse rank 205
+
+This phase contains the cell with the largest angular upper bound recorded in the full 481-phase replay. From the repository root, run the following in Bash on Linux or WSL. It requires `g++` with OpenMP and UndefinedBehaviorSanitizer. The build and output go into a temporary directory.
+
+```bash
+set -euo pipefail
+src="$PWD/docs/paper/481-phase/verification"
+out=$(mktemp -d)
+g++ -O3 -std=c++17 -fopenmp -fsanitize=undefined -fno-sanitize-recover=all "$src/independent/check_phase.cpp" -o "$out/check_phase"
+OMP_NUM_THREADS=4 "$out/check_phase" "$src/data" 205 2048 "$out/phase_205_farey.csv" farey
+cmp "$out/phase_205_farey.csv" "$src/evidence/phase_205_farey.csv"
+echo "CSV matches the published record."
+```
+
+The checker reports **542 cells, 0 failures**. The maximum is at **type 2, cell `(5, 238)`**, with integer upper bound **`39469715636744`**. This gives the exact risk upper bound `93740574637267/93750000000000`, below the acceptance threshold `9999/10000`. A successful `cmp` confirms that all 542 recomputed rows match the published CSV byte for byte. [Published phase report](paper/481-phase/verification/evidence/accepted_205.json) · [Expected CSV](paper/481-phase/verification/evidence/phase_205_farey.csv)
+
 ## The 481-phase paper
 
 For a quick exact-arithmetic and input reconstruction check, run from the repository root:
@@ -42,6 +58,21 @@ The finite computation checks the geometric input. The English manuscript suppli
 - Python 3.11 or newer for the standard-library-only packaging checks.
 
 The repository uses ordinary Lake dependency configuration. See the [official Lake reference](https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/) for the package/build interface. The committed version pins, rather than the moving documentation version, determine the intended environment.
+
+## Lean reading paths
+
+| Area | Entry point | Scope to inspect |
+| --- | --- | --- |
+| 481-phase target | [Archived481](../NoThreeLine481/Archived481.lean) | The final target conditional on the archived angular certificate |
+| Exact target | [Target](../NoThreeLine/Target.lean) | Quantifiers, integer determinant and cardinality inequality |
+| Small concrete geometry | [Concrete](../NoThreeLine/Concrete.lean) | Actual rectangles, four charts, rational checks and a uniform margin |
+| One analytic branch | [AffineBranch](../NoThreeLine/AffineBranch.lean) | A concrete `a+b/u` branch and rational integral bound |
+| Finite sieve and lattice | [FiniteS6](../NoThreeLine/FiniteS6.lean) | `masked_board_sieve_upper` and its assumptions |
+| Probabilistic risk | [ScheduledRiskTailSmall](../NoThreeLine/ScheduledRiskTailSmall.lean) | Uniform tails under a deterministic angular budget |
+| Expected size and legality | [ScheduledCutOutputExistence](../NoThreeLine/ScheduledCutOutputExistence.lean) | Exposure minus loss and extraction of a legal output |
+| One-phase concentration | [ProtectedCellOnePhasePowerTail](../NoThreeLine/ProtectedCellOnePhasePowerTail.lean) | Actual exceedance bounds with readiness, cap and gap conditions |
+| Frozen clock stopping | [FrozenClockCauseSmall](../NoThreeLine/FrozenClockCauseSmall.lean) | Small clock-cause probability under matching and duration inputs |
+| Conditional final assembly | [FrozenFiveCauseOutput](../NoThreeLine/FrozenFiveCauseOutput.lean) | Exact target once concrete schedule, capacity, mass and pair bounds are supplied |
 
 ## First Lean build on a new machine
 
@@ -91,4 +122,4 @@ The second edition's probe freshly compiles `ProtectedCellOnePhasePowerTail`, `F
 
 ## Lean input scope
 
-The Lean data modules contain the explicit values used by their theorems. Original full search runs, abandoned attempts and unaccepted leaves are outside this completed-source snapshot. Reproducing the supplied Lean statements does not require rerunning the numerical search. The 3,242-module Lean snapshot is unchanged by the new paper and still does not prove its final `Target`. Completing that formal theorem requires the additional input obligations described in [STATUS.md](../STATUS.md); the new 481-phase paper and finite replay do not automatically discharge them.
+The Lean data modules contain the explicit values used by their theorems. Original full search runs, abandoned attempts and unaccepted leaves are outside this completed-source snapshot. Reproducing the supplied Lean statements does not require rerunning the numerical search. For the archived 481-phase input, [the current Lean proof](../NoThreeLine481/Archived481.lean) reduces `NoThreeLine.Target` to `FineCellAngularCertificate archivedRanks481`. The [481-phase Lean progress page](FORMALIZATION_481.md) records the checked geometry and the remaining angular checker work.

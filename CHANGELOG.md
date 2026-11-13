@@ -1,5 +1,9 @@
 # Changes
 
+## 2026-11-13 — Repository entry points
+
+Added a short reverse-rank 205 replay with exact expected output and a byte-for-byte CSV comparison. Updated the English and Japanese READMEs, status page and contribution guide to point to the current Lean theorem and its angular certificate premise.
+
 ## 2026-11-11 — 481-phase Lean progress
 
 Added the exact final mass and retention comparison from Section 10 as a Lean theorem with explicit lattice mass and retention hypotheses. The [progress page](docs/FORMALIZATION_481.md) links the checked modules and describes their scope.

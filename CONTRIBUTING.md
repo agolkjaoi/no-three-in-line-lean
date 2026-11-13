@@ -1,10 +1,10 @@
 # Continuing the work
 
-Start with [STATUS.md](STATUS.md) and the [paper landing page](docs/paper/README.md). The repository contains an English computer-assisted proof using a 481-phase input and a separate, unchanged partial Lean snapshot of 3,242 modules. The paper's final theorem is not yet a theorem of that Lean development. Compare the input and edition before extending either part.
+Start with the [paper and its verification package](docs/paper/README.md) or the [481-phase Lean progress page](docs/FORMALIZATION_481.md). The current Lean route uses the archived 481-phase input and derives the final target conditional on its continuum angular certificate. [STATUS.md](STATUS.md) records the older 15,348-phase route and its 3,242-module audit.
 
 ## A bounded first contribution
 
-Run `python scripts/verify_snapshot.py`. For the paper, follow the [lightweight arithmetic checks or full finite replay](docs/REPRODUCING.md#the-481-phase-paper). Neither requires building Lean. A fresh replay checks all 481 phases in a new directory; preserve its source, input and executable hashes and its complete coverage report.
+Run `python scripts/verify_snapshot.py`. For the paper, [reproduce reverse rank 205](docs/REPRODUCING.md#reproduce-reverse-rank-205) or follow the [arithmetic checks and full finite replay](docs/REPRODUCING.md#the-481-phase-paper). A fresh replay checks all 481 phases in a new directory; preserve its source, input and executable hashes and its complete coverage report.
 
 For work on Lean, build `NoThreeLine.Target`, `NoThreeLine.AffineBranch` and `NoThreeLine.Concrete` with the pinned toolchain. Record the operating system, compiler version, mathlib commit, exact command and result. A fresh-machine reproduction of either part is useful without extending a proof.
 
@@ -14,7 +14,7 @@ For a mathematical contribution, select one explicit obligation:
 | --- | --- | --- |
 | Reproduce the 481-phase input | `docs/paper/481-phase/verification/reproduce.py` and the English checker section | Fresh build, all 481 phases, 242,176 positive type/cells, complete coverage, exact risk comparisons and capacity checks; distinguish this from checking the stochastic proof |
 | Review the English probability argument | `docs/paper/481-phase/sections/04a_moments.tex` through `04d_tags.tex` | Identify a precise statement, prove a correction or document the checked dependency; retain the actual common stopping times, saved credits and point laws |
-| Formalize the 481-phase application | The English manuscript and the existing Lean interfaces | Supply explicit bridges to the new finite schedule; do not treat old certificate coverage as coverage of the new input |
+| Certify the 481-phase angular bounds | [Conditional target](NoThreeLine481/Archived481.lean) and [current angular lemmas](docs/FORMALIZATION_481.md) | Connect the checker’s integer data to the real chord bounds, starting with one positive typed cell. The full goal is `FineCellAngularCertificate archivedRanks481`. |
 | Review/reproduce the Lean concentration chain | `ProtectedCellOnePhasePowerTail.lean`, `FrozenClockCauseSmall.lean` | Independently reproduce the existing bounds and review actual stopping events, uniform thresholds, readiness and frozen-input hypotheses |
 | Expand the older Lean certificate | `Phase15301Group4750Risk.lean` and its imports | Add a new group with all families, exact risk aggregation and actual child-region containment; deduplicate coverage within that input |
 | Assemble the existing Lean input | `FrozenFiveCauseOutput.lean` | Supply all low rows, complete accepted-schedule matching, actual input mass and root-deadline pair bounds for every sufficiently large n |
